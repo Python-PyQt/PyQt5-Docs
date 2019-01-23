@@ -1,0 +1,25 @@
+v5.11.2 15th September 2018
+  - The version number now matches the version of PyQt.
+  - Added the skeleton API documentation.
+
+v5.11.1 15th August 2018
+  - Included very basic installation notes for PyQt3D etc.
+  - Bug fixes.
+
+v5.11 23rd June 2018
+  - Updated the documentation for PyQt v5.11.
+
+v5.10.1 26th February 2018
+  - Updated the documentation for PyQt v5.10.1.
+
+v5.10 23rd January 2018
+  - Updated the documentation for PyQt v5.10.
+
+v5.9.2 23rd November 2017
+  - Updated the documentation for PyQt v5.9.2.
+
+v5.9.1 1st November 2017
+  - Updated the documentation for PyQt v5.9.1.
+
+v5.9 3rd July 2017
+  - The first release.
