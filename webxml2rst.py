@@ -1334,8 +1334,6 @@ class Description:
     def _copy_image(self, href, context):
         """ Copy an image and return its filename. """
 
-        os.makedirs(context.images, exist_ok=True)
-
         fn = href.replace('/', os.sep)
         dst = os.path.join(context.images, os.path.basename(fn))
 
@@ -1944,6 +1942,10 @@ if __name__ == '__main__':
     package = args.package
     snippets = os.path.abspath(args.snippets)
     verbose = args.verbose
+
+    # Make sure the images and snippets directories exist.
+    os.makedirs(images, exist_ok=True)
+    os.makedirs(snippets, exist_ok=True)
 
     # Get the API of all modules.
     get_all_modules(descriptions, verbose)
