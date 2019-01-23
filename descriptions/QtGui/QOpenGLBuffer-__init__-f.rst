@@ -1,0 +1,11 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: d41d8cd98f00b204e9800998ecf8427e
+    :realsig: ()
+    :digest: d9429b1c4c957b67aaddf5df5002e282
+
+Constructs a new buffer object of type :sip:ref:`~PyQt5.QtGui.QOpenGLBuffer.Type.VertexBuffer`.
+
+Note: this constructor just creates the :sip:ref:`~PyQt5.QtGui.QOpenGLBuffer` instance. The actual buffer object in the OpenGL server is not created until :sip:ref:`~PyQt5.QtGui.QOpenGLBuffer.create` is called.
+
+.. seealso:: :sip:ref:`~PyQt5.QtGui.QOpenGLBuffer.create`.

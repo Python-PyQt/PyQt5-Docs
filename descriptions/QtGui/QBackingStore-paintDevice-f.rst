@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 47f479307751594235d46a61bf035948
+    :realsig: ()
+    :digest: 8570108c32613e13a8dc091c26cdc2fb
+
+Returns the paint device for this surface.
+
+**Warning:** The device is only valid between calls to :sip:ref:`~PyQt5.QtGui.QBackingStore.beginPaint` and :sip:ref:`~PyQt5.QtGui.QBackingStore.endPaint`. You should not cache the returned value.

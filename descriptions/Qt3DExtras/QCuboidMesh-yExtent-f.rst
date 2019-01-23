@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 546ade640b6edfbc8a086ef31347e768
+    :realname: Qt3DExtras::QCuboidMesh::yExtent
+    :realsig: () const
+    :digest: 504897e56a8ded83ab198cb9b20c329b
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DExtras.QCuboidMesh.setYExtent`.

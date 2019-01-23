@@ -1,0 +1,7 @@
+.. sip:signal-description::
+    :status: todo
+    :pysig: f9097d306f98e0d70368420fa8c14d64
+    :realname: Qt3DRender::QGeometryRenderer::geometryChanged
+    :realsig: (Qt3DRender::QGeometry*)
+
+TODO

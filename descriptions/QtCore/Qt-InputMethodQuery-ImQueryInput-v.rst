@@ -1,0 +1,6 @@
+.. sip:enum-member-description::
+    :status: todo
+    :value: TODO
+    :digest: 77c86f9ff1a9537156defa9b70c90e51
+
+Commonly changed properties on input.

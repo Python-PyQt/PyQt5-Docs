@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
+    :realname: Qt3DRender::QStencilTestArguments::setComparisonMask
+    :realsig: (uint)
+    :digest: 265408bc87746df78b045909a9ccfa1e
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DRender.QStencilTestArguments.comparisonMask`.

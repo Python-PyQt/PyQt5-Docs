@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 021dbd5510a963cb43170a72ca7d4949
+    :realname: Qt3DAnimation::QKeyframeAnimation::framePositions
+    :realsig: () const
+    :digest: 98770e75adb6095c594df31b710f12e0
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DAnimation.QKeyframeAnimation.setFramePositions`.

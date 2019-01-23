@@ -1,0 +1,149 @@
+:orphan:
+
+.. sip:class:: PyQt5.QtWidgets.QSpinBox
+    :inherits: :sip:ref:`~PyQt5.QtWidgets.QAbstractSpinBox`
+    :description: QtWidgets/QSpinBox-c.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.__init__
+        :args:
+            parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
+        :description: QtWidgets/QSpinBox-__init__-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.cleanText
+        :returns:
+            str
+        :description: QtWidgets/QSpinBox-cleanText-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.displayIntegerBase
+        :returns:
+            int
+        :description: QtWidgets/QSpinBox-displayIntegerBase-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.event
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QEvent`
+        :returns:
+            bool
+        :description: QtWidgets/QSpinBox-event-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.fixup
+        :args:
+            str
+        :returns:
+            str
+        :description: QtWidgets/QSpinBox-fixup-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.maximum
+        :returns:
+            int
+        :description: QtWidgets/QSpinBox-maximum-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.minimum
+        :returns:
+            int
+        :description: QtWidgets/QSpinBox-minimum-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.prefix
+        :returns:
+            str
+        :description: QtWidgets/QSpinBox-prefix-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setDisplayIntegerBase
+        :args:
+            int
+        :description: QtWidgets/QSpinBox-setDisplayIntegerBase-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setMaximum
+        :args:
+            int
+        :description: QtWidgets/QSpinBox-setMaximum-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setMinimum
+        :args:
+            int
+        :description: QtWidgets/QSpinBox-setMinimum-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setPrefix
+        :args:
+            str
+        :description: QtWidgets/QSpinBox-setPrefix-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setRange
+        :args:
+            int
+            int
+        :description: QtWidgets/QSpinBox-setRange-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setSingleStep
+        :args:
+            int
+        :description: QtWidgets/QSpinBox-setSingleStep-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setStepType
+        :args:
+            :sip:ref:`~PyQt5.QtWidgets.QAbstractSpinBox.StepType`
+        :description: QtWidgets/QSpinBox-setStepType-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setSuffix
+        :args:
+            str
+        :description: QtWidgets/QSpinBox-setSuffix-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.setValue
+        :args:
+            int
+        :description: QtWidgets/QSpinBox-setValue-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.singleStep
+        :returns:
+            int
+        :description: QtWidgets/QSpinBox-singleStep-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.stepType
+        :returns:
+            :sip:ref:`~PyQt5.QtWidgets.QAbstractSpinBox.StepType`
+        :description: QtWidgets/QSpinBox-stepType-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.suffix
+        :returns:
+            str
+        :description: QtWidgets/QSpinBox-suffix-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.textFromValue
+        :args:
+            int
+        :returns:
+            str
+        :description: QtWidgets/QSpinBox-textFromValue-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.validate
+        :args:
+            str
+            int
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QValidator.State`
+            str
+            int
+        :description: QtWidgets/QSpinBox-validate-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.value
+        :returns:
+            int
+        :description: QtWidgets/QSpinBox-value-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QSpinBox.valueFromText
+        :args:
+            str
+        :returns:
+            int
+        :description: QtWidgets/QSpinBox-valueFromText-f.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QSpinBox.valueChanged
+        :args:
+            int
+        :description: QtWidgets/QSpinBox-valueChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QSpinBox.valueChanged
+        :args:
+            str
+        :description: QtWidgets/QSpinBox-valueChanged-s-1.rst

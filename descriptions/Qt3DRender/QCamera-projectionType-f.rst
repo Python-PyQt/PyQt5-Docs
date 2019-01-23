@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 77b4732f905ea5e244413b9a04c99ef3
+    :realname: Qt3DRender::QCamera::projectionType
+    :realsig: () const
+    :digest: cdb6454c66364b843b2668dfee7f24d5
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DRender.QCamera.setProjectionType`.

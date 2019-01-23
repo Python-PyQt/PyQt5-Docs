@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: f4b16e65d42ad609ac1af344eee47372
+    :realsig: (const QByteArray&)
+    :digest: b85c3eb9c3db1c527cfa93abe21c10b9
+
+Loads the specified SVG format *contents* and updates the widget.

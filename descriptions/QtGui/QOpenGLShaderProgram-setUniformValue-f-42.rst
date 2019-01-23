@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 4e951b475452e5a5de1e01f1b27148d1
+    :realsig: (int,GLfloat,GLfloat,GLfloat)
+    :digest: 0e8bdd7b090be0d5993d5886ddd44854
+
+Sets the uniform variable at *location* in the current context to the 3D vector (\ *x*, *y*, *z*).
+
+.. seealso:: :sip:ref:`~PyQt5.QtGui.QOpenGLShaderProgram.setAttributeValue`.

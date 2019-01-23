@@ -1,0 +1,9 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: c506ff134babdd6e68ab3e6350e95305
+    :realsig: () const
+    :digest: 56e742e17d099ef27446d1be27e7488c
+
+Returns ``true`` if the library is loaded; otherwise returns ``false``.
+
+.. seealso:: :sip:ref:`~PyQt5.QtCore.QLibrary.load`.

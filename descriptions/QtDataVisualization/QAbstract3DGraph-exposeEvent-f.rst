@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: d5e093841b62d8d22cfb758e9107be1e
+    :realname: QtDataVisualization::QAbstract3DGraph::exposeEvent
+    :realsig: (QExposeEvent*)
+
+TODO

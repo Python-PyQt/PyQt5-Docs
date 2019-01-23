@@ -1,0 +1,16 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 2e57fad170d677379721ba5fe8dbdc6c
+    :realsig: (const QUrl&) const
+    :digest: 66e38aaaa10a82d9ac04618362cd245b
+
+Returns the result of the merge of this URL with *relative*. This URL is used as a base to convert *relative* to an absolute URL.
+
+If *relative* is not a relative URL, this function will return *relative* directly. Otherwise, the paths of the two URLs are merged, and the new URL returned has the scheme and authority of the base URL, but with the merged path, as in the following example:
+
+.. literalinclude:: ../../../snippets/qtbase-src-corelib-doc-snippets-code-src_corelib_io_qurl.py
+    :lines: 88-91
+
+Calling  with ".." returns a :sip:ref:`~PyQt5.QtCore.QUrl` whose directory is one level higher than the original. Similarly, calling  with "../.." removes two levels from the path. If *relative* is "/", the path becomes "/".
+
+.. seealso:: :sip:ref:`~PyQt5.QtCore.QUrl.isRelative`.

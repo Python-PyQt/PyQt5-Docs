@@ -1,0 +1,200 @@
+:orphan:
+
+.. sip:class:: PyQt5.QtCore.QItemSelectionModel
+    :inherits: :sip:ref:`~PyQt5.QtCore.QObject`
+    :description: QtCore/QItemSelectionModel-c.rst
+
+    .. sip:enum:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag
+        :description: QtCore/QItemSelectionModel-SelectionFlag-e.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.Clear
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Clear-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.ClearAndSelect
+            :description: QtCore/QItemSelectionModel-SelectionFlag-ClearAndSelect-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.Columns
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Columns-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.Current
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Current-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.Deselect
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Deselect-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.NoUpdate
+            :description: QtCore/QItemSelectionModel-SelectionFlag-NoUpdate-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.Rows
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Rows-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.Select
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Select-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.SelectCurrent
+            :description: QtCore/QItemSelectionModel-SelectionFlag-SelectCurrent-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.Toggle
+            :description: QtCore/QItemSelectionModel-SelectionFlag-Toggle-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QItemSelectionModel.SelectionFlag.ToggleCurrent
+            :description: QtCore/QItemSelectionModel-SelectionFlag-ToggleCurrent-v.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.__init__
+        :args:
+            model: :sip:ref:`~PyQt5.QtCore.QAbstractItemModel` = None
+        :description: QtCore/QItemSelectionModel-__init__-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QAbstractItemModel`
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :description: QtCore/QItemSelectionModel-__init__-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.clear
+        :description: QtCore/QItemSelectionModel-clear-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.clearCurrentIndex
+        :description: QtCore/QItemSelectionModel-clearCurrentIndex-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.clearSelection
+        :description: QtCore/QItemSelectionModel-clearSelection-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.columnIntersectsSelection
+        :args:
+            int
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QItemSelectionModel-columnIntersectsSelection-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.currentIndex
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :description: QtCore/QItemSelectionModel-currentIndex-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.emitSelectionChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QItemSelection`
+            :sip:ref:`~PyQt5.QtCore.QItemSelection`
+        :description: QtCore/QItemSelectionModel-emitSelectionChanged-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.hasSelection
+        :returns:
+            bool
+        :description: QtCore/QItemSelectionModel-hasSelection-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.isColumnSelected
+        :args:
+            int
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QItemSelectionModel-isColumnSelected-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.isRowSelected
+        :args:
+            int
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QItemSelectionModel-isRowSelected-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.isSelected
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QItemSelectionModel-isSelected-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.model
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QAbstractItemModel`
+        :description: QtCore/QItemSelectionModel-model-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.reset
+        :description: QtCore/QItemSelectionModel-reset-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.rowIntersectsSelection
+        :args:
+            int
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :returns:
+            bool
+        :description: QtCore/QItemSelectionModel-rowIntersectsSelection-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.select
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            Union[:sip:ref:`~PyQt5.QtCore.QItemSelectionModel.SelectionFlags`, :sip:ref:`~PyQt5.QtCore.QItemSelectionModel.SelectionFlag`]
+        :description: QtCore/QItemSelectionModel-select-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.select
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QItemSelection`
+            Union[:sip:ref:`~PyQt5.QtCore.QItemSelectionModel.SelectionFlags`, :sip:ref:`~PyQt5.QtCore.QItemSelectionModel.SelectionFlag`]
+        :description: QtCore/QItemSelectionModel-select-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.selectedColumns
+        :args:
+            row: int = 0
+        :returns:
+            List[:sip:ref:`~PyQt5.QtCore.QModelIndex`]
+        :description: QtCore/QItemSelectionModel-selectedColumns-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.selectedIndexes
+        :returns:
+            List[:sip:ref:`~PyQt5.QtCore.QModelIndex`]
+        :description: QtCore/QItemSelectionModel-selectedIndexes-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.selectedRows
+        :args:
+            column: int = 0
+        :returns:
+            List[:sip:ref:`~PyQt5.QtCore.QModelIndex`]
+        :description: QtCore/QItemSelectionModel-selectedRows-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.selection
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QItemSelection`
+        :description: QtCore/QItemSelectionModel-selection-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.setCurrentIndex
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            Union[:sip:ref:`~PyQt5.QtCore.QItemSelectionModel.SelectionFlags`, :sip:ref:`~PyQt5.QtCore.QItemSelectionModel.SelectionFlag`]
+        :description: QtCore/QItemSelectionModel-setCurrentIndex-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QItemSelectionModel.setModel
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QAbstractItemModel`
+        :description: QtCore/QItemSelectionModel-setModel-f.rst
+
+    .. sip:signal:: PyQt5.QtCore.QItemSelectionModel.currentChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :description: QtCore/QItemSelectionModel-currentChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QItemSelectionModel.currentColumnChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :description: QtCore/QItemSelectionModel-currentColumnChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QItemSelectionModel.currentRowChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :description: QtCore/QItemSelectionModel-currentRowChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QItemSelectionModel.modelChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QAbstractItemModel`
+        :description: QtCore/QItemSelectionModel-modelChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QItemSelectionModel.selectionChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QItemSelection`
+            :sip:ref:`~PyQt5.QtCore.QItemSelection`
+        :description: QtCore/QItemSelectionModel-selectionChanged-s.rst

@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
+    :realname: Qt3DRender::QGeometryRenderer::instanceCount
+    :realsig: () const
+    :digest: 3b80288aabba801dd405169cd8e51c59
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DRender.QGeometryRenderer.setInstanceCount`.

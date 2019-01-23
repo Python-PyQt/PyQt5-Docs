@@ -1,0 +1,365 @@
+:orphan:
+
+.. sip:class:: PyQt5.QtGui.QTextCharFormat
+    :inherits: :sip:ref:`~PyQt5.QtGui.QTextFormat`
+    :description: QtGui/QTextCharFormat-c.rst
+
+    .. sip:enum:: PyQt5.QtGui.QTextCharFormat.FontPropertiesInheritanceBehavior
+        :description: QtGui/QTextCharFormat-FontPropertiesInheritanceBehavior-e.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.FontPropertiesInheritanceBehavior.FontPropertiesAll
+            :description: QtGui/QTextCharFormat-FontPropertiesInheritanceBehavior-FontPropertiesAll-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.FontPropertiesInheritanceBehavior.FontPropertiesSpecifiedOnly
+            :description: QtGui/QTextCharFormat-FontPropertiesInheritanceBehavior-FontPropertiesSpecifiedOnly-v.rst
+
+    .. sip:enum:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle
+        :description: QtGui/QTextCharFormat-UnderlineStyle-e.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.DashDotDotLine
+            :description: QtGui/QTextCharFormat-UnderlineStyle-DashDotDotLine-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.DashDotLine
+            :description: QtGui/QTextCharFormat-UnderlineStyle-DashDotLine-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.DashUnderline
+            :description: QtGui/QTextCharFormat-UnderlineStyle-DashUnderline-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.DotLine
+            :description: QtGui/QTextCharFormat-UnderlineStyle-DotLine-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.NoUnderline
+            :description: QtGui/QTextCharFormat-UnderlineStyle-NoUnderline-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.SingleUnderline
+            :description: QtGui/QTextCharFormat-UnderlineStyle-SingleUnderline-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.SpellCheckUnderline
+            :description: QtGui/QTextCharFormat-UnderlineStyle-SpellCheckUnderline-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.UnderlineStyle.WaveUnderline
+            :description: QtGui/QTextCharFormat-UnderlineStyle-WaveUnderline-v.rst
+
+    .. sip:enum:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment
+        :description: QtGui/QTextCharFormat-VerticalAlignment-e.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment.AlignBaseline
+            :description: QtGui/QTextCharFormat-VerticalAlignment-AlignBaseline-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment.AlignBottom
+            :description: QtGui/QTextCharFormat-VerticalAlignment-AlignBottom-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment.AlignMiddle
+            :description: QtGui/QTextCharFormat-VerticalAlignment-AlignMiddle-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment.AlignNormal
+            :description: QtGui/QTextCharFormat-VerticalAlignment-AlignNormal-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment.AlignSubScript
+            :description: QtGui/QTextCharFormat-VerticalAlignment-AlignSubScript-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment.AlignSuperScript
+            :description: QtGui/QTextCharFormat-VerticalAlignment-AlignSuperScript-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextCharFormat.VerticalAlignment.AlignTop
+            :description: QtGui/QTextCharFormat-VerticalAlignment-AlignTop-v.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.__init__
+        :description: QtGui/QTextCharFormat-__init__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QTextCharFormat`
+        :description: QtGui/QTextCharFormat-__init__-f-1.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.anchorHref
+        :returns:
+            str
+        :description: QtGui/QTextCharFormat-anchorHref-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.anchorNames
+        :returns:
+            List[str]
+        :description: QtGui/QTextCharFormat-anchorNames-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.font
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QFont`
+        :description: QtGui/QTextCharFormat-font-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontCapitalization
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QFont.Capitalization`
+        :description: QtGui/QTextCharFormat-fontCapitalization-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontFamily
+        :returns:
+            str
+        :description: QtGui/QTextCharFormat-fontFamily-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontFixedPitch
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-fontFixedPitch-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontHintingPreference
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QFont.HintingPreference`
+        :description: QtGui/QTextCharFormat-fontHintingPreference-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontItalic
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-fontItalic-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontKerning
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-fontKerning-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontLetterSpacing
+        :returns:
+            float
+        :description: QtGui/QTextCharFormat-fontLetterSpacing-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontLetterSpacingType
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QFont.SpacingType`
+        :description: QtGui/QTextCharFormat-fontLetterSpacingType-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontOverline
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-fontOverline-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontPointSize
+        :returns:
+            float
+        :description: QtGui/QTextCharFormat-fontPointSize-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontStretch
+        :returns:
+            int
+        :description: QtGui/QTextCharFormat-fontStretch-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontStrikeOut
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-fontStrikeOut-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontStyleHint
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QFont.StyleHint`
+        :description: QtGui/QTextCharFormat-fontStyleHint-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontStyleStrategy
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QFont.StyleStrategy`
+        :description: QtGui/QTextCharFormat-fontStyleStrategy-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontUnderline
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-fontUnderline-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontWeight
+        :returns:
+            int
+        :description: QtGui/QTextCharFormat-fontWeight-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontWordSpacing
+        :returns:
+            float
+        :description: QtGui/QTextCharFormat-fontWordSpacing-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.isAnchor
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-isAnchor-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.isValid
+        :returns:
+            bool
+        :description: QtGui/QTextCharFormat-isValid-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setAnchor
+        :args:
+            bool
+        :description: QtGui/QTextCharFormat-setAnchor-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setAnchorHref
+        :args:
+            str
+        :description: QtGui/QTextCharFormat-setAnchorHref-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setAnchorNames
+        :args:
+            Iterable[str]
+        :description: QtGui/QTextCharFormat-setAnchorNames-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFont
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QFont`
+        :description: QtGui/QTextCharFormat-setFont-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFont
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QFont`
+            :sip:ref:`~PyQt5.QtGui.QTextCharFormat.FontPropertiesInheritanceBehavior`
+        :description: QtGui/QTextCharFormat-setFont-f-1.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontCapitalization
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QFont.Capitalization`
+        :description: QtGui/QTextCharFormat-setFontCapitalization-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontFamily
+        :args:
+            str
+        :description: QtGui/QTextCharFormat-setFontFamily-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontFixedPitch
+        :args:
+            bool
+        :description: QtGui/QTextCharFormat-setFontFixedPitch-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontHintingPreference
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QFont.HintingPreference`
+        :description: QtGui/QTextCharFormat-setFontHintingPreference-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontItalic
+        :args:
+            bool
+        :description: QtGui/QTextCharFormat-setFontItalic-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontKerning
+        :args:
+            bool
+        :description: QtGui/QTextCharFormat-setFontKerning-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontLetterSpacing
+        :args:
+            float
+        :description: QtGui/QTextCharFormat-setFontLetterSpacing-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontLetterSpacingType
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QFont.SpacingType`
+        :description: QtGui/QTextCharFormat-setFontLetterSpacingType-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontOverline
+        :args:
+            bool
+        :description: QtGui/QTextCharFormat-setFontOverline-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontPointSize
+        :args:
+            float
+        :description: QtGui/QTextCharFormat-setFontPointSize-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontStretch
+        :args:
+            int
+        :description: QtGui/QTextCharFormat-setFontStretch-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontStrikeOut
+        :args:
+            bool
+        :description: QtGui/QTextCharFormat-setFontStrikeOut-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontStyleHint
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QFont.StyleHint`
+            strategy: :sip:ref:`~PyQt5.QtGui.QFont.StyleStrategy` = :sip:ref:`~PyQt5.QtGui.QFont.StyleStrategy.PreferDefault`
+        :description: QtGui/QTextCharFormat-setFontStyleHint-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontStyleStrategy
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QFont.StyleStrategy`
+        :description: QtGui/QTextCharFormat-setFontStyleStrategy-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontUnderline
+        :args:
+            bool
+        :description: QtGui/QTextCharFormat-setFontUnderline-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontWeight
+        :args:
+            int
+        :description: QtGui/QTextCharFormat-setFontWeight-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontWordSpacing
+        :args:
+            float
+        :description: QtGui/QTextCharFormat-setFontWordSpacing-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setTableCellColumnSpan
+        :args:
+            int
+        :description: QtGui/QTextCharFormat-setTableCellColumnSpan-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setTableCellRowSpan
+        :args:
+            int
+        :description: QtGui/QTextCharFormat-setTableCellRowSpan-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setTextOutline
+        :args:
+            Union[:sip:ref:`~PyQt5.QtGui.QPen`, :sip:ref:`~PyQt5.QtGui.QColor`, :sip:ref:`~PyQt5.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt5.QtGui.QGradient`]
+        :description: QtGui/QTextCharFormat-setTextOutline-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setToolTip
+        :args:
+            str
+        :description: QtGui/QTextCharFormat-setToolTip-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setUnderlineColor
+        :args:
+            Union[:sip:ref:`~PyQt5.QtGui.QColor`, :sip:ref:`~PyQt5.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt5.QtGui.QGradient`]
+        :description: QtGui/QTextCharFormat-setUnderlineColor-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setUnderlineStyle
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QTextCharFormat.UnderlineStyle`
+        :description: QtGui/QTextCharFormat-setUnderlineStyle-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setVerticalAlignment
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QTextCharFormat.VerticalAlignment`
+        :description: QtGui/QTextCharFormat-setVerticalAlignment-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.tableCellColumnSpan
+        :returns:
+            int
+        :description: QtGui/QTextCharFormat-tableCellColumnSpan-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.tableCellRowSpan
+        :returns:
+            int
+        :description: QtGui/QTextCharFormat-tableCellRowSpan-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.textOutline
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QPen`
+        :description: QtGui/QTextCharFormat-textOutline-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.toolTip
+        :returns:
+            str
+        :description: QtGui/QTextCharFormat-toolTip-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.underlineColor
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QColor`
+        :description: QtGui/QTextCharFormat-underlineColor-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.underlineStyle
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTextCharFormat.UnderlineStyle`
+        :description: QtGui/QTextCharFormat-underlineStyle-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.verticalAlignment
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTextCharFormat.VerticalAlignment`
+        :description: QtGui/QTextCharFormat-verticalAlignment-f.rst

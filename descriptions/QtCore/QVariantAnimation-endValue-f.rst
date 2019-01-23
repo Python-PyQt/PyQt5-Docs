@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: ed36a1ef76a59ee3f15180e0441188ad
+    :realsig: () const
+    :digest: f0e889258a42d860516c7fcd36a30e2a
+
+.. seealso:: :sip:ref:`~PyQt5.QtCore.QVariantAnimation.setEndValue`.

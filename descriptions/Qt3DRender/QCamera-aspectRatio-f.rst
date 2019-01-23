@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 546ade640b6edfbc8a086ef31347e768
+    :realname: Qt3DRender::QCamera::aspectRatio
+    :realsig: () const
+    :digest: 4713c01e521409369f37ba11be4aeb2a
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DRender.QCamera.setAspectRatio`.

@@ -1,0 +1,10 @@
+.. sip:class-description::
+    :status: todo
+    :brief: Stores information about a host address record
+    :digest: 58b9794c717fb25de326864c9a298c02
+
+The :sip:ref:`~PyQt5.QtNetwork.QDnsHostAddressRecord` class stores information about a host address record.
+
+When performing an address lookup, zero or more records will be returned. Each record is represented by a :sip:ref:`~PyQt5.QtNetwork.QDnsHostAddressRecord` instance.
+
+.. seealso:: :sip:ref:`~PyQt5.QtNetwork.QDnsLookup`.

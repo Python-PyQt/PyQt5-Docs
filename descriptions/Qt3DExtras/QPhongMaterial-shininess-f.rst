@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 546ade640b6edfbc8a086ef31347e768
+    :realname: Qt3DExtras::QPhongMaterial::shininess
+    :realsig: () const
+    :digest: 48b36929109b0e8f928e06dc58c19606
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DExtras.QPhongMaterial.setShininess`.

@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
+    :realname: Qt3DRender::QGeometryRenderer::restartIndexValue
+    :realsig: () const
+    :digest: ae26747fb951046787408ef47665c92a
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DRender.QGeometryRenderer.setRestartIndexValue`.

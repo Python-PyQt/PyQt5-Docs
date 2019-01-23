@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 546ade640b6edfbc8a086ef31347e768
+    :realname: QtDataVisualization::Q3DCamera::maxZoomLevel
+    :realsig: () const
+
+TODO

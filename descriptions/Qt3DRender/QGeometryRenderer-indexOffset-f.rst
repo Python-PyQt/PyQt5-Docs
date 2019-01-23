@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: fa7153f7ed1cb6c0fcf2ffb2fac21748
+    :realname: Qt3DRender::QGeometryRenderer::indexOffset
+    :realsig: () const
+    :digest: d619a6885c223f7c423c1176db94f325
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DRender.QGeometryRenderer.setIndexOffset`.

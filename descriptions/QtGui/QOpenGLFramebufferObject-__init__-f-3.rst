@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 178f06e8a5a328b8030f9e2f8ab0dd2f
+    :realsig: (int,int,const QOpenGLFramebufferObjectFormat&)
+    :digest: d41373097d7a6ec82714f55dc3bc35ad
+
+Constructs an OpenGL framebuffer object of the given *width* and *height* based on the supplied *format*.

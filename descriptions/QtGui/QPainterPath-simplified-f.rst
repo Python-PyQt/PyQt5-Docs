@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: e6f793ede99782d3cd029e7921c36913
+    :realsig: () const
+    :digest: 1551dbfb17dd44498824d8b5144d2c40
+
+Returns a simplified version of this path. This implies merging all subpaths that intersect, and returning a path containing no intersecting edges. Consecutive parallel lines will also be merged. The simplified path will always use the default fill rule, :sip:ref:`~PyQt5.QtCore.Qt.FillRule.OddEvenFill`. Bezier curves may be flattened to line segments due to numerical instability of doing bezier curve intersections.

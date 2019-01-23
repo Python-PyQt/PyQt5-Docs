@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: e8337d6678275538543450208e8cbf7c
+    :realsig: (const QPageLayout&)
+    :digest: a7319b0bb4be7881b3f4e56479304c21
+
+Copy constructor, copies *other* to this.

@@ -1,0 +1,11 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 02b29093810cc2478a6aef49bec4a12b
+    :realsig: (int,void*,int)
+    :digest: d172d5a704c689fab5d5b3d93e1a7f51
+
+Reads the *count* bytes in this buffer starting at *offset* into *data*. Returns ``true`` on success; false if reading from the buffer is not supported. Buffer reading is not supported under OpenGL/ES.
+
+It is assumed that this buffer has been bound to the current context.
+
+.. seealso:: :sip:ref:`~PyQt5.QtGui.QOpenGLBuffer.write`, :sip:ref:`~PyQt5.QtGui.QOpenGLBuffer.bind`.

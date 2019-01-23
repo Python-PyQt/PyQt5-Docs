@@ -1,0 +1,8 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 546ade640b6edfbc8a086ef31347e768
+    :realname: Qt3DInput::QButtonAxisInput::setDeceleration
+    :realsig: (float)
+    :digest: 1cc35a6f716c5690b7dd192174f6c491
+
+.. seealso:: :sip:ref:`~PyQt5.Qt3DInput.QButtonAxisInput.deceleration`.

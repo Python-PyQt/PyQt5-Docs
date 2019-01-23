@@ -1,0 +1,5 @@
+.. sip:enum-description::
+    :status: todo
+    :digest: a78bd39ac646413442e1d994cea592b1
+
+This enum describes special options that may be used by the :sip:ref:`~PyQt5.QtCore.QFileDevice.map` function.

@@ -1,0 +1,11 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 09eb0b230c6381e96f76f5f07bfdbc24
+    :realsig: () const
+    :digest: 925ec8e8deb29a24e9f9fcb646e70d5a
+
+Returns the full page rectangle in Postscript Points (1/72 of an inch).
+
+The page rectangle takes into account the page size and page orientation, but not the page margins.
+
+.. seealso:: :sip:ref:`~PyQt5.QtGui.QPageLayout.paintRect`.

@@ -1,0 +1,16 @@
+.. sip:class-description::
+    :status: todo
+    :brief: Event which is sent when a drag and drop action is completed
+    :digest: 45a83e1adcdd7df316d787f9d1539701
+
+The :sip:ref:`~PyQt5.QtGui.QDropEvent` class provides an event which is sent when a drag and drop action is completed.
+
+When a widget :sip:ref:`~PyQt5.QtWidgets.QWidget.setAcceptDrops`, it will receive this event if it has accepted the most recent :sip:ref:`~PyQt5.QtGui.QDragEnterEvent` or :sip:ref:`~PyQt5.QtGui.QDragMoveEvent` sent to it.
+
+The drop event contains a proposed action, available from :sip:ref:`~PyQt5.QtGui.QDropEvent.proposedAction`, for the widget to either accept or ignore. If the action can be handled by the widget, you should call the :sip:ref:`~PyQt5.QtGui.QDropEvent.acceptProposedAction` function. Since the proposed action can be a combination of :sip:ref:`~PyQt5.QtCore.Qt.DropAction` values, it may be useful to either select one of these values as a default action or ask the user to select their preferred action.
+
+If the proposed drop action is not suitable, perhaps because your custom widget does not support that action, you can replace it with any of the :sip:ref:`~PyQt5.QtGui.QDropEvent.possibleActions` by calling :sip:ref:`~PyQt5.QtGui.QDropEvent.setDropAction` with your preferred action. If you set a value that is not present in the bitwise OR combination of values returned by :sip:ref:`~PyQt5.QtGui.QDropEvent.possibleActions`, the default copy action will be used. Once a replacement drop action has been set, call accept() instead of :sip:ref:`~PyQt5.QtGui.QDropEvent.acceptProposedAction` to complete the drop operation.
+
+The :sip:ref:`~PyQt5.QtGui.QDropEvent.mimeData` function provides the data dropped on the widget in a :sip:ref:`~PyQt5.QtCore.QMimeData` object. This contains information about the MIME type of the data in addition to the data itself.
+
+.. seealso:: :sip:ref:`~PyQt5.QtCore.QMimeData`, :sip:ref:`~PyQt5.QtGui.QDrag`, `Drag and Drop <https://doc.qt.io/qt-5/dnd.html>`_.

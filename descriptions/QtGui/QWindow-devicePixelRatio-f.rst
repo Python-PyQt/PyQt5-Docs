@@ -1,0 +1,13 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 546ade640b6edfbc8a086ef31347e768
+    :realsig: () const
+    :digest: c7b1553ce720beceecb61103829d8464
+
+Returns the ratio between physical pixels and device-independent pixels for the window. This value is dependent on the screen the window is on, and may change when the window is moved.
+
+Common values are 1.0 on normal displays and 2.0 on Apple "retina" displays.
+
+**Note:** For windows not backed by a platform window, meaning that :sip:ref:`~PyQt5.QtGui.QWindow.create` was not called, the function will fall back to the associated :sip:ref:`~PyQt5.QtGui.QScreen`'s device pixel ratio.
+
+.. seealso:: :sip:ref:`~PyQt5.QtGui.QScreen.devicePixelRatio`.

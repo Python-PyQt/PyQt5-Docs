@@ -1,0 +1,6 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: de22d8bd972925fbb1b13143d86de98f
+    :realsig: (QScreen*)
+
+TODO

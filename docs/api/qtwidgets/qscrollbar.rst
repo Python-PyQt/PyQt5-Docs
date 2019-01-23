@@ -1,0 +1,73 @@
+:orphan:
+
+.. sip:class:: PyQt5.QtWidgets.QScrollBar
+    :inherits: :sip:ref:`~PyQt5.QtWidgets.QAbstractSlider`
+    :description: QtWidgets/QScrollBar-c.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.__init__
+        :args:
+            parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
+        :description: QtWidgets/QScrollBar-__init__-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.Qt.Orientation`
+            parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
+        :description: QtWidgets/QScrollBar-__init__-f-1.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.contextMenuEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QContextMenuEvent`
+        :description: QtWidgets/QScrollBar-contextMenuEvent-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.event
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QEvent`
+        :returns:
+            bool
+        :description: QtWidgets/QScrollBar-event-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.hideEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QHideEvent`
+        :description: QtWidgets/QScrollBar-hideEvent-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.initStyleOption
+        :args:
+            :sip:ref:`~PyQt5.QtWidgets.QStyleOptionSlider`
+        :description: QtWidgets/QScrollBar-initStyleOption-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.mouseMoveEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QMouseEvent`
+        :description: QtWidgets/QScrollBar-mouseMoveEvent-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.mousePressEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QMouseEvent`
+        :description: QtWidgets/QScrollBar-mousePressEvent-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.mouseReleaseEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QMouseEvent`
+        :description: QtWidgets/QScrollBar-mouseReleaseEvent-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.paintEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QPaintEvent`
+        :description: QtWidgets/QScrollBar-paintEvent-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.sizeHint
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QSize`
+        :description: QtWidgets/QScrollBar-sizeHint-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.sliderChange
+        :args:
+            :sip:ref:`~PyQt5.QtWidgets.QAbstractSlider.SliderChange`
+        :description: QtWidgets/QScrollBar-sliderChange-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QScrollBar.wheelEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QWheelEvent`
+        :description: QtWidgets/QScrollBar-wheelEvent-f.rst

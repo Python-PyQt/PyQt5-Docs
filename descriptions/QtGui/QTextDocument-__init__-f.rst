@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: f3c1ea8cdc226f1c6d1536b6891b19f7
+    :realsig: (QObject*)
+    :digest: 72d7bbbe7ab92de166bd5c3f6f092d37
+
+Constructs an empty :sip:ref:`~PyQt5.QtGui.QTextDocument` with the given *parent*.
