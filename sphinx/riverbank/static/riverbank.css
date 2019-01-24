@@ -1,5 +1,9 @@
 @import url("classic.css");
 
+div.body {
+    max-width: 2000px;
+}
+
 div.body p {
     text-align: left;
 }
