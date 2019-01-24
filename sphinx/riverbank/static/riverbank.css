@@ -27,3 +27,10 @@ th.field-name {
 th.head {
     background: lightgray;
 }
+
+div.legalese {
+    background-color: black;
+    color: white;
+    border: 10px solid white;
+    padding: 15px;
+}
