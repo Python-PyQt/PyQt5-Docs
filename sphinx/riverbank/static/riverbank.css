@@ -10,6 +10,11 @@ div.body h2 {
     margin-right: 0px;
 }
 
+div.body h3 {
+    background-color: white;
+    color: black;
+}
+
 h1 a,
 h1 a:visited,
 h2 a,
