@@ -1,5 +1,9 @@
 @import url("classic.css");
 
+div.body p {
+    text-align: left;
+}
+
 div.body h1,
 div.body h2 {
     border-radius: 10px;
