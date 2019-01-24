@@ -1294,7 +1294,7 @@ def replace_subclass_list(ph, app, fromdocname):
 def replace_class_table(ph, app, fromdocname):
     """ Replace a class table placeholder. """
 
-    NR_COLS = 3
+    nr_cols = app.builder.env.config.sip_class_table_columns
 
     env = app.builder.env
     object_map = env.domaindata['sip']['objects']
@@ -1324,19 +1324,19 @@ def replace_class_table(ph, app, fromdocname):
     classes = [n for _, n in sorted_class_names(env, classes)]
 
     # Calculate the number of rows.
-    nr_rows = (nr_classes + NR_COLS - 1) // NR_COLS
+    nr_rows = (nr_classes + nr_cols - 1) // nr_cols
 
     # For small modules it looks better if we impose a minimum number of rows.
-    if nr_rows < NR_COLS:
-        nr_rows = min(NR_COLS, nr_classes)
+    if nr_rows < nr_cols:
+        nr_rows = min(nr_cols, nr_classes)
 
     # Create the table.
     table = nodes.table()
     table['classes'].append('colwidths-auto')
 
-    group = nodes.tgroup(cols=NR_COLS)
+    group = nodes.tgroup(cols=nr_cols)
 
-    for c in range(NR_COLS):
+    for c in range(nr_cols):
         group.append(nodes.colspec())
 
     table.append(group)
@@ -1349,7 +1349,7 @@ def replace_class_table(ph, app, fromdocname):
         row_node = nodes.row()
         body.append(row_node)
 
-        for c in range(NR_COLS):
+        for c in range(nr_cols):
             i = c * nr_rows + r
             if i < nr_classes:
                 xref = object_map[classes[i]]
@@ -1922,6 +1922,7 @@ def setup(app):
     needed by documentation for sip generated modules.
     """
 
+    app.add_config_value('sip_class_table_columns', 4, 'html')
     app.add_config_value('sip_descriptions', 'descriptions', 'html')
     app.add_config_value('sip_external_docs_root_url', '', 'html')
     app.add_config_value('sip_ignored_class_prefixes', [], 'html')

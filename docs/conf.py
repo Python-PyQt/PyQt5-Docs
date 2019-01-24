@@ -35,6 +35,9 @@ version = '5.12'
 # The full version, including alpha/beta/rc tags.
 release = version
 
+# The number of columns in a table of class names.
+sip_class_table_columns = 4
+
 # The directory containing the descriptions.
 sip_descriptions = os.path.abspath(os.path.join('..', 'descriptions'))
 
