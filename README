@@ -57,8 +57,25 @@ for a new version of Qt, run the following command::
 
 This will *not* overwrite any hand-written changes to the descriptions.
 
+This will also update any code snippets and images for updated descriptions.
 
-Updating the Python Ports
--------------------------
 
-TODO
+Updating the Code Snippets
+--------------------------
+
+The ``snippets`` directory contains Python code snippets that are initially
+created from the original C++ code snippets by converting each line to a Python
+comment.
+
+The snippets are included in the documetation by the use of ``literalinclude``
+directives in the description files.  The ``:lines:`` field is used to select
+specific parts of the snippet.  The Qt documentation refers to embedded markers
+in order to select specific parts and these are retained (but unused) in the
+Python version.  Their format is ``# #! [marker]``.
+
+The code snippets can be modified in any way, including renaming the file, so
+long as appropriate changes are also made to any description file that includes
+them.  A code snippet file may be included by more than one description file.
+If a code snippet is modified then the ``:status:`` field of any description
+file must not be ``todo`` to prevent the code snippet being overwritten when
+re-basing for a new version of Qt.
