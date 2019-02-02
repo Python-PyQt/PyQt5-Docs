@@ -24,6 +24,13 @@
             :sip:ref:`~PyQt5.Qt3DExtras.QForwardRenderer`
         :description: Qt3DExtras/Qt3DWindow-defaultFrameGraph-f.rst
 
+    .. sip:method:: PyQt5.Qt3DExtras.Qt3DWindow.event
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QEvent`
+        :returns:
+            bool
+        :description: Qt3DExtras/Qt3DWindow-event-f.rst
+
     .. sip:method:: PyQt5.Qt3DExtras.Qt3DWindow.registerAspect
         :args:
             :sip:ref:`~PyQt5.Qt3DCore.QAbstractAspect`

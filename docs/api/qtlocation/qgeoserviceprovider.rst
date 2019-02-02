@@ -10,6 +10,9 @@
         .. sip:enum-member:: PyQt5.QtLocation.QGeoServiceProvider.Error.ConnectionError
             :description: QtLocation/QGeoServiceProvider-Error-ConnectionError-v.rst
 
+        .. sip:enum-member:: PyQt5.QtLocation.QGeoServiceProvider.Error.LoaderError
+            :description: QtLocation/QGeoServiceProvider-Error-LoaderError-v.rst
+
         .. sip:enum-member:: PyQt5.QtLocation.QGeoServiceProvider.Error.MissingRequiredParameterError
             :description: QtLocation/QGeoServiceProvider-Error-MissingRequiredParameterError-v.rst
 
