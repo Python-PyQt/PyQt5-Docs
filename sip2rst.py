@@ -753,10 +753,9 @@ def handle_description(realsig, pysigs, pysig_md5, name, module, fq_module, desc
             desc_fmt.write_line('TODO')
 
 
-def clean(module, package, descriptions, api, verbose):
-    """ Remove all automatically generated files for a specific module. """
+def clean_skeletons(module, api, verbose):
+    """ Remove all API skeletons for a specific module. """
 
-    # Remove module-specific api skeletons.
     module_api = os.path.join(api, module.lower())
 
     if verbose:
@@ -764,7 +763,10 @@ def clean(module, package, descriptions, api, verbose):
 
     shutil.rmtree(module_api, ignore_errors=True)
 
-    # Remove module-specific descriptions that haven't been modified.
+
+def clean_descriptions(module, descriptions, verbose):
+    """ Remove all unmodified description files for a specific module. """
+
     for desc in glob.glob(os.path.join(descriptions, module, '*.rst')):
         has_status = False
         status_todo = True
@@ -902,7 +904,10 @@ if __name__ == '__main__':
 
     arg_parser.add_argument('--api', metavar='DIR',
             default=os.path.join('docs', 'api'),
-            help="the name of the directory where the module's api .rst files will be placed")
+            help="the name of the directory where the module's API .rst files will be placed")
+
+    arg_parser.add_argument('--clean', action='store_true', default=False,
+            help="remove any unmodified (todo) stub description files")
 
     arg_parser.add_argument('--descriptions', metavar='DIR',
             default='descriptions',
@@ -948,6 +953,7 @@ if __name__ == '__main__':
     sip = find_exe(args.sip)
     descriptions = os.path.abspath(args.descriptions)
     api = os.path.abspath(args.api)
+    clean = args.clean
     stub = args.stub
     verbose = args.verbose
 
@@ -958,10 +964,14 @@ if __name__ == '__main__':
 
         print("The sip executable is", sip)
         print("Module description stubs will be placed in", descriptions)
-        print("Module api skeletons will be placed in", api)
+        print("Module API skeletons will be placed in", api)
 
     # Generate the reST for each module.
     for module in args.modules:
-        clean(module, package, descriptions, api, verbose)
+        clean_skeletons(module, api, verbose)
+
+        if clean:
+            clean_descriptions(module, descriptions, verbose)
+
         generate_rst(module, package, sip_root, descriptions, api, sip,
                 stub, verbose)
