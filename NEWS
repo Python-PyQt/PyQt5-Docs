@@ -1,5 +1,7 @@
+v5.12 10th February 2019
+  - Updated the documentation for PyQt v5.12 and Qt v5.12.1.
+
 v5.11.2 15th September 2018
-  - The version number now matches the version of PyQt.
   - Added the skeleton API documentation.
 
 v5.11.1 15th August 2018
