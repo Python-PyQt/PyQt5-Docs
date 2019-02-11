@@ -15,7 +15,7 @@ This version performs overflow checking and will raise an appropriate exception
 if overflow is detected.
 
 The previous behaviour can be restored by calling
-:py:meth:`PyQt5.sip.sipEnableOverflowChecking()`.
+:py:meth:`PyQt5.sip.enableoverflowchecking(False)`.
 
 
 PyQt v5.11
