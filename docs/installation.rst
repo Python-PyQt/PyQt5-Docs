@@ -97,7 +97,7 @@ they are provided for the GPL version:
 
 - the user's license information has to be applied
 
-- it is not possble to distribute a copy of the commercial version of Qt.
+- it is not possible to distribute a copy of the commercial version of Qt.
 
 Instead *unlicensed* wheels are provided which do not include a copy of Qt.
 The program :program:`pyqtlicense` is provided which takes the unlicensed

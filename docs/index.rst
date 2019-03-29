@@ -6,6 +6,7 @@ PyQt5 Reference Guide
 
     introduction
     contributing
+    eol_policy
     platforms
     deprecations
     incompatibilities
