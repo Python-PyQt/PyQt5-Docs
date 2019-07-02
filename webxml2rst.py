@@ -1665,7 +1665,12 @@ def generate_webxml(modules, qdoc, qt_source):
             qdocconf = webxml.create_qdocconf(webxml_root, qt_source)
             master_f.write(qdocconf + '\n')
 
-    # Run qdoc.
+    # Configure the environment.
+    versioned_dir = os.path.dirname(qt_source)
+    qt_version = os.path.basename(versioned_dir)
+    qt_install_docs = os.path.join(os.path.dirname(versioned_dir), 'Docs',
+            'Qt-' + qt_version)
+    os.environ['QT_INSTALL_DOCS'] = qt_install_docs
 
     # These environment variables need to have values but aren't used.
     os.environ['QT_VERSION'] = '1.0.0'
@@ -1673,6 +1678,7 @@ def generate_webxml(modules, qdoc, qt_source):
     os.environ['QT_VERSION_TAG'] = '100'
     os.environ['BUILDDIR'] = webxml_root
 
+    # Run qdoc.
     run(qdoc, '--single-exec', '--outputdir', webxml_root, master_path)
 
     return webxml_root
