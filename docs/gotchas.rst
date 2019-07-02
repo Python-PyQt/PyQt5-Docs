@@ -15,15 +15,14 @@ Ideally the TLS implementation provided by the target would be used (e.g.
 CryptoAPI on Windows, Secure Transport on macOS and iOS).  This would mean that
 security updates, including certificate updates, would be handled by the vendor
 of the target operating system and could be ignored by the application.
-Unfortunately there is no common TLS API.
+Unfortunately there is no common TLS API.  The resolution to this problem is
+the subject of `PEP 543 <https://www.python.org/dev/peps/pep-0543>`__ but that
+has yet to be implemented.
 
-Python supports the TLS API implemented in OpenSSL v1.0 (and, starting with
-Python v3.7.0, OpenSSL v1.1).  On Linux that is, in effect, the vendor supplied
-API and so Python is able to use it.  However, on Windows and macOS the
-standard Python binary installers include copies of the OpenSSL libraries.  The
-resolution to this problem is the subject of
-`PEP 543 <https://www.python.org/dev/peps/pep-0543>`__ but that has yet to be
-implemented.
+Python uses OpenSSL as its TLS implementation.  Python v3.7.4 and later use
+OpenSSL v1.1.1.  Python v3.7.0 to v3.7.3 use OpenSSL v1.1.0.  Earlier versions
+of Python use OpenSSL v1.0.2.  On Windows and macOS the standard Python binary
+installers include copies of the corresponding OpenSSL libraries.
 
 Qt has support for the native TLS implementation on macOS and iOS but on other
 platforms (except for Linux) a deployed application must include it's own
@@ -50,20 +49,6 @@ With SIP v4.19.9 members of traditional C/C++ enums are now also visible within
 the scope of the enum.  It is strongly recommended that enum members are always
 referenced by specifying the scope of the enum.  PyQt6 will not allow any other
 method of access.
-
-
-Overflow Checking
------------------
-
-PyQt (or rather SIP) does not check for overflows when converting numeric
-Python object to C++ types.  Even worse, overflowed values are undefined - it
-cannot be assumed that excess higher order bits are simply discarded.
-
-Applications can enable (and subsequently disable) overflow checking at any
-point by calling the :func:`sip.enableoverflowchecking` function.
-
-It is planned that overflow checking will be enabled by default in some future
-version of PyQt.
 
 
 Crashes On Exit
@@ -119,6 +104,18 @@ The :sip:ref:`~PyQt5.QtWidgets.QWidget` destructor may be invoked when
 ``main()`` returns but the module level reference to the
 :sip:ref:`~PyQt5.QtWidgets.QApplication` instance will prevent its destructor
 being invoked at all.
+
+PyQt5 v5.12.3 added support for using :sip:ref:`~PyQt5.QtCore.QCoreApplication`
+and its sub-classes as a context manager.  Therefore the following would be
+another approach::
+
+    with QApplication(sys.argv) as app:
+        w = QWidget()
+        w.show()
+
+        app.exec()
+
+        del w
 
 
 Keyword Arguments

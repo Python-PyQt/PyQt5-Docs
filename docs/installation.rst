@@ -86,6 +86,13 @@ To uninstall the GPL version, run::
 
     pip3 uninstall pyqt5
 
+.. note::
+
+   Qt's support for TLS/SSL will not work on Windows when installing wheels
+   that contain Qt v5.12.4 (or later) with Python v3.7.0 to v3.7.3.  This is
+   because of incompatibilities between the different versions of OpenSSL that
+   these versions require.  All other version combinations should be fine.
+
 
 Installing the Commercial Version
 .................................
@@ -139,15 +146,15 @@ The following describes the command line options of :program:`pyqtlicense`.
 
 .. cmdoption:: --no-openssl
 
-    The unlicensed wheels for 32- and 64-bit Python includes ``libeay32.dll``
-    and ``ssleay32.dll`` (i.e the OpenSSL DLLs).  This specifies that the DLLs
-    should be omitted from the licensed wheel.
+    The unlicensed wheels for 32- and 64-bit Python includes the OpenSSL DLLs.
+    This specifies that the DLLs should be omitted from the licensed wheel.
 
 .. cmdoption:: --openssl DIR
 
-    This specifies that the ``libeay32.dll`` and ``ssleay32.dll`` DLLs included
-    in the unlicensed wheels for 32- and 64-bit Python should be replaced by
-    the DLLs of the same name in the directory ``DIR``.
+    This specifies that the OpenSSL DLLs included in the unlicensed wheels for
+    32- and 64-bit Python should be replaced by the DLLs in the directory
+    ``DIR``.  Qt v5.12.4 and later are configured for OpenSSL v1.1.1.  Earlier
+    versions of Qt are configured for OpenSSL v1.0.2.
 
 .. cmdoption:: --output DIR
 
@@ -175,7 +182,7 @@ The following describes the command line options of :program:`pyqtlicense`.
 
     This specifies the 3-part version number of the Qt installation that the
     wheel was built against.  If it is not specified then it will be extracted
-    from the name of the wheel file.
+    from the build tag of the wheel file.
 
 .. cmdoption:: --verbose
 
@@ -201,7 +208,7 @@ release of the SIP source code from
 https://www.riverbankcomputing.com/software/sip/download.
 
 The SIP installation instructions can be found at
-http://pyqt.sourceforge.net/Docs/sip4/installation.html.
+https://www.riverbankcomputing.com/static/Docs/sip/installation.html.
 
 .. note::
 
@@ -249,7 +256,7 @@ In order to configure the build of PyQt5 you need to run the
 This assumes that the Python interpreter is on your path.  Something like the
 following may be appropriate on Windows::
 
-    c:\Python37\python configure.py
+    c:\Python38\python configure.py
 
 If you have multiple versions of Python installed then make sure you use the
 interpreter for which you wish to build PyQt5 for.
@@ -259,6 +266,17 @@ The full set of command line options is:
 .. cmdoption:: -h, --help
 
     Display a help message and exit.
+
+.. cmdoption:: --abi-version <VERSION>
+
+    .. versionadded:: 5.12.3
+
+    The ``sip`` module implements a versioned ABI and PyQt5 must be built to
+    use a combatible version.  The ABI version has a major number and a minor
+    number separated by ``.``.  The ABI version used by PyQt5 must have the
+    same major number and a minor number no larger than the minor number
+    implemented by the ``sip`` module.  By default PyQt5 will use the latest
+    ABI version.  The option is ignored unless :program:`sip5` is being used.
 
 .. cmdoption:: --allow-sip-warnings
 
