@@ -142,6 +142,13 @@
             :sip:ref:`~PyQt5.QtNetwork.QNetworkReply`
         :description: QtNetworkAuth/QAbstractOAuth-post-f.rst
 
+    .. sip:method:: PyQt5.QtNetworkAuth.QAbstractOAuth.prepareRequest
+        :args:
+            :sip:ref:`~PyQt5.QtNetwork.QNetworkRequest`
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+            body: Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray] = QByteArray()
+        :description: QtNetworkAuth/QAbstractOAuth-prepareRequest-f.rst
+
     .. sip:method:: PyQt5.QtNetworkAuth.QAbstractOAuth.put
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`

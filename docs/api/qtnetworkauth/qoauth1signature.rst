@@ -58,6 +58,11 @@
             str
         :description: QtNetworkAuth/QOAuth1Signature-clientSharedKey-f.rst
 
+    .. sip:method:: PyQt5.QtNetworkAuth.QOAuth1Signature.customMethodString
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: QtNetworkAuth/QOAuth1Signature-customMethodString-f.rst
+
     .. sip:method:: PyQt5.QtNetworkAuth.QOAuth1Signature.hmacSha1
         :returns:
             :sip:ref:`~PyQt5.QtCore.QByteArray`
@@ -107,6 +112,11 @@
         :args:
             str
         :description: QtNetworkAuth/QOAuth1Signature-setClientSharedKey-f.rst
+
+    .. sip:method:: PyQt5.QtNetworkAuth.QOAuth1Signature.setCustomMethodString
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: QtNetworkAuth/QOAuth1Signature-setCustomMethodString-f.rst
 
     .. sip:method:: PyQt5.QtNetworkAuth.QOAuth1Signature.setHttpRequestMethod
         :args:

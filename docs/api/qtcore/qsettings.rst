@@ -44,6 +44,12 @@
 
     .. sip:method:: PyQt5.QtCore.QSettings.__init__
         :args:
+            :sip:ref:`~PyQt5.QtCore.QSettings.Scope`
+            parent: :sip:ref:`~PyQt5.QtCore.QObject` = None
+        :description: QtCore/QSettings-__init__-f-5.rst
+
+    .. sip:method:: PyQt5.QtCore.QSettings.__init__
+        :args:
             str
             application: str = ''
             parent: :sip:ref:`~PyQt5.QtCore.QObject` = None

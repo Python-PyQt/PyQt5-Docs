@@ -180,6 +180,13 @@
             :sip:ref:`~PyQt5.QtNetwork.QNetworkAccessManager.Operation`
         :description: QtNetworkAuth/QOAuth1-setup-f.rst
 
+    .. sip:method:: PyQt5.QtNetworkAuth.QOAuth1.setup
+        :args:
+            :sip:ref:`~PyQt5.QtNetwork.QNetworkRequest`
+            Dict[str, Any]
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: QtNetworkAuth/QOAuth1-setup-f-1.rst
+
     .. sip:method:: PyQt5.QtNetworkAuth.QOAuth1.signatureMethod
         :returns:
             :sip:ref:`~PyQt5.QtNetworkAuth.QOAuth1.SignatureMethod`

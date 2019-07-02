@@ -280,6 +280,11 @@
             :sip:ref:`~PyQt5.QtCore.QMetaType.TypeFlags`
         :description: QtCore/QMetaType-flags-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QMetaType.id
+        :returns:
+            int
+        :description: QtCore/QMetaType-id-f.rst
+
     .. sip:method:: PyQt5.QtCore.QMetaType.isRegistered
         :returns:
             bool

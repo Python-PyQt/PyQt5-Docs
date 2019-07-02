@@ -28,6 +28,11 @@
         :static:
         :description: QtPrintSupport/QPrinterInfo-availablePrinters-f.rst
 
+    .. sip:method:: PyQt5.QtPrintSupport.QPrinterInfo.defaultColorMode
+        :returns:
+            :sip:ref:`~PyQt5.QtPrintSupport.QPrinter.ColorMode`
+        :description: QtPrintSupport/QPrinterInfo-defaultColorMode-f.rst
+
     .. sip:method:: PyQt5.QtPrintSupport.QPrinterInfo.defaultDuplexMode
         :returns:
             :sip:ref:`~PyQt5.QtPrintSupport.QPrinter.DuplexMode`
@@ -107,6 +112,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtPrintSupport.QPrinter.PrinterState`
         :description: QtPrintSupport/QPrinterInfo-state-f.rst
+
+    .. sip:method:: PyQt5.QtPrintSupport.QPrinterInfo.supportedColorModes
+        :returns:
+            List[:sip:ref:`~PyQt5.QtPrintSupport.QPrinter.ColorMode`]
+        :description: QtPrintSupport/QPrinterInfo-supportedColorModes-f.rst
 
     .. sip:method:: PyQt5.QtPrintSupport.QPrinterInfo.supportedDuplexModes
         :returns:

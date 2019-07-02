@@ -30,6 +30,12 @@
             parent: :sip:ref:`~PyQt5.QtCore.QObject` = None
         :description: QtMultimedia/QSoundEffect-__init__-f.rst
 
+    .. sip:method:: PyQt5.QtMultimedia.QSoundEffect.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtMultimedia.QAudioDeviceInfo`
+            parent: :sip:ref:`~PyQt5.QtCore.QObject` = None
+        :description: QtMultimedia/QSoundEffect-__init__-f-1.rst
+
     .. sip:method:: PyQt5.QtMultimedia.QSoundEffect.category
         :returns:
             str

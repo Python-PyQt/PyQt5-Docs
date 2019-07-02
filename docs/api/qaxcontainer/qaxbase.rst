@@ -16,6 +16,11 @@
             Any
         :description: QAxContainer/QAxBase-asVariant-f.rst
 
+    .. sip:method:: PyQt5.QAxContainer.QAxBase.classContext
+        :returns:
+            int
+        :description: QAxContainer/QAxBase-classContext-f.rst
+
     .. sip:method:: PyQt5.QAxContainer.QAxBase.clear
         :description: QAxContainer/QAxBase-clear-f.rst
 
@@ -100,6 +105,11 @@
         :returns:
             :sip:ref:`~PyQt5.QAxContainer.QAxObject`
         :description: QAxContainer/QAxBase-querySubObject-f-1.rst
+
+    .. sip:method:: PyQt5.QAxContainer.QAxBase.setClassContext
+        :args:
+            int
+        :description: QAxContainer/QAxBase-setClassContext-f.rst
 
     .. sip:method:: PyQt5.QAxContainer.QAxBase.setControl
         :args:

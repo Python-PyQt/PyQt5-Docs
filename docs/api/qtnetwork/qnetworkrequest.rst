@@ -233,6 +233,11 @@
             :sip:ref:`~PyQt5.QtCore.QObject`
         :description: QtNetwork/QNetworkRequest-originatingObject-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.peerVerifyName
+        :returns:
+            str
+        :description: QtNetwork/QNetworkRequest-peerVerifyName-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.priority
         :returns:
             :sip:ref:`~PyQt5.QtNetwork.QNetworkRequest.Priority`
@@ -271,6 +276,11 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`
         :description: QtNetwork/QNetworkRequest-setOriginatingObject-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.setPeerVerifyName
+        :args:
+            str
+        :description: QtNetwork/QNetworkRequest-setPeerVerifyName-f.rst
 
     .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.setPriority
         :args:

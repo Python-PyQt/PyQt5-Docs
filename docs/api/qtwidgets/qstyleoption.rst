@@ -135,9 +135,9 @@
 
     .. sip:method:: PyQt5.QtWidgets.QStyleOption.__init__
         :args:
-            version: int = :sip:ref:`~PyQt5.QtWidgets.QStyleOption.StyleOptionVersion.Version`
-            type: int = :sip:ref:`~PyQt5.QtWidgets.QStyleOption.OptionType.SO_Default`
-        :description: QtWidgets/QStyleOption-__init__-f-1.rst
+            version: int = QStyleOption.StyleOptionVersion.Version
+            type: int = QStyleOption.OptionType.SO_Default
+        :description: QtWidgets/QStyleOption-__init__-f-2.rst
 
     .. sip:method:: PyQt5.QtWidgets.QStyleOption.initFrom
         :args:

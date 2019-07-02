@@ -37,6 +37,9 @@
         .. sip:enum-member:: PyQt5.QtGui.QImage.Format.Format_BGR30
             :description: QtGui/QImage-Format-Format_BGR30-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QImage.Format.Format_Grayscale16
+            :description: QtGui/QImage-Format-Format_Grayscale16-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QImage.Format.Format_Grayscale8
             :description: QtGui/QImage-Format-Format_Grayscale8-v.rst
 
@@ -230,22 +233,28 @@
             sip.voidptr
         :description: QtGui/QImage-constScanLine-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QImage.convertTo
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QImage.Format`
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
+        :description: QtGui/QImage-convertTo-f.rst
+
     .. sip:method:: PyQt5.QtGui.QImage.convertToFormat
         :args:
             :sip:ref:`~PyQt5.QtGui.QImage.Format`
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
         :returns:
             :sip:ref:`~PyQt5.QtGui.QImage`
-        :description: QtGui/QImage-convertToFormat-f.rst
+        :description: QtGui/QImage-convertToFormat-f-2.rst
 
     .. sip:method:: PyQt5.QtGui.QImage.convertToFormat
         :args:
             :sip:ref:`~PyQt5.QtGui.QImage.Format`
             Iterable[int]
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
         :returns:
             :sip:ref:`~PyQt5.QtGui.QImage`
-        :description: QtGui/QImage-convertToFormat-f-1.rst
+        :description: QtGui/QImage-convertToFormat-f-3.rst
 
     .. sip:method:: PyQt5.QtGui.QImage.copy
         :args:
@@ -266,10 +275,10 @@
 
     .. sip:method:: PyQt5.QtGui.QImage.createAlphaMask
         :args:
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
         :returns:
             :sip:ref:`~PyQt5.QtGui.QImage`
-        :description: QtGui/QImage-createAlphaMask-f.rst
+        :description: QtGui/QImage-createAlphaMask-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QImage.createHeuristicMask
         :args:

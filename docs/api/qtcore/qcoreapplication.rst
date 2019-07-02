@@ -57,6 +57,11 @@
         :static:
         :description: QtCore/QCoreApplication-closingDown-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QCoreApplication.__enter__
+        :returns:
+            object
+        :description: QtCore/QCoreApplication-__enter__-f.rst
+
     .. sip:method:: PyQt5.QtCore.QCoreApplication.event
         :args:
             :sip:ref:`~PyQt5.QtCore.QEvent`
@@ -81,6 +86,13 @@
             int
         :static:
         :description: QtCore/QCoreApplication-exec_-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QCoreApplication.__exit__
+        :args:
+            object
+            object
+            object
+        :description: QtCore/QCoreApplication-__exit__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QCoreApplication.exit
         :args:

@@ -196,6 +196,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QSslSocket.SslMode`
         :description: QtNetwork/QSslSocket-mode-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QSslSocket.ocspResponses
+        :returns:
+            List[:sip:ref:`~PyQt5.QtNetwork.QOcspResponse`]
+        :description: QtNetwork/QSslSocket-ocspResponses-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QSslSocket.peerCertificate
         :returns:
             :sip:ref:`~PyQt5.QtNetwork.QSslCertificate`

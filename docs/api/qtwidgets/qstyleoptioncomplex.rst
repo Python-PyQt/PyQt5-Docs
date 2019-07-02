@@ -31,6 +31,6 @@
 
     .. sip:method:: PyQt5.QtWidgets.QStyleOptionComplex.__init__
         :args:
-            version: int = :sip:ref:`~PyQt5.QtWidgets.QStyleOptionComplex.StyleOptionVersion.Version`
-            type: int = :sip:ref:`~PyQt5.QtWidgets.QStyleOption.OptionType.SO_Complex`
-        :description: QtWidgets/QStyleOptionComplex-__init__-f-1.rst
+            version: int = QStyleOptionComplex.StyleOptionVersion.Version
+            type: int = QStyleOption.OptionType.SO_Complex
+        :description: QtWidgets/QStyleOptionComplex-__init__-f-2.rst

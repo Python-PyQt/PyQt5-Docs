@@ -48,6 +48,15 @@
         :static:
         :description: QtSql/QSqlDatabase-cloneDatabase-f.rst
 
+    .. sip:method:: PyQt5.QtSql.QSqlDatabase.cloneDatabase
+        :args:
+            str
+            str
+        :returns:
+            :sip:ref:`~PyQt5.QtSql.QSqlDatabase`
+        :static:
+        :description: QtSql/QSqlDatabase-cloneDatabase-f-1.rst
+
     .. sip:method:: PyQt5.QtSql.QSqlDatabase.close
         :description: QtSql/QSqlDatabase-close-f.rst
 

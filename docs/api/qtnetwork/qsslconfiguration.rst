@@ -115,6 +115,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QSslConfiguration.NextProtocolNegotiationStatus`
         :description: QtNetwork/QSslConfiguration-nextProtocolNegotiationStatus-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.ocspStaplingEnabled
+        :returns:
+            bool
+        :description: QtNetwork/QSslConfiguration-ocspStaplingEnabled-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.peerCertificate
         :returns:
             :sip:ref:`~PyQt5.QtNetwork.QSslCertificate`
@@ -221,6 +226,11 @@
         :args:
             Iterable[:sip:ref:`~PyQt5.QtNetwork.QSslCertificate`]
         :description: QtNetwork/QSslConfiguration-setLocalCertificateChain-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.setOcspStaplingEnabled
+        :args:
+            bool
+        :description: QtNetwork/QSslConfiguration-setOcspStaplingEnabled-f.rst
 
     .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.setPeerVerifyDepth
         :args:

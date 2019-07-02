@@ -28,10 +28,10 @@
     .. sip:method:: PyQt5.QtSql.QSqlTableModel.data
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtSql/QSqlTableModel-data-f.rst
+        :description: QtSql/QSqlTableModel-data-f-1.rst
 
     .. sip:method:: PyQt5.QtSql.QSqlTableModel.database
         :returns:
@@ -73,10 +73,10 @@
         :args:
             int
             :sip:ref:`~PyQt5.QtCore.Qt.Orientation`
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtSql/QSqlTableModel-headerData-f.rst
+        :description: QtSql/QSqlTableModel-headerData-f-1.rst
 
     .. sip:method:: PyQt5.QtSql.QSqlTableModel.indexInQuery
         :args:
@@ -207,10 +207,10 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
             Any
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.EditRole`
+            role: int = Qt.ItemDataRole.EditRole
         :returns:
             bool
-        :description: QtSql/QSqlTableModel-setData-f.rst
+        :description: QtSql/QSqlTableModel-setData-f-1.rst
 
     .. sip:method:: PyQt5.QtSql.QSqlTableModel.setEditStrategy
         :args:

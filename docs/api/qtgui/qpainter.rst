@@ -135,6 +135,9 @@
         .. sip:enum-member:: PyQt5.QtGui.QPainter.RenderHint.HighQualityAntialiasing
             :description: QtGui/QPainter-RenderHint-HighQualityAntialiasing-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QPainter.RenderHint.LosslessImageRendering
+            :description: QtGui/QPainter-RenderHint-LosslessImageRendering-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QPainter.RenderHint.NonCosmeticDefaultPen
             :description: QtGui/QPainter-RenderHint-NonCosmeticDefaultPen-v.rst
 
@@ -396,32 +399,32 @@
             :sip:ref:`~PyQt5.QtCore.QRectF`
             :sip:ref:`~PyQt5.QtGui.QImage`
             :sip:ref:`~PyQt5.QtCore.QRectF`
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-4.rst
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
+        :description: QtGui/QPainter-drawImage-f-9.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawImage
         :args:
             :sip:ref:`~PyQt5.QtCore.QRect`
             :sip:ref:`~PyQt5.QtGui.QImage`
             :sip:ref:`~PyQt5.QtCore.QRect`
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-5.rst
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
+        :description: QtGui/QPainter-drawImage-f-10.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawImage
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
             :sip:ref:`~PyQt5.QtGui.QImage`
             :sip:ref:`~PyQt5.QtCore.QRectF`
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-6.rst
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
+        :description: QtGui/QPainter-drawImage-f-11.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawImage
         :args:
             :sip:ref:`~PyQt5.QtCore.QPoint`
             :sip:ref:`~PyQt5.QtGui.QImage`
             :sip:ref:`~PyQt5.QtCore.QRect`
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-7.rst
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
+        :description: QtGui/QPainter-drawImage-f-12.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawImage
         :args:
@@ -432,8 +435,8 @@
             sy: int = 0
             sw: int = -1
             sh: int = -1
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
-        :description: QtGui/QPainter-drawImage-f-8.rst
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
+        :description: QtGui/QPainter-drawImage-f-13.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawLine
         :args:

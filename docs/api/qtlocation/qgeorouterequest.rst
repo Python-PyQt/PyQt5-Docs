@@ -121,6 +121,11 @@
             :sip:ref:`~PyQt5.QtPositioning.QGeoCoordinate`
         :description: QtLocation/QGeoRouteRequest-__init__-f-2.rst
 
+    .. sip:method:: PyQt5.QtLocation.QGeoRouteRequest.departureTime
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :description: QtLocation/QGeoRouteRequest-departureTime-f.rst
+
     .. sip:method:: PyQt5.QtLocation.QGeoRouteRequest.__eq__
         :args:
             :sip:ref:`~PyQt5.QtLocation.QGeoRouteRequest`
@@ -176,6 +181,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtLocation.QGeoRouteRequest.SegmentDetail`
         :description: QtLocation/QGeoRouteRequest-segmentDetail-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoRouteRequest.setDepartureTime
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QDateTime`, datetime.datetime]
+        :description: QtLocation/QGeoRouteRequest-setDepartureTime-f.rst
 
     .. sip:method:: PyQt5.QtLocation.QGeoRouteRequest.setExcludeAreas
         :args:

@@ -21,6 +21,9 @@
     .. sip:enum:: PyQt5.QtMultimedia.QVideoFrame.PixelFormat
         :description: QtMultimedia/QVideoFrame-PixelFormat-e.rst
 
+        .. sip:enum-member:: PyQt5.QtMultimedia.QVideoFrame.PixelFormat.Format_ABGR32
+            :description: QtMultimedia/QVideoFrame-PixelFormat-Format_ABGR32-v.rst
+
         .. sip:enum-member:: PyQt5.QtMultimedia.QVideoFrame.PixelFormat.Format_AdobeDng
             :description: QtMultimedia/QVideoFrame-PixelFormat-Format_AdobeDng-v.rst
 
@@ -167,6 +170,11 @@
         :returns:
             sip.voidptr
         :description: QtMultimedia/QVideoFrame-bits-f-1.rst
+
+    .. sip:method:: PyQt5.QtMultimedia.QVideoFrame.buffer
+        :returns:
+            :sip:ref:`~PyQt5.QtMultimedia.QAbstractVideoBuffer`
+        :description: QtMultimedia/QVideoFrame-buffer-f.rst
 
     .. sip:method:: PyQt5.QtMultimedia.QVideoFrame.bytesPerLine
         :returns:

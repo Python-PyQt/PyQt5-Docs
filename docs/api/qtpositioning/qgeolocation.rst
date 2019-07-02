@@ -33,6 +33,11 @@
             bool
         :description: QtPositioning/QGeoLocation-__eq__-f.rst
 
+    .. sip:method:: PyQt5.QtPositioning.QGeoLocation.extendedAttributes
+        :returns:
+            Dict[str, Any]
+        :description: QtPositioning/QGeoLocation-extendedAttributes-f.rst
+
     .. sip:method:: PyQt5.QtPositioning.QGeoLocation.isEmpty
         :returns:
             bool
@@ -59,3 +64,8 @@
         :args:
             :sip:ref:`~PyQt5.QtPositioning.QGeoCoordinate`
         :description: QtPositioning/QGeoLocation-setCoordinate-f.rst
+
+    .. sip:method:: PyQt5.QtPositioning.QGeoLocation.setExtendedAttributes
+        :args:
+            Dict[str, Any]
+        :description: QtPositioning/QGeoLocation-setExtendedAttributes-f.rst

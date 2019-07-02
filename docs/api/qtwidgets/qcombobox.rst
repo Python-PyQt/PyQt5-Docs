@@ -94,10 +94,10 @@
 
     .. sip:method:: PyQt5.QtWidgets.QComboBox.currentData
         :args:
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.UserRole`
+            role: int = Qt.ItemDataRole.UserRole
         :returns:
             Any
-        :description: QtWidgets/QComboBox-currentData-f.rst
+        :description: QtWidgets/QComboBox-currentData-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QComboBox.currentIndex
         :returns:
@@ -383,8 +383,8 @@
         :args:
             int
             Any
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.UserRole`
-        :description: QtWidgets/QComboBox-setItemData-f.rst
+            role: int = Qt.ItemDataRole.UserRole
+        :description: QtWidgets/QComboBox-setItemData-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QComboBox.setItemDelegate
         :args:

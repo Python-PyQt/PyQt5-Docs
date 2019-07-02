@@ -66,6 +66,9 @@
         .. sip:enum-member:: PyQt5.QtBluetooth.QBluetoothDeviceInfo.MajorDeviceClass.MiscellaneousDevice
             :description: QtBluetooth/QBluetoothDeviceInfo-MajorDeviceClass-MiscellaneousDevice-v.rst
 
+        .. sip:enum-member:: PyQt5.QtBluetooth.QBluetoothDeviceInfo.MajorDeviceClass.NetworkDevice
+            :description: QtBluetooth/QBluetoothDeviceInfo-MajorDeviceClass-NetworkDevice-v.rst
+
         .. sip:enum-member:: PyQt5.QtBluetooth.QBluetoothDeviceInfo.MajorDeviceClass.PeripheralDevice
             :description: QtBluetooth/QBluetoothDeviceInfo-MajorDeviceClass-PeripheralDevice-v.rst
 
@@ -507,6 +510,11 @@
         :args:
             int
         :description: QtBluetooth/QBluetoothDeviceInfo-setRssi-f.rst
+
+    .. sip:method:: PyQt5.QtBluetooth.QBluetoothDeviceInfo.setServiceUuids
+        :args:
+            Iterable[:sip:ref:`~PyQt5.QtBluetooth.QBluetoothUuid`]
+        :description: QtBluetooth/QBluetoothDeviceInfo-setServiceUuids-f-1.rst
 
     .. sip:method:: PyQt5.QtBluetooth.QBluetoothDeviceInfo.setServiceUuids
         :args:

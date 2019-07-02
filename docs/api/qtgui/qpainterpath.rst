@@ -171,6 +171,14 @@
             :sip:ref:`~PyQt5.QtCore.QRectF`
         :description: QtGui/QPainterPath-boundingRect-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QPainterPath.capacity
+        :returns:
+            int
+        :description: QtGui/QPainterPath-capacity-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainterPath.clear
+        :description: QtGui/QPainterPath-clear-f.rst
+
     .. sip:method:: PyQt5.QtGui.QPainterPath.closeSubpath
         :description: QtGui/QPainterPath-closeSubpath-f.rst
 
@@ -380,6 +388,11 @@
             float
             float
         :description: QtGui/QPainterPath-quadTo-f-1.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainterPath.reserve
+        :args:
+            int
+        :description: QtGui/QPainterPath-reserve-f.rst
 
     .. sip:method:: PyQt5.QtGui.QPainterPath.setElementPositionAt
         :args:

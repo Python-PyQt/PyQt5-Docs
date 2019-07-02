@@ -28,6 +28,11 @@
             bool
         :description: QtLocation/QGeoRoute-__eq__-f.rst
 
+    .. sip:method:: PyQt5.QtLocation.QGeoRoute.extendedAttributes
+        :returns:
+            Dict[str, Any]
+        :description: QtLocation/QGeoRoute-extendedAttributes-f.rst
+
     .. sip:method:: PyQt5.QtLocation.QGeoRoute.firstRouteSegment
         :returns:
             :sip:ref:`~PyQt5.QtLocation.QGeoRouteSegment`
@@ -69,6 +74,11 @@
         :args:
             float
         :description: QtLocation/QGeoRoute-setDistance-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoRoute.setExtendedAttributes
+        :args:
+            Dict[str, Any]
+        :description: QtLocation/QGeoRoute-setExtendedAttributes-f.rst
 
     .. sip:method:: PyQt5.QtLocation.QGeoRoute.setFirstRouteSegment
         :args:

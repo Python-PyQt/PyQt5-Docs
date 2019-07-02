@@ -212,6 +212,14 @@
             bool
         :description: QtWidgets/QTextEdit-find-f-1.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QTextEdit.find
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QRegularExpression`
+            options: Union[:sip:ref:`~PyQt5.QtGui.QTextDocument.FindFlags`, :sip:ref:`~PyQt5.QtGui.QTextDocument.FindFlag`] = QTextDocument.FindFlags()
+        :returns:
+            bool
+        :description: QtWidgets/QTextEdit-find-f-2.rst
+
     .. sip:method:: PyQt5.QtWidgets.QTextEdit.focusInEvent
         :args:
             :sip:ref:`~PyQt5.QtGui.QFocusEvent`

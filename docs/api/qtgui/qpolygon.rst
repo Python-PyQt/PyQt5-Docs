@@ -13,6 +13,11 @@
 
     .. sip:method:: PyQt5.QtGui.QPolygon.__init__
         :args:
+            List[int]
+        :description: QtGui/QPolygon-__init__-f-4.rst
+
+    .. sip:method:: PyQt5.QtGui.QPolygon.__init__
+        :args:
             Iterable[:sip:ref:`~PyQt5.QtCore.QPoint`]
         :description: QtGui/QPolygon-__init__-f-2.rst
 
@@ -20,11 +25,6 @@
         :args:
             int
         :description: QtGui/QPolygon-__init__-f-3.rst
-
-    .. sip:method:: PyQt5.QtGui.QPolygon.__init__
-        :args:
-            List[int]
-        :description: QtGui/QPolygon-__init__-f-4.rst
 
     .. sip:method:: PyQt5.QtGui.QPolygon.__init__
         :args:

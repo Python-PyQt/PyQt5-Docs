@@ -1254,6 +1254,9 @@
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Icelandic
             :description: QtCore/QLocale-Language-Icelandic-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Ido
+            :description: QtCore/QLocale-Language-Ido-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Igbo
             :description: QtCore/QLocale-Language-Igbo-v.rst
 
@@ -1424,6 +1427,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Lithuanian
             :description: QtCore/QLocale-Language-Lithuanian-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Lojban
+            :description: QtCore/QLocale-Language-Lojban-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.LowerSorbian
             :description: QtCore/QLocale-Language-LowerSorbian-v.rst
@@ -1758,6 +1764,9 @@
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.SichuanYi
             :description: QtCore/QLocale-Language-SichuanYi-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Sicilian
+            :description: QtCore/QLocale-Language-Sicilian-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Sidamo
             :description: QtCore/QLocale-Language-Sidamo-v.rst
 
@@ -1784,6 +1793,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Sora
             :description: QtCore/QLocale-Language-Sora-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.SouthernKurdish
+            :description: QtCore/QLocale-Language-SouthernKurdish-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.SouthernSami
             :description: QtCore/QLocale-Language-SouthernSami-v.rst
@@ -1964,6 +1976,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Welsh
             :description: QtCore/QLocale-Language-Welsh-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.WesternBalochi
+            :description: QtCore/QLocale-Language-WesternBalochi-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.WesternFrisian
             :description: QtCore/QLocale-Language-WesternFrisian-v.rst
@@ -2842,6 +2857,14 @@
             bool
         :description: QtCore/QLocale-toInt-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QLocale.toLong
+        :args:
+            str
+        :returns:
+            int
+            bool
+        :description: QtCore/QLocale-toLong-f.rst
+
     .. sip:method:: PyQt5.QtCore.QLocale.toLongLong
         :args:
             str
@@ -2952,6 +2975,14 @@
             int
             bool
         :description: QtCore/QLocale-toUInt-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toULong
+        :args:
+            str
+        :returns:
+            int
+            bool
+        :description: QtCore/QLocale-toULong-f.rst
 
     .. sip:method:: PyQt5.QtCore.QLocale.toULongLong
         :args:

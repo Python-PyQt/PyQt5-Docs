@@ -105,6 +105,9 @@
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.FontCapitalization
             :description: QtGui/QTextFormat-Property-FontCapitalization-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.FontFamilies
+            :description: QtGui/QTextFormat-Property-FontFamilies-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.FontFamily
             :description: QtGui/QTextFormat-Property-FontFamily-v.rst
 
@@ -149,6 +152,9 @@
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.FontStyleHint
             :description: QtGui/QTextFormat-Property-FontStyleHint-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.FontStyleName
+            :description: QtGui/QTextFormat-Property-FontStyleName-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.FontStyleStrategy
             :description: QtGui/QTextFormat-Property-FontStyleStrategy-v.rst

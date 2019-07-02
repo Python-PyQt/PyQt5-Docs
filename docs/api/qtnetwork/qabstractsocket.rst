@@ -301,6 +301,11 @@
             int
         :description: QtNetwork/QAbstractSocket-peerPort-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.protocolTag
+        :returns:
+            str
+        :description: QtNetwork/QAbstractSocket-protocolTag-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.proxy
         :returns:
             :sip:ref:`~PyQt5.QtNetwork.QNetworkProxy`
@@ -357,6 +362,11 @@
         :args:
             int
         :description: QtNetwork/QAbstractSocket-setPeerPort-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.setProtocolTag
+        :args:
+            str
+        :description: QtNetwork/QAbstractSocket-setProtocolTag-f.rst
 
     .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.setProxy
         :args:

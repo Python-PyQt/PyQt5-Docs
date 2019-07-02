@@ -102,6 +102,9 @@
         .. sip:enum-member:: PyQt5.QtCore.QDataStream.Version.Qt_5_12
             :description: QtCore/QDataStream-Version-Qt_5_12-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.QDataStream.Version.Qt_5_13
+            :description: QtCore/QDataStream-Version-Qt_5_13-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.QDataStream.Version.Qt_5_2
             :description: QtCore/QDataStream-Version-Qt_5_2-v.rst
 
@@ -214,6 +217,20 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QDataStream`
         :description: QtCore/QDataStream-__lshift__-f-5.rst
+
+    .. sip:method:: PyQt5.QtCore.QDataStream.__lshift__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QJsonDocument`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__lshift__-f-25.rst
+
+    .. sip:method:: PyQt5.QtCore.QDataStream.__lshift__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QJsonValue`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__lshift__-f-26.rst
 
     .. sip:method:: PyQt5.QtCore.QDataStream.__lshift__
         :args:
@@ -502,6 +519,20 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QDataStream`
         :description: QtCore/QDataStream-__rshift__-f-5.rst
+
+    .. sip:method:: PyQt5.QtCore.QDataStream.__rshift__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QJsonDocument`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__rshift__-f-25.rst
+
+    .. sip:method:: PyQt5.QtCore.QDataStream.__rshift__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QJsonValue`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDataStream`
+        :description: QtCore/QDataStream-__rshift__-f-26.rst
 
     .. sip:method:: PyQt5.QtCore.QDataStream.__rshift__
         :args:

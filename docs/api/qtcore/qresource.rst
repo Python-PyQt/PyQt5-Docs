@@ -3,6 +3,18 @@
 .. sip:class:: PyQt5.QtCore.QResource
     :description: QtCore/QResource-c.rst
 
+    .. sip:enum:: PyQt5.QtCore.QResource.Compression
+        :description: QtCore/QResource-Compression-e.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QResource.Compression.NoCompression
+            :description: QtCore/QResource-Compression-NoCompression-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QResource.Compression.ZlibCompression
+            :description: QtCore/QResource-Compression-ZlibCompression-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QResource.Compression.ZstdCompression
+            :description: QtCore/QResource-Compression-ZstdCompression-v.rst
+
     .. sip:method:: PyQt5.QtCore.QResource.__init__
         :args:
             fileName: str = ''
@@ -18,6 +30,11 @@
         :returns:
             List[str]
         :description: QtCore/QResource-children-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QResource.compressionAlgorithm
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QResource.Compression`
+        :description: QtCore/QResource-compressionAlgorithm-f.rst
 
     .. sip:method:: PyQt5.QtCore.QResource.data
         :returns:

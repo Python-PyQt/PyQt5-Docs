@@ -110,6 +110,12 @@
     .. sip:method:: PyQt5.QtWidgets.QTreeView.expandAll
         :description: QtWidgets/QTreeView-expandAll-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QTreeView.expandRecursively
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            depth: int = -1
+        :description: QtWidgets/QTreeView-expandRecursively-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QTreeView.expandsOnDoubleClick
         :returns:
             bool

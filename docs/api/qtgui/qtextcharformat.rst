@@ -92,6 +92,11 @@
             :sip:ref:`~PyQt5.QtGui.QFont.Capitalization`
         :description: QtGui/QTextCharFormat-fontCapitalization-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontFamilies
+        :returns:
+            Any
+        :description: QtGui/QTextCharFormat-fontFamilies-f.rst
+
     .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontFamily
         :returns:
             str
@@ -151,6 +156,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QFont.StyleHint`
         :description: QtGui/QTextCharFormat-fontStyleHint-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontStyleName
+        :returns:
+            Any
+        :description: QtGui/QTextCharFormat-fontStyleName-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTextCharFormat.fontStyleStrategy
         :returns:
@@ -213,6 +223,11 @@
             :sip:ref:`~PyQt5.QtGui.QFont.Capitalization`
         :description: QtGui/QTextCharFormat-setFontCapitalization-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontFamilies
+        :args:
+            Iterable[str]
+        :description: QtGui/QTextCharFormat-setFontFamilies-f.rst
+
     .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontFamily
         :args:
             str
@@ -273,6 +288,11 @@
             :sip:ref:`~PyQt5.QtGui.QFont.StyleHint`
             strategy: :sip:ref:`~PyQt5.QtGui.QFont.StyleStrategy` = :sip:ref:`~PyQt5.QtGui.QFont.StyleStrategy.PreferDefault`
         :description: QtGui/QTextCharFormat-setFontStyleHint-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontStyleName
+        :args:
+            str
+        :description: QtGui/QTextCharFormat-setFontStyleName-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTextCharFormat.setFontStyleStrategy
         :args:

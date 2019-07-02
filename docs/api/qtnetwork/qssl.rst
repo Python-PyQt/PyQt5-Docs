@@ -12,6 +12,9 @@
         .. sip:enum-member:: PyQt5.QtNetwork.QSsl.AlternativeNameEntryType.EmailEntry
             :description: QtNetwork/QSsl-AlternativeNameEntryType-EmailEntry-v.rst
 
+        .. sip:enum-member:: PyQt5.QtNetwork.QSsl.AlternativeNameEntryType.IpAddressEntry
+            :description: QtNetwork/QSsl-AlternativeNameEntryType-IpAddressEntry-v.rst
+
     .. sip:enum:: PyQt5.QtNetwork.QSsl.EncodingFormat
         :description: QtNetwork/QSsl-EncodingFormat-e.rst
 
@@ -23,6 +26,9 @@
 
     .. sip:enum:: PyQt5.QtNetwork.QSsl.KeyAlgorithm
         :description: QtNetwork/QSsl-KeyAlgorithm-e.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSsl.KeyAlgorithm.Dh
+            :description: QtNetwork/QSsl-KeyAlgorithm-Dh-v.rst
 
         .. sip:enum-member:: PyQt5.QtNetwork.QSsl.KeyAlgorithm.Dsa
             :description: QtNetwork/QSsl-KeyAlgorithm-Dsa-v.rst

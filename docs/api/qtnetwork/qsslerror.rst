@@ -27,6 +27,9 @@
         .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.CertificateSignatureFailed
             :description: QtNetwork/QSslError-SslError-CertificateSignatureFailed-v.rst
 
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.CertificateStatusUnknown
+            :description: QtNetwork/QSslError-SslError-CertificateStatusUnknown-v.rst
+
         .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.CertificateUntrusted
             :description: QtNetwork/QSslError-SslError-CertificateUntrusted-v.rst
 
@@ -53,6 +56,39 @@
 
         .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.NoSslSupport
             :description: QtNetwork/QSslError-SslError-NoSslSupport-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspInternalError
+            :description: QtNetwork/QSslError-SslError-OcspInternalError-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspMalformedRequest
+            :description: QtNetwork/QSslError-SslError-OcspMalformedRequest-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspMalformedResponse
+            :description: QtNetwork/QSslError-SslError-OcspMalformedResponse-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspNoResponseFound
+            :description: QtNetwork/QSslError-SslError-OcspNoResponseFound-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspResponseCannotBeTrusted
+            :description: QtNetwork/QSslError-SslError-OcspResponseCannotBeTrusted-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspResponseCertIdUnknown
+            :description: QtNetwork/QSslError-SslError-OcspResponseCertIdUnknown-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspResponseExpired
+            :description: QtNetwork/QSslError-SslError-OcspResponseExpired-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspSigRequred
+            :description: QtNetwork/QSslError-SslError-OcspSigRequred-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspStatusUnknown
+            :description: QtNetwork/QSslError-SslError-OcspStatusUnknown-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspTryLater
+            :description: QtNetwork/QSslError-SslError-OcspTryLater-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.OcspUnauthorized
+            :description: QtNetwork/QSslError-SslError-OcspUnauthorized-v.rst
 
         .. sip:enum-member:: PyQt5.QtNetwork.QSslError.SslError.PathLengthExceeded
             :description: QtNetwork/QSslError-SslError-PathLengthExceeded-v.rst

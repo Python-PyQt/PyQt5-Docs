@@ -81,6 +81,15 @@
             List[:sip:ref:`~PyQt5.QtCore.QUrl`]
         :description: QtHelp/QHelpEngineCore-files-f.rst
 
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.files
+        :args:
+            str
+            str
+            extensionFilter: str = ''
+        :returns:
+            List[:sip:ref:`~PyQt5.QtCore.QUrl`]
+        :description: QtHelp/QHelpEngineCore-files-f-1.rst
+
     .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.filterAttributes
         :returns:
             List[str]
@@ -99,6 +108,11 @@
         :returns:
             List[List[str]]
         :description: QtHelp/QHelpEngineCore-filterAttributeSets-f.rst
+
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.filterEngine
+        :returns:
+            :sip:ref:`~PyQt5.QtHelp.QHelpFilterEngine`
+        :description: QtHelp/QHelpEngineCore-filterEngine-f.rst
 
     .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.findFile
         :args:
@@ -192,12 +206,22 @@
             bool
         :description: QtHelp/QHelpEngineCore-setupData-f.rst
 
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.setUsesFilterEngine
+        :args:
+            bool
+        :description: QtHelp/QHelpEngineCore-setUsesFilterEngine-f.rst
+
     .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.unregisterDocumentation
         :args:
             str
         :returns:
             bool
         :description: QtHelp/QHelpEngineCore-unregisterDocumentation-f.rst
+
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.usesFilterEngine
+        :returns:
+            bool
+        :description: QtHelp/QHelpEngineCore-usesFilterEngine-f.rst
 
     .. sip:signal:: PyQt5.QtHelp.QHelpEngineCore.currentFilterChanged
         :args:

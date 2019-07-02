@@ -78,14 +78,14 @@
     .. sip:enum:: PyQt5.QtCore.QCborSimpleType
         :description: QtCore/QCborSimpleType-e.rst
 
-        .. sip:enum-member:: PyQt5.QtCore.QCborSimpleType.False
-            :description: QtCore/QCborSimpleType-False-v.rst
+        .. sip:enum-member:: PyQt5.QtCore.QCborSimpleType.False_
+            :description: QtCore/QCborSimpleType-False_-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QCborSimpleType.Null
             :description: QtCore/QCborSimpleType-Null-v.rst
 
-        .. sip:enum-member:: PyQt5.QtCore.QCborSimpleType.True
-            :description: QtCore/QCborSimpleType-True-v.rst
+        .. sip:enum-member:: PyQt5.QtCore.QCborSimpleType.True_
+            :description: QtCore/QCborSimpleType-True_-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QCborSimpleType.Undefined
             :description: QtCore/QCborSimpleType-Undefined-v.rst

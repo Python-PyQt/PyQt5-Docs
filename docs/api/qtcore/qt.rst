@@ -3234,6 +3234,9 @@
         .. sip:enum-member:: PyQt5.QtCore.Qt.WidgetAttribute.WA_AttributeCount
             :description: QtCore/Qt-WidgetAttribute-WA_AttributeCount-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.Qt.WidgetAttribute.WA_ContentsMarginsRespectsSafeArea
+            :description: QtCore/Qt-WidgetAttribute-WA_ContentsMarginsRespectsSafeArea-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.Qt.WidgetAttribute.WA_CustomWhatsThis
             :description: QtCore/Qt-WidgetAttribute-WA_CustomWhatsThis-v.rst
 

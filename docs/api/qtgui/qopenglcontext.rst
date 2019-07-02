@@ -56,6 +56,13 @@
             :sip:ref:`~PyQt5.QtGui.QSurfaceFormat`
         :description: QtGui/QOpenGLContext-format-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QOpenGLContext.getProcAddress
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :returns:
+            sip.voidptr
+        :description: QtGui/QOpenGLContext-getProcAddress-f.rst
+
     .. sip:method:: PyQt5.QtGui.QOpenGLContext.globalShareContext
         :returns:
             :sip:ref:`~PyQt5.QtGui.QOpenGLContext`

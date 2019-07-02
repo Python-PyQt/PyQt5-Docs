@@ -55,11 +55,11 @@
     .. sip:method:: PyQt5.QtGui.QBitmap.fromImage
         :args:
             :sip:ref:`~PyQt5.QtGui.QImage`
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
         :returns:
             :sip:ref:`~PyQt5.QtGui.QBitmap`
         :static:
-        :description: QtGui/QBitmap-fromImage-f.rst
+        :description: QtGui/QBitmap-fromImage-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QBitmap.swap
         :args:

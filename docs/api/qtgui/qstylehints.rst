@@ -54,6 +54,11 @@
             bool
         :description: QtGui/QStyleHints-setFocusOnTouchRelease-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QStyleHints.setShowShortcutsInContextMenus
+        :args:
+            bool
+        :description: QtGui/QStyleHints-setShowShortcutsInContextMenus-f.rst
+
     .. sip:method:: PyQt5.QtGui.QStyleHints.setUseHoverEffects
         :args:
             bool
@@ -138,6 +143,11 @@
         :args:
             int
         :description: QtGui/QStyleHints-mouseQuickSelectionThresholdChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtGui.QStyleHints.showShortcutsInContextMenusChanged
+        :args:
+            bool
+        :description: QtGui/QStyleHints-showShortcutsInContextMenusChanged-s.rst
 
     .. sip:signal:: PyQt5.QtGui.QStyleHints.startDragDistanceChanged
         :args:

@@ -269,6 +269,11 @@
             bool
         :description: QtGui/QFont-exactMatch-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QFont.families
+        :returns:
+            List[str]
+        :description: QtGui/QFont-families-f.rst
+
     .. sip:method:: PyQt5.QtGui.QFont.family
         :returns:
             str
@@ -429,6 +434,11 @@
         :args:
             :sip:ref:`~PyQt5.QtGui.QFont.Capitalization`
         :description: QtGui/QFont-setCapitalization-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QFont.setFamilies
+        :args:
+            Iterable[str]
+        :description: QtGui/QFont-setFamilies-f.rst
 
     .. sip:method:: PyQt5.QtGui.QFont.setFamily
         :args:

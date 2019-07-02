@@ -39,6 +39,24 @@
             bool
         :description: QtCore/QStringListModel-insertRows-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QStringListModel.itemData
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+        :returns:
+            Dict[int, Any]
+        :description: QtCore/QStringListModel-itemData-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QStringListModel.moveRows
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            int
+            int
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            int
+        :returns:
+            bool
+        :description: QtCore/QStringListModel-moveRows-f.rst
+
     .. sip:method:: PyQt5.QtCore.QStringListModel.removeRows
         :args:
             int
@@ -63,6 +81,14 @@
         :returns:
             bool
         :description: QtCore/QStringListModel-setData-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QStringListModel.setItemData
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            Dict[int, Any]
+        :returns:
+            bool
+        :description: QtCore/QStringListModel-setItemData-f.rst
 
     .. sip:method:: PyQt5.QtCore.QStringListModel.setStringList
         :args:

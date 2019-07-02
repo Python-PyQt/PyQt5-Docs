@@ -42,6 +42,6 @@
 
     .. sip:method:: PyQt5.QtWidgets.QStyleHintReturn.__init__
         :args:
-            version: int = :sip:ref:`~PyQt5.QtWidgets.QStyleOption.StyleOptionVersion.Version`
-            type: int = :sip:ref:`~PyQt5.QtWidgets.QStyleHintReturn.HintReturnType.SH_Default`
-        :description: QtWidgets/QStyleHintReturn-__init__-f-1.rst
+            version: int = QStyleOption.StyleOptionVersion.Version
+            type: int = QStyleHintReturn.HintReturnType.SH_Default
+        :description: QtWidgets/QStyleHintReturn-__init__-f-2.rst

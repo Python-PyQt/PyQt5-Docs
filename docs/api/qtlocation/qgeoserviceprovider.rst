@@ -171,6 +171,16 @@
             str
         :description: QtLocation/QGeoServiceProvider-errorString-f.rst
 
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.geocodingError
+        :returns:
+            :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.Error`
+        :description: QtLocation/QGeoServiceProvider-geocodingError-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.geocodingErrorString
+        :returns:
+            str
+        :description: QtLocation/QGeoServiceProvider-geocodingErrorString-f.rst
+
     .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.geocodingFeatures
         :returns:
             :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.GeocodingFeatures`
@@ -181,10 +191,30 @@
             :sip:ref:`~PyQt5.QtLocation.QGeoCodingManager`
         :description: QtLocation/QGeoServiceProvider-geocodingManager-f.rst
 
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.mappingError
+        :returns:
+            :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.Error`
+        :description: QtLocation/QGeoServiceProvider-mappingError-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.mappingErrorString
+        :returns:
+            str
+        :description: QtLocation/QGeoServiceProvider-mappingErrorString-f.rst
+
     .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.mappingFeatures
         :returns:
             :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.MappingFeatures`
         :description: QtLocation/QGeoServiceProvider-mappingFeatures-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.navigationError
+        :returns:
+            :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.Error`
+        :description: QtLocation/QGeoServiceProvider-navigationError-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.navigationErrorString
+        :returns:
+            str
+        :description: QtLocation/QGeoServiceProvider-navigationErrorString-f.rst
 
     .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.navigationFeatures
         :returns:
@@ -201,10 +231,30 @@
             :sip:ref:`~PyQt5.QtLocation.QPlaceManager`
         :description: QtLocation/QGeoServiceProvider-placeManager-f.rst
 
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.placesError
+        :returns:
+            :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.Error`
+        :description: QtLocation/QGeoServiceProvider-placesError-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.placesErrorString
+        :returns:
+            str
+        :description: QtLocation/QGeoServiceProvider-placesErrorString-f.rst
+
     .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.placesFeatures
         :returns:
             :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.PlacesFeatures`
         :description: QtLocation/QGeoServiceProvider-placesFeatures-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.routingError
+        :returns:
+            :sip:ref:`~PyQt5.QtLocation.QGeoServiceProvider.Error`
+        :description: QtLocation/QGeoServiceProvider-routingError-f.rst
+
+    .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.routingErrorString
+        :returns:
+            str
+        :description: QtLocation/QGeoServiceProvider-routingErrorString-f.rst
 
     .. sip:method:: PyQt5.QtLocation.QGeoServiceProvider.routingFeatures
         :returns:

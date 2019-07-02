@@ -81,6 +81,14 @@
             sslConfiguration: :sip:ref:`~PyQt5.QtNetwork.QSslConfiguration` = QSslConfiguration.defaultConfiguration()
         :description: QtNetwork/QNetworkAccessManager-connectToHostEncrypted-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.connectToHostEncrypted
+        :args:
+            str
+            int
+            :sip:ref:`~PyQt5.QtNetwork.QSslConfiguration`
+            str
+        :description: QtNetwork/QNetworkAccessManager-connectToHostEncrypted-f-1.rst
+
     .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.cookieJar
         :returns:
             :sip:ref:`~PyQt5.QtNetwork.QNetworkCookieJar`

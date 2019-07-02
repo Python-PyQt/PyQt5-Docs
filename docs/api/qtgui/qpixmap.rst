@@ -37,8 +37,8 @@
         :args:
             str
             format: str = None
-            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag.AutoColor`
-        :description: QtGui/QPixmap-__init__-f-6.rst
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
+        :description: QtGui/QPixmap-__init__-f-7.rst
 
     .. sip:method:: PyQt5.QtGui.QPixmap.cacheKey
         :returns:
@@ -111,8 +111,8 @@
 
     .. sip:method:: PyQt5.QtGui.QPixmap.fill
         :args:
-            color: Union[:sip:ref:`~PyQt5.QtGui.QColor`, :sip:ref:`~PyQt5.QtCore.Qt.GlobalColor`] = :sip:ref:`~PyQt5.QtCore.Qt.GlobalColor.white`
-        :description: QtGui/QPixmap-fill-f.rst
+            color: Union[:sip:ref:`~PyQt5.QtGui.QColor`, :sip:ref:`~PyQt5.QtCore.Qt.GlobalColor`] = Qt.GlobalColor.white
+        :description: QtGui/QPixmap-fill-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QPixmap.fromImage
         :args:
