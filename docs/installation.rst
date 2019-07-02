@@ -9,43 +9,43 @@ Understanding the Correct Version to Install
 --------------------------------------------
 
 Historically the version number of PyQt bears no relation to the version of Qt
-supported.  It's no longer even true that PyQt4 requires Qt v4 as it will also
-build against Qt v5.  People sometimes mistakenly believe that, for example,
-PyQt4 v4.8 is needed when building against Qt v4.8.
+supported.  For example it wasn't even true that PyQt4 required Qt v4 as it
+would also build against Qt v5.  People sometimes mistakenly believe that, for
+example, PyQt5 v5.13 is needed when building against Qt v5.13.
 
-When refering to a version number we assume it consists of three numbers
-separated by a dot.  These are the major number, the minor number and the
-maintenance number.  The major number will always be ``5``.  The maintenance
-number may be omitted if it is ``0``.
+Qt uses `semantic versioning <https://semver.org/spec/v2.0.0.html>`__ when
+deciding on the version number of a release.  In summary the major version is
+increased when a release includes incompatible changes, the minor version is
+increased when a release includes compatible changes, and the patch version is
+increased when a release includes no user-visible changes.
 
 Starting with PyQt5 the version number of PyQt5 is tied, to a certain extent,
-to the version of Qt v5.  This is based on the following assumptions.
+to the version of Qt v5 so that:
 
-- All parts of the Qt API will be supported throughout the life of Qt v5 even
-  though some may be marked as deprecated or obsolete at some point.
+- The major version will always be **5**.
 
-- When new parts of the Qt API are introduced the minor number of the version
-  will be increased and the maintenance number will be reset to ``0``.
+- For a particular minor version *n* it will build against any version of Qt
+  v5, but will not support any new features introduced in Qt v5.\ *n+1* or
+  later.
 
-Therefore, for PyQt5 v5.n.* the following are true.
-
-- It will build against any version of Qt v5, but will not support any new
-  features introduced in Qt v5.n+1 or later.
-
-- It will support all the features of supported modules of Qt v5.n or earlier.
+- It will support all the features of supported modules of Qt v5.\ *n* or
+  earlier.
 
 - Support for new modules may be added to PyQt5 at any time.  This would result
-  in a change of maintenance number only.
+  in a change of patch version only.
 
-The maintenance numbers of PyQt5 and Qt v5 are entirely unrelated to each
-other.
+- The major and minor versions of the latest release of PyQt5 will be the same
+  as the latest release of Qt v5.
+
+- The maintenance numbers of PyQt5 and Qt v5 are entirely unrelated to each
+  other.
 
 So, for example, PyQt5 v5.1 will build against Qt v5.2 but will not support any
 new features introduced in Qt v5.2.  PyQt5 v5.1 will support all the features
 of supported modules of Qt v5.0 and those new features introduced in Qt v5.1.
 
-In summary, just as with PyQt4, you should always try and use the latest
-version of PyQt5 no matter what version of Qt v5 you are using.
+In summary, you should always try and use the latest version of PyQt5 no matter
+what version of Qt v5 you are using.
 
 
 Installing from Wheels

@@ -1,9 +1,9 @@
 Introduction
 ============
 
-This is the reference guide for PyQt5 @RM_RELEASE@.  PyQt5 is a set of
-`Python <http://www.python.org>`__ bindings for v5 of the Qt application
-framework from `The Qt Company <http://www.qt.io>`__.
+This is the reference guide for PyQt5 v\ |version|.  PyQt5 is a set of
+`Python <https://www.python.org>`__ bindings for v5 of the Qt application
+framework from `The Qt Company <https://www.qt.io>`__.
 
 Qt is a set of C++ libraries and development tools that includes platform
 independent abstractions for graphical user interfaces, networking, threads,
