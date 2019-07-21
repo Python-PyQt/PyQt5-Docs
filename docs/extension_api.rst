@@ -45,6 +45,14 @@ not supported by SIP v5.
 
 The functions exported by PyQt5 are as follows:
 
+.. cpp:function:: void pyqt_cleanup_qobjects()
+
+    .. versionadded:: 5.13.1
+
+    Call the C++ destructor of any :sip:ref:`~PyQt5.QtCore.QObject` instance
+    that is owned by Python (with the exception of any
+    :sip:ref:`~PyQt5.QtCore.QCoreApplication` instance).
+
 .. cpp:function:: void pyqt_err_print()
 
     .. versionadded:: 5.4

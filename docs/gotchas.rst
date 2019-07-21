@@ -59,63 +59,14 @@ a function) it will potentially garbage collect all objects local to that
 scope.  The order in which it is done is, in effect, random.  Theoretically
 this can cause problems because it may mean that the C++ destructors of any
 wrapped Qt instances are called in an order that Qt isn't expecting and may
-result in a crash.
+result in a crash.  However, in practice, this is only likely to be a problem
+when the application is terminating.
 
-However, in practice, this is only likely to be a problem when the application
-is terminating.  For example, it is preferable that any
-:sip:ref:`~PyQt5.QtWidgets.QApplication` instance is destroyed only after all
-widgets are destroyed.
-
-As a way of mitigating this possiblity PyQt5 ensures that the destructors of
-any module level objects are not invoked when the application terminates.  This
-means that code that follows the pattern below is unlikely to crash on exit::
-
-    if __name__ == '__main__':
-        app = QApplication(sys.argv)
-
-        w = QWidget()
-        w.show()
-
-        app.exec()
-
-Another common pattern (and one that is required when using setuptool entry
-points) is that the above code in placed in a separate function, typically
-called ``main()``.  This then causes a problem when the function returns as the
-destructors of the :sip:ref:`~PyQt5.QtWidgets.QApplication` and
-:sip:ref:`~PyQt5.QtWidgets.QWidget` instances may be invoked in the wrong
-order.  To minimise the chances of this happening, the following pattern is
-recommended::
-
-    app = None
-
-    def main():
-        global app
-        app = QApplication(sys.argv)
-
-        w = QWidget()
-        w.show()
-
-        app.exec()
-
-    if __name__ == '__main__':
-        main()
-
-The :sip:ref:`~PyQt5.QtWidgets.QWidget` destructor may be invoked when
-``main()`` returns but the module level reference to the
-:sip:ref:`~PyQt5.QtWidgets.QApplication` instance will prevent its destructor
-being invoked at all.
-
-PyQt5 v5.12.3 added support for using :sip:ref:`~PyQt5.QtCore.QCoreApplication`
-and its sub-classes as a context manager.  Therefore the following would be
-another approach::
-
-    with QApplication(sys.argv) as app:
-        w = QWidget()
-        w.show()
-
-        app.exec()
-
-        del w
+As a way of mitigating this possiblity PyQt5 ensures that the C++ destructors
+of any :sip:ref:`~PyQt5.QtCore.QObject` instances owned by Python are invoked
+before the destructor of any :sip:ref:`~PyQt5.QtCore.QCoreApplication` instance
+is invoked.  Note however that the order in which the
+:sip:ref:`~PyQt5.QtCore.QObject` destructors are invoked is still random.
 
 
 Keyword Arguments
