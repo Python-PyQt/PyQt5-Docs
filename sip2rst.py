@@ -944,7 +944,7 @@ if __name__ == '__main__':
         if sys.platform != 'win32':
             sip_root = os.path.join(sip_root, 'share')
 
-        sip_root = os.path.join(sip_root, 'sip')
+        sip_root = os.path.join(sip_root, 'sip5')
 
     if package:
         sip_root = os.path.join(sip_root, package)
