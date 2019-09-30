@@ -1,198 +1,7 @@
-Installing PyQt5
-================
+Building PyQt5 with SIP v4
+==========================
 
-Both the GPL and commercial versions of PyQt5 can be built from source packages
-or installed from binary wheels.
-
-
-Understanding the Correct Version to Install
---------------------------------------------
-
-Historically the version number of PyQt bears no relation to the version of Qt
-supported.  For example it wasn't even true that PyQt4 required Qt v4 as it
-would also build against Qt v5.  People sometimes mistakenly believe that, for
-example, PyQt5 v5.13 is needed when building against Qt v5.13.
-
-Qt uses `semantic versioning <https://semver.org/spec/v2.0.0.html>`__ when
-deciding on the version number of a release.  In summary the major version is
-increased when a release includes incompatible changes, the minor version is
-increased when a release includes compatible changes, and the patch version is
-increased when a release includes no user-visible changes.
-
-Starting with PyQt5 the version number of PyQt5 is tied, to a certain extent,
-to the version of Qt v5 so that:
-
-- The major version will always be **5**.
-
-- For a particular minor version *n* it will build against any version of Qt
-  v5, but will not support any new features introduced in Qt v5.\ *n+1* or
-  later.
-
-- It will support all the features of supported modules of Qt v5.\ *n* or
-  earlier.
-
-- Support for new modules may be added to PyQt5 at any time.  This would result
-  in a change of patch version only.
-
-- The major and minor versions of the latest release of PyQt5 will be the same
-  as the latest release of Qt v5.
-
-- The maintenance numbers of PyQt5 and Qt v5 are entirely unrelated to each
-  other.
-
-So, for example, PyQt5 v5.1 will build against Qt v5.2 but will not support any
-new features introduced in Qt v5.2.  PyQt5 v5.1 will support all the features
-of supported modules of Qt v5.0 and those new features introduced in Qt v5.1.
-
-In summary, you should always try and use the latest version of PyQt5 no matter
-what version of Qt v5 you are using.
-
-
-Installing from Wheels
-----------------------
-
-Wheels are the standard Python packaging format for pure Python or binary
-extension modules such as PyQt5.  Only Python v3.5 and later are supported.
-Wheels are provide for 32- and 64-bit Windows, 64-bit macOS and 64-bit Linux.
-These correspond with the platforms for which The Qt Company provide binary
-installers.
-
-Wheels are installed using the :program:`pip3` program that is included with
-current versions of Python.
-
-
-Installing the GPL Version
-..........................
-
-To install the wheel for the GPL version of PyQt5, run::
-
-    pip3 install pyqt5
-
-This will install the wheel for your platform and your version of Python
-(assuming both are supported).  The wheel will be automatically downloaded from
-the Python Package Index.
-
-If you get an error message saying that no downloads could be found that
-satisfy the rquirement then you are probably using an unsupported version of
-Python.
-
-The PyQt5 wheel includes the necessary parts of the LGPL version of Qt.  There
-is no need to install Qt yourself.
-
-SIP is packaged as a separate wheel which will be downloaded and installed
-automatically.
-
-To uninstall the GPL version, run::
-
-    pip3 uninstall pyqt5
-
-.. note::
-
-   Qt's support for TLS/SSL will not work on Windows when installing wheels
-   that contain Qt v5.12.4 (or later) with Python v3.7.0 to v3.7.3.  This is
-   because of incompatibilities between the different versions of OpenSSL that
-   these versions require.  All other version combinations should be fine.
-
-
-Installing the Commercial Version
-.................................
-
-.. program:: pyqtlicense
-
-It is not possible to provide wheels for the commercial version in the same way
-they are provided for the GPL version:
-
-- the user's license information has to be applied
-
-- it is not possible to distribute a copy of the commercial version of Qt.
-
-Instead *unlicensed* wheels are provided which do not include a copy of Qt.
-The program :program:`pyqtlicense` is provided which takes the unlicensed
-wheel, the ``pyqt-commercial.sip`` license file and the location of the Qt
-installation and generates a *licensed* wheel.  The licensed wheel contains a
-copy of the necessary parts of Qt and can be installed using :program:`pip3`.
-
-:program:`pyqtlicense` assumes that the Qt installation has been created from
-one of the LGPL or commercial binary installers provided by The Qt Company.  It
-may also work with a Qt installation built from source but this is unsupported.
-
-On Windows the binary installer for MSVC 2015 or MSVC 2017 must be used.
-
-The following describes the command line options of :program:`pyqtlicense`.
-
-.. cmdoption:: -h, --help
-
-    Display a help message and exit.
-
-.. cmdoption:: -V, --version
-
-    Display the version number and exit.
-
-.. cmdoption:: --build-tag TAG
-
-    This specifies that ``TAG`` should be used as the build tag in the name of
-    the generated wheel.  If ``TAG`` is an empty string then the build tag is
-    omitted.
-
-.. cmdoption:: --license FILE
-
-    This specifies that ``FILE`` is the license file.
-
-.. cmdoption:: --no-msvc-runtime
-
-    The unlicensed wheels for 32- and 64-bit Python includes ``msvcp140.dll``
-    (part of the MSVC2015 C++ runtime).  This specifies that the DLL should be
-    omitted from the licensed wheel.
-
-.. cmdoption:: --no-openssl
-
-    The unlicensed wheels for 32- and 64-bit Python includes the OpenSSL DLLs.
-    This specifies that the DLLs should be omitted from the licensed wheel.
-
-.. cmdoption:: --openssl DIR
-
-    This specifies that the OpenSSL DLLs included in the unlicensed wheels for
-    32- and 64-bit Python should be replaced by the DLLs in the directory
-    ``DIR``.  Qt v5.12.4 and later are configured for OpenSSL v1.1.1.  Earlier
-    versions of Qt are configured for OpenSSL v1.0.2.
-
-.. cmdoption:: --output DIR
-
-    This specifies that the licensed wheel will be written to the directory
-    ``DIR``.
-
-.. cmdoption:: --qt DIR
-
-    This specifies that ``DIR`` contains the LGPL or commercial Qt installation
-    to be included in the licensed wheel.  The directory is what Qt refers to
-    as the *prefix* directory, i.e. the architecture specific directory
-    containing the ``bin``, ``lib`` etc. directories.  It must be specified.
-
-.. cmdoption:: --qt-version VERSION
-
-    This specifies the 3-part version number of the Qt installation.  If it is
-    not specified then it will be extracted from the value specified by the
-    :option:`--qt` option.
-
-.. cmdoption:: --quiet
-
-    This specifies that all progress messages should be suppressed.
-
-.. cmdoption:: --wheel-qt-version VERSION
-
-    This specifies the 3-part version number of the Qt installation that the
-    wheel was built against.  If it is not specified then it will be extracted
-    from the build tag of the wheel file.
-
-.. cmdoption:: --verbose
-
-    This specifies that additional progress messages should be displayed.
-
-The remaining argument is the name of the unlicensed wheel file to license.
-
-To uninstall the commercial version, run::
-
-    pip3 uninstall pyqt5-commercial
+TODO
 
 
 Building and Installing from Source
@@ -594,15 +403,141 @@ The final step is to install PyQt5 by running the following command::
 This will install the various PyQt5 components.
 
 
+.. _ref-configuration-files:
+
+Configuring with Configuration Files
+....................................
+
+The :program:`configure.py` script normally introspects the Python installation
+of the interpreter running it in order to determine the names of the various
+files and directories it needs.  This is fine for a native build of PyQt5 but
+isn't appropriate when cross-compiling.  In this case it is possible to supply
+a configuration file, specified using the :option:`--configuration` option,
+which contains definitions of all the required values.
+
+A configuration file is made up of a number of named sections each of which
+contains a number of configuration items.  The format of a configuration file
+is as follows:
+
+- a section name is a single line with the name enclosed between ``[`` and
+  ``]``
+
+- a configuration item is a single line containing a name/value pair separated
+  by ``=``
+
+- values may be extended to lines immediately following if they are indented by
+  at least one space
+
+- a value may include another value by embedding the name of that value
+  enclosed between ``%(`` and ``)``
+
+- comments begin with ``#`` and continue to the end of the line
+
+- blank lines are ignored.
+
+Those configuration items that appear before the first section name are
+automatically added to all sections.
+
+A configuration file defines a section for each version of Qt that requires a
+different configuration.  :program:`configure.py` will choose the most
+appropriate section according to the version of Qt you are actually using.  For
+example, if a configuration file contains sections for Qt v5.3 and Qt v5.1 and
+you are using Qt v5.2.1 then the section for Qt v5.1 will be chosen.
+
+:program:`configure.py` provides the following preset values for a
+configuration:
+
+``py_major``
+    is the major version number of the target Python installation.
+
+``py_minor``
+    is the minor version number of the target Python installation.
+
+``sysroot``
+    is the name of the system root directory.  This is specified with the
+    :option:`--sysroot` option.
+
+The following is an example configuration file::
+
+    # The target Python installation.
+    py_platform = linux
+    py_inc_dir = %(sysroot)/usr/include/python%(py_major).%(py_minor)
+    py_pylib_dir = %(sysroot)/usr/lib/python%(py_major).%(py_minor)/config
+    py_pylib_lib = python%(py_major).%(py_minor)mu
+
+    # The target PyQt installation.
+    pyqt_module_dir = %(sysroot)/usr/lib/python%(py_major)/dist-packages
+    pyqt_bin_dir = %(sysroot)/usr/bin
+    pyqt_sip_dir = %(sysroot)/usr/share/sip/PyQt5
+    pyuic_interpreter = /usr/bin/python%(py_major).%(py_minor)
+    pyqt_disabled_features = PyQt_Desktop_OpenGL PyQt_qreal_double
+
+    # Qt configuration common to all versions.
+    qt_shared = True
+
+    [Qt 5.1]
+    pyqt_modules = QtCore QtDBus QtDesigner QtGui QtHelp QtMultimedia
+        QtMultimediaWidgets QtNetwork QtOpenGL QtPrintSupport QtQml QtQuick
+        QtSensors QtSerialPort QtSql QtSvg QtTest QtWebKit QtWebKitWidgets
+        QtWidgets QtXmlPatterns _QOpenGLFunctions_ES2
+
+This example contains a section for Qt v5.1.  We have defined a number of
+values before the start of the section as they are not specific to any
+particular version of Qt.  Note that if you use this configuration with a
+version of Qt earlier than v5.1 then you will get an error.
+
+The following values can be specified in the configuration file:
+
+``qt_shared``
+    is set if Qt has been built as shared libraries.  The default value is
+    ``False``.
+
+``py_platform``
+    is the target Python platform.
+
+``py_debug``
+    is set if a debug version of the target Python is being used.
+
+``py_inc_dir``
+    is the target Python include directory, i.e. the directory containing the
+    ``Python.h`` file.
+
+``py_pylib_dir``
+    is the target Python library directory.
+
+``py_pylib_lib``
+    is the target Python interpreter library.  It should not include any
+    platform-specific prefix or suffix.
+
+``pyqt_disabled_features``
+    is the space separated list of features (as defined by SIP's ``%Feature``
+    directive) that should be disabled.
+
+``pyqt_module_dir``
+    is the target directory where the PyQt5 modules will be installed.  It can
+    be overridden by the :option:`--destdir` option.
+
+``pyqt_modules``
+    is the space separated list of PyQt5 modules that will be built.  It can be
+    overridden by the :option:`--enable` option.
+
+``pyqt_bin_dir``
+    is the name of the target directory where the PyQt5 related executables
+    will be installed.  It can be overridden by the :option:`--bindir` option.
+
+``pyqt_sip_dir``
+    is the name of the target directory where the PyQt5 ``.sip`` files will be
+    installed.  It can be overridden by the :option:`--sipdir` option.
+
+``pyuic_interpreter``
+    is the name of the Python interpreter (as it would be called from the
+    target system) that will be used to run :program:`pyuic5`.  It can be
+    overridden by the :option:`--pyuic5-interpreter` option.
+
+
 Installing PyQt3D, PyQtChart, PyQtDataVisualization and PyQtPurchasing
 ----------------------------------------------------------------------
 
 These additional packages are built and installed in exactly the same way as
 PyQt5 itself.  In other words the source packages contain a ``configure.py``
 script and binary wheels can be installed from PyPI.
-
-
-Bundling Qt Using :program:`pyqt-bundle`
-----------------------------------------
-
-TODO

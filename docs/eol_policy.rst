@@ -11,5 +11,5 @@ v5.13 will remove support for Python v3.0, v3.1, v3.2, v3.3 and v3.4.
 
 Support for Python v2 is handled slightly differently.  Support for Python v2
 is determined by the version of SIP being used.  PyQt will no longer support
-Python v2 when SIP v5.1 is released (at which point SIP v4 will become
+Python v2 when SIP v6 is released (at which point SIP v4 will become
 unsupported).

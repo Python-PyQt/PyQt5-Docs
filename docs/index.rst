@@ -7,11 +7,10 @@ PyQt5 Reference Guide
     introduction
     contributing
     eol_policy
-    platforms
     deprecations
     incompatibilities
     installation
-    pyqt4_differences
+    building_with_sip4
     signals_slots
     qt_properties
     metaobjects
@@ -30,3 +29,4 @@ PyQt5 Reference Guide
     dbus
     deploy_commercial
     extension_api
+    pyqt_builder
