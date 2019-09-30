@@ -34,13 +34,6 @@
             int
         :description: QtCore/QPointF-__bool__-f.rst
 
-    .. sip:method:: PyQt5.QtCore.QPointF.__div__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QPointF`
-        :description: QtCore/QPointF-__div__-f.rst
-
     .. sip:method:: PyQt5.QtCore.QPointF.dotProduct
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
@@ -64,13 +57,6 @@
             :sip:ref:`~PyQt5.QtCore.QPointF`
         :description: QtCore/QPointF-__iadd__-f.rst
 
-    .. sip:method:: PyQt5.QtCore.QPointF.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QPointF`
-        :description: QtCore/QPointF-__idiv__-f.rst
-
     .. sip:method:: PyQt5.QtCore.QPointF.__imul__
         :args:
             float
@@ -89,6 +75,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QPointF`
         :description: QtCore/QPointF-__isub__-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QPointF.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QPointF`
+        :description: QtCore/QPointF-__itruediv__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QPointF.manhattanLength
         :returns:
@@ -152,6 +145,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QPoint`
         :description: QtCore/QPointF-toPoint-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QPointF.__truediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QPointF`
+        :description: QtCore/QPointF-__truediv__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QPointF.x
         :returns:

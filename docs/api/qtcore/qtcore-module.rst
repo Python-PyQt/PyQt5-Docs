@@ -250,6 +250,13 @@
             :sip:ref:`~PyQt5.QtCore.QTextStream`
         :description: QtCore/oct_-f.rst
 
+    .. sip:method:: PyQt5.QtCore.pyqt5_enable_new_onexit_scheme
+        :args:
+            bool
+        :returns:
+            bool
+        :description: QtCore/pyqt5_enable_new_onexit_scheme-f.rst
+
     .. sip:method:: PyQt5.QtCore.pyqtPickleProtocol
         :returns:
             Optional[int]

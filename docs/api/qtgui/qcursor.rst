@@ -71,6 +71,14 @@
         :static:
         :description: QtGui/QCursor-pos-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QCursor.pos
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QScreen`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :static:
+        :description: QtGui/QCursor-pos-f-1.rst
+
     .. sip:method:: PyQt5.QtGui.QCursor.setPos
         :args:
             :sip:ref:`~PyQt5.QtCore.QPoint`
@@ -83,6 +91,21 @@
             int
         :static:
         :description: QtGui/QCursor-setPos-f-1.rst
+
+    .. sip:method:: PyQt5.QtGui.QCursor.setPos
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QScreen`
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :static:
+        :description: QtGui/QCursor-setPos-f-2.rst
+
+    .. sip:method:: PyQt5.QtGui.QCursor.setPos
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QScreen`
+            int
+            int
+        :static:
+        :description: QtGui/QCursor-setPos-f-3.rst
 
     .. sip:method:: PyQt5.QtGui.QCursor.setShape
         :args:

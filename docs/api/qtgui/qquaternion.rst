@@ -47,13 +47,6 @@
             :sip:ref:`~PyQt5.QtGui.QQuaternion`
         :description: QtGui/QQuaternion-conjugated-f.rst
 
-    .. sip:method:: PyQt5.QtGui.QQuaternion.__div__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QQuaternion`
-        :description: QtGui/QQuaternion-__div__-f.rst
-
     .. sip:method:: PyQt5.QtGui.QQuaternion.dotProduct
         :args:
             :sip:ref:`~PyQt5.QtGui.QQuaternion`
@@ -162,13 +155,6 @@
             :sip:ref:`~PyQt5.QtGui.QQuaternion`
         :description: QtGui/QQuaternion-__iadd__-f.rst
 
-    .. sip:method:: PyQt5.QtGui.QQuaternion.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QQuaternion`
-        :description: QtGui/QQuaternion-__idiv__-f.rst
-
     .. sip:method:: PyQt5.QtGui.QQuaternion.__imul__
         :args:
             float
@@ -204,6 +190,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QQuaternion`
         :description: QtGui/QQuaternion-__isub__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QQuaternion.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QQuaternion`
+        :description: QtGui/QQuaternion-__itruediv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QQuaternion.length
         :returns:
@@ -362,6 +355,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QVector4D`
         :description: QtGui/QQuaternion-toVector4D-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QQuaternion.__truediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QQuaternion`
+        :description: QtGui/QQuaternion-__truediv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QQuaternion.vector
         :returns:

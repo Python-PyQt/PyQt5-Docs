@@ -92,20 +92,6 @@
             float
         :description: QtGui/QVector3D-distanceToPoint-f.rst
 
-    .. sip:method:: PyQt5.QtGui.QVector3D.__div__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QVector3D`
-        :description: QtGui/QVector3D-__div__-f.rst
-
-    .. sip:method:: PyQt5.QtGui.QVector3D.__div__
-        :args:
-            :sip:ref:`~PyQt5.QtGui.QVector3D`
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QVector3D`
-        :description: QtGui/QVector3D-__div__-f-1.rst
-
     .. sip:method:: PyQt5.QtGui.QVector3D.dotProduct
         :args:
             :sip:ref:`~PyQt5.QtGui.QVector3D`
@@ -136,20 +122,6 @@
             :sip:ref:`~PyQt5.QtGui.QVector3D`
         :description: QtGui/QVector3D-__iadd__-f.rst
 
-    .. sip:method:: PyQt5.QtGui.QVector3D.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QVector3D`
-        :description: QtGui/QVector3D-__idiv__-f.rst
-
-    .. sip:method:: PyQt5.QtGui.QVector3D.__idiv__
-        :args:
-            :sip:ref:`~PyQt5.QtGui.QVector3D`
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QVector3D`
-        :description: QtGui/QVector3D-__idiv__-f-1.rst
-
     .. sip:method:: PyQt5.QtGui.QVector3D.__imul__
         :args:
             float
@@ -175,6 +147,20 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QVector3D`
         :description: QtGui/QVector3D-__isub__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QVector3D.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: QtGui/QVector3D-__itruediv__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QVector3D.__itruediv__
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: QtGui/QVector3D-__itruediv__-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QVector3D.length
         :returns:
@@ -308,6 +294,20 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QVector4D`
         :description: QtGui/QVector3D-toVector4D-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QVector3D.__truediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: QtGui/QVector3D-__truediv__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QVector3D.__truediv__
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: QtGui/QVector3D-__truediv__-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QVector3D.unproject
         :args:

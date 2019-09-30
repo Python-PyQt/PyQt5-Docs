@@ -195,7 +195,7 @@
         :args:
             parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
             caption: str = ''
-            directory: str = ''
+            directory: :sip:ref:`~PyQt5.QtCore.QUrl` = QUrl()
             filter: str = ''
             initialFilter: str = ''
             options: Union[:sip:ref:`~PyQt5.QtWidgets.QFileDialog.Options`, :sip:ref:`~PyQt5.QtWidgets.QFileDialog.Option`] = 0
@@ -203,13 +203,13 @@
         :returns:
             Tuple[:sip:ref:`~PyQt5.QtCore.QUrl`, str]
         :static:
-        :description: QtWidgets/QFileDialog-getOpenFileUrl-f.rst
+        :description: QtWidgets/QFileDialog-getOpenFileUrl-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileDialog.getOpenFileUrls
         :args:
             parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
             caption: str = ''
-            directory: str = ''
+            directory: :sip:ref:`~PyQt5.QtCore.QUrl` = QUrl()
             filter: str = ''
             initialFilter: str = ''
             options: Union[:sip:ref:`~PyQt5.QtWidgets.QFileDialog.Options`, :sip:ref:`~PyQt5.QtWidgets.QFileDialog.Option`] = 0
@@ -217,7 +217,7 @@
         :returns:
             Tuple[List[:sip:ref:`~PyQt5.QtCore.QUrl`], str]
         :static:
-        :description: QtWidgets/QFileDialog-getOpenFileUrls-f.rst
+        :description: QtWidgets/QFileDialog-getOpenFileUrls-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileDialog.getSaveFileName
         :args:
@@ -236,7 +236,7 @@
         :args:
             parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
             caption: str = ''
-            directory: str = ''
+            directory: :sip:ref:`~PyQt5.QtCore.QUrl` = QUrl()
             filter: str = ''
             initialFilter: str = ''
             options: Union[:sip:ref:`~PyQt5.QtWidgets.QFileDialog.Options`, :sip:ref:`~PyQt5.QtWidgets.QFileDialog.Option`] = 0
@@ -244,7 +244,7 @@
         :returns:
             Tuple[:sip:ref:`~PyQt5.QtCore.QUrl`, str]
         :static:
-        :description: QtWidgets/QFileDialog-getSaveFileUrl-f.rst
+        :description: QtWidgets/QFileDialog-getSaveFileUrl-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileDialog.history
         :returns:

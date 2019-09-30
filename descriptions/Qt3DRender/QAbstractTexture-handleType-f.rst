@@ -1,0 +1,7 @@
+.. sip:method-description::
+    :status: todo
+    :pysig: 038d5d619ae33d8f6d454254607c2748
+    :realname: Qt3DRender::QAbstractTexture::handleType
+    :realsig: () const
+
+TODO

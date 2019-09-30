@@ -88,6 +88,11 @@
             :sip:ref:`~PyQt5.QtGui.QColor`
         :description: QtChart/QAbstractAxis-labelsColor-f.rst
 
+    .. sip:method:: PyQt5.QtChart.QAbstractAxis.labelsEditable
+        :returns:
+            bool
+        :description: QtChart/QAbstractAxis-labelsEditable-f.rst
+
     .. sip:method:: PyQt5.QtChart.QAbstractAxis.labelsFont
         :returns:
             :sip:ref:`~PyQt5.QtGui.QFont`
@@ -152,6 +157,11 @@
         :args:
             Union[:sip:ref:`~PyQt5.QtGui.QColor`, :sip:ref:`~PyQt5.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt5.QtGui.QGradient`]
         :description: QtChart/QAbstractAxis-setLabelsColor-f.rst
+
+    .. sip:method:: PyQt5.QtChart.QAbstractAxis.setLabelsEditable
+        :args:
+            editable: bool = True
+        :description: QtChart/QAbstractAxis-setLabelsEditable-f.rst
 
     .. sip:method:: PyQt5.QtChart.QAbstractAxis.setLabelsFont
         :args:
@@ -346,6 +356,11 @@
         :args:
             Union[:sip:ref:`~PyQt5.QtGui.QColor`, :sip:ref:`~PyQt5.QtCore.Qt.GlobalColor`, :sip:ref:`~PyQt5.QtGui.QGradient`]
         :description: QtChart/QAbstractAxis-labelsColorChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtChart.QAbstractAxis.labelsEditableChanged
+        :args:
+            bool
+        :description: QtChart/QAbstractAxis-labelsEditableChanged-s.rst
 
     .. sip:signal:: PyQt5.QtChart.QAbstractAxis.labelsFontChanged
         :args:

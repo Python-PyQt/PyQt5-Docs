@@ -70,13 +70,6 @@
             float
         :description: QtGui/QMatrix4x4-determinant-f.rst
 
-    .. sip:method:: PyQt5.QtGui.QMatrix4x4.__div__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
-        :description: QtGui/QMatrix4x4-__div__-f.rst
-
     .. sip:method:: PyQt5.QtGui.QMatrix4x4.__eq__
         :args:
             :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
@@ -112,13 +105,6 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
         :description: QtGui/QMatrix4x4-__iadd__-f.rst
-
-    .. sip:method:: PyQt5.QtGui.QMatrix4x4.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
-        :description: QtGui/QMatrix4x4-__idiv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QMatrix4x4.__imatmul__
         :args:
@@ -163,6 +149,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
         :description: QtGui/QMatrix4x4-__isub__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QMatrix4x4.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
+        :description: QtGui/QMatrix4x4-__itruediv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QMatrix4x4.lookAt
         :args:
@@ -440,6 +433,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
         :description: QtGui/QMatrix4x4-transposed-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QMatrix4x4.__truediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
+        :description: QtGui/QMatrix4x4-__truediv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QMatrix4x4.viewport
         :args:

@@ -24,10 +24,25 @@
             :sip:ref:`~PyQt5.Qt3DRender.QAttribute`
         :description: Qt3DRender/QGeometry-boundingVolumePositionAttribute-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QGeometry.maxExtent
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: Qt3DRender/QGeometry-maxExtent-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QGeometry.minExtent
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: Qt3DRender/QGeometry-minExtent-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QGeometry.removeAttribute
         :args:
             :sip:ref:`~PyQt5.Qt3DRender.QAttribute`
         :description: Qt3DRender/QGeometry-removeAttribute-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QGeometry.sceneChangeEvent
+        :args:
+            :sip:ref:`~PyQt5.Qt3DCore.QSceneChange`
+        :description: Qt3DRender/QGeometry-sceneChangeEvent-f.rst
 
     .. sip:method:: PyQt5.Qt3DRender.QGeometry.setBoundingVolumePositionAttribute
         :args:
@@ -38,3 +53,13 @@
         :args:
             :sip:ref:`~PyQt5.Qt3DRender.QAttribute`
         :description: Qt3DRender/QGeometry-boundingVolumePositionAttributeChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QGeometry.maxExtentChanged
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: Qt3DRender/QGeometry-maxExtentChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QGeometry.minExtentChanged
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QVector3D`
+        :description: Qt3DRender/QGeometry-minExtentChanged-s.rst

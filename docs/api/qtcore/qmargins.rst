@@ -45,20 +45,6 @@
             int
         :description: QtCore/QMargins-bottom-f.rst
 
-    .. sip:method:: PyQt5.QtCore.QMargins.__div__
-        :args:
-            int
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QMargins`
-        :description: QtCore/QMargins-__div__-f.rst
-
-    .. sip:method:: PyQt5.QtCore.QMargins.__div__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QMargins`
-        :description: QtCore/QMargins-__div__-f-1.rst
-
     .. sip:method:: PyQt5.QtCore.QMargins.__eq__
         :args:
             :sip:ref:`~PyQt5.QtCore.QMargins`
@@ -79,20 +65,6 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QMargins`
         :description: QtCore/QMargins-__iadd__-f-1.rst
-
-    .. sip:method:: PyQt5.QtCore.QMargins.__idiv__
-        :args:
-            int
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QMargins`
-        :description: QtCore/QMargins-__idiv__-f.rst
-
-    .. sip:method:: PyQt5.QtCore.QMargins.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QMargins`
-        :description: QtCore/QMargins-__idiv__-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QMargins.__imul__
         :args:
@@ -126,6 +98,20 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QMargins`
         :description: QtCore/QMargins-__isub__-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QMargins.__itruediv__
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QMargins`
+        :description: QtCore/QMargins-__itruediv__-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QMargins.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QMargins`
+        :description: QtCore/QMargins-__itruediv__-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QMargins.left
         :returns:
@@ -213,3 +199,17 @@
         :returns:
             int
         :description: QtCore/QMargins-top-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QMargins.__truediv__
+        :args:
+            int
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QMargins`
+        :description: QtCore/QMargins-__truediv__-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QMargins.__truediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QMargins`
+        :description: QtCore/QMargins-__truediv__-f-1.rst

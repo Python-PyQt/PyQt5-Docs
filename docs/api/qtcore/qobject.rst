@@ -47,6 +47,14 @@
     .. sip:method:: PyQt5.QtCore.QObject.disconnect
         :description: QtCore/QObject-disconnect-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QObject.disconnect
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QMetaObject.Connection`
+        :returns:
+            bool
+        :static:
+        :description: QtCore/QObject-disconnect-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QObject.disconnectNotify
         :args:
             :sip:ref:`~PyQt5.QtCore.QMetaMethod`

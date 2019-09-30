@@ -41,6 +41,11 @@
     .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.clearHttpCache
         :description: QtWebEngine/QQuickWebEngineProfile-clearHttpCache-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.clientCertificateStore
+        :returns:
+            :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineClientCertificateStore`
+        :description: QtWebEngine/QQuickWebEngineProfile-clientCertificateStore-f.rst
+
     .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.cookieStore
         :returns:
             :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineCookieStore`
@@ -51,6 +56,11 @@
             :sip:ref:`~PyQt5.QtWebEngine.QQuickWebEngineProfile`
         :static:
         :description: QtWebEngine/QQuickWebEngineProfile-defaultProfile-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.downloadPath
+        :returns:
+            str
+        :description: QtWebEngine/QQuickWebEngineProfile-downloadPath-f.rst
 
     .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.httpAcceptLanguage
         :returns:
@@ -88,6 +98,11 @@
             bool
         :description: QtWebEngine/QQuickWebEngineProfile-isSpellCheckEnabled-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.isUsedForGlobalCertificateVerification
+        :returns:
+            bool
+        :description: QtWebEngine/QQuickWebEngineProfile-isUsedForGlobalCertificateVerification-f.rst
+
     .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.persistentCookiesPolicy
         :returns:
             :sip:ref:`~PyQt5.QtWebEngine.QQuickWebEngineProfile.PersistentCookiesPolicy`
@@ -115,6 +130,11 @@
         :args:
             str
         :description: QtWebEngine/QQuickWebEngineProfile-setCachePath-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.setDownloadPath
+        :args:
+            str
+        :description: QtWebEngine/QQuickWebEngineProfile-setDownloadPath-f.rst
 
     .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.setHttpAcceptLanguage
         :args:
@@ -171,6 +191,16 @@
             str
         :description: QtWebEngine/QQuickWebEngineProfile-setStorageName-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.setUrlRequestInterceptor
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineUrlRequestInterceptor`
+        :description: QtWebEngine/QQuickWebEngineProfile-setUrlRequestInterceptor-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.setUseForGlobalCertificateVerification
+        :args:
+            bool
+        :description: QtWebEngine/QQuickWebEngineProfile-setUseForGlobalCertificateVerification-f.rst
+
     .. sip:method:: PyQt5.QtWebEngine.QQuickWebEngineProfile.spellCheckLanguages
         :returns:
             List[str]
@@ -190,6 +220,9 @@
 
     .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.cachePathChanged
         :description: QtWebEngine/QQuickWebEngineProfile-cachePathChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.downloadPathChanged
+        :description: QtWebEngine/QQuickWebEngineProfile-downloadPathChanged-s.rst
 
     .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.httpAcceptLanguageChanged
         :description: QtWebEngine/QQuickWebEngineProfile-httpAcceptLanguageChanged-s.rst
@@ -212,6 +245,11 @@
     .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.persistentStoragePathChanged
         :description: QtWebEngine/QQuickWebEngineProfile-persistentStoragePathChanged-s.rst
 
+    .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.presentNotification
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineNotification`
+        :description: QtWebEngine/QQuickWebEngineProfile-presentNotification-s.rst
+
     .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.spellCheckEnabledChanged
         :description: QtWebEngine/QQuickWebEngineProfile-spellCheckEnabledChanged-s.rst
 
@@ -220,3 +258,6 @@
 
     .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.storageNameChanged
         :description: QtWebEngine/QQuickWebEngineProfile-storageNameChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtWebEngine.QQuickWebEngineProfile.useForGlobalCertificateVerificationChanged
+        :description: QtWebEngine/QQuickWebEngineProfile-useForGlobalCertificateVerificationChanged-s.rst

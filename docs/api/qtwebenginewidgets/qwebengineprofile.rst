@@ -55,6 +55,11 @@
             Iterable[:sip:ref:`~PyQt5.QtCore.QUrl`]
         :description: QtWebEngineWidgets/QWebEngineProfile-clearVisitedLinks-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.clientCertificateStore
+        :returns:
+            :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineClientCertificateStore`
+        :description: QtWebEngineWidgets/QWebEngineProfile-clientCertificateStore-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.cookieStore
         :returns:
             :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineCookieStore`
@@ -65,6 +70,11 @@
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineProfile`
         :static:
         :description: QtWebEngineWidgets/QWebEngineProfile-defaultProfile-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.downloadPath
+        :returns:
+            str
+        :description: QtWebEngineWidgets/QWebEngineProfile-downloadPath-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.httpAcceptLanguage
         :returns:
@@ -102,6 +112,11 @@
             bool
         :description: QtWebEngineWidgets/QWebEngineProfile-isSpellCheckEnabled-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.isUsedForGlobalCertificateVerification
+        :returns:
+            bool
+        :description: QtWebEngineWidgets/QWebEngineProfile-isUsedForGlobalCertificateVerification-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.persistentCookiesPolicy
         :returns:
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineProfile.PersistentCookiesPolicy`
@@ -135,6 +150,11 @@
             str
         :description: QtWebEngineWidgets/QWebEngineProfile-setCachePath-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.setDownloadPath
+        :args:
+            str
+        :description: QtWebEngineWidgets/QWebEngineProfile-setDownloadPath-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.setHttpAcceptLanguage
         :args:
             str
@@ -154,6 +174,11 @@
         :args:
             str
         :description: QtWebEngineWidgets/QWebEngineProfile-setHttpUserAgent-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.setNotificationPresenter
+        :args:
+            Callable[[:sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineNotification`], None]
+        :description: QtWebEngineWidgets/QWebEngineProfile-setNotificationPresenter-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.setPersistentCookiesPolicy
         :args:
@@ -184,6 +209,16 @@
         :returns:
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineSettings`
         :description: QtWebEngineWidgets/QWebEngineProfile-settings-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.setUrlRequestInterceptor
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineUrlRequestInterceptor`
+        :description: QtWebEngineWidgets/QWebEngineProfile-setUrlRequestInterceptor-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.setUseForGlobalCertificateVerification
+        :args:
+            enabled: bool = True
+        :description: QtWebEngineWidgets/QWebEngineProfile-setUseForGlobalCertificateVerification-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineProfile.spellCheckLanguages
         :returns:

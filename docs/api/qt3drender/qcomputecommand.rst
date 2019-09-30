@@ -4,10 +4,29 @@
     :inherits: :sip:ref:`~PyQt5.Qt3DCore.QComponent`
     :description: Qt3DRender/QComputeCommand-c.rst
 
+    .. sip:enum:: PyQt5.Qt3DRender.QComputeCommand.RunType
+        :description: Qt3DRender/QComputeCommand-RunType-e.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DRender.QComputeCommand.RunType.Continuous
+            :description: Qt3DRender/QComputeCommand-RunType-Continuous-v.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DRender.QComputeCommand.RunType.Manual
+            :description: Qt3DRender/QComputeCommand-RunType-Manual-v.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QComputeCommand.__init__
         :args:
             parent: :sip:ref:`~PyQt5.Qt3DCore.QNode` = None
         :description: Qt3DRender/QComputeCommand-__init__-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QComputeCommand.runType
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DRender.QComputeCommand.RunType`
+        :description: Qt3DRender/QComputeCommand-runType-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QComputeCommand.setRunType
+        :args:
+            :sip:ref:`~PyQt5.Qt3DRender.QComputeCommand.RunType`
+        :description: Qt3DRender/QComputeCommand-setRunType-f.rst
 
     .. sip:method:: PyQt5.Qt3DRender.QComputeCommand.setWorkGroupX
         :args:
@@ -24,6 +43,19 @@
             int
         :description: Qt3DRender/QComputeCommand-setWorkGroupZ-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QComputeCommand.trigger
+        :args:
+            frameCount: int = 1
+        :description: Qt3DRender/QComputeCommand-trigger-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QComputeCommand.trigger
+        :args:
+            int
+            int
+            int
+            frameCount: int = 1
+        :description: Qt3DRender/QComputeCommand-trigger-f-1.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QComputeCommand.workGroupX
         :returns:
             int
@@ -38,6 +70,9 @@
         :returns:
             int
         :description: Qt3DRender/QComputeCommand-workGroupZ-f.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QComputeCommand.runTypeChanged
+        :description: Qt3DRender/QComputeCommand-runTypeChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QComputeCommand.workGroupXChanged
         :description: Qt3DRender/QComputeCommand-workGroupXChanged-s.rst

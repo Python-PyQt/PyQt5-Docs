@@ -43,6 +43,9 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QPickingSettings.PickResultMode.NearestPick
             :description: Qt3DRender/QPickingSettings-PickResultMode-NearestPick-v.rst
 
+        .. sip:enum-member:: PyQt5.Qt3DRender.QPickingSettings.PickResultMode.NearestPriorityPick
+            :description: Qt3DRender/QPickingSettings-PickResultMode-NearestPriorityPick-v.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QPickingSettings.__init__
         :args:
             parent: :sip:ref:`~PyQt5.Qt3DCore.QNode` = None

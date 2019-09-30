@@ -36,13 +36,6 @@
             :sip:ref:`~PyQt5.QtCore.QSize`
         :description: QtCore/QSize-boundedTo-f.rst
 
-    .. sip:method:: PyQt5.QtCore.QSize.__div__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QSize`
-        :description: QtCore/QSize-__div__-f.rst
-
     .. sip:method:: PyQt5.QtCore.QSize.__eq__
         :args:
             :sip:ref:`~PyQt5.QtCore.QSize`
@@ -68,13 +61,6 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QSize`
         :description: QtCore/QSize-__iadd__-f.rst
-
-    .. sip:method:: PyQt5.QtCore.QSize.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtCore.QSize`
-        :description: QtCore/QSize-__idiv__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QSize.__imul__
         :args:
@@ -104,6 +90,13 @@
         :returns:
             bool
         :description: QtCore/QSize-isValid-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QSize.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QSize`
+        :description: QtCore/QSize-__itruediv__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QSize.__mul__
         :args:
@@ -185,6 +178,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QSize`
         :description: QtCore/QSize-transposed-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QSize.__truediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QSize`
+        :description: QtCore/QSize-__truediv__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QSize.width
         :returns:

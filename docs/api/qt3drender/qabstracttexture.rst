@@ -85,6 +85,15 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.Filter.NearestMipMapNearest
             :description: Qt3DRender/QAbstractTexture-Filter-NearestMipMapNearest-v.rst
 
+    .. sip:enum:: PyQt5.Qt3DRender.QAbstractTexture.HandleType
+        :description: Qt3DRender/QAbstractTexture-HandleType-e.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.HandleType.NoHandle
+            :description: Qt3DRender/QAbstractTexture-HandleType-NoHandle-v.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.HandleType.OpenGLTextureId
+            :description: Qt3DRender/QAbstractTexture-HandleType-OpenGLTextureId-v.rst
+
     .. sip:enum:: PyQt5.Qt3DRender.QAbstractTexture.Status
         :description: Qt3DRender/QAbstractTexture-Status-e.rst
 
@@ -482,6 +491,16 @@
             bool
         :description: Qt3DRender/QAbstractTexture-generateMipMaps-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QAbstractTexture.handle
+        :returns:
+            Any
+        :description: Qt3DRender/QAbstractTexture-handle-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QAbstractTexture.handleType
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DRender.QAbstractTexture.HandleType`
+        :description: Qt3DRender/QAbstractTexture-handleType-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QAbstractTexture.height
         :returns:
             int
@@ -648,6 +667,16 @@
         :args:
             bool
         :description: Qt3DRender/QAbstractTexture-generateMipMapsChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QAbstractTexture.handleChanged
+        :args:
+            Any
+        :description: Qt3DRender/QAbstractTexture-handleChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QAbstractTexture.handleTypeChanged
+        :args:
+            :sip:ref:`~PyQt5.Qt3DRender.QAbstractTexture.HandleType`
+        :description: Qt3DRender/QAbstractTexture-handleTypeChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QAbstractTexture.heightChanged
         :args:

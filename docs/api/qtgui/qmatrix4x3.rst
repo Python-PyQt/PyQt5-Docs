@@ -52,13 +52,6 @@
             :sip:ref:`~PyQt5.QtGui.QMatrix4x3`
         :description: QtGui/QMatrix4x3-__iadd__-f.rst
 
-    .. sip:method:: PyQt5.QtGui.QMatrix4x3.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QMatrix4x3`
-        :description: QtGui/QMatrix4x3-__idiv__-f.rst
-
     .. sip:method:: PyQt5.QtGui.QMatrix4x3.__imul__
         :args:
             float
@@ -77,6 +70,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QMatrix4x3`
         :description: QtGui/QMatrix4x3-__isub__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QMatrix4x3.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QMatrix4x3`
+        :description: QtGui/QMatrix4x3-__itruediv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QMatrix4x3.__ne__
         :args:

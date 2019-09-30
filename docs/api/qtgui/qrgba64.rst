@@ -79,6 +79,11 @@
             int
         :description: QtGui/QRgba64-green8-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QRgba64.__int__
+        :returns:
+            int
+        :description: QtGui/QRgba64-__int__-f.rst
+
     .. sip:method:: PyQt5.QtGui.QRgba64.isOpaque
         :returns:
             bool
@@ -88,11 +93,6 @@
         :returns:
             bool
         :description: QtGui/QRgba64-isTransparent-f.rst
-
-    .. sip:method:: PyQt5.QtGui.QRgba64.__long__
-        :returns:
-            int
-        :description: QtGui/QRgba64-__long__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QRgba64.premultiplied
         :returns:

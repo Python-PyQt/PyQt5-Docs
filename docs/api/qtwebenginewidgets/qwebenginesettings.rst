@@ -114,6 +114,9 @@
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEngineSettings.WebAttribute.LocalStorageEnabled
             :description: QtWebEngineWidgets/QWebEngineSettings-WebAttribute-LocalStorageEnabled-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEngineSettings.WebAttribute.PdfViewerEnabled
+            :description: QtWebEngineWidgets/QWebEngineSettings-WebAttribute-PdfViewerEnabled-v.rst
+
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEngineSettings.WebAttribute.PlaybackRequiresUserGesture
             :description: QtWebEngineWidgets/QWebEngineSettings-WebAttribute-PlaybackRequiresUserGesture-v.rst
 

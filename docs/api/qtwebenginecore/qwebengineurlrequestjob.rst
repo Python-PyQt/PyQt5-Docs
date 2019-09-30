@@ -46,6 +46,11 @@
             :sip:ref:`~PyQt5.QtCore.QIODevice`
         :description: QtWebEngineCore/QWebEngineUrlRequestJob-reply-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestJob.requestHeaders
+        :returns:
+            Dict[:sip:ref:`~PyQt5.QtCore.QByteArray`, :sip:ref:`~PyQt5.QtCore.QByteArray`]
+        :description: QtWebEngineCore/QWebEngineUrlRequestJob-requestHeaders-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestJob.requestMethod
         :returns:
             :sip:ref:`~PyQt5.QtCore.QByteArray`

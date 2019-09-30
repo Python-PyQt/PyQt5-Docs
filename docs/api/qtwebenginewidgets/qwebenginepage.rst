@@ -28,6 +28,9 @@
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.Feature.MouseLock
             :description: QtWebEngineWidgets/QWebEnginePage-Feature-MouseLock-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.Feature.Notifications
+            :description: QtWebEngineWidgets/QWebEnginePage-Feature-Notifications-v.rst
+
     .. sip:enum:: PyQt5.QtWebEngineWidgets.QWebEnginePage.FileSelectionMode
         :description: QtWebEngineWidgets/QWebEnginePage-FileSelectionMode-e.rst
 
@@ -561,6 +564,11 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtWebEngineWidgets/QWebEnginePage-setUrl-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.setUrlRequestInterceptor
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineUrlRequestInterceptor`
+        :description: QtWebEngineWidgets/QWebEnginePage-setUrlRequestInterceptor-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.setView
         :args:

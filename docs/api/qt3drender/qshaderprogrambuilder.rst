@@ -9,6 +9,11 @@
             parent: :sip:ref:`~PyQt5.Qt3DCore.QNode` = None
         :description: Qt3DRender/QShaderProgramBuilder-__init__-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.computeShaderCode
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: Qt3DRender/QShaderProgramBuilder-computeShaderCode-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.computeShaderGraph
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
@@ -19,15 +24,30 @@
             List[str]
         :description: Qt3DRender/QShaderProgramBuilder-enabledLayers-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.fragmentShaderCode
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: Qt3DRender/QShaderProgramBuilder-fragmentShaderCode-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.fragmentShaderGraph
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-fragmentShaderGraph-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.geometryShaderCode
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: Qt3DRender/QShaderProgramBuilder-geometryShaderCode-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.geometryShaderGraph
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-geometryShaderGraph-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.sceneChangeEvent
+        :args:
+            :sip:ref:`~PyQt5.Qt3DCore.QSceneChange`
+        :description: Qt3DRender/QShaderProgramBuilder-sceneChangeEvent-f.rst
 
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.setComputeShaderGraph
         :args:
@@ -74,20 +94,40 @@
             :sip:ref:`~PyQt5.Qt3DRender.QShaderProgram`
         :description: Qt3DRender/QShaderProgramBuilder-shaderProgram-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationControlShaderCode
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: Qt3DRender/QShaderProgramBuilder-tessellationControlShaderCode-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationControlShaderGraph
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-tessellationControlShaderGraph-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationEvaluationShaderCode
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: Qt3DRender/QShaderProgramBuilder-tessellationEvaluationShaderCode-f.rst
 
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationEvaluationShaderGraph
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-tessellationEvaluationShaderGraph-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.vertexShaderCode
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: Qt3DRender/QShaderProgramBuilder-vertexShaderCode-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgramBuilder.vertexShaderGraph
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-vertexShaderGraph-f.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.computeShaderCodeChanged
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: Qt3DRender/QShaderProgramBuilder-computeShaderCodeChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.computeShaderGraphChanged
         :args:
@@ -99,10 +139,20 @@
             Iterable[str]
         :description: Qt3DRender/QShaderProgramBuilder-enabledLayersChanged-s.rst
 
+    .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.fragmentShaderCodeChanged
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: Qt3DRender/QShaderProgramBuilder-fragmentShaderCodeChanged-s.rst
+
     .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.fragmentShaderGraphChanged
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-fragmentShaderGraphChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.geometryShaderCodeChanged
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: Qt3DRender/QShaderProgramBuilder-geometryShaderCodeChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.geometryShaderGraphChanged
         :args:
@@ -114,15 +164,30 @@
             :sip:ref:`~PyQt5.Qt3DRender.QShaderProgram`
         :description: Qt3DRender/QShaderProgramBuilder-shaderProgramChanged-s.rst
 
+    .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationControlShaderCodeChanged
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: Qt3DRender/QShaderProgramBuilder-tessellationControlShaderCodeChanged-s.rst
+
     .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationControlShaderGraphChanged
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-tessellationControlShaderGraphChanged-s.rst
 
+    .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationEvaluationShaderCodeChanged
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: Qt3DRender/QShaderProgramBuilder-tessellationEvaluationShaderCodeChanged-s.rst
+
     .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.tessellationEvaluationShaderGraphChanged
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: Qt3DRender/QShaderProgramBuilder-tessellationEvaluationShaderGraphChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.vertexShaderCodeChanged
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: Qt3DRender/QShaderProgramBuilder-vertexShaderCodeChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QShaderProgramBuilder.vertexShaderGraphChanged
         :args:

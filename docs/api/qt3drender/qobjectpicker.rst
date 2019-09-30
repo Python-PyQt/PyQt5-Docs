@@ -29,6 +29,11 @@
             bool
         :description: Qt3DRender/QObjectPicker-isPressed-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QObjectPicker.priority
+        :returns:
+            int
+        :description: Qt3DRender/QObjectPicker-priority-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QObjectPicker.sceneChangeEvent
         :args:
             :sip:ref:`~PyQt5.Qt3DCore.QSceneChange`
@@ -43,6 +48,11 @@
         :args:
             bool
         :description: Qt3DRender/QObjectPicker-setHoverEnabled-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QObjectPicker.setPriority
+        :args:
+            int
+        :description: Qt3DRender/QObjectPicker-setPriority-f.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QObjectPicker.clicked
         :args:
@@ -84,6 +94,11 @@
         :args:
             bool
         :description: Qt3DRender/QObjectPicker-pressedChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QObjectPicker.priorityChanged
+        :args:
+            int
+        :description: Qt3DRender/QObjectPicker-priorityChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QObjectPicker.released
         :args:

@@ -72,13 +72,6 @@
             float
         :description: QtGui/QTransform-determinant-f.rst
 
-    .. sip:method:: PyQt5.QtGui.QTransform.__div__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QTransform`
-        :description: QtGui/QTransform-__div__-f.rst
-
     .. sip:method:: PyQt5.QtGui.QTransform.dx
         :returns:
             float
@@ -125,13 +118,6 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QTransform`
         :description: QtGui/QTransform-__iadd__-f.rst
-
-    .. sip:method:: PyQt5.QtGui.QTransform.__idiv__
-        :args:
-            float
-        :returns:
-            :sip:ref:`~PyQt5.QtGui.QTransform`
-        :description: QtGui/QTransform-__idiv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTransform.__imatmul__
         :args:
@@ -196,6 +182,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QTransform`
         :description: QtGui/QTransform-__isub__-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTransform.__itruediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTransform`
+        :description: QtGui/QTransform-__itruediv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTransform.m11
         :returns:
@@ -460,6 +453,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QTransform`
         :description: QtGui/QTransform-transposed-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTransform.__truediv__
+        :args:
+            float
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTransform`
+        :description: QtGui/QTransform-__truediv__-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTransform.type
         :returns:
