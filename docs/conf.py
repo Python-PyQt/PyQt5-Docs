@@ -11,7 +11,8 @@ sphinx_root = os.path.abspath(os.path.join('..', 'sphinx'))
 
 # Add Sphinx extension module names.
 sys.path.append(os.path.join(sphinx_root, 'ext'))
-extensions = ['sphinxsip']
+extensions = ['sphinxsip', 'sphinx.ext.intersphinx']
+intersphinx_mapping = {'python': ('https://docs.python.org/3', None)}
 
 # Add paths that contain templates here, relative to this directory.
 templates_path = [os.path.join(sphinx_root, 'templates')]
