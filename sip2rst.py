@@ -217,7 +217,8 @@ class Overload:
         self.returns = []
 
 
-def generate_rst(module, package, sip_root, descriptions, api, sip, stub, verbose):
+def generate_rst(module, package, include_dirs, descriptions, api, sip,
+        sip_file, verbose):
     """ Generate the reST for a single module. """
 
     # Create the module-specific api directory.
@@ -226,14 +227,22 @@ def generate_rst(module, package, sip_root, descriptions, api, sip, stub, verbos
 
     os.makedirs(os.path.join(descriptions, module), exist_ok=True)
 
-    if stub:
+    if sip_file is None:
         module_el = None
     else:
         with tempfile.TemporaryDirectory() as xml_dir:
             # Run sip to create the XML API description.
-            sip_file = os.path.join(sip_root, module, module + 'mod.sip')
             xml_file = os.path.join(xml_dir, module + '.xml')
-            run(sip, '-m', xml_file, '-I', sip_root, sip_file, verbose=verbose)
+
+            args = [sip, '-m', xml_file]
+
+            for d in include_dirs:
+                args.append('-I')
+                args.append(d)
+
+            args.append(sip_file)
+
+            run(args, verbose=verbose)
 
             # Read the XML.
             module_el = etree.parse(xml_file).getroot()
@@ -866,7 +875,7 @@ def find_exe(name):
     error("'{0}' must be installed on PATH".format(name))
 
 
-def run(*args, verbose):
+def run(args, verbose):
     """ Run an external command. """
 
     if verbose:
@@ -913,65 +922,48 @@ if __name__ == '__main__':
             default='descriptions',
             help="the name of the directory where the module's stub description .rst files will be placed")
 
-    arg_parser.add_argument('--package', metavar='NAME', default='',
-            help="the name of the optional top-level package")
+    arg_parser.add_argument('--include-dir', metavar='DIR', default=[],
+            action='append', dest='include_dirs',
+            help="add DIR to the list of directories to search for .sip files")
 
-    arg_parser.add_argument('--sip', metavar='FILE', default='sip',
+    arg_parser.add_argument('--sip-file', metavar='FILE',
+            help="the name of the .sip file defining the (non-stub) module")
+
+    arg_parser.add_argument('--sip', metavar='FILE', default='sip5',
             help="the name of the sip executable")
-
-    arg_parser.add_argument('--sip-root', metavar='DIR',
-            help="the root directory containing the package's .sip files")
-
-    arg_parser.add_argument('--stub', action='store_true', default=False,
-            help="create a module stub")
 
     arg_parser.add_argument('--verbose', action='store_true', default=False,
             help="enable verbose progress messages")
 
-    arg_parser.add_argument('modules', metavar='module',
-            nargs=argparse.REMAINDER,
-            help="the name of a module within the optional top-level package")
+    arg_parser.add_argument('modules', metavar='module', nargs=1,
+            help="the fully qualified name of the module")
 
     args = arg_parser.parse_args()
 
     # Regularise the arguments.
-    package = args.package
-
-    sip_root = args.sip_root
-    if not sip_root:
-        sip_root = sys.prefix
-
-        if sys.platform != 'win32':
-            sip_root = os.path.join(sip_root, 'share')
-
-        sip_root = os.path.join(sip_root, 'sip5')
-
-    if package:
-        sip_root = os.path.join(sip_root, package)
-
-    sip_root = os.path.abspath(sip_root)
-    sip = find_exe(args.sip)
-    descriptions = os.path.abspath(args.descriptions)
     api = os.path.abspath(args.api)
     clean = args.clean
-    stub = args.stub
+    descriptions = os.path.abspath(args.descriptions)
+    include_dirs = [os.path.abspath(d) for d in args.include_dirs]
+    sip_file = None if args.sip_file is None else os.path.abspath(args.sip_file)
+    sip = find_exe(args.sip)
     verbose = args.verbose
+
+    parts = args.modules[0].split('.')
+    package = '.'.join(parts[:-1])
+    module = parts[-1]
 
     # Tell the user what they have specified.
     if verbose:
-        if not stub:
-            print("The module .sip files are in", sip_root)
-
         print("The sip executable is", sip)
         print("Module description stubs will be placed in", descriptions)
         print("Module API skeletons will be placed in", api)
 
-    # Generate the reST for each module.
-    for module in args.modules:
-        clean_skeletons(module, api, verbose)
+    # Generate the reST for the module.
+    clean_skeletons(module, api, verbose)
 
-        if clean:
-            clean_descriptions(module, descriptions, verbose)
+    if clean:
+        clean_descriptions(module, descriptions, verbose)
 
-        generate_rst(module, package, sip_root, descriptions, api, sip,
-                stub, verbose)
+    generate_rst(module, package, include_dirs, descriptions, api, sip,
+            sip_file, verbose)
