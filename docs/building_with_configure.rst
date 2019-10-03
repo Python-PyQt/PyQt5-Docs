@@ -545,9 +545,10 @@ The following values can be specified in the configuration file:
     overridden by the :option:`--pyuic5-interpreter` option.
 
 
-Installing PyQt3D, PyQtChart, PyQtDataVisualization and PyQtPurchasing
-----------------------------------------------------------------------
+Building PyQt5-related Projects
+-------------------------------
 
-These additional packages are built and installed in exactly the same way as
-PyQt5 itself.  In other words the source packages contain a ``configure.py``
-script and binary wheels can be installed from PyPI.
+The additional PyQt5 projects (i.e. PyQtWebEngine, PyQt3D, PyQtChart,
+PyQtDataVisualization and PyQtPurchasing) are built and installed in exactly
+the same way as PyQt5 itself.  In other words the source packages contain a
+``configure.py`` script.
