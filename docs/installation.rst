@@ -671,7 +671,7 @@ The full set of command line options is:
 
     Display the version number and exit.
 
-.. option:: --build-tag-suffix <SUFFIX>
+.. option:: --build-tag-suffix SUFFIX
 
     ``SUFFIX`` is appended to the build tag in the name of the updated wheel.
     The build tag is the version number of the copy of Qt being bundled.
@@ -687,14 +687,14 @@ The full set of command line options is:
     On Windows the OpenSSL DLLs (included with :program:`pyqt-bundle`) will not
     be included in the wheel.
 
-.. option:: --openssl-dir <DIR>
+.. option:: --openssl-dir DIR
 
     On Windows the OpenSSL DLLs included in the wheels are taken from ``DIR``
     instead of the DLLs included with :program:`pyqt-bundle`.  (Qt v5.12.4 and
     later are configured for OpenSSL v1.1.1.  Earlier versions of Qt are
     configured for OpenSSL v1.0.2.)
 
-.. option:: --qt-dir <DIR>
+.. option:: --qt-dir DIR
 
     ``DIR`` contains the LGPL or commercial Qt installation to be bundled.  The
     directory is what Qt refers to as the *prefix* directory, i.e. the
