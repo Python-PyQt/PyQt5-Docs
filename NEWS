@@ -1,3 +1,7 @@
+v5.14 ??? ??? 2019
+  - Added the PyQt-builder documentation.
+  - SIP v5 is nwo the prefered build tool.
+
 v5.13 2nd July 2019
   - Updated the documentation for PyQt v5.13.
 
