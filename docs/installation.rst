@@ -167,7 +167,12 @@ can be found on :envvar:`PATH`.  If you do not do this then you will get a
 cryptic error message from :program:`pip`.
 
 The recommended method of building PyQt5 from source is to unpack the sdist and
-use SIP's :program:`sip-install` program.
+use SIP's :program:`sip-install` program.  You must first install `PyQt-builder
+<https://pypi.org/project/PyQt-builder/>`__ by running::
+
+    pip install PyQt-builder
+
+This will automatically install :program:`sip-install` if necessary.
 
 
 .. _ref-pyqt-bundle:
@@ -199,10 +204,7 @@ complete wheel.
 
 The :program:`pyqt-bundle` program is provided as a means of bundling the
 relevant parts of a local Qt installation with a wheel, replacing any existing
-copy.  It is part of `PyQt-builder <https://pypi.org/project/PyQt-builder/>`__
-which can be installed by running::
-
-    pip install PyQt-builder
+copy.  It is part of `PyQt-builder <https://pypi.org/project/PyQt-builder/>`__.
 
 :program:`pyqt-bundle` assumes that the Qt installation has been created from
 one of the LGPL or commercial binary installers provided by The Qt Company.  It
