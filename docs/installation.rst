@@ -149,30 +149,154 @@ To uninstall the commercial version, run::
 Building and Installing from Source
 -----------------------------------
 
+Starting with PyQt5 v5.14.0 :program:`pip` can be used to download, build and
+install the GPL source packages from the `PyQt5
+<https://pypi.org/project/PyQt5/>`__ project at PyPI.  For this to work your
+:envvar:`PATH` environment variable must contain your Qt installation's ``bin``
+directory.  If you do not do this then you will get a cryptic error message
+from :program:`pip`.
+
+However using :program:`pip` to install from the source package is not
+recommended as it is not possible to configure the installation or to easily
+diagnose any problems.  The rest of these instructions assume that you have
+downloaded the source package from PyPI and will used SIP's
+:program:`sip-install` command line tool to do the build and installation.
+
+If you are using the commercial version of PyQt5 then you should use the
+download instructions which were sent to you when you made your purchase.  You
+must also download your ``pyqt-commercial.sip`` license file.
+
+
+Installing Prerequisites
+........................
+
+`PyQt-builder <https://pypi.org/project/PyQt-builder/>`__ extends the SIP build
+system and can be installed from PyPI by running::
+
+    pip install PyQt-builder
+
+This will also automatically install SIP if required.
+
+`PyQt-builder <https://pypi.org/project/PyQt-builder/>`__ and PyQt5 itself add
+the following options to SIP's command line tools.
+
+.. option:: --confirm-license
+
+    Using this confirms that you accept the terms of the PyQt5 license.  If it
+    is omitted then you will be asked for confirmation during configuration.
+
+.. option:: --dbus DIR
+
+    The directory containing the :file:`dbus/dbus-python.h` header file of the
+    dbus-python package can be found in the directory ``DIR``.
+
+.. option:: --license-dir DIR
+
+    The license files needed by the commercial version of PyQt5 can be found in
+    the directory ``DIR``.
+
+.. option:: --link-full-dll
+
+    On Windows the full Python API and the limited API (as used by PyQt5) are
+    implemented in different DLLs.  Normally the limited DLL is linked (unless
+    a debug version of the Python interpreter is being used.  This option
+    forces the full API DLL to be linked instead.
+
+.. option:: --no-dbus-python
+
+    The Qt support for the dbus-python package will not be built.
+
+.. option:: --no-designer-plugin
+
+    The Qt Designer plugin will not be built.
+
+.. option:: --no-make
+
+    Do not automatically invoke :program:`make` or :program:`nmake`.
+    (:program:`sip-build` only.)
+
+.. option:: --no-qml-plugin
+
+    The :program:`qmlscene` plugin will not be built.
+
+.. option:: --no-tools
+
+    The :program:`pyuic5`, :program:`pyrcc5` and :program:`pylupdate5` tools
+    will not be built.
+
+.. option:: --qmake FILE
+
+    Qt's :program:`qmake` program is used to determine how your Qt installation
+    is laid out.  Normally :program:`qmake` is found on your :envvar:`PATH`.
+    This option can be used to specify a particular instance of
+    :program:`qmake` to use.
+
+.. option:: --qmake-settings 'NAME += VALUE'
+
+    The setting will be added to any :program:`qmake` :file:`.pro` file that is
+    created.  This option may be given any number of times.
+
+.. option:: --qml-debug
+
+    Enable the QML debugging infrastructure.  This should not be enabled in a
+    production environment.
+
+.. option:: --qt-shared
+
+    Normally Qt is checked to see if it has been built as shared libraries.
+    Some Linux distributions configure their Qt builds to make this check
+    unreliable.  This option ignores the result of the check and assumes that
+    Qt has been built as shared libraries.
+
+.. option:: --spec SPEC
+
+    The argument ``-spec SPEC`` will be passed to :program:`qmake`.  The
+    default behaviour is platform specific.  On Windows
+    the value that is chosen is correct for the version of Python that is
+    being used.  (However if you have built Python yourself then you may need
+    to explicitly specify ``SPEC``.)  On macOS ``macx-xcode`` will be avoided
+    if possible.
+
+
 Building the :sip:ref:`~PyQt5.sip` Module
 .........................................
 
-Like any other, the :sip:ref:`~PyQt5.sip` module sdist can be built and
-installed by :program:`pip`.  As it uses :py:mod:`setuptools` as its build
-system you can also unpack the sdist and install it by running its
+It is not necessary to install the :sip:ref:`PyQt5.sip` module before building
+PyQt5 but it must be installed before PyQt5 can be used.  
+
+The module is built using :py:mod:`setuptools` and is available from the
+`PyQt5-sip <https://pypi.org/project/PyQt5-sip/>` project at PyPI.  It uses
+:py:mod:`setuptools` as its build system and can be installed by :program:`pip`
+or you can also unpack the sdist and install it by running its
 :program:`setup.py` script.
 
 
 Building PyQt5
 ..............
 
-:program:`pip` can also be used to build and install PyQt5 from its sdist.
-However you must make sure that your Qt installation's :program:`qmake` program
-can be found on :envvar:`PATH`.  If you do not do this then you will get a
-cryptic error message from :program:`pip`.
+Once you have downloaded the source package from PyPI, unpack it and change
+directory to its top level directory (i.e. the one containing the
+:file:`pyproject.toml` file.  To build and install PyQt5, run::
 
-The recommended method of building PyQt5 from source is to unpack the sdist and
-use SIP's :program:`sip-install` program.  You must first install `PyQt-builder
-<https://pypi.org/project/PyQt-builder/>`__ by running::
+    sip-install
 
-    pip install PyQt-builder
+In order to see all the available command line options, run::
 
-This will automatically install :program:`sip-install` if necessary.
+    sip-install -h
+
+If you want to run :program:`make` seperately then instead run::
+
+    sip-build --no-make
+    make
+    make install
+
+
+Building PyQt5-related Projects
+...............................
+
+The additional PyQt5 projects (i.e. PyQtWebEngine, PyQt3D, PyQtChart,
+PyQtDataVisualization and PyQtPurchasing) are built and installed in exactly
+the same way as PyQt5 itself.  PyQt5 must be built and installed first.
 
 
 .. _ref-pyqt-bundle:

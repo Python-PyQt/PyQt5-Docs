@@ -1,6 +1,8 @@
 Building PyQt5 with :program:`configure.py`
 ===========================================
 
+.. program:: configure.py
+
 Prior to the release of SIP v5 the only way to build PyQt5 (and related
 projects) was based on a :program:`configure.py` script.  This method is now
 deprecated and will be removed when SIP v6 is released (which is expected to be
@@ -11,13 +13,11 @@ move to SIP v5 without needing to change the way you build PyQt5 at the same
 time.
 
 
-Building and Installing from Source
------------------------------------
+Installing Prerequisites
+------------------------
 
-.. program:: configure.py
-
-Installing SIP
-..............
+SIP
+...
 
 SIP v4 or SIP v5 must be installed before building and using PyQt5.  If you are
 using SIP v5 you can simply install it using :program:`pip`.
@@ -36,8 +36,11 @@ https://www.riverbankcomputing.com/software/sip/download.
     the private copy of the module then add the ``--no-tools`` option.
 
 
-Downloading PyQt5
-.................
+Building PyQt5
+--------------
+
+Downloading
+...........
 
 Starting with PyQt5 v5.14.0 the GPL source packages can be downloaded from the
 `PyQt5 <https://pypi.org/project/PyQt5/>`__ project at PyPI.  You can download
@@ -49,8 +52,8 @@ download instructions which were sent to you when you made your purchase.  You
 must also download your ``pyqt-commercial.sip`` license file.
 
 
-Configuring PyQt5
-.................
+Configuring
+...........
 
 After unpacking the source package you should then check for any
 :file:`README` files that relate to your platform.
@@ -338,7 +341,7 @@ The full set of command line options is:
     will choose the value that is correct for the version of Python that is
     being used.  (However if you have built Python yourself then you may need
     to explicitly specify ``SPEC``.)  On macOS :program:`configure.py` will try
-    and avoid ``macx-xcode`` if possible.)
+    and avoid ``macx-xcode`` if possible.
 
 .. option:: --static
 
@@ -396,8 +399,8 @@ Any remaining command line arguments are expected to be in the form
 :program:`qmake` :file:`.pro` file created by :program:`configure.py`.
 
 
-Building PyQt5
-..............
+Building and Installing
+.......................
 
 The next step is to build PyQt5 by running your platform's :program:`make`
 command.  For example::
