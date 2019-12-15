@@ -37,6 +37,9 @@
         .. sip:enum-member:: PyQt5.QtGui.QImage.Format.Format_BGR30
             :description: QtGui/QImage-Format-Format_BGR30-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QImage.Format.Format_BGR888
+            :description: QtGui/QImage-Format-Format_BGR888-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QImage.Format.Format_Grayscale16
             :description: QtGui/QImage-Format-Format_Grayscale16-v.rst
 
@@ -179,6 +182,11 @@
             bool
         :description: QtGui/QImage-allGray-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QImage.applyColorTransform
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QColorTransform`
+        :description: QtGui/QImage-applyColorTransform-f.rst
+
     .. sip:method:: PyQt5.QtGui.QImage.bitPlaneCount
         :returns:
             int
@@ -216,6 +224,11 @@
             int
         :description: QtGui/QImage-colorCount-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QImage.colorSpace
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QColorSpace`
+        :description: QtGui/QImage-colorSpace-f.rst
+
     .. sip:method:: PyQt5.QtGui.QImage.colorTable
         :returns:
             List[int]
@@ -233,11 +246,23 @@
             sip.voidptr
         :description: QtGui/QImage-constScanLine-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QImage.convertedToColorSpace
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QColorSpace`
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QImage`
+        :description: QtGui/QImage-convertedToColorSpace-f.rst
+
     .. sip:method:: PyQt5.QtGui.QImage.convertTo
         :args:
             :sip:ref:`~PyQt5.QtGui.QImage.Format`
             flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlags`, :sip:ref:`~PyQt5.QtCore.Qt.ImageConversionFlag`] = Qt.ImageConversionFlag.AutoColor
         :description: QtGui/QImage-convertTo-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QImage.convertToColorSpace
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QColorSpace`
+        :description: QtGui/QImage-convertToColorSpace-f.rst
 
     .. sip:method:: PyQt5.QtGui.QImage.convertToFormat
         :args:
@@ -599,6 +624,11 @@
         :args:
             int
         :description: QtGui/QImage-setColorCount-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QImage.setColorSpace
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QColorSpace`
+        :description: QtGui/QImage-setColorSpace-f.rst
 
     .. sip:method:: PyQt5.QtGui.QImage.setColorTable
         :args:

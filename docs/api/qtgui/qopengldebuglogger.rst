@@ -22,8 +22,8 @@
         :args:
             sources: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Sources`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Source`] = :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Source.AnySource`
             types: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Types`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Type`] = :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Type.AnyType`
-            severities: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severities`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severity`] = :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severity.AnySeverity`
-        :description: QtGui/QOpenGLDebugLogger-disableMessages-f.rst
+            severities: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severities`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severity`] = QOpenGLDebugMessage.Severity.AnySeverity
+        :description: QtGui/QOpenGLDebugLogger-disableMessages-f-2.rst
 
     .. sip:method:: PyQt5.QtGui.QOpenGLDebugLogger.disableMessages
         :args:
@@ -36,8 +36,8 @@
         :args:
             sources: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Sources`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Source`] = :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Source.AnySource`
             types: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Types`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Type`] = :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Type.AnyType`
-            severities: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severities`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severity`] = :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severity.AnySeverity`
-        :description: QtGui/QOpenGLDebugLogger-enableMessages-f.rst
+            severities: Union[:sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severities`, :sip:ref:`~PyQt5.QtGui.QOpenGLDebugMessage.Severity`] = QOpenGLDebugMessage.Severity.AnySeverity
+        :description: QtGui/QOpenGLDebugLogger-enableMessages-f-2.rst
 
     .. sip:method:: PyQt5.QtGui.QOpenGLDebugLogger.enableMessages
         :args:

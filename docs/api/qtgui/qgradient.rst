@@ -315,6 +315,9 @@
         .. sip:enum-member:: PyQt5.QtGui.QGradient.Preset.NorthMiracle
             :description: QtGui/QGradient-Preset-NorthMiracle-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QGradient.Preset.NumPresets
+            :description: QtGui/QGradient-Preset-NumPresets-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QGradient.Preset.OctoberSilence
             :description: QtGui/QGradient-Preset-OctoberSilence-v.rst
 

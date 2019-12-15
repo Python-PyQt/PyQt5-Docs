@@ -22,6 +22,18 @@
         .. sip:enum-member:: PyQt5.QtGui.QTextBlockFormat.LineHeightTypes.SingleHeight
             :description: QtGui/QTextBlockFormat-LineHeightTypes-SingleHeight-v.rst
 
+    .. sip:enum:: PyQt5.QtGui.QTextBlockFormat.MarkerType
+        :description: QtGui/QTextBlockFormat-MarkerType-e.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextBlockFormat.MarkerType.Checked
+            :description: QtGui/QTextBlockFormat-MarkerType-Checked-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextBlockFormat.MarkerType.NoMarker
+            :description: QtGui/QTextBlockFormat-MarkerType-NoMarker-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextBlockFormat.MarkerType.Unchecked
+            :description: QtGui/QTextBlockFormat-MarkerType-Unchecked-v.rst
+
     .. sip:method:: PyQt5.QtGui.QTextBlockFormat.__init__
         :description: QtGui/QTextBlockFormat-__init__-f.rst
 
@@ -78,6 +90,11 @@
             int
         :description: QtGui/QTextBlockFormat-lineHeightType-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QTextBlockFormat.marker
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTextBlockFormat.MarkerType`
+        :description: QtGui/QTextBlockFormat-marker-f.rst
+
     .. sip:method:: PyQt5.QtGui.QTextBlockFormat.nonBreakableLines
         :returns:
             bool
@@ -123,6 +140,11 @@
             float
             int
         :description: QtGui/QTextBlockFormat-setLineHeight-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextBlockFormat.setMarker
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QTextBlockFormat.MarkerType`
+        :description: QtGui/QTextBlockFormat-setMarker-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTextBlockFormat.setNonBreakableLines
         :args:

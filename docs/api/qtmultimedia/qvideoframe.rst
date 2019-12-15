@@ -117,6 +117,9 @@
         .. sip:enum-member:: PyQt5.QtMultimedia.QVideoFrame.PixelFormat.Format_YUV420P
             :description: QtMultimedia/QVideoFrame-PixelFormat-Format_YUV420P-v.rst
 
+        .. sip:enum-member:: PyQt5.QtMultimedia.QVideoFrame.PixelFormat.Format_YUV422P
+            :description: QtMultimedia/QVideoFrame-PixelFormat-Format_YUV422P-v.rst
+
         .. sip:enum-member:: PyQt5.QtMultimedia.QVideoFrame.PixelFormat.Format_YUV444
             :description: QtMultimedia/QVideoFrame-PixelFormat-Format_YUV444-v.rst
 

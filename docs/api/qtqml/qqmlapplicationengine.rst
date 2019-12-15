@@ -42,6 +42,11 @@
             List[:sip:ref:`~PyQt5.QtCore.QObject`]
         :description: QtQml/QQmlApplicationEngine-rootObjects-f.rst
 
+    .. sip:method:: PyQt5.QtQml.QQmlApplicationEngine.setInitialProperties
+        :args:
+            Dict[str, Any]
+        :description: QtQml/QQmlApplicationEngine-setInitialProperties-f.rst
+
     .. sip:signal:: PyQt5.QtQml.QQmlApplicationEngine.objectCreated
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`

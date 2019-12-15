@@ -194,6 +194,16 @@
             bool
         :description: QtCore/QFileInfo-isRoot-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QFileInfo.isShortcut
+        :returns:
+            bool
+        :description: QtCore/QFileInfo-isShortcut-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QFileInfo.isSymbolicLink
+        :returns:
+            bool
+        :description: QtCore/QFileInfo-isSymbolicLink-f.rst
+
     .. sip:method:: PyQt5.QtCore.QFileInfo.isSymLink
         :returns:
             bool

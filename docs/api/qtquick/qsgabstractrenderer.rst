@@ -16,6 +16,12 @@
         .. sip:enum-member:: PyQt5.QtQuick.QSGAbstractRenderer.ClearModeBit.ClearStencilBuffer
             :description: QtQuick/QSGAbstractRenderer-ClearModeBit-ClearStencilBuffer-v.rst
 
+    .. sip:enum:: PyQt5.QtQuick.QSGAbstractRenderer.MatrixTransformFlag
+        :description: QtQuick/QSGAbstractRenderer-MatrixTransformFlag-e.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGAbstractRenderer.MatrixTransformFlag.MatrixTransformFlipY
+            :description: QtQuick/QSGAbstractRenderer-MatrixTransformFlag-MatrixTransformFlipY-v.rst
+
     .. sip:method:: PyQt5.QtQuick.QSGAbstractRenderer.clearColor
         :returns:
             :sip:ref:`~PyQt5.QtGui.QColor`
@@ -70,6 +76,12 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QRectF`
         :description: QtQuick/QSGAbstractRenderer-setProjectionMatrixToRect-f.rst
+
+    .. sip:method:: PyQt5.QtQuick.QSGAbstractRenderer.setProjectionMatrixToRect
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QRectF`
+            Union[:sip:ref:`~PyQt5.QtQuick.QSGAbstractRenderer.MatrixTransformFlags`, :sip:ref:`~PyQt5.QtQuick.QSGAbstractRenderer.MatrixTransformFlag`]
+        :description: QtQuick/QSGAbstractRenderer-setProjectionMatrixToRect-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGAbstractRenderer.setViewportRect
         :args:

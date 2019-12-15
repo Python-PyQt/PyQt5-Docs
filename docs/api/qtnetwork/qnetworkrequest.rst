@@ -9,6 +9,9 @@
         .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.AuthenticationReuseAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-AuthenticationReuseAttribute-v.rst
 
+        .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.AutoDeleteReplyOnFinishAttribute
+            :description: QtNetwork/QNetworkRequest-Attribute-AutoDeleteReplyOnFinishAttribute-v.rst
+
         .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.BackgroundRequestAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-BackgroundRequestAttribute-v.rst
 
@@ -216,6 +219,11 @@
             Any
         :description: QtNetwork/QNetworkRequest-header-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.http2Configuration
+        :returns:
+            :sip:ref:`~PyQt5.QtNetwork.QHttp2Configuration`
+        :description: QtNetwork/QNetworkRequest-http2Configuration-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.maximumRedirectsAllowed
         :returns:
             int
@@ -266,6 +274,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QNetworkRequest.KnownHeaders`
             Any
         :description: QtNetwork/QNetworkRequest-setHeader-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.setHttp2Configuration
+        :args:
+            :sip:ref:`~PyQt5.QtNetwork.QHttp2Configuration`
+        :description: QtNetwork/QNetworkRequest-setHttp2Configuration-f.rst
 
     .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.setMaximumRedirectsAllowed
         :args:

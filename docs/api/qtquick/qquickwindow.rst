@@ -22,6 +22,12 @@
         .. sip:enum-member:: PyQt5.QtQuick.QQuickWindow.CreateTextureOption.TextureOwnsGLTexture
             :description: QtQuick/QQuickWindow-CreateTextureOption-TextureOwnsGLTexture-v.rst
 
+    .. sip:enum:: PyQt5.QtQuick.QQuickWindow.NativeObjectType
+        :description: QtQuick/QQuickWindow-NativeObjectType-e.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QQuickWindow.NativeObjectType.NativeObjectTexture
+            :description: QtQuick/QQuickWindow-NativeObjectType-NativeObjectTexture-v.rst
+
     .. sip:enum:: PyQt5.QtQuick.QQuickWindow.RenderStage
         :description: QtQuick/QQuickWindow-RenderStage-e.rst
 
@@ -67,6 +73,9 @@
         :returns:
             :sip:ref:`~PyQt5.QtQuick.QQuickItem`
         :description: QtQuick/QQuickWindow-activeFocusItem-f.rst
+
+    .. sip:method:: PyQt5.QtQuick.QQuickWindow.beginExternalCommands
+        :description: QtQuick/QQuickWindow-beginExternalCommands-f.rst
 
     .. sip:method:: PyQt5.QtQuick.QQuickWindow.clearBeforeRendering
         :returns:
@@ -117,10 +126,24 @@
             :sip:ref:`~PyQt5.QtQuick.QSGTexture`
         :description: QtQuick/QQuickWindow-createTextureFromImage-f-1.rst
 
+    .. sip:method:: PyQt5.QtQuick.QQuickWindow.createTextureFromNativeObject
+        :args:
+            :sip:ref:`~PyQt5.QtQuick.QQuickWindow.NativeObjectType`
+            sip.voidptr
+            int
+            :sip:ref:`~PyQt5.QtCore.QSize`
+            options: Union[:sip:ref:`~PyQt5.QtQuick.QQuickWindow.CreateTextureOptions`, :sip:ref:`~PyQt5.QtQuick.QQuickWindow.CreateTextureOption`] = QQuickWindow.CreateTextureOption()
+        :returns:
+            :sip:ref:`~PyQt5.QtQuick.QSGTexture`
+        :description: QtQuick/QQuickWindow-createTextureFromNativeObject-f.rst
+
     .. sip:method:: PyQt5.QtQuick.QQuickWindow.effectiveDevicePixelRatio
         :returns:
             float
         :description: QtQuick/QQuickWindow-effectiveDevicePixelRatio-f.rst
+
+    .. sip:method:: PyQt5.QtQuick.QQuickWindow.endExternalCommands
+        :description: QtQuick/QQuickWindow-endExternalCommands-f.rst
 
     .. sip:method:: PyQt5.QtQuick.QQuickWindow.event
         :args:
@@ -359,11 +382,17 @@
     .. sip:signal:: PyQt5.QtQuick.QQuickWindow.afterRendering
         :description: QtQuick/QQuickWindow-afterRendering-s.rst
 
+    .. sip:signal:: PyQt5.QtQuick.QQuickWindow.afterRenderPassRecording
+        :description: QtQuick/QQuickWindow-afterRenderPassRecording-s.rst
+
     .. sip:signal:: PyQt5.QtQuick.QQuickWindow.afterSynchronizing
         :description: QtQuick/QQuickWindow-afterSynchronizing-s.rst
 
     .. sip:signal:: PyQt5.QtQuick.QQuickWindow.beforeRendering
         :description: QtQuick/QQuickWindow-beforeRendering-s.rst
+
+    .. sip:signal:: PyQt5.QtQuick.QQuickWindow.beforeRenderPassRecording
+        :description: QtQuick/QQuickWindow-beforeRenderPassRecording-s.rst
 
     .. sip:signal:: PyQt5.QtQuick.QQuickWindow.beforeSynchronizing
         :description: QtQuick/QQuickWindow-beforeSynchronizing-s.rst

@@ -14,8 +14,8 @@
 
     .. sip:method:: PyQt5.QtWidgets.QTableWidgetItem.__init__
         :args:
-            type: int = :sip:ref:`~PyQt5.QtWidgets.QTableWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTableWidgetItem-__init__-f.rst
+            type: int = QTableWidgetItem.ItemType.Type
+        :description: QtWidgets/QTableWidgetItem-__init__-f-4.rst
 
     .. sip:method:: PyQt5.QtWidgets.QTableWidgetItem.__init__
         :args:
@@ -25,15 +25,15 @@
     .. sip:method:: PyQt5.QtWidgets.QTableWidgetItem.__init__
         :args:
             str
-            type: int = :sip:ref:`~PyQt5.QtWidgets.QTableWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTableWidgetItem-__init__-f-2.rst
+            type: int = QTableWidgetItem.ItemType.Type
+        :description: QtWidgets/QTableWidgetItem-__init__-f-5.rst
 
     .. sip:method:: PyQt5.QtWidgets.QTableWidgetItem.__init__
         :args:
             :sip:ref:`~PyQt5.QtGui.QIcon`
             str
-            type: int = :sip:ref:`~PyQt5.QtWidgets.QTableWidgetItem.ItemType.Type`
-        :description: QtWidgets/QTableWidgetItem-__init__-f-3.rst
+            type: int = QTableWidgetItem.ItemType.Type
+        :description: QtWidgets/QTableWidgetItem-__init__-f-6.rst
 
     .. sip:method:: PyQt5.QtWidgets.QTableWidgetItem.background
         :returns:

@@ -6,11 +6,23 @@
     .. sip:enum:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi
         :description: QtQuick/QSGRendererInterface-GraphicsApi-e.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.Direct3D11Rhi
+            :description: QtQuick/QSGRendererInterface-GraphicsApi-Direct3D11Rhi-v.rst
+
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.Direct3D12
             :description: QtQuick/QSGRendererInterface-GraphicsApi-Direct3D12-v.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.MetalRhi
+            :description: QtQuick/QSGRendererInterface-GraphicsApi-MetalRhi-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.NullRhi
+            :description: QtQuick/QSGRendererInterface-GraphicsApi-NullRhi-v.rst
+
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.OpenGL
             :description: QtQuick/QSGRendererInterface-GraphicsApi-OpenGL-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.OpenGLRhi
+            :description: QtQuick/QSGRendererInterface-GraphicsApi-OpenGLRhi-v.rst
 
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.OpenVG
             :description: QtQuick/QSGRendererInterface-GraphicsApi-OpenVG-v.rst
@@ -21,8 +33,14 @@
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.Unknown
             :description: QtQuick/QSGRendererInterface-GraphicsApi-Unknown-v.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.GraphicsApi.VulkanRhi
+            :description: QtQuick/QSGRendererInterface-GraphicsApi-VulkanRhi-v.rst
+
     .. sip:enum:: PyQt5.QtQuick.QSGRendererInterface.Resource
         :description: QtQuick/QSGRendererInterface-Resource-e.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.CommandEncoderResource
+            :description: QtQuick/QSGRendererInterface-Resource-CommandEncoderResource-v.rst
 
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.CommandListResource
             :description: QtQuick/QSGRendererInterface-Resource-CommandListResource-v.rst
@@ -30,11 +48,29 @@
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.CommandQueueResource
             :description: QtQuick/QSGRendererInterface-Resource-CommandQueueResource-v.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.DeviceContextResource
+            :description: QtQuick/QSGRendererInterface-Resource-DeviceContextResource-v.rst
+
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.DeviceResource
             :description: QtQuick/QSGRendererInterface-Resource-DeviceResource-v.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.OpenGLContextResource
+            :description: QtQuick/QSGRendererInterface-Resource-OpenGLContextResource-v.rst
+
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.PainterResource
             :description: QtQuick/QSGRendererInterface-Resource-PainterResource-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.PhysicalDeviceResource
+            :description: QtQuick/QSGRendererInterface-Resource-PhysicalDeviceResource-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.RenderPassResource
+            :description: QtQuick/QSGRendererInterface-Resource-RenderPassResource-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.RhiResource
+            :description: QtQuick/QSGRendererInterface-Resource-RhiResource-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.Resource.VulkanInstanceResource
+            :description: QtQuick/QSGRendererInterface-Resource-VulkanInstanceResource-v.rst
 
     .. sip:enum:: PyQt5.QtQuick.QSGRendererInterface.ShaderCompilationType
         :description: QtQuick/QSGRendererInterface-ShaderCompilationType-e.rst
@@ -66,6 +102,9 @@
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.ShaderType.HLSL
             :description: QtQuick/QSGRendererInterface-ShaderType-HLSL-v.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.ShaderType.RhiShader
+            :description: QtQuick/QSGRendererInterface-ShaderType-RhiShader-v.rst
+
         .. sip:enum-member:: PyQt5.QtQuick.QSGRendererInterface.ShaderType.UnknownShadingLanguage
             :description: QtQuick/QSGRendererInterface-ShaderType-UnknownShadingLanguage-v.rst
 
@@ -89,6 +128,14 @@
         :returns:
             :sip:ref:`~PyQt5.QtQuick.QSGRendererInterface.GraphicsApi`
         :description: QtQuick/QSGRendererInterface-graphicsApi-f.rst
+
+    .. sip:method:: PyQt5.QtQuick.QSGRendererInterface.isApiRhiBased
+        :args:
+            :sip:ref:`~PyQt5.QtQuick.QSGRendererInterface.GraphicsApi`
+        :returns:
+            bool
+        :static:
+        :description: QtQuick/QSGRendererInterface-isApiRhiBased-f.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGRendererInterface.shaderCompilationType
         :returns:

@@ -74,6 +74,11 @@
             :sip:ref:`~PyQt5.QtMultimedia.QAudioFormat`
         :description: QtMultimedia/QAudioDeviceInfo-preferredFormat-f.rst
 
+    .. sip:method:: PyQt5.QtMultimedia.QAudioDeviceInfo.realm
+        :returns:
+            str
+        :description: QtMultimedia/QAudioDeviceInfo-realm-f.rst
+
     .. sip:method:: PyQt5.QtMultimedia.QAudioDeviceInfo.supportedByteOrders
         :returns:
             List[:sip:ref:`~PyQt5.QtMultimedia.QAudioFormat.Endian`]

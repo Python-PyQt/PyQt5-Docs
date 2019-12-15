@@ -9,6 +9,11 @@
             parent: :sip:ref:`~PyQt5.Qt3DCore.QNode` = None
         :description: Qt3DExtras/QForwardRenderer-__init__-f.rst
 
+    .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.buffersToClear
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DRender.QClearBuffers.BufferType`
+        :description: Qt3DExtras/QForwardRenderer-buffersToClear-f.rst
+
     .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.camera
         :returns:
             :sip:ref:`~PyQt5.Qt3DCore.QEntity`
@@ -33,6 +38,11 @@
         :returns:
             bool
         :description: Qt3DExtras/QForwardRenderer-isFrustumCullingEnabled-f.rst
+
+    .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.setBuffersToClear
+        :args:
+            :sip:ref:`~PyQt5.Qt3DRender.QClearBuffers.BufferType`
+        :description: Qt3DExtras/QForwardRenderer-setBuffersToClear-f.rst
 
     .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.setCamera
         :args:
@@ -78,6 +88,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QRectF`
         :description: Qt3DExtras/QForwardRenderer-viewportRect-f.rst
+
+    .. sip:signal:: PyQt5.Qt3DExtras.QForwardRenderer.buffersToClearChanged
+        :args:
+            :sip:ref:`~PyQt5.Qt3DRender.QClearBuffers.BufferType`
+        :description: Qt3DExtras/QForwardRenderer-buffersToClearChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DExtras.QForwardRenderer.cameraChanged
         :args:

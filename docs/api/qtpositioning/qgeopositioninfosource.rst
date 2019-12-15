@@ -45,6 +45,13 @@
         :static:
         :description: QtPositioning/QGeoPositionInfoSource-availableSources-f.rst
 
+    .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.backendProperty
+        :args:
+            str
+        :returns:
+            Any
+        :description: QtPositioning/QGeoPositionInfoSource-backendProperty-f.rst
+
     .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.createDefaultSource
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`
@@ -52,6 +59,15 @@
             :sip:ref:`~PyQt5.QtPositioning.QGeoPositionInfoSource`
         :static:
         :description: QtPositioning/QGeoPositionInfoSource-createDefaultSource-f.rst
+
+    .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.createDefaultSource
+        :args:
+            Dict[str, Any]
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :returns:
+            :sip:ref:`~PyQt5.QtPositioning.QGeoPositionInfoSource`
+        :static:
+        :description: QtPositioning/QGeoPositionInfoSource-createDefaultSource-f-1.rst
 
     .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.createSource
         :args:
@@ -61,6 +77,16 @@
             :sip:ref:`~PyQt5.QtPositioning.QGeoPositionInfoSource`
         :static:
         :description: QtPositioning/QGeoPositionInfoSource-createSource-f.rst
+
+    .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.createSource
+        :args:
+            str
+            Dict[str, Any]
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :returns:
+            :sip:ref:`~PyQt5.QtPositioning.QGeoPositionInfoSource`
+        :static:
+        :description: QtPositioning/QGeoPositionInfoSource-createSource-f-1.rst
 
     .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.error
         :returns:
@@ -88,6 +114,14 @@
         :args:
             timeout: int = 0
         :description: QtPositioning/QGeoPositionInfoSource-requestUpdate-f.rst
+
+    .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.setBackendProperty
+        :args:
+            str
+            Any
+        :returns:
+            bool
+        :description: QtPositioning/QGeoPositionInfoSource-setBackendProperty-f.rst
 
     .. sip:method:: PyQt5.QtPositioning.QGeoPositionInfoSource.setPreferredPositioningMethods
         :args:

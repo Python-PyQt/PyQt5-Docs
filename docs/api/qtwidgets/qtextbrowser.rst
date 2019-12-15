@@ -20,6 +20,12 @@
     .. sip:method:: PyQt5.QtWidgets.QTextBrowser.clearHistory
         :description: QtWidgets/QTextBrowser-clearHistory-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QTextBrowser.doSetSource
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QUrl`
+            type: :sip:ref:`~PyQt5.QtGui.QTextDocument.ResourceType` = :sip:ref:`~PyQt5.QtGui.QTextDocument.ResourceType.UnknownResource`
+        :description: QtWidgets/QTextBrowser-doSetSource-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QTextBrowser.event
         :args:
             :sip:ref:`~PyQt5.QtCore.QEvent`
@@ -145,10 +151,21 @@
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtWidgets/QTextBrowser-setSource-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QTextBrowser.setSource
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QUrl`
+            :sip:ref:`~PyQt5.QtGui.QTextDocument.ResourceType`
+        :description: QtWidgets/QTextBrowser-setSource-f-1.rst
+
     .. sip:method:: PyQt5.QtWidgets.QTextBrowser.source
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtWidgets/QTextBrowser-source-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QTextBrowser.sourceType
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTextDocument.ResourceType`
+        :description: QtWidgets/QTextBrowser-sourceType-f.rst
 
     .. sip:signal:: PyQt5.QtWidgets.QTextBrowser.anchorClicked
         :args:

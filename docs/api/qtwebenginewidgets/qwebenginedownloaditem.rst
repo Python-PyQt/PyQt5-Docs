@@ -133,6 +133,16 @@
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.cancel
         :description: QtWebEngineWidgets/QWebEngineDownloadItem-cancel-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.downloadDirectory
+        :returns:
+            str
+        :description: QtWebEngineWidgets/QWebEngineDownloadItem-downloadDirectory-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.downloadFileName
+        :returns:
+            str
+        :description: QtWebEngineWidgets/QWebEngineDownloadItem-downloadFileName-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.id
         :returns:
             int
@@ -194,6 +204,16 @@
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.SavePageFormat`
         :description: QtWebEngineWidgets/QWebEngineDownloadItem-savePageFormat-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.setDownloadDirectory
+        :args:
+            str
+        :description: QtWebEngineWidgets/QWebEngineDownloadItem-setDownloadDirectory-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.setDownloadFileName
+        :args:
+            str
+        :description: QtWebEngineWidgets/QWebEngineDownloadItem-setDownloadFileName-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.setPath
         :args:
             str
@@ -208,6 +228,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.DownloadState`
         :description: QtWebEngineWidgets/QWebEngineDownloadItem-state-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.suggestedFileName
+        :returns:
+            str
+        :description: QtWebEngineWidgets/QWebEngineDownloadItem-suggestedFileName-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineDownloadItem.totalBytes
         :returns:

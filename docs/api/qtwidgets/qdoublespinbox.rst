@@ -131,6 +131,11 @@
             float
         :description: QtWidgets/QDoubleSpinBox-valueFromText-f.rst
 
+    .. sip:signal:: PyQt5.QtWidgets.QDoubleSpinBox.textChanged
+        :args:
+            str
+        :description: QtWidgets/QDoubleSpinBox-textChanged-s.rst
+
     .. sip:signal:: PyQt5.QtWidgets.QDoubleSpinBox.valueChanged
         :args:
             float

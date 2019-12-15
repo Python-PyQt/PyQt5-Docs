@@ -731,8 +731,8 @@
 
     .. sip:method:: PyQt5.QtQuick.QQuickItem.updateInputMethod
         :args:
-            queries: Union[:sip:ref:`~PyQt5.QtCore.Qt.InputMethodQueries`, :sip:ref:`~PyQt5.QtCore.Qt.InputMethodQuery`] = :sip:ref:`~PyQt5.QtCore.Qt.InputMethodQuery.ImQueryInput`
-        :description: QtQuick/QQuickItem-updateInputMethod-f.rst
+            queries: Union[:sip:ref:`~PyQt5.QtCore.Qt.InputMethodQueries`, :sip:ref:`~PyQt5.QtCore.Qt.InputMethodQuery`] = Qt.InputMethodQuery.ImQueryInput
+        :description: QtQuick/QQuickItem-updateInputMethod-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QQuickItem.updatePaintNode
         :args:

@@ -32,6 +32,11 @@
     .. sip:method:: PyQt5.QtCore.QBasicTimer.stop
         :description: QtCore/QBasicTimer-stop-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QBasicTimer.swap
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QBasicTimer`
+        :description: QtCore/QBasicTimer-swap-f.rst
+
     .. sip:method:: PyQt5.QtCore.QBasicTimer.timerId
         :returns:
             int

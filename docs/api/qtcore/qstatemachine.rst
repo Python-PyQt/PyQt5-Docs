@@ -19,6 +19,9 @@
         .. sip:enum-member:: PyQt5.QtCore.QStateMachine.Error.NoInitialStateError
             :description: QtCore/QStateMachine-Error-NoInitialStateError-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.QStateMachine.Error.StateMachineChildModeSetToParallelError
+            :description: QtCore/QStateMachine-Error-StateMachineChildModeSetToParallelError-v.rst
+
     .. sip:enum:: PyQt5.QtCore.QStateMachine.EventPriority
         :description: QtCore/QStateMachine-EventPriority-e.rst
 

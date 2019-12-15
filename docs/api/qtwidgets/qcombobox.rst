@@ -525,3 +525,13 @@
         :args:
             str
         :description: QtWidgets/QComboBox-highlighted-s-1.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QComboBox.textActivated
+        :args:
+            str
+        :description: QtWidgets/QComboBox-textActivated-s.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QComboBox.textHighlighted
+        :args:
+            str
+        :description: QtWidgets/QComboBox-textHighlighted-s.rst

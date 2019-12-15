@@ -37,6 +37,11 @@
         .. sip:enum-member:: PyQt5.QtDBus.QDBusConnectionInterface.ServiceReplacementOptions.DontAllowReplacement
             :description: QtDBus/QDBusConnectionInterface-ServiceReplacementOptions-DontAllowReplacement-v.rst
 
+    .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.activatableServiceNames
+        :returns:
+            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
+        :description: QtDBus/QDBusConnectionInterface-activatableServiceNames-f.rst
+
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.connectNotify
         :args:
             :sip:ref:`~PyQt5.QtCore.QMetaMethod`

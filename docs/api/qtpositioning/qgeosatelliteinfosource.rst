@@ -38,6 +38,15 @@
         :static:
         :description: QtPositioning/QGeoSatelliteInfoSource-createDefaultSource-f.rst
 
+    .. sip:method:: PyQt5.QtPositioning.QGeoSatelliteInfoSource.createDefaultSource
+        :args:
+            Dict[str, Any]
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :returns:
+            :sip:ref:`~PyQt5.QtPositioning.QGeoSatelliteInfoSource`
+        :static:
+        :description: QtPositioning/QGeoSatelliteInfoSource-createDefaultSource-f-1.rst
+
     .. sip:method:: PyQt5.QtPositioning.QGeoSatelliteInfoSource.createSource
         :args:
             str
@@ -46,6 +55,16 @@
             :sip:ref:`~PyQt5.QtPositioning.QGeoSatelliteInfoSource`
         :static:
         :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f.rst
+
+    .. sip:method:: PyQt5.QtPositioning.QGeoSatelliteInfoSource.createSource
+        :args:
+            str
+            Dict[str, Any]
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :returns:
+            :sip:ref:`~PyQt5.QtPositioning.QGeoSatelliteInfoSource`
+        :static:
+        :description: QtPositioning/QGeoSatelliteInfoSource-createSource-f-1.rst
 
     .. sip:method:: PyQt5.QtPositioning.QGeoSatelliteInfoSource.error
         :returns:

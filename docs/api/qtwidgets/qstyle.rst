@@ -772,6 +772,9 @@
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DesktopIcon
             :description: QtWidgets/QStyle-StandardPixmap-SP_DesktopIcon-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogAbortButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_DialogAbortButton-v.rst
+
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogApplyButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_DialogApplyButton-v.rst
 
@@ -787,8 +790,14 @@
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogHelpButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_DialogHelpButton-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogIgnoreButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_DialogIgnoreButton-v.rst
+
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogNoButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_DialogNoButton-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogNoToAllButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_DialogNoToAllButton-v.rst
 
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogOkButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_DialogOkButton-v.rst
@@ -799,11 +808,20 @@
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogResetButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_DialogResetButton-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogRetryButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_DialogRetryButton-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogSaveAllButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_DialogSaveAllButton-v.rst
+
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogSaveButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_DialogSaveButton-v.rst
 
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogYesButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_DialogYesButton-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DialogYesToAllButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_DialogYesToAllButton-v.rst
 
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_DirClosedIcon
             :description: QtWidgets/QStyle-StandardPixmap-SP_DirClosedIcon-v.rst
@@ -915,6 +933,9 @@
 
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_MessageBoxWarning
             :description: QtWidgets/QStyle-StandardPixmap-SP_MessageBoxWarning-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_RestoreDefaultsButton
+            :description: QtWidgets/QStyle-StandardPixmap-SP_RestoreDefaultsButton-v.rst
 
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.StandardPixmap.SP_TitleBarCloseButton
             :description: QtWidgets/QStyle-StandardPixmap-SP_TitleBarCloseButton-v.rst

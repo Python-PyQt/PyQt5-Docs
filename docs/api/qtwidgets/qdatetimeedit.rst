@@ -63,6 +63,11 @@
             parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
         :description: QtWidgets/QDateTimeEdit-__init__-f-3.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QDateTimeEdit.calendar
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :description: QtWidgets/QDateTimeEdit-calendar-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QDateTimeEdit.calendarPopup
         :returns:
             bool
@@ -225,6 +230,11 @@
         :returns:
             str
         :description: QtWidgets/QDateTimeEdit-sectionText-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QDateTimeEdit.setCalendar
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :description: QtWidgets/QDateTimeEdit-setCalendar-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QDateTimeEdit.setCalendarPopup
         :args:

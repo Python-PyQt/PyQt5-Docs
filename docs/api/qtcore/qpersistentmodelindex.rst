@@ -31,10 +31,10 @@
 
     .. sip:method:: PyQt5.QtCore.QPersistentModelIndex.data
         :args:
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtCore/QPersistentModelIndex-data-f.rst
+        :description: QtCore/QPersistentModelIndex-data-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QPersistentModelIndex.__eq__
         :args:

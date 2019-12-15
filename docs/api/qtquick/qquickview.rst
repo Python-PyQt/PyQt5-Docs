@@ -105,6 +105,11 @@
             :sip:ref:`~PyQt5.QtQuick.QQuickItem`
         :description: QtQuick/QQuickView-rootObject-f.rst
 
+    .. sip:method:: PyQt5.QtQuick.QQuickView.setInitialProperties
+        :args:
+            Dict[str, Any]
+        :description: QtQuick/QQuickView-setInitialProperties-f.rst
+
     .. sip:method:: PyQt5.QtQuick.QQuickView.setResizeMode
         :args:
             :sip:ref:`~PyQt5.QtQuick.QQuickView.ResizeMode`

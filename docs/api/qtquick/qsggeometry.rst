@@ -66,8 +66,20 @@
     .. sip:enum:: PyQt5.QtQuick.QSGGeometry.Type
         :description: QtQuick/QSGGeometry-Type-e.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGGeometry.Type.Bytes2Type
+            :description: QtQuick/QSGGeometry-Type-Bytes2Type-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGGeometry.Type.Bytes3Type
+            :description: QtQuick/QSGGeometry-Type-Bytes3Type-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGGeometry.Type.Bytes4Type
+            :description: QtQuick/QSGGeometry-Type-Bytes4Type-v.rst
+
         .. sip:enum-member:: PyQt5.QtQuick.QSGGeometry.Type.ByteType
             :description: QtQuick/QSGGeometry-Type-ByteType-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGGeometry.Type.DoubleType
+            :description: QtQuick/QSGGeometry-Type-DoubleType-v.rst
 
         .. sip:enum-member:: PyQt5.QtQuick.QSGGeometry.Type.FloatType
             :description: QtQuick/QSGGeometry-Type-FloatType-v.rst

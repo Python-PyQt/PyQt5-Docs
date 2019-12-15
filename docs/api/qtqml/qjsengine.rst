@@ -62,6 +62,11 @@
             object: Union[:sip:ref:`~PyQt5.QtQml.QJSValue`, :sip:ref:`~PyQt5.QtQml.QJSValue.SpecialValue`, bool, int, float, str] = QJSValue()
         :description: QtQml/QJSEngine-installTranslatorFunctions-f.rst
 
+    .. sip:method:: PyQt5.QtQml.QJSEngine.isInterrupted
+        :returns:
+            bool
+        :description: QtQml/QJSEngine-isInterrupted-f.rst
+
     .. sip:method:: PyQt5.QtQml.QJSEngine.newArray
         :args:
             length: int = 0
@@ -95,6 +100,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtQml.QJSValue`
         :description: QtQml/QJSEngine-newQObject-f.rst
+
+    .. sip:method:: PyQt5.QtQml.QJSEngine.setInterrupted
+        :args:
+            bool
+        :description: QtQml/QJSEngine-setInterrupted-f.rst
 
     .. sip:method:: PyQt5.QtQml.QJSEngine.throwError
         :args:

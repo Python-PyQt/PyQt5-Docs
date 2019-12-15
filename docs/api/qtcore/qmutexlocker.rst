@@ -8,6 +8,11 @@
             :sip:ref:`~PyQt5.QtCore.QMutex`
         :description: QtCore/QMutexLocker-__init__-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QMutexLocker.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QRecursiveMutex`
+        :description: QtCore/QMutexLocker-__init__-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QMutexLocker.__enter__
         :returns:
             object

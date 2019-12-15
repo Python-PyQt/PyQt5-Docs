@@ -295,6 +295,9 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.TextureFormat.RGB10A2
             :description: Qt3DRender/QAbstractTexture-TextureFormat-RGB10A2-v.rst
 
+        .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.TextureFormat.RGB10A2U
+            :description: Qt3DRender/QAbstractTexture-TextureFormat-RGB10A2U-v.rst
+
         .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.TextureFormat.RGB16_SNorm
             :description: Qt3DRender/QAbstractTexture-TextureFormat-RGB16_SNorm-v.rst
 
@@ -632,6 +635,11 @@
         :returns:
             List[:sip:ref:`~PyQt5.Qt3DRender.QAbstractTextureImage`]
         :description: Qt3DRender/QAbstractTexture-textureImages-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QAbstractTexture.updateData
+        :args:
+            :sip:ref:`~PyQt5.Qt3DRender.QTextureDataUpdate`
+        :description: Qt3DRender/QAbstractTexture-updateData-f.rst
 
     .. sip:method:: PyQt5.Qt3DRender.QAbstractTexture.width
         :returns:

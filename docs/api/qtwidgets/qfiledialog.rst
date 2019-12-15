@@ -303,6 +303,13 @@
             bool
         :description: QtWidgets/QFileDialog-restoreState-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QFileDialog.saveFileContent
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+            fileNameHint: str = ''
+        :static:
+        :description: QtWidgets/QFileDialog-saveFileContent-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QFileDialog.saveState
         :returns:
             :sip:ref:`~PyQt5.QtCore.QByteArray`

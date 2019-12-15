@@ -205,36 +205,36 @@
     .. sip:method:: PyQt5.QtCore.QDir.entryInfoList
         :args:
             filters: Union[:sip:ref:`~PyQt5.QtCore.QDir.Filters`, :sip:ref:`~PyQt5.QtCore.QDir.Filter`] = :sip:ref:`~PyQt5.QtCore.QDir.Filter.NoFilter`
-            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = :sip:ref:`~PyQt5.QtCore.QDir.SortFlag.NoSort`
+            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = QDir.SortFlag.NoSort
         :returns:
             List[:sip:ref:`~PyQt5.QtCore.QFileInfo`]
-        :description: QtCore/QDir-entryInfoList-f.rst
+        :description: QtCore/QDir-entryInfoList-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QDir.entryInfoList
         :args:
             Iterable[str]
             filters: Union[:sip:ref:`~PyQt5.QtCore.QDir.Filters`, :sip:ref:`~PyQt5.QtCore.QDir.Filter`] = :sip:ref:`~PyQt5.QtCore.QDir.Filter.NoFilter`
-            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = :sip:ref:`~PyQt5.QtCore.QDir.SortFlag.NoSort`
+            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = QDir.SortFlag.NoSort
         :returns:
             List[:sip:ref:`~PyQt5.QtCore.QFileInfo`]
-        :description: QtCore/QDir-entryInfoList-f-1.rst
+        :description: QtCore/QDir-entryInfoList-f-3.rst
 
     .. sip:method:: PyQt5.QtCore.QDir.entryList
         :args:
             filters: Union[:sip:ref:`~PyQt5.QtCore.QDir.Filters`, :sip:ref:`~PyQt5.QtCore.QDir.Filter`] = :sip:ref:`~PyQt5.QtCore.QDir.Filter.NoFilter`
-            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = :sip:ref:`~PyQt5.QtCore.QDir.SortFlag.NoSort`
+            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = QDir.SortFlag.NoSort
         :returns:
             List[str]
-        :description: QtCore/QDir-entryList-f.rst
+        :description: QtCore/QDir-entryList-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QDir.entryList
         :args:
             Iterable[str]
             filters: Union[:sip:ref:`~PyQt5.QtCore.QDir.Filters`, :sip:ref:`~PyQt5.QtCore.QDir.Filter`] = :sip:ref:`~PyQt5.QtCore.QDir.Filter.NoFilter`
-            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = :sip:ref:`~PyQt5.QtCore.QDir.SortFlag.NoSort`
+            sort: Union[:sip:ref:`~PyQt5.QtCore.QDir.SortFlags`, :sip:ref:`~PyQt5.QtCore.QDir.SortFlag`] = QDir.SortFlag.NoSort
         :returns:
             List[str]
-        :description: QtCore/QDir-entryList-f-1.rst
+        :description: QtCore/QDir-entryList-f-3.rst
 
     .. sip:method:: PyQt5.QtCore.QDir.__eq__
         :args:

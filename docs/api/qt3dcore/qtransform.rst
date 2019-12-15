@@ -136,6 +136,11 @@
             :sip:ref:`~PyQt5.QtGui.QVector3D`
         :description: Qt3DCore/QTransform-scale3D-f.rst
 
+    .. sip:method:: PyQt5.Qt3DCore.QTransform.sceneChangeEvent
+        :args:
+            :sip:ref:`~PyQt5.Qt3DCore.QSceneChange`
+        :description: Qt3DCore/QTransform-sceneChangeEvent-f.rst
+
     .. sip:method:: PyQt5.Qt3DCore.QTransform.setMatrix
         :args:
             :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
@@ -181,6 +186,11 @@
             :sip:ref:`~PyQt5.QtGui.QVector3D`
         :description: Qt3DCore/QTransform-translation-f.rst
 
+    .. sip:method:: PyQt5.Qt3DCore.QTransform.worldMatrix
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
+        :description: Qt3DCore/QTransform-worldMatrix-f.rst
+
     .. sip:signal:: PyQt5.Qt3DCore.QTransform.matrixChanged
         :description: Qt3DCore/QTransform-matrixChanged-s.rst
 
@@ -218,3 +228,8 @@
         :args:
             :sip:ref:`~PyQt5.QtGui.QVector3D`
         :description: Qt3DCore/QTransform-translationChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DCore.QTransform.worldMatrixChanged
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QMatrix4x4`
+        :description: Qt3DCore/QTransform-worldMatrixChanged-s.rst

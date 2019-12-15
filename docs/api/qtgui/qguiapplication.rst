@@ -93,6 +93,12 @@
         :static:
         :description: QtGui/QGuiApplication-font-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QGuiApplication.highDpiScaleFactorRoundingPolicy
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy`
+        :static:
+        :description: QtGui/QGuiApplication-highDpiScaleFactorRoundingPolicy-f.rst
+
     .. sip:method:: PyQt5.QtGui.QGuiApplication.inputMethod
         :returns:
             :sip:ref:`~PyQt5.QtGui.QInputMethod`
@@ -252,6 +258,12 @@
             :sip:ref:`~PyQt5.QtGui.QFont`
         :static:
         :description: QtGui/QGuiApplication-setFont-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QGuiApplication.setHighDpiScaleFactorRoundingPolicy
+        :args:
+            :sip:ref:`~PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy`
+        :static:
+        :description: QtGui/QGuiApplication-setHighDpiScaleFactorRoundingPolicy-f.rst
 
     .. sip:method:: PyQt5.QtGui.QGuiApplication.setLayoutDirection
         :args:

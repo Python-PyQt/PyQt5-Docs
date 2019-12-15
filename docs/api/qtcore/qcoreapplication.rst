@@ -171,15 +171,15 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`
             :sip:ref:`~PyQt5.QtCore.QEvent`
-            priority: int = :sip:ref:`~PyQt5.QtCore.Qt.EventPriority.NormalEventPriority`
+            priority: int = Qt.EventPriority.NormalEventPriority
         :static:
-        :description: QtCore/QCoreApplication-postEvent-f.rst
+        :description: QtCore/QCoreApplication-postEvent-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QCoreApplication.processEvents
         :args:
-            flags: Union[:sip:ref:`~PyQt5.QtCore.QEventLoop.ProcessEventsFlags`, :sip:ref:`~PyQt5.QtCore.QEventLoop.ProcessEventsFlag`] = :sip:ref:`~PyQt5.QtCore.QEventLoop.ProcessEventsFlag.AllEvents`
+            flags: Union[:sip:ref:`~PyQt5.QtCore.QEventLoop.ProcessEventsFlags`, :sip:ref:`~PyQt5.QtCore.QEventLoop.ProcessEventsFlag`] = QEventLoop.ProcessEventsFlag.AllEvents
         :static:
-        :description: QtCore/QCoreApplication-processEvents-f.rst
+        :description: QtCore/QCoreApplication-processEvents-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QCoreApplication.processEvents
         :args:

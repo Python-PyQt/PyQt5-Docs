@@ -153,10 +153,10 @@
     .. sip:method:: PyQt5.QtCore.QAbstractItemModel.data
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtCore/QAbstractItemModel-data-f.rst
+        :description: QtCore/QAbstractItemModel-data-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QAbstractItemModel.decodeData
         :args:
@@ -238,10 +238,10 @@
         :args:
             int
             :sip:ref:`~PyQt5.QtCore.Qt.Orientation`
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtCore/QAbstractItemModel-headerData-f.rst
+        :description: QtCore/QAbstractItemModel-headerData-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QAbstractItemModel.index
         :args:
@@ -431,20 +431,20 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
             Any
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.EditRole`
+            role: int = Qt.ItemDataRole.EditRole
         :returns:
             bool
-        :description: QtCore/QAbstractItemModel-setData-f.rst
+        :description: QtCore/QAbstractItemModel-setData-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QAbstractItemModel.setHeaderData
         :args:
             int
             :sip:ref:`~PyQt5.QtCore.Qt.Orientation`
             Any
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.EditRole`
+            role: int = Qt.ItemDataRole.EditRole
         :returns:
             bool
-        :description: QtCore/QAbstractItemModel-setHeaderData-f.rst
+        :description: QtCore/QAbstractItemModel-setHeaderData-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QAbstractItemModel.setItemData
         :args:

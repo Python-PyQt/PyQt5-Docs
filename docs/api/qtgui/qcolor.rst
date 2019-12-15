@@ -18,6 +18,9 @@
         .. sip:enum-member:: PyQt5.QtGui.QColor.Spec.Cmyk
             :description: QtGui/QColor-Spec-Cmyk-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QColor.Spec.ExtendedRgb
+            :description: QtGui/QColor-Spec-ExtendedRgb-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QColor.Spec.Hsl
             :description: QtGui/QColor-Spec-Hsl-v.rst
 
@@ -618,6 +621,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtGui.QColor`
         :description: QtGui/QColor-toCmyk-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QColor.toExtendedRgb
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QColor`
+        :description: QtGui/QColor-toExtendedRgb-f.rst
 
     .. sip:method:: PyQt5.QtGui.QColor.toHsl
         :returns:

@@ -51,6 +51,29 @@
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.Error.SslPinnedKeyNotInCertificateChain
             :description: QtWebEngineWidgets/QWebEngineCertificateError-Error-SslPinnedKeyNotInCertificateChain-v.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineCertificateError`
+        :description: QtWebEngineWidgets/QWebEngineCertificateError-__init__-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.answered
+        :returns:
+            bool
+        :description: QtWebEngineWidgets/QWebEngineCertificateError-answered-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.certificateChain
+        :returns:
+            List[:sip:ref:`~PyQt5.QtNetwork.QSslCertificate`]
+        :description: QtWebEngineWidgets/QWebEngineCertificateError-certificateChain-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.defer
+        :description: QtWebEngineWidgets/QWebEngineCertificateError-defer-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.deferred
+        :returns:
+            bool
+        :description: QtWebEngineWidgets/QWebEngineCertificateError-deferred-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.error
         :returns:
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.Error`
@@ -61,10 +84,16 @@
             str
         :description: QtWebEngineWidgets/QWebEngineCertificateError-errorDescription-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.ignoreCertificateError
+        :description: QtWebEngineWidgets/QWebEngineCertificateError-ignoreCertificateError-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.isOverridable
         :returns:
             bool
         :description: QtWebEngineWidgets/QWebEngineCertificateError-isOverridable-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.rejectCertificate
+        :description: QtWebEngineWidgets/QWebEngineCertificateError-rejectCertificate-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.url
         :returns:

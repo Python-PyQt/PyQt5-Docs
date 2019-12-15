@@ -78,14 +78,26 @@
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockBottomMargin
             :description: QtGui/QTextFormat-Property-BlockBottomMargin-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockCodeFence
+            :description: QtGui/QTextFormat-Property-BlockCodeFence-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockCodeLanguage
+            :description: QtGui/QTextFormat-Property-BlockCodeLanguage-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockIndent
             :description: QtGui/QTextFormat-Property-BlockIndent-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockLeftMargin
             :description: QtGui/QTextFormat-Property-BlockLeftMargin-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockMarker
+            :description: QtGui/QTextFormat-Property-BlockMarker-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockNonBreakableLines
             :description: QtGui/QTextFormat-Property-BlockNonBreakableLines-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockQuoteLevel
+            :description: QtGui/QTextFormat-Property-BlockQuoteLevel-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.BlockRightMargin
             :description: QtGui/QTextFormat-Property-BlockRightMargin-v.rst
@@ -210,6 +222,9 @@
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.HeadingLevel
             :description: QtGui/QTextFormat-Property-HeadingLevel-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.ImageAltText
+            :description: QtGui/QTextFormat-Property-ImageAltText-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.ImageHeight
             :description: QtGui/QTextFormat-Property-ImageHeight-v.rst
 
@@ -218,6 +233,9 @@
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.ImageQuality
             :description: QtGui/QTextFormat-Property-ImageQuality-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.ImageTitle
+            :description: QtGui/QTextFormat-Property-ImageTitle-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.ImageWidth
             :description: QtGui/QTextFormat-Property-ImageWidth-v.rst
@@ -261,17 +279,47 @@
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.PageBreakPolicy
             :description: QtGui/QTextFormat-Property-PageBreakPolicy-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableBorderCollapse
+            :description: QtGui/QTextFormat-Property-TableBorderCollapse-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellBottomBorder
+            :description: QtGui/QTextFormat-Property-TableCellBottomBorder-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellBottomBorderBrush
+            :description: QtGui/QTextFormat-Property-TableCellBottomBorderBrush-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellBottomBorderStyle
+            :description: QtGui/QTextFormat-Property-TableCellBottomBorderStyle-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellBottomPadding
             :description: QtGui/QTextFormat-Property-TableCellBottomPadding-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellColumnSpan
             :description: QtGui/QTextFormat-Property-TableCellColumnSpan-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellLeftBorder
+            :description: QtGui/QTextFormat-Property-TableCellLeftBorder-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellLeftBorderBrush
+            :description: QtGui/QTextFormat-Property-TableCellLeftBorderBrush-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellLeftBorderStyle
+            :description: QtGui/QTextFormat-Property-TableCellLeftBorderStyle-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellLeftPadding
             :description: QtGui/QTextFormat-Property-TableCellLeftPadding-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellPadding
             :description: QtGui/QTextFormat-Property-TableCellPadding-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellRightBorder
+            :description: QtGui/QTextFormat-Property-TableCellRightBorder-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellRightBorderBrush
+            :description: QtGui/QTextFormat-Property-TableCellRightBorderBrush-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellRightBorderStyle
+            :description: QtGui/QTextFormat-Property-TableCellRightBorderStyle-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellRightPadding
             :description: QtGui/QTextFormat-Property-TableCellRightPadding-v.rst
@@ -281,6 +329,15 @@
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellSpacing
             :description: QtGui/QTextFormat-Property-TableCellSpacing-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellTopBorder
+            :description: QtGui/QTextFormat-Property-TableCellTopBorder-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellTopBorderBrush
+            :description: QtGui/QTextFormat-Property-TableCellTopBorderBrush-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellTopBorderStyle
+            :description: QtGui/QTextFormat-Property-TableCellTopBorderStyle-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextFormat.Property.TableCellTopPadding
             :description: QtGui/QTextFormat-Property-TableCellTopPadding-v.rst

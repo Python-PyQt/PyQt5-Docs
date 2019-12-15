@@ -61,6 +61,18 @@
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.JavaScriptConsoleMessageLevel.WarningMessageLevel
             :description: QtWebEngineWidgets/QWebEnginePage-JavaScriptConsoleMessageLevel-WarningMessageLevel-v.rst
 
+    .. sip:enum:: PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState
+        :description: QtWebEngineWidgets/QWebEnginePage-LifecycleState-e.rst
+
+        .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState.Active
+            :description: QtWebEngineWidgets/QWebEnginePage-LifecycleState-Active-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState.Discarded
+            :description: QtWebEngineWidgets/QWebEnginePage-LifecycleState-Discarded-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState.Frozen
+            :description: QtWebEngineWidgets/QWebEnginePage-LifecycleState-Frozen-v.rst
+
     .. sip:enum:: PyQt5.QtWebEngineWidgets.QWebEnginePage.NavigationType
         :description: QtWebEngineWidgets/QWebEnginePage-NavigationType-e.rst
 
@@ -75,6 +87,9 @@
 
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.NavigationType.NavigationTypeOther
             :description: QtWebEngineWidgets/QWebEnginePage-NavigationType-NavigationTypeOther-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.NavigationType.NavigationTypeRedirect
+            :description: QtWebEngineWidgets/QWebEnginePage-NavigationType-NavigationTypeRedirect-v.rst
 
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEnginePage.NavigationType.NavigationTypeReload
             :description: QtWebEngineWidgets/QWebEnginePage-NavigationType-NavigationTypeReload-v.rst
@@ -390,6 +405,11 @@
             bool
         :description: QtWebEngineWidgets/QWebEnginePage-isAudioMuted-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.isVisible
+        :returns:
+            bool
+        :description: QtWebEngineWidgets/QWebEnginePage-isVisible-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.javaScriptAlert
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
@@ -421,6 +441,11 @@
             bool
             str
         :description: QtWebEngineWidgets/QWebEnginePage-javaScriptPrompt-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.lifecycleState
+        :returns:
+            :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState`
+        :description: QtWebEngineWidgets/QWebEnginePage-lifecycleState-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.load
         :args:
@@ -459,6 +484,11 @@
         :returns:
             bool
         :description: QtWebEngineWidgets/QWebEnginePage-recentlyAudible-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.recommendedState
+        :returns:
+            :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState`
+        :description: QtWebEngineWidgets/QWebEnginePage-recommendedState-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.replaceMisspelledWord
         :args:
@@ -555,6 +585,11 @@
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage`
         :description: QtWebEngineWidgets/QWebEnginePage-setInspectedPage-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.setLifecycleState
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState`
+        :description: QtWebEngineWidgets/QWebEnginePage-setLifecycleState-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.settings
         :returns:
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineSettings`
@@ -574,6 +609,11 @@
         :args:
             :sip:ref:`~PyQt5.QtWidgets.QWidget`
         :description: QtWebEngineWidgets/QWebEnginePage-setView-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.setVisible
+        :args:
+            bool
+        :description: QtWebEngineWidgets/QWebEnginePage-setVisible-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.setWebChannel
         :args:
@@ -660,6 +700,11 @@
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage.Feature`
         :description: QtWebEngineWidgets/QWebEnginePage-featurePermissionRequested-s.rst
 
+    .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.findTextFinished
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineFindTextResult`
+        :description: QtWebEngineWidgets/QWebEnginePage-findTextFinished-s.rst
+
     .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.fullScreenRequested
         :args:
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineFullScreenRequest`
@@ -679,6 +724,11 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtWebEngineWidgets/QWebEnginePage-iconUrlChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.lifecycleStateChanged
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState`
+        :description: QtWebEngineWidgets/QWebEnginePage-lifecycleStateChanged-s.rst
 
     .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.linkHovered
         :args:
@@ -724,6 +774,11 @@
             bool
         :description: QtWebEngineWidgets/QWebEnginePage-recentlyAudibleChanged-s.rst
 
+    .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.recommendedStateChanged
+        :args:
+            :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState`
+        :description: QtWebEngineWidgets/QWebEnginePage-recommendedStateChanged-s.rst
+
     .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.registerProtocolHandlerRequested
         :args:
             :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineRegisterProtocolHandlerRequest`
@@ -757,6 +812,11 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtWebEngineWidgets/QWebEnginePage-urlChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.visibleChanged
+        :args:
+            bool
+        :description: QtWebEngineWidgets/QWebEnginePage-visibleChanged-s.rst
 
     .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.windowCloseRequested
         :description: QtWebEngineWidgets/QWebEnginePage-windowCloseRequested-s.rst

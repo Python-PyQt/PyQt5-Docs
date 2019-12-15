@@ -96,6 +96,11 @@
             :sip:ref:`~PyQt5.QtCore.QPointF`
         :description: QtGui/QWheelEvent-globalPosF-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QWheelEvent.globalPosition
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QPointF`
+        :description: QtGui/QWheelEvent-globalPosition-f.rst
+
     .. sip:method:: PyQt5.QtGui.QWheelEvent.globalX
         :returns:
             int
@@ -130,6 +135,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QPointF`
         :description: QtGui/QWheelEvent-posF-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QWheelEvent.position
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QPointF`
+        :description: QtGui/QWheelEvent-position-f.rst
 
     .. sip:method:: PyQt5.QtGui.QWheelEvent.source
         :returns:

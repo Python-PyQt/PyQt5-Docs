@@ -81,6 +81,9 @@
         .. sip:enum-member:: PyQt5.QtCore.Qt.ApplicationAttribute.AA_DisableHighDpiScaling
             :description: QtCore/Qt-ApplicationAttribute-AA_DisableHighDpiScaling-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.Qt.ApplicationAttribute.AA_DisableSessionManager
+            :description: QtCore/Qt-ApplicationAttribute-AA_DisableSessionManager-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.Qt.ApplicationAttribute.AA_DisableShaderDiskCache
             :description: QtCore/Qt-ApplicationAttribute-AA_DisableShaderDiskCache-v.rst
 
@@ -815,6 +818,24 @@
 
         .. sip:enum-member:: PyQt5.QtCore.Qt.GlobalColor.yellow
             :description: QtCore/Qt-GlobalColor-yellow-v.rst
+
+    .. sip:enum:: PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy
+        :description: QtCore/Qt-HighDpiScaleFactorRoundingPolicy-e.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy.Ceil
+            :description: QtCore/Qt-HighDpiScaleFactorRoundingPolicy-Ceil-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy.Floor
+            :description: QtCore/Qt-HighDpiScaleFactorRoundingPolicy-Floor-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy.PassThrough
+            :description: QtCore/Qt-HighDpiScaleFactorRoundingPolicy-PassThrough-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy.Round
+            :description: QtCore/Qt-HighDpiScaleFactorRoundingPolicy-Round-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.Qt.HighDpiScaleFactorRoundingPolicy.RoundPreferFloor
+            :description: QtCore/Qt-HighDpiScaleFactorRoundingPolicy-RoundPreferFloor-v.rst
 
     .. sip:enum:: PyQt5.QtCore.Qt.HitTestAccuracy
         :description: QtCore/Qt-HitTestAccuracy-e.rst
@@ -3038,6 +3059,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.Qt.TextFormat.AutoText
             :description: QtCore/Qt-TextFormat-AutoText-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.Qt.TextFormat.MarkdownText
+            :description: QtCore/Qt-TextFormat-MarkdownText-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.Qt.TextFormat.PlainText
             :description: QtCore/Qt-TextFormat-PlainText-v.rst

@@ -25,10 +25,10 @@
     .. sip:method:: PyQt5.QtSql.QSqlRelationalTableModel.data
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtSql/QSqlRelationalTableModel-data-f.rst
+        :description: QtSql/QSqlRelationalTableModel-data-f-1.rst
 
     .. sip:method:: PyQt5.QtSql.QSqlRelationalTableModel.insertRowIntoTable
         :args:
@@ -84,10 +84,10 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
             Any
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.EditRole`
+            role: int = Qt.ItemDataRole.EditRole
         :returns:
             bool
-        :description: QtSql/QSqlRelationalTableModel-setData-f.rst
+        :description: QtSql/QSqlRelationalTableModel-setData-f-1.rst
 
     .. sip:method:: PyQt5.QtSql.QSqlRelationalTableModel.setJoinMode
         :args:

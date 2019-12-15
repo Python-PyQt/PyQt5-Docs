@@ -12,6 +12,11 @@
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineView.back
         :description: QtWebEngineWidgets/QWebEngineView-back-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineView.closeEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QCloseEvent`
+        :description: QtWebEngineWidgets/QWebEngineView-closeEvent-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineView.contextMenuEvent
         :args:
             :sip:ref:`~PyQt5.QtGui.QContextMenuEvent`

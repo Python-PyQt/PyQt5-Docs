@@ -92,11 +92,11 @@
 
     .. sip:method:: PyQt5.QtChart.QChart.axes
         :args:
-            orientation: Union[:sip:ref:`~PyQt5.QtCore.Qt.Orientations`, :sip:ref:`~PyQt5.QtCore.Qt.Orientation`] = Qt.Horizontal|Qt.Vertical
+            orientation: Union[:sip:ref:`~PyQt5.QtCore.Qt.Orientations`, :sip:ref:`~PyQt5.QtCore.Qt.Orientation`] = Qt.Orientation.Horizontal|Qt.Orientation.Vertical
             series: :sip:ref:`~PyQt5.QtChart.QAbstractSeries` = None
         :returns:
             List[:sip:ref:`~PyQt5.QtChart.QAbstractAxis`]
-        :description: QtChart/QChart-axes-f.rst
+        :description: QtChart/QChart-axes-f-1.rst
 
     .. sip:method:: PyQt5.QtChart.QChart.axisX
         :args:

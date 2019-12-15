@@ -18,6 +18,9 @@
         .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.NavigationType.NavigationTypeOther
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-NavigationType-NavigationTypeOther-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.NavigationType.NavigationTypeRedirect
+            :description: QtWebEngineCore/QWebEngineUrlRequestInfo-NavigationType-NavigationTypeRedirect-v.rst
+
         .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.NavigationType.NavigationTypeReload
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-NavigationType-NavigationTypeReload-v.rst
 
@@ -44,6 +47,12 @@
 
         .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeMedia
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeMedia-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeNavigationPreloadMainFrame
+            :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeNavigationPreloadMainFrame-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeNavigationPreloadSubFrame
+            :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeNavigationPreloadSubFrame-v.rst
 
         .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.ResourceType.ResourceTypeObject
             :description: QtWebEngineCore/QWebEngineUrlRequestInfo-ResourceType-ResourceTypeObject-v.rst
@@ -93,6 +102,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtWebEngineCore/QWebEngineUrlRequestInfo-firstPartyUrl-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.initiator
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QUrl`
+        :description: QtWebEngineCore/QWebEngineUrlRequestInfo-initiator-f.rst
 
     .. sip:method:: PyQt5.QtWebEngineCore.QWebEngineUrlRequestInfo.navigationType
         :returns:

@@ -24,6 +24,11 @@
             int
         :description: QtGui/QStyleHints-keyboardInputInterval-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QStyleHints.mouseDoubleClickDistance
+        :returns:
+            int
+        :description: QtGui/QStyleHints-mouseDoubleClickDistance-f.rst
+
     .. sip:method:: PyQt5.QtGui.QStyleHints.mouseDoubleClickInterval
         :returns:
             int
@@ -103,6 +108,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.Qt.TabFocusBehavior`
         :description: QtGui/QStyleHints-tabFocusBehavior-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QStyleHints.touchDoubleTapDistance
+        :returns:
+            int
+        :description: QtGui/QStyleHints-touchDoubleTapDistance-f.rst
 
     .. sip:method:: PyQt5.QtGui.QStyleHints.useHoverEffects
         :returns:

@@ -108,10 +108,10 @@
         :args:
             int
             Union[:sip:ref:`~PyQt5.QtCore.QIODevice.OpenMode`, :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag`]
-            handleFlags: Union[:sip:ref:`~PyQt5.QtCore.QFileDevice.FileHandleFlags`, :sip:ref:`~PyQt5.QtCore.QFileDevice.FileHandleFlag`] = :sip:ref:`~PyQt5.QtCore.QFileDevice.FileHandleFlag.DontCloseHandle`
+            handleFlags: Union[:sip:ref:`~PyQt5.QtCore.QFileDevice.FileHandleFlags`, :sip:ref:`~PyQt5.QtCore.QFileDevice.FileHandleFlag`] = QFileDevice.FileHandleFlag.DontCloseHandle
         :returns:
             bool
-        :description: QtCore/QFile-open-f-1.rst
+        :description: QtCore/QFile-open-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QFile.permissions
         :returns:

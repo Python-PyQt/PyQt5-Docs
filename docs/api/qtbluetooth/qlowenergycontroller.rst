@@ -34,6 +34,9 @@
         .. sip:enum-member:: PyQt5.QtBluetooth.QLowEnergyController.Error.AdvertisingError
             :description: QtBluetooth/QLowEnergyController-Error-AdvertisingError-v.rst
 
+        .. sip:enum-member:: PyQt5.QtBluetooth.QLowEnergyController.Error.AuthorizationError
+            :description: QtBluetooth/QLowEnergyController-Error-AuthorizationError-v.rst
+
         .. sip:enum-member:: PyQt5.QtBluetooth.QLowEnergyController.Error.ConnectionError
             :description: QtBluetooth/QLowEnergyController-Error-ConnectionError-v.rst
 
@@ -111,6 +114,16 @@
             :sip:ref:`~PyQt5.QtBluetooth.QLowEnergyController`
         :static:
         :description: QtBluetooth/QLowEnergyController-createCentral-f.rst
+
+    .. sip:method:: PyQt5.QtBluetooth.QLowEnergyController.createCentral
+        :args:
+            :sip:ref:`~PyQt5.QtBluetooth.QBluetoothAddress`
+            :sip:ref:`~PyQt5.QtBluetooth.QBluetoothAddress`
+            parent: :sip:ref:`~PyQt5.QtCore.QObject` = None
+        :returns:
+            :sip:ref:`~PyQt5.QtBluetooth.QLowEnergyController`
+        :static:
+        :description: QtBluetooth/QLowEnergyController-createCentral-f-1.rst
 
     .. sip:method:: PyQt5.QtBluetooth.QLowEnergyController.createPeripheral
         :args:

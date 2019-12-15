@@ -72,10 +72,10 @@
 
     .. sip:method:: PyQt5.QtMultimedia.QCameraFocus.isFocusModeSupported
         :args:
-            :sip:ref:`~PyQt5.QtMultimedia.QCameraFocus.FocusModes`
+            Union[:sip:ref:`~PyQt5.QtMultimedia.QCameraFocus.FocusModes`, :sip:ref:`~PyQt5.QtMultimedia.QCameraFocus.FocusMode`]
         :returns:
             bool
-        :description: QtMultimedia/QCameraFocus-isFocusModeSupported-f.rst
+        :description: QtMultimedia/QCameraFocus-isFocusModeSupported-f-1.rst
 
     .. sip:method:: PyQt5.QtMultimedia.QCameraFocus.isFocusPointModeSupported
         :args:
@@ -106,8 +106,8 @@
 
     .. sip:method:: PyQt5.QtMultimedia.QCameraFocus.setFocusMode
         :args:
-            :sip:ref:`~PyQt5.QtMultimedia.QCameraFocus.FocusModes`
-        :description: QtMultimedia/QCameraFocus-setFocusMode-f.rst
+            Union[:sip:ref:`~PyQt5.QtMultimedia.QCameraFocus.FocusModes`, :sip:ref:`~PyQt5.QtMultimedia.QCameraFocus.FocusMode`]
+        :description: QtMultimedia/QCameraFocus-setFocusMode-f-1.rst
 
     .. sip:method:: PyQt5.QtMultimedia.QCameraFocus.setFocusPointMode
         :args:

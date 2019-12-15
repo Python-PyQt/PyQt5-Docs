@@ -4,6 +4,18 @@
     :inherits: :sip:ref:`~PyQt5.QtCore.QObject`
     :description: QtWidgets/QActionGroup-c.rst
 
+    .. sip:enum:: PyQt5.QtWidgets.QActionGroup.ExclusionPolicy
+        :description: QtWidgets/QActionGroup-ExclusionPolicy-e.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QActionGroup.ExclusionPolicy.Exclusive
+            :description: QtWidgets/QActionGroup-ExclusionPolicy-Exclusive-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QActionGroup.ExclusionPolicy.ExclusiveOptional
+            :description: QtWidgets/QActionGroup-ExclusionPolicy-ExclusiveOptional-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QActionGroup.ExclusionPolicy.None
+            :description: QtWidgets/QActionGroup-ExclusionPolicy-None-v.rst
+
     .. sip:method:: PyQt5.QtWidgets.QActionGroup.__init__
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`
@@ -41,6 +53,11 @@
             :sip:ref:`~PyQt5.QtWidgets.QAction`
         :description: QtWidgets/QActionGroup-checkedAction-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QActionGroup.exclusionPolicy
+        :returns:
+            :sip:ref:`~PyQt5.QtWidgets.QActionGroup.ExclusionPolicy`
+        :description: QtWidgets/QActionGroup-exclusionPolicy-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QActionGroup.isEnabled
         :returns:
             bool
@@ -70,6 +87,11 @@
         :args:
             bool
         :description: QtWidgets/QActionGroup-setEnabled-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QActionGroup.setExclusionPolicy
+        :args:
+            :sip:ref:`~PyQt5.QtWidgets.QActionGroup.ExclusionPolicy`
+        :description: QtWidgets/QActionGroup-setExclusionPolicy-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QActionGroup.setExclusive
         :args:

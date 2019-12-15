@@ -772,16 +772,16 @@
             :sip:ref:`~PyQt5.QtGui.QPaintDevice`
             targetOffset: :sip:ref:`~PyQt5.QtCore.QPoint` = QPoint()
             sourceRegion: :sip:ref:`~PyQt5.QtGui.QRegion` = QRegion()
-            flags: Union[:sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlags`, :sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlag`] = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren)
-        :description: QtWidgets/QWidget-render-f.rst
+            flags: Union[:sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlags`, :sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlag`] = QWidget.RenderFlags(QWidget.RenderFlag.DrawWindowBackground|QWidget.RenderFlag.DrawChildren)
+        :description: QtWidgets/QWidget-render-f-2.rst
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.render
         :args:
             :sip:ref:`~PyQt5.QtGui.QPainter`
             targetOffset: :sip:ref:`~PyQt5.QtCore.QPoint` = QPoint()
             sourceRegion: :sip:ref:`~PyQt5.QtGui.QRegion` = QRegion()
-            flags: Union[:sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlags`, :sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlag`] = QWidget.RenderFlags(QWidget.DrawWindowBackground|QWidget.DrawChildren)
-        :description: QtWidgets/QWidget-render-f-1.rst
+            flags: Union[:sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlags`, :sip:ref:`~PyQt5.QtWidgets.QWidget.RenderFlag`] = QWidget.RenderFlags(QWidget.RenderFlag.DrawWindowBackground|QWidget.RenderFlag.DrawChildren)
+        :description: QtWidgets/QWidget-render-f-3.rst
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.repaint
         :description: QtWidgets/QWidget-repaint-f.rst
@@ -831,6 +831,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QByteArray`
         :description: QtWidgets/QWidget-saveGeometry-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QWidget.screen
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QScreen`
+        :description: QtWidgets/QWidget-screen-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.scroll
         :args:

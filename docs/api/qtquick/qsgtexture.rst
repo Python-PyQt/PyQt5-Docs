@@ -57,6 +57,11 @@
     .. sip:method:: PyQt5.QtQuick.QSGTexture.bind
         :description: QtQuick/QSGTexture-bind-f.rst
 
+    .. sip:method:: PyQt5.QtQuick.QSGTexture.comparisonKey
+        :returns:
+            int
+        :description: QtQuick/QSGTexture-comparisonKey-f.rst
+
     .. sip:method:: PyQt5.QtQuick.QSGTexture.convertToNormalizedSourceRect
         :args:
             :sip:ref:`~PyQt5.QtCore.QRectF`

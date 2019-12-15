@@ -1047,6 +1047,9 @@
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Catalan
             :description: QtCore/QLocale-Language-Catalan-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Cebuano
+            :description: QtCore/QLocale-Language-Cebuano-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.CentralKurdish
             :description: QtCore/QLocale-Language-CentralKurdish-v.rst
 
@@ -1067,6 +1070,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Chewa
             :description: QtCore/QLocale-Language-Chewa-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Chickasaw
+            :description: QtCore/QLocale-Language-Chickasaw-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Chiga
             :description: QtCore/QLocale-Language-Chiga-v.rst
@@ -1136,6 +1142,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.English
             :description: QtCore/QLocale-Language-English-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Erzya
+            :description: QtCore/QLocale-Language-Erzya-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Esperanto
             :description: QtCore/QLocale-Language-Esperanto-v.rst
@@ -1551,6 +1560,9 @@
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Mundang
             :description: QtCore/QLocale-Language-Mundang-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Muscogee
+            :description: QtCore/QLocale-Language-Muscogee-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Nama
             :description: QtCore/QLocale-Language-Nama-v.rst
 
@@ -1769,6 +1781,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Sidamo
             :description: QtCore/QLocale-Language-Sidamo-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Silesian
+            :description: QtCore/QLocale-Language-Silesian-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QLocale.Language.Sindhi
             :description: QtCore/QLocale-Language-Sindhi-v.rst
@@ -2532,6 +2547,11 @@
         :static:
         :description: QtCore/QLocale-c-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QLocale.collation
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QLocale`
+        :description: QtCore/QLocale-collation-f.rst
+
     .. sip:method:: PyQt5.QtCore.QLocale.country
         :returns:
             :sip:ref:`~PyQt5.QtCore.QLocale.Country`
@@ -2817,6 +2837,24 @@
             :sip:ref:`~PyQt5.QtCore.QDate`
         :description: QtCore/QLocale-toDate-f-1.rst
 
+    .. sip:method:: PyQt5.QtCore.QLocale.toDate
+        :args:
+            str
+            :sip:ref:`~PyQt5.QtCore.QLocale.FormatType`
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDate`
+        :description: QtCore/QLocale-toDate-f-2.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toDate
+        :args:
+            str
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDate`
+        :description: QtCore/QLocale-toDate-f-3.rst
+
     .. sip:method:: PyQt5.QtCore.QLocale.toDateTime
         :args:
             str
@@ -2832,6 +2870,24 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QDateTime`
         :description: QtCore/QLocale-toDateTime-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toDateTime
+        :args:
+            str
+            :sip:ref:`~PyQt5.QtCore.QLocale.FormatType`
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :description: QtCore/QLocale-toDateTime-f-2.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toDateTime
+        :args:
+            str
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :description: QtCore/QLocale-toDateTime-f-3.rst
 
     .. sip:method:: PyQt5.QtCore.QLocale.toDouble
         :args:
@@ -2952,6 +3008,42 @@
             str
         :description: QtCore/QLocale-toString-f-7.rst
 
+    .. sip:method:: PyQt5.QtCore.QLocale.toString
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QDateTime`, datetime.datetime]
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            str
+        :description: QtCore/QLocale-toString-f-8.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toString
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QDateTime`, datetime.datetime]
+            :sip:ref:`~PyQt5.QtCore.QLocale.FormatType`
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            str
+        :description: QtCore/QLocale-toString-f-9.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toString
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QDate`, datetime.date]
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            str
+        :description: QtCore/QLocale-toString-f-10.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toString
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QDate`, datetime.date]
+            :sip:ref:`~PyQt5.QtCore.QLocale.FormatType`
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            str
+        :description: QtCore/QLocale-toString-f-11.rst
+
     .. sip:method:: PyQt5.QtCore.QLocale.toTime
         :args:
             str
@@ -2967,6 +3059,24 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QTime`
         :description: QtCore/QLocale-toTime-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toTime
+        :args:
+            str
+            :sip:ref:`~PyQt5.QtCore.QLocale.FormatType`
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QTime`
+        :description: QtCore/QLocale-toTime-f-2.rst
+
+    .. sip:method:: PyQt5.QtCore.QLocale.toTime
+        :args:
+            str
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QTime`
+        :description: QtCore/QLocale-toTime-f-3.rst
 
     .. sip:method:: PyQt5.QtCore.QLocale.toUInt
         :args:

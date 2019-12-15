@@ -17,6 +17,11 @@
             :sip:ref:`~PyQt5.QtCore.Qt.Alignment`
         :description: QtGui/QTextTableFormat-alignment-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QTextTableFormat.borderCollapse
+        :returns:
+            bool
+        :description: QtGui/QTextTableFormat-borderCollapse-f.rst
+
     .. sip:method:: PyQt5.QtGui.QTextTableFormat.cellPadding
         :returns:
             float
@@ -54,6 +59,11 @@
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.Qt.Alignment`, :sip:ref:`~PyQt5.QtCore.Qt.AlignmentFlag`]
         :description: QtGui/QTextTableFormat-setAlignment-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextTableFormat.setBorderCollapse
+        :args:
+            bool
+        :description: QtGui/QTextTableFormat-setBorderCollapse-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTextTableFormat.setCellPadding
         :args:

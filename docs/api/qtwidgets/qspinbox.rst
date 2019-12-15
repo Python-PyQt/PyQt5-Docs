@@ -138,6 +138,11 @@
             int
         :description: QtWidgets/QSpinBox-valueFromText-f.rst
 
+    .. sip:signal:: PyQt5.QtWidgets.QSpinBox.textChanged
+        :args:
+            str
+        :description: QtWidgets/QSpinBox-textChanged-s.rst
+
     .. sip:signal:: PyQt5.QtWidgets.QSpinBox.valueChanged
         :args:
             int

@@ -87,6 +87,12 @@
         :static:
         :description: QtCore/QOperatingSystemVersion-AndroidOreo-a.rst
 
+    .. sip:attribute:: PyQt5.QtCore.QOperatingSystemVersion.MacOSCatalina
+        :type: :sip:ref:`~PyQt5.QtCore.QOperatingSystemVersion`
+        :const:
+        :static:
+        :description: QtCore/QOperatingSystemVersion-MacOSCatalina-a.rst
+
     .. sip:attribute:: PyQt5.QtCore.QOperatingSystemVersion.MacOSHighSierra
         :type: :sip:ref:`~PyQt5.QtCore.QOperatingSystemVersion`
         :const:

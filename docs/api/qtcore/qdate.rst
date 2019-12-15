@@ -27,6 +27,14 @@
             int
         :description: QtCore/QDate-__init__-f-2.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.__init__
+        :args:
+            int
+            int
+            int
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :description: QtCore/QDate-__init__-f-3.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.addDays
         :args:
             int
@@ -41,12 +49,28 @@
             :sip:ref:`~PyQt5.QtCore.QDate`
         :description: QtCore/QDate-addMonths-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.addMonths
+        :args:
+            int
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDate`
+        :description: QtCore/QDate-addMonths-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.addYears
         :args:
             int
         :returns:
             :sip:ref:`~PyQt5.QtCore.QDate`
         :description: QtCore/QDate-addYears-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.addYears
+        :args:
+            int
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDate`
+        :description: QtCore/QDate-addYears-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QDate.__bool__
         :returns:
@@ -64,25 +88,60 @@
             int
         :description: QtCore/QDate-day-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.day
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            int
+        :description: QtCore/QDate-day-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.dayOfWeek
         :returns:
             int
         :description: QtCore/QDate-dayOfWeek-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.dayOfWeek
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            int
+        :description: QtCore/QDate-dayOfWeek-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QDate.dayOfYear
         :returns:
             int
         :description: QtCore/QDate-dayOfYear-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.dayOfYear
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            int
+        :description: QtCore/QDate-dayOfYear-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.daysInMonth
         :returns:
             int
         :description: QtCore/QDate-daysInMonth-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.daysInMonth
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            int
+        :description: QtCore/QDate-daysInMonth-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.daysInYear
         :returns:
             int
         :description: QtCore/QDate-daysInYear-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.daysInYear
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            int
+        :description: QtCore/QDate-daysInYear-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QDate.daysTo
         :args:
@@ -90,6 +149,21 @@
         :returns:
             int
         :description: QtCore/QDate-daysTo-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.endOfDay
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :description: QtCore/QDate-endOfDay-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.endOfDay
+        :args:
+            spec: :sip:ref:`~PyQt5.QtCore.Qt.TimeSpec` = :sip:ref:`~PyQt5.QtCore.Qt.TimeSpec.LocalTime`
+            offsetSeconds: int = 0
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :description: QtCore/QDate-endOfDay-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QDate.__eq__
         :args:
@@ -123,6 +197,16 @@
             :sip:ref:`~PyQt5.QtCore.QDate`
         :static:
         :description: QtCore/QDate-fromString-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.fromString
+        :args:
+            str
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDate`
+        :static:
+        :description: QtCore/QDate-fromString-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QDate.__ge__
         :args:
@@ -215,6 +299,13 @@
             int
         :description: QtCore/QDate-month-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.month
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            int
+        :description: QtCore/QDate-month-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.__ne__
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QDate`, datetime.date]
@@ -236,6 +327,16 @@
             bool
         :description: QtCore/QDate-setDate-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.setDate
+        :args:
+            int
+            int
+            int
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            bool
+        :description: QtCore/QDate-setDate-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.shortDayName
         :args:
             int
@@ -253,6 +354,21 @@
             str
         :static:
         :description: QtCore/QDate-shortMonthName-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.startOfDay
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QTimeZone`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :description: QtCore/QDate-startOfDay-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.startOfDay
+        :args:
+            spec: :sip:ref:`~PyQt5.QtCore.Qt.TimeSpec` = :sip:ref:`~PyQt5.QtCore.Qt.TimeSpec.LocalTime`
+            offsetSeconds: int = 0
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :description: QtCore/QDate-startOfDay-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QDate.toJulianDay
         :returns:
@@ -278,6 +394,22 @@
             str
         :description: QtCore/QDate-toString-f-1.rst
 
+    .. sip:method:: PyQt5.QtCore.QDate.toString
+        :args:
+            :sip:ref:`~PyQt5.QtCore.Qt.DateFormat`
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            str
+        :description: QtCore/QDate-toString-f-2.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.toString
+        :args:
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            str
+        :description: QtCore/QDate-toString-f-3.rst
+
     .. sip:method:: PyQt5.QtCore.QDate.weekNumber
         :returns:
             int
@@ -288,3 +420,10 @@
         :returns:
             int
         :description: QtCore/QDate-year-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QDate.year
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            int
+        :description: QtCore/QDate-year-f-1.rst

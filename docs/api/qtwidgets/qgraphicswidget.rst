@@ -259,6 +259,11 @@
 
     .. sip:method:: PyQt5.QtWidgets.QGraphicsWidget.setContentsMargins
         :args:
+            :sip:ref:`~PyQt5.QtCore.QMarginsF`
+        :description: QtWidgets/QGraphicsWidget-setContentsMargins-f-1.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QGraphicsWidget.setContentsMargins
+        :args:
             float
             float
             float
@@ -331,6 +336,11 @@
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.Qt.WindowFlags`, :sip:ref:`~PyQt5.QtCore.Qt.WindowType`]
         :description: QtWidgets/QGraphicsWidget-setWindowFlags-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QGraphicsWidget.setWindowFrameMargins
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QMarginsF`
+        :description: QtWidgets/QGraphicsWidget-setWindowFrameMargins-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QGraphicsWidget.setWindowFrameMargins
         :args:

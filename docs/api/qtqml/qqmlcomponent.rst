@@ -93,6 +93,14 @@
             forContext: :sip:ref:`~PyQt5.QtQml.QQmlContext` = None
         :description: QtQml/QQmlComponent-create-f-1.rst
 
+    .. sip:method:: PyQt5.QtQml.QQmlComponent.createWithInitialProperties
+        :args:
+            Dict[str, Any]
+            context: :sip:ref:`~PyQt5.QtQml.QQmlContext` = None
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :description: QtQml/QQmlComponent-createWithInitialProperties-f.rst
+
     .. sip:method:: PyQt5.QtQml.QQmlComponent.creationContext
         :returns:
             :sip:ref:`~PyQt5.QtQml.QQmlContext`
@@ -149,6 +157,12 @@
             Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtQml/QQmlComponent-setData-f.rst
+
+    .. sip:method:: PyQt5.QtQml.QQmlComponent.setInitialProperties
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QObject`
+            Dict[str, Any]
+        :description: QtQml/QQmlComponent-setInitialProperties-f.rst
 
     .. sip:method:: PyQt5.QtQml.QQmlComponent.status
         :returns:

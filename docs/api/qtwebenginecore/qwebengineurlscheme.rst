@@ -9,6 +9,9 @@
         .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlScheme.Flag.ContentSecurityPolicyIgnored
             :description: QtWebEngineCore/QWebEngineUrlScheme-Flag-ContentSecurityPolicyIgnored-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlScheme.Flag.CorsEnabled
+            :description: QtWebEngineCore/QWebEngineUrlScheme-Flag-CorsEnabled-v.rst
+
         .. sip:enum-member:: PyQt5.QtWebEngineCore.QWebEngineUrlScheme.Flag.LocalAccessAllowed
             :description: QtWebEngineCore/QWebEngineUrlScheme-Flag-LocalAccessAllowed-v.rst
 

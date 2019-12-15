@@ -50,6 +50,13 @@
             :sip:ref:`~PyQt5.QtCore.QSize`
         :description: QtCore/QSize-expandedTo-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QSize.grownBy
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QMargins`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QSize`
+        :description: QtCore/QSize-grownBy-f.rst
+
     .. sip:method:: PyQt5.QtCore.QSize.height
         :returns:
             int
@@ -163,6 +170,13 @@
         :args:
             int
         :description: QtCore/QSize-setWidth-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QSize.shrunkBy
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QMargins`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QSize`
+        :description: QtCore/QSize-shrunkBy-f.rst
 
     .. sip:method:: PyQt5.QtCore.QSize.__sub__
         :args:

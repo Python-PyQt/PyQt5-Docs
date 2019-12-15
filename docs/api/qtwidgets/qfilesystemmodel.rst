@@ -4,6 +4,18 @@
     :inherits: :sip:ref:`~PyQt5.QtCore.QAbstractItemModel`
     :description: QtWidgets/QFileSystemModel-c.rst
 
+    .. sip:enum:: PyQt5.QtWidgets.QFileSystemModel.Option
+        :description: QtWidgets/QFileSystemModel-Option-e.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QFileSystemModel.Option.DontResolveSymlinks
+            :description: QtWidgets/QFileSystemModel-Option-DontResolveSymlinks-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QFileSystemModel.Option.DontUseCustomDirectoryIcons
+            :description: QtWidgets/QFileSystemModel-Option-DontUseCustomDirectoryIcons-v.rst
+
+        .. sip:enum-member:: PyQt5.QtWidgets.QFileSystemModel.Option.DontWatchForChanges
+            :description: QtWidgets/QFileSystemModel-Option-DontWatchForChanges-v.rst
+
     .. sip:enum:: PyQt5.QtWidgets.QFileSystemModel.Roles
         :description: QtWidgets/QFileSystemModel-Roles-e.rst
 
@@ -41,10 +53,10 @@
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.data
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtWidgets/QFileSystemModel-data-f.rst
+        :description: QtWidgets/QFileSystemModel-data-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.dropMimeData
         :args:
@@ -120,10 +132,10 @@
         :args:
             int
             :sip:ref:`~PyQt5.QtCore.Qt.Orientation`
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtWidgets/QFileSystemModel-headerData-f.rst
+        :description: QtWidgets/QFileSystemModel-headerData-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.iconProvider
         :returns:
@@ -188,10 +200,10 @@
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.myComputer
         :args:
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.DisplayRole`
+            role: int = Qt.ItemDataRole.DisplayRole
         :returns:
             Any
-        :description: QtWidgets/QFileSystemModel-myComputer-f.rst
+        :description: QtWidgets/QFileSystemModel-myComputer-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.nameFilterDisables
         :returns:
@@ -202,6 +214,11 @@
         :returns:
             List[str]
         :description: QtWidgets/QFileSystemModel-nameFilters-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.options
+        :returns:
+            :sip:ref:`~PyQt5.QtWidgets.QFileSystemModel.Options`
+        :description: QtWidgets/QFileSystemModel-options-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.parent
         :args:
@@ -257,10 +274,10 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
             Any
-            role: int = :sip:ref:`~PyQt5.QtCore.Qt.ItemDataRole.EditRole`
+            role: int = Qt.ItemDataRole.EditRole
         :returns:
             bool
-        :description: QtWidgets/QFileSystemModel-setData-f.rst
+        :description: QtWidgets/QFileSystemModel-setData-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.setFilter
         :args:
@@ -281,6 +298,17 @@
         :args:
             Iterable[str]
         :description: QtWidgets/QFileSystemModel-setNameFilters-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.setOption
+        :args:
+            :sip:ref:`~PyQt5.QtWidgets.QFileSystemModel.Option`
+            on: bool = True
+        :description: QtWidgets/QFileSystemModel-setOption-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.setOptions
+        :args:
+            Union[:sip:ref:`~PyQt5.QtWidgets.QFileSystemModel.Options`, :sip:ref:`~PyQt5.QtWidgets.QFileSystemModel.Option`]
+        :description: QtWidgets/QFileSystemModel-setOptions-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.setReadOnly
         :args:
@@ -325,6 +353,13 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.Qt.DropActions`
         :description: QtWidgets/QFileSystemModel-supportedDropActions-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.testOption
+        :args:
+            :sip:ref:`~PyQt5.QtWidgets.QFileSystemModel.Option`
+        :returns:
+            bool
+        :description: QtWidgets/QFileSystemModel-testOption-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QFileSystemModel.timerEvent
         :args:

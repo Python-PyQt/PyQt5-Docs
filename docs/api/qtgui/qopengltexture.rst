@@ -1181,6 +1181,86 @@
             options: :sip:ref:`~PyQt5.QtGui.QOpenGLPixelTransferOptions` = None
         :description: QtGui/QOpenGLTexture-setData-f-5.rst
 
+    .. sip:method:: PyQt5.QtGui.QOpenGLTexture.setData
+        :args:
+            int
+            int
+            int
+            int
+            int
+            int
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelFormat`
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelType`
+            sip.voidptr
+            options: :sip:ref:`~PyQt5.QtGui.QOpenGLPixelTransferOptions` = None
+        :description: QtGui/QOpenGLTexture-setData-f-6.rst
+
+    .. sip:method:: PyQt5.QtGui.QOpenGLTexture.setData
+        :args:
+            int
+            int
+            int
+            int
+            int
+            int
+            int
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelFormat`
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelType`
+            sip.voidptr
+            options: :sip:ref:`~PyQt5.QtGui.QOpenGLPixelTransferOptions` = None
+        :description: QtGui/QOpenGLTexture-setData-f-7.rst
+
+    .. sip:method:: PyQt5.QtGui.QOpenGLTexture.setData
+        :args:
+            int
+            int
+            int
+            int
+            int
+            int
+            int
+            int
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelFormat`
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelType`
+            sip.voidptr
+            options: :sip:ref:`~PyQt5.QtGui.QOpenGLPixelTransferOptions` = None
+        :description: QtGui/QOpenGLTexture-setData-f-8.rst
+
+    .. sip:method:: PyQt5.QtGui.QOpenGLTexture.setData
+        :args:
+            int
+            int
+            int
+            int
+            int
+            int
+            int
+            int
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.CubeMapFace`
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelFormat`
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelType`
+            sip.voidptr
+            options: :sip:ref:`~PyQt5.QtGui.QOpenGLPixelTransferOptions` = None
+        :description: QtGui/QOpenGLTexture-setData-f-9.rst
+
+    .. sip:method:: PyQt5.QtGui.QOpenGLTexture.setData
+        :args:
+            int
+            int
+            int
+            int
+            int
+            int
+            int
+            int
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.CubeMapFace`
+            int
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelFormat`
+            :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.PixelType`
+            sip.voidptr
+            options: :sip:ref:`~PyQt5.QtGui.QOpenGLPixelTransferOptions` = None
+        :description: QtGui/QOpenGLTexture-setData-f-10.rst
+
     .. sip:method:: PyQt5.QtGui.QOpenGLTexture.setDepthStencilMode
         :args:
             :sip:ref:`~PyQt5.QtGui.QOpenGLTexture.DepthStencilMode`

@@ -52,6 +52,11 @@
             Iterable[:sip:ref:`~PyQt5.QtNetwork.QHstsPolicy`]
         :description: QtNetwork/QNetworkAccessManager-addStrictTransportSecurityHosts-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.autoDeleteReplies
+        :returns:
+            bool
+        :description: QtNetwork/QNetworkAccessManager-autoDeleteReplies-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.cache
         :returns:
             :sip:ref:`~PyQt5.QtNetwork.QAbstractNetworkCache`
@@ -234,6 +239,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtNetwork.QNetworkReply`
         :description: QtNetwork/QNetworkAccessManager-sendCustomRequest-f-2.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.setAutoDeleteReplies
+        :args:
+            bool
+        :description: QtNetwork/QNetworkAccessManager-setAutoDeleteReplies-f.rst
 
     .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.setCache
         :args:

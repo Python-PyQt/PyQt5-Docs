@@ -157,6 +157,11 @@
             :sip:ref:`~PyQt5.QtCore.QPoint`
         :description: QtCore/QPoint-__sub__-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QPoint.transposed
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :description: QtCore/QPoint-transposed-f.rst
+
     .. sip:method:: PyQt5.QtCore.QPoint.__truediv__
         :args:
             float

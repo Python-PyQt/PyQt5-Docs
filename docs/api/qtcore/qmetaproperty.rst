@@ -121,6 +121,11 @@
             Any
         :description: QtCore/QMetaProperty-read-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QMetaProperty.relativePropertyIndex
+        :returns:
+            int
+        :description: QtCore/QMetaProperty-relativePropertyIndex-f.rst
+
     .. sip:method:: PyQt5.QtCore.QMetaProperty.reset
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`

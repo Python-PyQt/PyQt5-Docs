@@ -69,3 +69,8 @@
         :args:
             Union[:sip:ref:`~PyQt5.QtChart.QChartView.RubberBands`, :sip:ref:`~PyQt5.QtChart.QChartView.RubberBand`]
         :description: QtChart/QChartView-setRubberBand-f.rst
+
+    .. sip:method:: PyQt5.QtChart.QChartView.wheelEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QWheelEvent`
+        :description: QtChart/QChartView-wheelEvent-f.rst

@@ -98,6 +98,14 @@
             :sip:ref:`~PyQt5.QtCore.QLineF.IntersectType`
         :description: QtCore/QLineF-intersect-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QLineF.intersects
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QLineF`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QLineF.IntersectType`
+            :sip:ref:`~PyQt5.QtCore.QPointF`
+        :description: QtCore/QLineF-intersects-f.rst
+
     .. sip:method:: PyQt5.QtCore.QLineF.isNull
         :returns:
             bool

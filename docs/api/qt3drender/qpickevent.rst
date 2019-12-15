@@ -80,6 +80,11 @@
             float
         :description: Qt3DRender/QPickEvent-distance-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QPickEvent.entity
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DCore.QEntity`
+        :description: Qt3DRender/QPickEvent-entity-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QPickEvent.isAccepted
         :returns:
             bool
@@ -104,6 +109,11 @@
         :args:
             bool
         :description: Qt3DRender/QPickEvent-setAccepted-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QPickEvent.viewport
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DRender.QViewport`
+        :description: Qt3DRender/QPickEvent-viewport-f.rst
 
     .. sip:method:: PyQt5.Qt3DRender.QPickEvent.worldIntersection
         :returns:

@@ -3,6 +3,15 @@
 .. sip:class:: PyQt5.QtCore.QDateTime
     :description: QtCore/QDateTime-c.rst
 
+    .. sip:enum:: PyQt5.QtCore.QDateTime.YearRange
+        :description: QtCore/QDateTime-YearRange-e.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QDateTime.YearRange.First
+            :description: QtCore/QDateTime-YearRange-First-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QDateTime.YearRange.Last
+            :description: QtCore/QDateTime-YearRange-Last-v.rst
+
     .. sip:method:: PyQt5.QtCore.QDateTime.__init__
         :description: QtCore/QDateTime-__init__-f.rst
 
@@ -196,6 +205,16 @@
             :sip:ref:`~PyQt5.QtCore.QDateTime`
         :static:
         :description: QtCore/QDateTime-fromString-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QDateTime.fromString
+        :args:
+            str
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QDateTime`
+        :static:
+        :description: QtCore/QDateTime-fromString-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QDateTime.fromTime_t
         :args:

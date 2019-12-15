@@ -4,6 +4,15 @@
     :inherits: :sip:ref:`~PyQt5.QtCore.QObject`
     :description: Qt3DCore/QAspectEngine-c.rst
 
+    .. sip:enum:: PyQt5.Qt3DCore.QAspectEngine.RunMode
+        :description: Qt3DCore/QAspectEngine-RunMode-e.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DCore.QAspectEngine.RunMode.Automatic
+            :description: Qt3DCore/QAspectEngine-RunMode-Automatic-v.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DCore.QAspectEngine.RunMode.Manual
+            :description: Qt3DCore/QAspectEngine-RunMode-Manual-v.rst
+
     .. sip:method:: PyQt5.Qt3DCore.QAspectEngine.__init__
         :args:
             parent: :sip:ref:`~PyQt5.QtCore.QObject` = None
@@ -21,6 +30,9 @@
             Any
         :description: Qt3DCore/QAspectEngine-executeCommand-f.rst
 
+    .. sip:method:: PyQt5.Qt3DCore.QAspectEngine.processFrame
+        :description: Qt3DCore/QAspectEngine-processFrame-f.rst
+
     .. sip:method:: PyQt5.Qt3DCore.QAspectEngine.registerAspect
         :args:
             :sip:ref:`~PyQt5.Qt3DCore.QAbstractAspect`
@@ -36,10 +48,20 @@
             :sip:ref:`~PyQt5.Qt3DCore.QEntity`
         :description: Qt3DCore/QAspectEngine-rootEntity-f.rst
 
+    .. sip:method:: PyQt5.Qt3DCore.QAspectEngine.runMode
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DCore.QAspectEngine.RunMode`
+        :description: Qt3DCore/QAspectEngine-runMode-f.rst
+
     .. sip:method:: PyQt5.Qt3DCore.QAspectEngine.setRootEntity
         :args:
             :sip:ref:`~PyQt5.Qt3DCore.QEntity`
         :description: Qt3DCore/QAspectEngine-setRootEntity-f.rst
+
+    .. sip:method:: PyQt5.Qt3DCore.QAspectEngine.setRunMode
+        :args:
+            :sip:ref:`~PyQt5.Qt3DCore.QAspectEngine.RunMode`
+        :description: Qt3DCore/QAspectEngine-setRunMode-f.rst
 
     .. sip:method:: PyQt5.Qt3DCore.QAspectEngine.unregisterAspect
         :args:

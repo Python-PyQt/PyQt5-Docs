@@ -9,6 +9,12 @@
             pyqtBoundSignal
         :description: QtTest/QSignalSpy-__init__-f.rst
 
+    .. sip:method:: PyQt5.QtTest.QSignalSpy.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QObject`
+            :sip:ref:`~PyQt5.QtCore.QMetaMethod`
+        :description: QtTest/QSignalSpy-__init__-f-1.rst
+
     .. sip:method:: PyQt5.QtTest.QSignalSpy.__delitem__
         :args:
             int

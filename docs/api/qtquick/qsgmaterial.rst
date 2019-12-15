@@ -21,6 +21,12 @@
         .. sip:enum-member:: PyQt5.QtQuick.QSGMaterial.Flag.RequiresFullMatrixExceptTranslate
             :description: QtQuick/QSGMaterial-Flag-RequiresFullMatrixExceptTranslate-v.rst
 
+        .. sip:enum-member:: PyQt5.QtQuick.QSGMaterial.Flag.RhiShaderWanted
+            :description: QtQuick/QSGMaterial-Flag-RhiShaderWanted-v.rst
+
+        .. sip:enum-member:: PyQt5.QtQuick.QSGMaterial.Flag.SupportsRhiShader
+            :description: QtQuick/QSGMaterial-Flag-SupportsRhiShader-v.rst
+
     .. sip:method:: PyQt5.QtQuick.QSGMaterial.__init__
         :description: QtQuick/QSGMaterial-__init__-f.rst
 

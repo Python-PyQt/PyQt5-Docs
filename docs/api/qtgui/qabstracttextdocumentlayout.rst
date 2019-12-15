@@ -23,6 +23,13 @@
             :sip:ref:`~PyQt5.QtCore.QRectF`
         :description: QtGui/QAbstractTextDocumentLayout-blockBoundingRect-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QAbstractTextDocumentLayout.blockWithMarkerAt
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTextBlock`
+        :description: QtGui/QAbstractTextDocumentLayout-blockWithMarkerAt-f.rst
+
     .. sip:method:: PyQt5.QtGui.QAbstractTextDocumentLayout.document
         :returns:
             :sip:ref:`~PyQt5.QtGui.QTextDocument`

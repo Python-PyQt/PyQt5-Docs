@@ -76,6 +76,11 @@
             :sip:ref:`~PyQt5.QtMultimedia.QMediaPlaylist`
         :description: QtMultimedia/QMediaContent-playlist-f.rst
 
+    .. sip:method:: PyQt5.QtMultimedia.QMediaContent.request
+        :returns:
+            :sip:ref:`~PyQt5.QtNetwork.QNetworkRequest`
+        :description: QtMultimedia/QMediaContent-request-f.rst
+
     .. sip:method:: PyQt5.QtMultimedia.QMediaContent.resources
         :returns:
             List[:sip:ref:`~PyQt5.QtMultimedia.QMediaResource`]

@@ -501,6 +501,11 @@
             :sip:ref:`~PyQt5.QtWidgets.QTextEdit.LineWrapMode`
         :description: QtWidgets/QTextEdit-setLineWrapMode-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QTextEdit.setMarkdown
+        :args:
+            str
+        :description: QtWidgets/QTextEdit-setMarkdown-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QTextEdit.setOverwriteMode
         :args:
             bool
@@ -620,6 +625,13 @@
         :returns:
             str
         :description: QtWidgets/QTextEdit-toHtml-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QTextEdit.toMarkdown
+        :args:
+            features: Union[:sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeatures`, :sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeature`] = :sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
+        :returns:
+            str
+        :description: QtWidgets/QTextEdit-toMarkdown-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QTextEdit.toPlainText
         :returns:

@@ -42,6 +42,11 @@
             parent: :sip:ref:`~PyQt5.QtWidgets.QWidget` = None
         :description: QtWidgets/QCalendarWidget-__init__-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QCalendarWidget.calendar
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :description: QtWidgets/QCalendarWidget-calendar-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QCalendarWidget.dateEditAcceptDelay
         :returns:
             int
@@ -155,6 +160,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtWidgets.QCalendarWidget.SelectionMode`
         :description: QtWidgets/QCalendarWidget-selectionMode-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QCalendarWidget.setCalendar
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :description: QtWidgets/QCalendarWidget-setCalendar-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QCalendarWidget.setCurrentPage
         :args:

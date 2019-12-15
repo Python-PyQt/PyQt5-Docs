@@ -38,6 +38,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QTcpSocket`
         :description: QtWebSockets/QWebSocketServer-handleConnection-f.rst
 
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.handshakeTimeoutMS
+        :returns:
+            int
+        :description: QtWebSockets/QWebSocketServer-handshakeTimeoutMS-f.rst
+
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.hasPendingConnections
         :returns:
             bool
@@ -50,11 +55,11 @@
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.listen
         :args:
-            address: Union[:sip:ref:`~PyQt5.QtNetwork.QHostAddress`, :sip:ref:`~PyQt5.QtNetwork.QHostAddress.SpecialAddress`] = :sip:ref:`~PyQt5.QtNetwork.QHostAddress.SpecialAddress.Any`
+            address: Union[:sip:ref:`~PyQt5.QtNetwork.QHostAddress`, :sip:ref:`~PyQt5.QtNetwork.QHostAddress.SpecialAddress`] = QHostAddress.SpecialAddress.Any
             port: int = 0
         :returns:
             bool
-        :description: QtWebSockets/QWebSocketServer-listen-f.rst
+        :description: QtWebSockets/QWebSocketServer-listen-f-1.rst
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.maxPendingConnections
         :returns:
@@ -106,6 +111,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
         :description: QtWebSockets/QWebSocketServer-serverUrl-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.setHandshakeTimeout
+        :args:
+            int
+        :description: QtWebSockets/QWebSocketServer-setHandshakeTimeout-f.rst
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.setMaxPendingConnections
         :args:

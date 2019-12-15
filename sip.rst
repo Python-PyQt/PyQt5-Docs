@@ -1,4 +1,4 @@
-The main purpose of the :py:mod:`~PyQt5.sip` module is to provide
+The main purpose of the :sip:ref:`~PyQt5.sip` module is to provide
 functionality common to all SIP generated bindings.  It is loaded automatically
 and most of the time you will completely ignore it.  However, it does expose
 some functionality that can be used by applications.
@@ -191,7 +191,7 @@ some functionality that can be used by applications.
     This is a Python integer object that represents the SIP version number as
     a 3 part hexadecimal number (e.g. v5.0.0 is represented as ``0x050000``).
     Note that it is not the version number of the
-    :py:mod:`~PyQt5.sip` module.
+    :sip:ref:`~PyQt5.sip` module.
 
 
 .. py:data:: SIP_VERSION_STR
@@ -199,7 +199,7 @@ some functionality that can be used by applications.
     This is a Python string object that defines the SIP version number as
     represented as a string.  For development versions it will contain 
     ``.dev``.  Note that it is not the version number of the
-    :py:mod:`~PyQt5.sip` module.
+    :sip:ref:`~PyQt5.sip` module.
 
 
 .. py:function:: transferback(obj)
@@ -313,7 +313,7 @@ some functionality that can be used by applications.
     .. py:method:: asarray(size=-1)
 
         This returns the block of memory as an
-        :py::class:`~PyQt5.sip.array` object.  The memory is **not**
+        :py:class:`~PyQt5.sip.array` object.  The memory is **not**
         copied.
         
         :param int size:

@@ -95,6 +95,11 @@
             bool
         :description: QtGui/QFontMetrics-__eq__-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QFontMetrics.fontDpi
+        :returns:
+            float
+        :description: QtGui/QFontMetrics-fontDpi-f.rst
+
     .. sip:method:: PyQt5.QtGui.QFontMetrics.height
         :returns:
             int

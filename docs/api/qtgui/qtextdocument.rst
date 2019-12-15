@@ -16,6 +16,18 @@
         .. sip:enum-member:: PyQt5.QtGui.QTextDocument.FindFlag.FindWholeWords
             :description: QtGui/QTextDocument-FindFlag-FindWholeWords-v.rst
 
+    .. sip:enum:: PyQt5.QtGui.QTextDocument.MarkdownFeature
+        :description: QtGui/QTextDocument-MarkdownFeature-e.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectCommonMark
+            :description: QtGui/QTextDocument-MarkdownFeature-MarkdownDialectCommonMark-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub
+            :description: QtGui/QTextDocument-MarkdownFeature-MarkdownDialectGitHub-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextDocument.MarkdownFeature.MarkdownNoHTML
+            :description: QtGui/QTextDocument-MarkdownFeature-MarkdownNoHTML-v.rst
+
     .. sip:enum:: PyQt5.QtGui.QTextDocument.MetaInformation
         :description: QtGui/QTextDocument-MetaInformation-e.rst
 
@@ -34,8 +46,14 @@
         .. sip:enum-member:: PyQt5.QtGui.QTextDocument.ResourceType.ImageResource
             :description: QtGui/QTextDocument-ResourceType-ImageResource-v.rst
 
+        .. sip:enum-member:: PyQt5.QtGui.QTextDocument.ResourceType.MarkdownResource
+            :description: QtGui/QTextDocument-ResourceType-MarkdownResource-v.rst
+
         .. sip:enum-member:: PyQt5.QtGui.QTextDocument.ResourceType.StyleSheetResource
             :description: QtGui/QTextDocument-ResourceType-StyleSheetResource-v.rst
+
+        .. sip:enum-member:: PyQt5.QtGui.QTextDocument.ResourceType.UnknownResource
+            :description: QtGui/QTextDocument-ResourceType-UnknownResource-v.rst
 
         .. sip:enum-member:: PyQt5.QtGui.QTextDocument.ResourceType.UserResource
             :description: QtGui/QTextDocument-ResourceType-UserResource-v.rst
@@ -434,6 +452,12 @@
             float
         :description: QtGui/QTextDocument-setIndentWidth-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QTextDocument.setMarkdown
+        :args:
+            str
+            features: Union[:sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeatures`, :sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeature`] = :sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
+        :description: QtGui/QTextDocument-setMarkdown-f.rst
+
     .. sip:method:: PyQt5.QtGui.QTextDocument.setMaximumBlockCount
         :args:
             int
@@ -491,6 +515,13 @@
         :returns:
             str
         :description: QtGui/QTextDocument-toHtml-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QTextDocument.toMarkdown
+        :args:
+            features: Union[:sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeatures`, :sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeature`] = :sip:ref:`~PyQt5.QtGui.QTextDocument.MarkdownFeature.MarkdownDialectGitHub`
+        :returns:
+            str
+        :description: QtGui/QTextDocument-toMarkdown-f.rst
 
     .. sip:method:: PyQt5.QtGui.QTextDocument.toPlainText
         :returns:
