@@ -265,7 +265,7 @@ It is not necessary to install the :sip:ref:`PyQt5.sip` module before building
 PyQt5 but it must be installed before PyQt5 can be used.  
 
 The module is built using :py:mod:`setuptools` and is available from the
-`PyQt5-sip <https://pypi.org/project/PyQt5-sip/>` project at PyPI.  It uses
+`PyQt5-sip <https://pypi.org/project/PyQt5-sip/>`__ project at PyPI.  It uses
 :py:mod:`setuptools` as its build system and can be installed by :program:`pip`
 or you can also unpack the sdist and install it by running its
 :program:`setup.py` script.
