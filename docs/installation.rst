@@ -257,6 +257,10 @@ the following options to SIP's command line tools.
     to explicitly specify ``SPEC``.)  On macOS ``macx-xcode`` will be avoided
     if possible.
 
+The Mercurial repository containing the latest development version of
+PyQt-builder can be found `here
+<https://www.riverbankcomputing.com/hg/PyQt-builder/>`__.
+
 
 Building the :sip:ref:`~PyQt5.sip` Module
 .........................................
