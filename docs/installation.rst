@@ -332,7 +332,9 @@ complete wheel.
 
 The :program:`pyqt-bundle` program is provided as a means of bundling the
 relevant parts of a local Qt installation with a wheel, replacing any existing
-copy.  It is part of `PyQt-builder <https://pypi.org/project/PyQt-builder/>`__.
+copy.  You can also use it to produce a stripped down version of PyQt that
+contains only those modules you actually want to use.  :program:`pyqt-bundle`
+is part of `PyQt-builder <https://pypi.org/project/PyQt-builder/>`__.
 
 :program:`pyqt-bundle` assumes that the Qt installation has been created from
 one of the LGPL or commercial binary installers provided by The Qt Company.  It
@@ -373,6 +375,11 @@ The full set of command line options is:
 
     ``SUFFIX`` is appended to the build tag in the name of the updated wheel.
     The build tag is the version number of the copy of Qt being bundled.
+
+.. option:: --exclude NAME
+
+    The ``NAME`` bindings are excluded from the wheel.  This option may be
+    specified multiple times.
 
 .. option:: --no-msvc-runtime
 
