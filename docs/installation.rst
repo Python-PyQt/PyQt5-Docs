@@ -100,46 +100,18 @@ Installing the Commercial Version
 .................................
 
 It is not possible to provide wheels for the commercial version in the same way
-they are provided for the GPL version:
+they are provided for the GPL version as it is not possible to distribute a
+copy of the commercial version of Qt.  Therefore the :program:`pyqt-bundle`
+program must be used to bundle your own copy of Qt with the provided commercial
+wheels.
 
-- it is not possible to distribute a copy of the commercial version of Qt
+.. note::
 
-- the user's license information has to be applied.
-
-The :program:`pyqt-bundle` program must be used to bundle your copy of Qt with
-the provided commercial wheels.
-
-The provided commercial PyQt5 wheel is *unlicensed* and will not run if it is
-installed.  First the :program:`pyqtlicense` program must be run to create a
-*licensed* wheel from your :file:`pyqt-commercial.sip` license file.
-
-The other provided commercial wheels (for PyQtWebEngine, PyQt3D etc.) do not
-need to be licensed but do need to have the relevant parts of Qt bundled.
-
-The syntax of the :program:`pyqtlicense` command line is::
-
-    pyqtlicense [options] unlicensed-wheel
-
-The full set of command line options is:
-
-.. program:: pyqtlicense
-
-.. option:: -h, --help
-
-    Display a help message and exit.
-
-.. option:: -V, --version
-
-    Display the version number and exit.
-
-.. option:: --license FILE
-
-    This specifies that ``FILE`` is the license file.
-
-.. option:: --output DIR
-
-    This specifies that the licensed wheel will be written to the directory
-    ``DIR``.
+    The old Riverbank Computing website provided *unlicensed* commercial wheels
+    that required you to download and run the :program:`pyqtlicense` program in
+    order to create a *licensed* wheel.  The new Riverbank Computing website
+    provides pre-licensed wheels and there is no need to run
+    :program:`pyqtlicense`.
 
 To uninstall the commercial version, run::
 
