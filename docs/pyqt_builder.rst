@@ -134,6 +134,13 @@ uses :program:`pip` to install your project.
         The boolean value specifies if the QML debugging infrastructure should
         be enabled.  This is also a user option.
 
+    **target-qt-dir**
+        The value specifies the name of the directory where the Qt libraries
+        will be found.  By default the location of the Qt libraries being built
+        against is used.  If Qt libraries to be included by running
+        :program:`pyqt-bundle` are to be used then the value should be
+        :file:`Qt/lib`.  This is also a user option for :program:`sip-wheel`.
+
     **tag-prefix**
         The value is the prefix of the timeline tag to use (with the Qt version
         automatically appended).  By default the value of the ``name`` key in
