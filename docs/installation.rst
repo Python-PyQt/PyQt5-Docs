@@ -297,6 +297,12 @@ v5.12.5 with PyQt v5.9.0.  The other use case is when you want to bundle a
 development version of Qt with a version of PyQt so that the development
 version can be tested in a Python environment.
 
+.. note::
+    The ABI guarantees made by Qt do not apply to the
+    :sip:ref:`~PyQt5.QAxContainer` module.  This is only guaranteed to work if
+    the version of Qt being bundled is exactly the same as the version of Qt
+    that PyQt was built against.
+
 The wheels of the commercial version of PyQt do not have a copy of Qt bundled
 because it is not possible to distribute a copy of the commercial version of
 Qt.  Therefore a commercial user must bundle their own copy of Qt to create a
@@ -322,10 +328,11 @@ on Windows :program:`pyqt-bundle` also handles the MSVC runtime DLLs and the
 OpenSSL DLLs.
 
 .. note::
-    The ABI guarantees made by Qt do not apply to the
-    :sip:ref:`~PyQt5.QAxContainer` module.  This is only guaranteed to work if
-    the version of Qt being bundled is exactly the same as the version of Qt
-    that PyQt was built against.
+    :program:`pyqt-bundle` will not update the platform tag of a wheel.  Some
+    platform tags can embed additional requirements (e.g. the minimum required
+    version of macOS is embedded in the platform tag of a macOS wheel).  If you
+    bundle a later version of Qt with a more restrictive requirement then you
+    should rename the wheel to reflect this.
 
 The syntax of the :program:`pyqt-bundle` command line is::
 
