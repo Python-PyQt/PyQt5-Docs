@@ -1,3 +1,6 @@
+v5.15.0 ??? ??? 2020
+  - Documented the --ignore-missing option to pyqt-bundle.
+
 v5.14.1 5th May 2020
   - Documented the --exclude option to pyqt-bundle.
   - Documented the target-qt-dir project option to PyQt-builder.
