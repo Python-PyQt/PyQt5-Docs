@@ -353,6 +353,13 @@ The full set of command line options is:
     The ``NAME`` bindings are excluded from the wheel.  This option may be
     specified multiple times.
 
+.. option:: --ignore-missing
+
+    If a file cannot be found in the Qt installation being bundled then it is
+    ignored instead of being teated as an error.  This allows unsupported or
+    non-standard Qt installation to be bundled but may result in a wheel that
+    does not work.
+
 .. option:: --no-msvc-runtime
 
     On Windows the :file:`msvcp140.dll`, :file:`concrt140.dll` and
