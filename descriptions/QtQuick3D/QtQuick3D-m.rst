@@ -1,6 +1,6 @@
 .. sip:module-description::
     :status:    done
-    :brief:     Classes for rendering 3D Qt Quick content.
+    :brief:     Classes for rendering 3D Qt Quick content
 
 The :sip:ref:`~PyQt5.QtQuick3D` module provides a high-level API for creating
 3D content or UIs based on Qt Quick.  Rather than using an external engine
