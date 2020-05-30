@@ -9,10 +9,20 @@
             parent: :sip:ref:`~PyQt5.QtCore.QObject` = None
         :description: QtCore/QTranslator-__init__-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QTranslator.filePath
+        :returns:
+            str
+        :description: QtCore/QTranslator-filePath-f.rst
+
     .. sip:method:: PyQt5.QtCore.QTranslator.isEmpty
         :returns:
             bool
         :description: QtCore/QTranslator-isEmpty-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QTranslator.language
+        :returns:
+            str
+        :description: QtCore/QTranslator-language-f.rst
 
     .. sip:method:: PyQt5.QtCore.QTranslator.load
         :args:

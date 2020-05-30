@@ -70,12 +70,25 @@
             priority: int = 0
         :description: QtCore/QThreadPool-start-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QThreadPool.start
+        :args:
+            Callable[[], None]
+            priority: int = 0
+        :description: QtCore/QThreadPool-start-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QThreadPool.tryStart
         :args:
             :sip:ref:`~PyQt5.QtCore.QRunnable`
         :returns:
             bool
         :description: QtCore/QThreadPool-tryStart-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QThreadPool.tryStart
+        :args:
+            Callable[[], None]
+        :returns:
+            bool
+        :description: QtCore/QThreadPool-tryStart-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QThreadPool.tryTake
         :args:

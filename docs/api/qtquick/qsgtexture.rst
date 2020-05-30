@@ -31,8 +31,8 @@
         .. sip:enum-member:: PyQt5.QtQuick.QSGTexture.Filtering.Nearest
             :description: QtQuick/QSGTexture-Filtering-Nearest-v.rst
 
-        .. sip:enum-member:: PyQt5.QtQuick.QSGTexture.Filtering.None
-            :description: QtQuick/QSGTexture-Filtering-None-v.rst
+        .. sip:enum-member:: PyQt5.QtQuick.QSGTexture.Filtering.None_
+            :description: QtQuick/QSGTexture-Filtering-None_-v.rst
 
     .. sip:enum:: PyQt5.QtQuick.QSGTexture.WrapMode
         :description: QtQuick/QSGTexture-WrapMode-e.rst
@@ -98,6 +98,11 @@
         :returns:
             :sip:ref:`~PyQt5.QtQuick.QSGTexture.Filtering`
         :description: QtQuick/QSGTexture-mipmapFiltering-f.rst
+
+    .. sip:method:: PyQt5.QtQuick.QSGTexture.nativeTexture
+        :returns:
+            :sip:ref:`~PyQt5.QtQuick.QSGTexture.NativeTexture`
+        :description: QtQuick/QSGTexture-nativeTexture-f.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGTexture.normalizedTextureSubRect
         :returns:

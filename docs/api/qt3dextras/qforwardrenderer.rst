@@ -69,6 +69,11 @@
             float
         :description: Qt3DExtras/QForwardRenderer-setGamma-f.rst
 
+    .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.setShowDebugOverlay
+        :args:
+            bool
+        :description: Qt3DExtras/QForwardRenderer-setShowDebugOverlay-f.rst
+
     .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.setSurface
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`
@@ -78,6 +83,11 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QRectF`
         :description: Qt3DExtras/QForwardRenderer-setViewportRect-f.rst
+
+    .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.showDebugOverlay
+        :returns:
+            bool
+        :description: Qt3DExtras/QForwardRenderer-showDebugOverlay-f.rst
 
     .. sip:method:: PyQt5.Qt3DExtras.QForwardRenderer.surface
         :returns:
@@ -118,6 +128,11 @@
         :args:
             float
         :description: Qt3DExtras/QForwardRenderer-gammaChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DExtras.QForwardRenderer.showDebugOverlayChanged
+        :args:
+            bool
+        :description: Qt3DExtras/QForwardRenderer-showDebugOverlayChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DExtras.QForwardRenderer.surfaceChanged
         :args:

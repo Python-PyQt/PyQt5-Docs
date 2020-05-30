@@ -13,8 +13,8 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QMesh.Status.Loading
             :description: Qt3DRender/QMesh-Status-Loading-v.rst
 
-        .. sip:enum-member:: PyQt5.Qt3DRender.QMesh.Status.None
-            :description: Qt3DRender/QMesh-Status-None-v.rst
+        .. sip:enum-member:: PyQt5.Qt3DRender.QMesh.Status.None_
+            :description: Qt3DRender/QMesh-Status-None_-v.rst
 
         .. sip:enum-member:: PyQt5.Qt3DRender.QMesh.Status.Ready
             :description: Qt3DRender/QMesh-Status-Ready-v.rst

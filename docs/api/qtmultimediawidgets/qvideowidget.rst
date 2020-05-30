@@ -113,6 +113,11 @@
             :sip:ref:`~PyQt5.QtCore.QSize`
         :description: QtMultimediaWidgets/QVideoWidget-sizeHint-f.rst
 
+    .. sip:method:: PyQt5.QtMultimediaWidgets.QVideoWidget.videoSurface
+        :returns:
+            :sip:ref:`~PyQt5.QtMultimedia.QAbstractVideoSurface`
+        :description: QtMultimediaWidgets/QVideoWidget-videoSurface-f.rst
+
     .. sip:signal:: PyQt5.QtMultimediaWidgets.QVideoWidget.brightnessChanged
         :args:
             int

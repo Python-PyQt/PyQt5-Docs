@@ -106,3 +106,24 @@
             int
             bool
         :description: QtWidgets/QButtonGroup-buttonToggled-s-1.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QButtonGroup.idClicked
+        :args:
+            int
+        :description: QtWidgets/QButtonGroup-idClicked-s.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QButtonGroup.idPressed
+        :args:
+            int
+        :description: QtWidgets/QButtonGroup-idPressed-s.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QButtonGroup.idReleased
+        :args:
+            int
+        :description: QtWidgets/QButtonGroup-idReleased-s.rst
+
+    .. sip:signal:: PyQt5.QtWidgets.QButtonGroup.idToggled
+        :args:
+            int
+            bool
+        :description: QtWidgets/QButtonGroup-idToggled-s.rst

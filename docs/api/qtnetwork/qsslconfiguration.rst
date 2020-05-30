@@ -35,6 +35,25 @@
             :sip:ref:`~PyQt5.QtNetwork.QSslConfiguration`
         :description: QtNetwork/QSslConfiguration-__init__-f-1.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.addCaCertificate
+        :args:
+            :sip:ref:`~PyQt5.QtNetwork.QSslCertificate`
+        :description: QtNetwork/QSslConfiguration-addCaCertificate-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.addCaCertificates
+        :args:
+            Iterable[:sip:ref:`~PyQt5.QtNetwork.QSslCertificate`]
+        :description: QtNetwork/QSslConfiguration-addCaCertificates-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.addCaCertificates
+        :args:
+            str
+            format: :sip:ref:`~PyQt5.QtNetwork.QSsl.EncodingFormat` = :sip:ref:`~PyQt5.QtNetwork.QSsl.EncodingFormat.Pem`
+            syntax: :sip:ref:`~PyQt5.QtNetwork.QSslCertificate.PatternSyntax` = :sip:ref:`~PyQt5.QtNetwork.QSslCertificate.PatternSyntax.FixedString`
+        :returns:
+            bool
+        :description: QtNetwork/QSslConfiguration-addCaCertificates-f-1.rst
+
     .. sip:method:: PyQt5.QtNetwork.QSslConfiguration.allowedNextProtocols
         :returns:
             List[:sip:ref:`~PyQt5.QtCore.QByteArray`]

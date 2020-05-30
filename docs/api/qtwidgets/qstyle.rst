@@ -1642,6 +1642,9 @@
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.SubElement.SE_ProgressBarLayoutItem
             :description: QtWidgets/QStyle-SubElement-SE_ProgressBarLayoutItem-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWidgets.QStyle.SubElement.SE_PushButtonBevel
+            :description: QtWidgets/QStyle-SubElement-SE_PushButtonBevel-v.rst
+
         .. sip:enum-member:: PyQt5.QtWidgets.QStyle.SubElement.SE_PushButtonContents
             :description: QtWidgets/QStyle-SubElement-SE_PushButtonContents-v.rst
 

@@ -99,6 +99,11 @@
             :sip:ref:`~PyQt5.QtGui.QTabletEvent.TabletDevice`
         :description: QtGui/QTabletEvent-device-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QTabletEvent.deviceType
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTabletEvent.TabletDevice`
+        :description: QtGui/QTabletEvent-deviceType-f.rst
+
     .. sip:method:: PyQt5.QtGui.QTabletEvent.globalPos
         :returns:
             :sip:ref:`~PyQt5.QtCore.QPoint`

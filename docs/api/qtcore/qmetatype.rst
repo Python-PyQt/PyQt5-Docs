@@ -66,6 +66,9 @@
         .. sip:enum-member:: PyQt5.QtCore.QMetaType.Type.QColor
             :description: QtCore/QMetaType-Type-QColor-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.QMetaType.Type.QColorSpace
+            :description: QtCore/QMetaType-Type-QColorSpace-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.QMetaType.Type.QCursor
             :description: QtCore/QMetaType-Type-QCursor-v.rst
 
@@ -272,8 +275,15 @@
 
     .. sip:method:: PyQt5.QtCore.QMetaType.__init__
         :args:
-            int
-        :description: QtCore/QMetaType-__init__-f.rst
+            type: int = QMetaType.Type.UnknownType
+        :description: QtCore/QMetaType-__init__-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QMetaType.__eq__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QMetaType`
+        :returns:
+            bool
+        :description: QtCore/QMetaType-__eq__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QMetaType.flags
         :returns:
@@ -310,6 +320,18 @@
             :sip:ref:`~PyQt5.QtCore.QMetaObject`
         :static:
         :description: QtCore/QMetaType-metaObjectForType-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QMetaType.name
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: QtCore/QMetaType-name-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QMetaType.__ne__
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QMetaType`
+        :returns:
+            bool
+        :description: QtCore/QMetaType-__ne__-f.rst
 
     .. sip:method:: PyQt5.QtCore.QMetaType.type
         :args:

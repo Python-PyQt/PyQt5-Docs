@@ -93,3 +93,23 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`
         :description: QtCore/QSignalMapper-mapped-s-3.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSignalMapper.mappedInt
+        :args:
+            int
+        :description: QtCore/QSignalMapper-mappedInt-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSignalMapper.mappedObject
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :description: QtCore/QSignalMapper-mappedObject-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSignalMapper.mappedString
+        :args:
+            str
+        :description: QtCore/QSignalMapper-mappedString-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSignalMapper.mappedWidget
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QWidget`
+        :description: QtCore/QSignalMapper-mappedWidget-s.rst

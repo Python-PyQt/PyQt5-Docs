@@ -343,6 +343,11 @@
             :sip:ref:`~PyQt5.QtMultimedia.QCamera.Error`
         :description: QtMultimedia/QCamera-error-f.rst
 
+    .. sip:signal:: PyQt5.QtMultimedia.QCamera.errorOccurred
+        :args:
+            :sip:ref:`~PyQt5.QtMultimedia.QCamera.Error`
+        :description: QtMultimedia/QCamera-errorOccurred-s.rst
+
     .. sip:signal:: PyQt5.QtMultimedia.QCamera.locked
         :description: QtMultimedia/QCamera-locked-s.rst
 

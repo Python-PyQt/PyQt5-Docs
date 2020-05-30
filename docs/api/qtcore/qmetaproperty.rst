@@ -58,6 +58,11 @@
             bool
         :description: QtCore/QMetaProperty-isReadable-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QMetaProperty.isRequired
+        :returns:
+            bool
+        :description: QtCore/QMetaProperty-isRequired-f.rst
+
     .. sip:method:: PyQt5.QtCore.QMetaProperty.isResettable
         :returns:
             bool

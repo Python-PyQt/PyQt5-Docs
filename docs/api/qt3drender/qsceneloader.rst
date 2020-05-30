@@ -34,8 +34,8 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QSceneLoader.Status.Loading
             :description: Qt3DRender/QSceneLoader-Status-Loading-v.rst
 
-        .. sip:enum-member:: PyQt5.Qt3DRender.QSceneLoader.Status.None
-            :description: Qt3DRender/QSceneLoader-Status-None-v.rst
+        .. sip:enum-member:: PyQt5.Qt3DRender.QSceneLoader.Status.None_
+            :description: Qt3DRender/QSceneLoader-Status-None_-v.rst
 
         .. sip:enum-member:: PyQt5.Qt3DRender.QSceneLoader.Status.Ready
             :description: Qt3DRender/QSceneLoader-Status-Ready-v.rst

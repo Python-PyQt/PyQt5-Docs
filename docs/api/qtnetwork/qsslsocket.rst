@@ -374,6 +374,11 @@
             List[:sip:ref:`~PyQt5.QtNetwork.QSslError`]
         :description: QtNetwork/QSslSocket-sslErrors-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QSslSocket.sslHandshakeErrors
+        :returns:
+            List[:sip:ref:`~PyQt5.QtNetwork.QSslError`]
+        :description: QtNetwork/QSslSocket-sslHandshakeErrors-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QSslSocket.sslLibraryBuildVersionNumber
         :returns:
             int
@@ -476,6 +481,9 @@
         :args:
             :sip:ref:`~PyQt5.QtNetwork.QSslSocket.SslMode`
         :description: QtNetwork/QSslSocket-modeChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtNetwork.QSslSocket.newSessionTicketReceived
+        :description: QtNetwork/QSslSocket-newSessionTicketReceived-s.rst
 
     .. sip:signal:: PyQt5.QtNetwork.QSslSocket.peerVerifyError
         :args:

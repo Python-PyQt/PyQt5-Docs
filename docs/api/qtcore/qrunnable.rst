@@ -16,6 +16,14 @@
             bool
         :description: QtCore/QRunnable-autoDelete-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QRunnable.create
+        :args:
+            Callable[[], None]
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QRunnable`
+        :static:
+        :description: QtCore/QRunnable-create-f.rst
+
     .. sip:method:: PyQt5.QtCore.QRunnable.run
         :description: QtCore/QRunnable-run-f.rst
 

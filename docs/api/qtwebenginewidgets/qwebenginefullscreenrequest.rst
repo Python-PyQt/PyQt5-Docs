@@ -3,11 +3,6 @@
 .. sip:class:: PyQt5.QtWebEngineWidgets.QWebEngineFullScreenRequest
     :description: QtWebEngineWidgets/QWebEngineFullScreenRequest-c.rst
 
-    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineFullScreenRequest.__init__
-        :args:
-            :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEngineFullScreenRequest`
-        :description: QtWebEngineWidgets/QWebEngineFullScreenRequest-__init__-f.rst
-
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEngineFullScreenRequest.accept
         :description: QtWebEngineWidgets/QWebEngineFullScreenRequest-accept-f.rst
 

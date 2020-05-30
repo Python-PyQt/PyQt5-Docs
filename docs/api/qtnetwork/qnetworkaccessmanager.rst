@@ -285,6 +285,11 @@
             bool
         :description: QtNetwork/QNetworkAccessManager-setStrictTransportSecurityEnabled-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.setTransferTimeout
+        :args:
+            timeout: int = QNetworkRequest.TransferTimeoutConstant.DefaultTransferTimeoutConstant
+        :description: QtNetwork/QNetworkAccessManager-setTransferTimeout-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.strictTransportSecurityHosts
         :returns:
             List[:sip:ref:`~PyQt5.QtNetwork.QHstsPolicy`]
@@ -299,6 +304,11 @@
         :returns:
             List[str]
         :description: QtNetwork/QNetworkAccessManager-supportedSchemesImplementation-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QNetworkAccessManager.transferTimeout
+        :returns:
+            int
+        :description: QtNetwork/QNetworkAccessManager-transferTimeout-f.rst
 
     .. sip:signal:: PyQt5.QtNetwork.QNetworkAccessManager.authenticationRequired
         :args:

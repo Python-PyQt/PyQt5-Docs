@@ -156,11 +156,6 @@
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.__init__
         :args:
-            :sip:ref:`~PyQt5.QtQuick.QSGGeometry`
-        :description: QtQuick/QSGGeometry-__init__-f.rst
-
-    .. sip:method:: PyQt5.QtQuick.QSGGeometry.__init__
-        :args:
             :sip:ref:`~PyQt5.QtQuick.QSGGeometry.AttributeSet`
             int
             indexCount: int = 0

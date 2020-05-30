@@ -97,6 +97,20 @@
         :static:
         :description: QtCore/QFile-link-f-1.rst
 
+    .. sip:method:: PyQt5.QtCore.QFile.moveToTrash
+        :returns:
+            bool
+        :description: QtCore/QFile-moveToTrash-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QFile.moveToTrash
+        :args:
+            str
+        :returns:
+            bool
+            str
+        :static:
+        :description: QtCore/QFile-moveToTrash-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QFile.open
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QIODevice.OpenMode`, :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag`]

@@ -16,19 +16,19 @@
 
     .. sip:method:: PyQt5.QtCore.QWaitCondition.wait
         :args:
-            :sip:ref:`~PyQt5.QtCore.QReadWriteLock`
-            msecs: int = ULONG_MAX
-        :returns:
-            bool
-        :description: QtCore/QWaitCondition-wait-f-1.rst
-
-    .. sip:method:: PyQt5.QtCore.QWaitCondition.wait
-        :args:
             :sip:ref:`~PyQt5.QtCore.QMutex`
             :sip:ref:`~PyQt5.QtCore.QDeadlineTimer`
         :returns:
             bool
         :description: QtCore/QWaitCondition-wait-f-2.rst
+
+    .. sip:method:: PyQt5.QtCore.QWaitCondition.wait
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QReadWriteLock`
+            msecs: int = ULONG_MAX
+        :returns:
+            bool
+        :description: QtCore/QWaitCondition-wait-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QWaitCondition.wait
         :args:

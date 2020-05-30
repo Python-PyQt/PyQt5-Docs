@@ -13,8 +13,8 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QTextureImage.Status.Loading
             :description: Qt3DRender/QTextureImage-Status-Loading-v.rst
 
-        .. sip:enum-member:: PyQt5.Qt3DRender.QTextureImage.Status.None
-            :description: Qt3DRender/QTextureImage-Status-None-v.rst
+        .. sip:enum-member:: PyQt5.Qt3DRender.QTextureImage.Status.None_
+            :description: Qt3DRender/QTextureImage-Status-None_-v.rst
 
         .. sip:enum-member:: PyQt5.Qt3DRender.QTextureImage.Status.Ready
             :description: Qt3DRender/QTextureImage-Status-Ready-v.rst

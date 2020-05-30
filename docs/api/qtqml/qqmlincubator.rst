@@ -76,6 +76,11 @@
             :sip:ref:`~PyQt5.QtCore.QObject`
         :description: QtQml/QQmlIncubator-object-f.rst
 
+    .. sip:method:: PyQt5.QtQml.QQmlIncubator.setInitialProperties
+        :args:
+            Dict[str, Any]
+        :description: QtQml/QQmlIncubator-setInitialProperties-f.rst
+
     .. sip:method:: PyQt5.QtQml.QQmlIncubator.setInitialState
         :args:
             :sip:ref:`~PyQt5.QtCore.QObject`

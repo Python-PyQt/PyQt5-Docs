@@ -13,6 +13,18 @@
             wildcard: str = ''
         :description: QtHelp/QHelpIndexWidget-filterIndices-f.rst
 
+    .. sip:signal:: PyQt5.QtHelp.QHelpIndexWidget.documentActivated
+        :args:
+            :sip:ref:`~PyQt5.QtHelp.QHelpLink`
+            str
+        :description: QtHelp/QHelpIndexWidget-documentActivated-s.rst
+
+    .. sip:signal:: PyQt5.QtHelp.QHelpIndexWidget.documentsActivated
+        :args:
+            Iterable[:sip:ref:`~PyQt5.QtHelp.QHelpLink`]
+            str
+        :description: QtHelp/QHelpIndexWidget-documentsActivated-s.rst
+
     .. sip:signal:: PyQt5.QtHelp.QHelpIndexWidget.linkActivated
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`

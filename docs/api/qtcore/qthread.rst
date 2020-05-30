@@ -174,6 +174,13 @@
             bool
         :description: QtCore/QThread-wait-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QThread.wait
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QDeadlineTimer`
+        :returns:
+            bool
+        :description: QtCore/QThread-wait-f-1.rst
+
     .. sip:method:: PyQt5.QtCore.QThread.yieldCurrentThread
         :static:
         :description: QtCore/QThread-yieldCurrentThread-f.rst

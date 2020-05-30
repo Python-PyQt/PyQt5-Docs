@@ -45,11 +45,17 @@
         .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.HTTP2AllowedAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-HTTP2AllowedAttribute-v.rst
 
+        .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.Http2AllowedAttribute
+            :description: QtNetwork/QNetworkRequest-Attribute-Http2AllowedAttribute-v.rst
+
         .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.Http2DirectAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-Http2DirectAttribute-v.rst
 
         .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.HTTP2WasUsedAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-HTTP2WasUsedAttribute-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.Http2WasUsedAttribute
+            :description: QtNetwork/QNetworkRequest-Attribute-Http2WasUsedAttribute-v.rst
 
         .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.Attribute.HttpPipeliningAllowedAttribute
             :description: QtNetwork/QNetworkRequest-Attribute-HttpPipeliningAllowedAttribute-v.rst
@@ -179,6 +185,12 @@
 
         .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.RedirectPolicy.UserVerifiedRedirectPolicy
             :description: QtNetwork/QNetworkRequest-RedirectPolicy-UserVerifiedRedirectPolicy-v.rst
+
+    .. sip:enum:: PyQt5.QtNetwork.QNetworkRequest.TransferTimeoutConstant
+        :description: QtNetwork/QNetworkRequest-TransferTimeoutConstant-e.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QNetworkRequest.TransferTimeoutConstant.DefaultTransferTimeoutConstant
+            :description: QtNetwork/QNetworkRequest-TransferTimeoutConstant-DefaultTransferTimeoutConstant-v.rst
 
     .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.__init__
         :args:
@@ -311,6 +323,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QSslConfiguration`
         :description: QtNetwork/QNetworkRequest-setSslConfiguration-f.rst
 
+    .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.setTransferTimeout
+        :args:
+            timeout: int = QNetworkRequest.TransferTimeoutConstant.DefaultTransferTimeoutConstant
+        :description: QtNetwork/QNetworkRequest-setTransferTimeout-f.rst
+
     .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.setUrl
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
@@ -325,6 +342,11 @@
         :args:
             :sip:ref:`~PyQt5.QtNetwork.QNetworkRequest`
         :description: QtNetwork/QNetworkRequest-swap-f.rst
+
+    .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.transferTimeout
+        :returns:
+            int
+        :description: QtNetwork/QNetworkRequest-transferTimeout-f.rst
 
     .. sip:method:: PyQt5.QtNetwork.QNetworkRequest.url
         :returns:

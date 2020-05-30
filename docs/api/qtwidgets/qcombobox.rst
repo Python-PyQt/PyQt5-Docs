@@ -319,6 +319,11 @@
             :sip:ref:`~PyQt5.QtGui.QPaintEvent`
         :description: QtWidgets/QComboBox-paintEvent-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QComboBox.placeholderText
+        :returns:
+            str
+        :description: QtWidgets/QComboBox-placeholderText-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QComboBox.removeItem
         :args:
             int
@@ -432,6 +437,11 @@
         :args:
             int
         :description: QtWidgets/QComboBox-setModelColumn-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QComboBox.setPlaceholderText
+        :args:
+            str
+        :description: QtWidgets/QComboBox-setPlaceholderText-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QComboBox.setRootModelIndex
         :args:

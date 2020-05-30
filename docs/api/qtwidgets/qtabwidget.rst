@@ -157,6 +157,13 @@
             bool
         :description: QtWidgets/QTabWidget-isTabEnabled-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QTabWidget.isTabVisible
+        :args:
+            int
+        :returns:
+            bool
+        :description: QtWidgets/QTabWidget-isTabVisible-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QTabWidget.keyPressEvent
         :args:
             :sip:ref:`~PyQt5.QtGui.QKeyEvent`
@@ -271,6 +278,12 @@
             int
             str
         :description: QtWidgets/QTabWidget-setTabToolTip-f.rst
+
+    .. sip:method:: PyQt5.QtWidgets.QTabWidget.setTabVisible
+        :args:
+            int
+            bool
+        :description: QtWidgets/QTabWidget-setTabVisible-f.rst
 
     .. sip:method:: PyQt5.QtWidgets.QTabWidget.setTabWhatsThis
         :args:

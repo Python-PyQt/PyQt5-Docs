@@ -228,6 +228,17 @@
             int
         :description: QtXml/QDomDocument-setContent-f-7.rst
 
+    .. sip:method:: PyQt5.QtXml.QDomDocument.setContent
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QXmlStreamReader`
+            bool
+        :returns:
+            bool
+            str
+            int
+            int
+        :description: QtXml/QDomDocument-setContent-f-8.rst
+
     .. sip:method:: PyQt5.QtXml.QDomDocument.toByteArray
         :args:
             indent: int = 1

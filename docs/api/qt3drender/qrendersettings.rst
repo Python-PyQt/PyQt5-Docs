@@ -28,6 +28,11 @@
             :sip:ref:`~PyQt5.Qt3DRender.QPickingSettings`
         :description: Qt3DRender/QRenderSettings-pickingSettings-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QRenderSettings.renderCapabilities
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DRender.QRenderCapabilities`
+        :description: Qt3DRender/QRenderSettings-renderCapabilities-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QRenderSettings.renderPolicy
         :returns:
             :sip:ref:`~PyQt5.Qt3DRender.QRenderSettings.RenderPolicy`

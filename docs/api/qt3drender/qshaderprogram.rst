@@ -4,6 +4,15 @@
     :inherits: :sip:ref:`~PyQt5.Qt3DCore.QNode`
     :description: Qt3DRender/QShaderProgram-c.rst
 
+    .. sip:enum:: PyQt5.Qt3DRender.QShaderProgram.Format
+        :description: Qt3DRender/QShaderProgram-Format-e.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DRender.QShaderProgram.Format.GLSL
+            :description: Qt3DRender/QShaderProgram-Format-GLSL-v.rst
+
+        .. sip:enum-member:: PyQt5.Qt3DRender.QShaderProgram.Format.SPIRV
+            :description: Qt3DRender/QShaderProgram-Format-SPIRV-v.rst
+
     .. sip:enum:: PyQt5.Qt3DRender.QShaderProgram.ShaderType
         :description: Qt3DRender/QShaderProgram-ShaderType-e.rst
 
@@ -47,6 +56,11 @@
             :sip:ref:`~PyQt5.QtCore.QByteArray`
         :description: Qt3DRender/QShaderProgram-computeShaderCode-f.rst
 
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgram.format
+        :returns:
+            :sip:ref:`~PyQt5.Qt3DRender.QShaderProgram.Format`
+        :description: Qt3DRender/QShaderProgram-format-f.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgram.fragmentShaderCode
         :returns:
             :sip:ref:`~PyQt5.QtCore.QByteArray`
@@ -79,6 +93,11 @@
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
         :description: Qt3DRender/QShaderProgram-setComputeShaderCode-f.rst
+
+    .. sip:method:: PyQt5.Qt3DRender.QShaderProgram.setFormat
+        :args:
+            :sip:ref:`~PyQt5.Qt3DRender.QShaderProgram.Format`
+        :description: Qt3DRender/QShaderProgram-setFormat-f.rst
 
     .. sip:method:: PyQt5.Qt3DRender.QShaderProgram.setFragmentShaderCode
         :args:
@@ -142,6 +161,11 @@
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
         :description: Qt3DRender/QShaderProgram-computeShaderCodeChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DRender.QShaderProgram.formatChanged
+        :args:
+            :sip:ref:`~PyQt5.Qt3DRender.QShaderProgram.Format`
+        :description: Qt3DRender/QShaderProgram-formatChanged-s.rst
 
     .. sip:signal:: PyQt5.Qt3DRender.QShaderProgram.fragmentShaderCodeChanged
         :args:

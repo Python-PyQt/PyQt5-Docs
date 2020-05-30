@@ -222,6 +222,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QLocalSocket.LocalSocketError`
         :description: QtNetwork/QLocalSocket-error-f.rst
 
+    .. sip:signal:: PyQt5.QtNetwork.QLocalSocket.errorOccurred
+        :args:
+            :sip:ref:`~PyQt5.QtNetwork.QLocalSocket.LocalSocketError`
+        :description: QtNetwork/QLocalSocket-errorOccurred-s.rst
+
     .. sip:signal:: PyQt5.QtNetwork.QLocalSocket.stateChanged
         :args:
             :sip:ref:`~PyQt5.QtNetwork.QLocalSocket.LocalSocketState`

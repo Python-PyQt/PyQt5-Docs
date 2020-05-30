@@ -165,6 +165,11 @@
             List[:sip:ref:`~PyQt5.QtCore.QXmlStreamEntityDeclaration`]
         :description: QtCore/QXmlStreamReader-entityDeclarations-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QXmlStreamReader.entityExpansionLimit
+        :returns:
+            int
+        :description: QtCore/QXmlStreamReader-entityExpansionLimit-f.rst
+
     .. sip:method:: PyQt5.QtCore.QXmlStreamReader.entityResolver
         :returns:
             :sip:ref:`~PyQt5.QtCore.QXmlStreamEntityResolver`
@@ -321,6 +326,11 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QIODevice`
         :description: QtCore/QXmlStreamReader-setDevice-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QXmlStreamReader.setEntityExpansionLimit
+        :args:
+            int
+        :description: QtCore/QXmlStreamReader-setEntityExpansionLimit-f.rst
 
     .. sip:method:: PyQt5.QtCore.QXmlStreamReader.setEntityResolver
         :args:

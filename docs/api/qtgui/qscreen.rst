@@ -185,6 +185,13 @@
             :sip:ref:`~PyQt5.QtCore.QRect`
         :description: QtGui/QScreen-virtualGeometry-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QScreen.virtualSiblingAt
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QScreen`
+        :description: QtGui/QScreen-virtualSiblingAt-f.rst
+
     .. sip:method:: PyQt5.QtGui.QScreen.virtualSiblings
         :returns:
             List[:sip:ref:`~PyQt5.QtGui.QScreen`]

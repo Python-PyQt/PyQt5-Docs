@@ -25,8 +25,8 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QMemoryBarrier.Operation.FrameBuffer
             :description: Qt3DRender/QMemoryBarrier-Operation-FrameBuffer-v.rst
 
-        .. sip:enum-member:: PyQt5.Qt3DRender.QMemoryBarrier.Operation.None
-            :description: Qt3DRender/QMemoryBarrier-Operation-None-v.rst
+        .. sip:enum-member:: PyQt5.Qt3DRender.QMemoryBarrier.Operation.None_
+            :description: Qt3DRender/QMemoryBarrier-Operation-None_-v.rst
 
         .. sip:enum-member:: PyQt5.Qt3DRender.QMemoryBarrier.Operation.PixelBuffer
             :description: Qt3DRender/QMemoryBarrier-Operation-PixelBuffer-v.rst

@@ -21,6 +21,9 @@
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.Error.CertificateInvalid
             :description: QtWebEngineWidgets/QWebEngineCertificateError-Error-CertificateInvalid-v.rst
 
+        .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.Error.CertificateKnownInterceptionBlocked
+            :description: QtWebEngineWidgets/QWebEngineCertificateError-Error-CertificateKnownInterceptionBlocked-v.rst
+
         .. sip:enum-member:: PyQt5.QtWebEngineWidgets.QWebEngineCertificateError.Error.CertificateNameConstraintViolation
             :description: QtWebEngineWidgets/QWebEngineCertificateError-Error-CertificateNameConstraintViolation-v.rst
 

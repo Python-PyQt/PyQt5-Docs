@@ -32,6 +32,16 @@
         :static:
         :description: QtAndroidExtras/QAndroidJniObject-callStaticMethod-f.rst
 
+    .. sip:method:: PyQt5.QtAndroidExtras.QAndroidJniObject.callStaticMethod
+        :args:
+            str
+            str
+            :sip:ref:`~PyQt5.QtCore.QJsonDocument`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QJsonDocument`
+        :static:
+        :description: QtAndroidExtras/QAndroidJniObject-callStaticMethod-f-1.rst
+
     .. sip:method:: PyQt5.QtAndroidExtras.QAndroidJniObject.__eq__
         :args:
             :sip:ref:`~PyQt5.QtAndroidExtras.QAndroidJniObject`

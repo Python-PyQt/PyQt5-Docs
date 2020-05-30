@@ -81,6 +81,9 @@
         .. sip:enum-member:: PyQt5.QtCore.Qt.ApplicationAttribute.AA_DisableHighDpiScaling
             :description: QtCore/Qt-ApplicationAttribute-AA_DisableHighDpiScaling-v.rst
 
+        .. sip:enum-member:: PyQt5.QtCore.Qt.ApplicationAttribute.AA_DisableNativeVirtualKeyboard
+            :description: QtCore/Qt-ApplicationAttribute-AA_DisableNativeVirtualKeyboard-v.rst
+
         .. sip:enum-member:: PyQt5.QtCore.Qt.ApplicationAttribute.AA_DisableSessionManager
             :description: QtCore/Qt-ApplicationAttribute-AA_DisableSessionManager-v.rst
 
@@ -2624,6 +2627,9 @@
 
         .. sip:enum-member:: PyQt5.QtCore.Qt.MatchFlag.MatchRegExp
             :description: QtCore/Qt-MatchFlag-MatchRegExp-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.Qt.MatchFlag.MatchRegularExpression
+            :description: QtCore/Qt-MatchFlag-MatchRegularExpression-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.Qt.MatchFlag.MatchStartsWith
             :description: QtCore/Qt-MatchFlag-MatchStartsWith-v.rst

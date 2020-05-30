@@ -109,6 +109,16 @@
             int
         :description: QtCore/QResource-size-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QResource.uncompressedData
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: QtCore/QResource-uncompressedData-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QResource.uncompressedSize
+        :returns:
+            int
+        :description: QtCore/QResource-uncompressedSize-f.rst
+
     .. sip:method:: PyQt5.QtCore.QResource.unregisterResource
         :args:
             str

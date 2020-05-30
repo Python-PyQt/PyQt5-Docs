@@ -60,6 +60,36 @@
             str
         :description: QtHelp/QHelpEngineCore-documentationFileName-f.rst
 
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.documentsForIdentifier
+        :args:
+            str
+        :returns:
+            List[:sip:ref:`~PyQt5.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForIdentifier-f.rst
+
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.documentsForIdentifier
+        :args:
+            str
+            str
+        :returns:
+            List[:sip:ref:`~PyQt5.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForIdentifier-f-1.rst
+
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.documentsForKeyword
+        :args:
+            str
+        :returns:
+            List[:sip:ref:`~PyQt5.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForKeyword-f.rst
+
+    .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.documentsForKeyword
+        :args:
+            str
+            str
+        :returns:
+            List[:sip:ref:`~PyQt5.QtHelp.QHelpLink`]
+        :description: QtHelp/QHelpEngineCore-documentsForKeyword-f-1.rst
+
     .. sip:method:: PyQt5.QtHelp.QHelpEngineCore.error
         :returns:
             str

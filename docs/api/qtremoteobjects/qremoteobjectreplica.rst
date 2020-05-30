@@ -57,6 +57,9 @@
     .. sip:signal:: PyQt5.QtRemoteObjects.QRemoteObjectReplica.initialized
         :description: QtRemoteObjects/QRemoteObjectReplica-initialized-s.rst
 
+    .. sip:signal:: PyQt5.QtRemoteObjects.QRemoteObjectReplica.notified
+        :description: QtRemoteObjects/QRemoteObjectReplica-notified-s.rst
+
     .. sip:signal:: PyQt5.QtRemoteObjects.QRemoteObjectReplica.stateChanged
         :args:
             :sip:ref:`~PyQt5.QtRemoteObjects.QRemoteObjectReplica.State`

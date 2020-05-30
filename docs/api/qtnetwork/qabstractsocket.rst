@@ -474,6 +474,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QAbstractSocket.SocketError`
         :description: QtNetwork/QAbstractSocket-error-f.rst
 
+    .. sip:signal:: PyQt5.QtNetwork.QAbstractSocket.errorOccurred
+        :args:
+            :sip:ref:`~PyQt5.QtNetwork.QAbstractSocket.SocketError`
+        :description: QtNetwork/QAbstractSocket-errorOccurred-s.rst
+
     .. sip:signal:: PyQt5.QtNetwork.QAbstractSocket.hostFound
         :description: QtNetwork/QAbstractSocket-hostFound-s.rst
 

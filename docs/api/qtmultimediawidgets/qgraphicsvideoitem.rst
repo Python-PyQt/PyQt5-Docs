@@ -81,6 +81,11 @@
             :sip:ref:`~PyQt5.QtCore.QTimerEvent`
         :description: QtMultimediaWidgets/QGraphicsVideoItem-timerEvent-f.rst
 
+    .. sip:method:: PyQt5.QtMultimediaWidgets.QGraphicsVideoItem.videoSurface
+        :returns:
+            :sip:ref:`~PyQt5.QtMultimedia.QAbstractVideoSurface`
+        :description: QtMultimediaWidgets/QGraphicsVideoItem-videoSurface-f.rst
+
     .. sip:signal:: PyQt5.QtMultimediaWidgets.QGraphicsVideoItem.nativeSizeChanged
         :args:
             :sip:ref:`~PyQt5.QtCore.QSizeF`

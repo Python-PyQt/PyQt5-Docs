@@ -103,8 +103,8 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.Status.Loading
             :description: Qt3DRender/QAbstractTexture-Status-Loading-v.rst
 
-        .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.Status.None
-            :description: Qt3DRender/QAbstractTexture-Status-None-v.rst
+        .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.Status.None_
+            :description: Qt3DRender/QAbstractTexture-Status-None_-v.rst
 
         .. sip:enum-member:: PyQt5.Qt3DRender.QAbstractTexture.Status.Ready
             :description: Qt3DRender/QAbstractTexture-Status-Ready-v.rst

@@ -16,6 +16,9 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QGraphicsApiFilter.Api.OpenGLES
             :description: Qt3DRender/QGraphicsApiFilter-Api-OpenGLES-v.rst
 
+        .. sip:enum-member:: PyQt5.Qt3DRender.QGraphicsApiFilter.Api.RHI
+            :description: Qt3DRender/QGraphicsApiFilter-Api-RHI-v.rst
+
         .. sip:enum-member:: PyQt5.Qt3DRender.QGraphicsApiFilter.Api.Vulkan
             :description: Qt3DRender/QGraphicsApiFilter-Api-Vulkan-v.rst
 

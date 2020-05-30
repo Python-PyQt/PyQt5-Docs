@@ -78,6 +78,34 @@
             :sip:ref:`~PyQt5.QtWebSockets.QMaskGenerator`
         :description: QtWebSockets/QWebSocket-maskGenerator-f.rst
 
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.maxAllowedIncomingFrameSize
+        :returns:
+            int
+        :description: QtWebSockets/QWebSocket-maxAllowedIncomingFrameSize-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.maxAllowedIncomingMessageSize
+        :returns:
+            int
+        :description: QtWebSockets/QWebSocket-maxAllowedIncomingMessageSize-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.maxIncomingFrameSize
+        :returns:
+            int
+        :static:
+        :description: QtWebSockets/QWebSocket-maxIncomingFrameSize-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.maxIncomingMessageSize
+        :returns:
+            int
+        :static:
+        :description: QtWebSockets/QWebSocket-maxIncomingMessageSize-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.maxOutgoingFrameSize
+        :returns:
+            int
+        :static:
+        :description: QtWebSockets/QWebSocket-maxOutgoingFrameSize-f.rst
+
     .. sip:method:: PyQt5.QtWebSockets.QWebSocket.open
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
@@ -92,6 +120,11 @@
         :returns:
             str
         :description: QtWebSockets/QWebSocket-origin-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.outgoingFrameSize
+        :returns:
+            int
+        :description: QtWebSockets/QWebSocket-outgoingFrameSize-f.rst
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocket.pauseMode
         :returns:
@@ -164,6 +197,21 @@
         :args:
             :sip:ref:`~PyQt5.QtWebSockets.QMaskGenerator`
         :description: QtWebSockets/QWebSocket-setMaskGenerator-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.setMaxAllowedIncomingFrameSize
+        :args:
+            int
+        :description: QtWebSockets/QWebSocket-setMaxAllowedIncomingFrameSize-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.setMaxAllowedIncomingMessageSize
+        :args:
+            int
+        :description: QtWebSockets/QWebSocket-setMaxAllowedIncomingMessageSize-f.rst
+
+    .. sip:method:: PyQt5.QtWebSockets.QWebSocket.setOutgoingFrameSize
+        :args:
+            int
+        :description: QtWebSockets/QWebSocket-setOutgoingFrameSize-f.rst
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocket.setPauseMode
         :args:

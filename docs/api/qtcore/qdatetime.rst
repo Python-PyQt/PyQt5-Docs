@@ -428,6 +428,14 @@
             str
         :description: QtCore/QDateTime-toString-f-1.rst
 
+    .. sip:method:: PyQt5.QtCore.QDateTime.toString
+        :args:
+            str
+            :sip:ref:`~PyQt5.QtCore.QCalendar`
+        :returns:
+            str
+        :description: QtCore/QDateTime-toString-f-2.rst
+
     .. sip:method:: PyQt5.QtCore.QDateTime.toTime_t
         :returns:
             int

@@ -3,6 +3,18 @@
 .. sip:class:: PyQt5.QtNetwork.QSslCertificate
     :description: QtNetwork/QSslCertificate-c.rst
 
+    .. sip:enum:: PyQt5.QtNetwork.QSslCertificate.PatternSyntax
+        :description: QtNetwork/QSslCertificate-PatternSyntax-e.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslCertificate.PatternSyntax.FixedString
+            :description: QtNetwork/QSslCertificate-PatternSyntax-FixedString-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslCertificate.PatternSyntax.RegularExpression
+            :description: QtNetwork/QSslCertificate-PatternSyntax-RegularExpression-v.rst
+
+        .. sip:enum-member:: PyQt5.QtNetwork.QSslCertificate.PatternSyntax.Wildcard
+            :description: QtNetwork/QSslCertificate-PatternSyntax-Wildcard-v.rst
+
     .. sip:enum:: PyQt5.QtNetwork.QSslCertificate.SubjectInfo
         :description: QtNetwork/QSslCertificate-SubjectInfo-e.rst
 

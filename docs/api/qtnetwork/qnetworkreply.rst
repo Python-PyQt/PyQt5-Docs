@@ -309,6 +309,11 @@
             :sip:ref:`~PyQt5.QtNetwork.QNetworkReply.NetworkError`
         :description: QtNetwork/QNetworkReply-error-f.rst
 
+    .. sip:signal:: PyQt5.QtNetwork.QNetworkReply.errorOccurred
+        :args:
+            :sip:ref:`~PyQt5.QtNetwork.QNetworkReply.NetworkError`
+        :description: QtNetwork/QNetworkReply-errorOccurred-s.rst
+
     .. sip:signal:: PyQt5.QtNetwork.QNetworkReply.finished
         :description: QtNetwork/QNetworkReply-finished-s.rst
 

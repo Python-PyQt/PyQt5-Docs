@@ -35,3 +35,6 @@
         :returns:
             bool
         :description: QtRemoteObjects/QRemoteObjectHost-setHostUrl-f.rst
+
+    .. sip:signal:: PyQt5.QtRemoteObjects.QRemoteObjectHost.hostUrlChanged
+        :description: QtRemoteObjects/QRemoteObjectHost-hostUrlChanged-s.rst

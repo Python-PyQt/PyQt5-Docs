@@ -63,10 +63,10 @@
     .. sip:method:: PyQt5.QtCore.QItemSelectionModel.columnIntersectsSelection
         :args:
             int
-            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            parent: :sip:ref:`~PyQt5.QtCore.QModelIndex` = QModelIndex()
         :returns:
             bool
-        :description: QtCore/QItemSelectionModel-columnIntersectsSelection-f.rst
+        :description: QtCore/QItemSelectionModel-columnIntersectsSelection-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QItemSelectionModel.currentIndex
         :returns:
@@ -87,18 +87,18 @@
     .. sip:method:: PyQt5.QtCore.QItemSelectionModel.isColumnSelected
         :args:
             int
-            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            parent: :sip:ref:`~PyQt5.QtCore.QModelIndex` = QModelIndex()
         :returns:
             bool
-        :description: QtCore/QItemSelectionModel-isColumnSelected-f.rst
+        :description: QtCore/QItemSelectionModel-isColumnSelected-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QItemSelectionModel.isRowSelected
         :args:
             int
-            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            parent: :sip:ref:`~PyQt5.QtCore.QModelIndex` = QModelIndex()
         :returns:
             bool
-        :description: QtCore/QItemSelectionModel-isRowSelected-f.rst
+        :description: QtCore/QItemSelectionModel-isRowSelected-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QItemSelectionModel.isSelected
         :args:
@@ -118,10 +118,10 @@
     .. sip:method:: PyQt5.QtCore.QItemSelectionModel.rowIntersectsSelection
         :args:
             int
-            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            parent: :sip:ref:`~PyQt5.QtCore.QModelIndex` = QModelIndex()
         :returns:
             bool
-        :description: QtCore/QItemSelectionModel-rowIntersectsSelection-f.rst
+        :description: QtCore/QItemSelectionModel-rowIntersectsSelection-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QItemSelectionModel.select
         :args:

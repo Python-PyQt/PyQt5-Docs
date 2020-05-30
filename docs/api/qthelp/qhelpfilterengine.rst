@@ -14,6 +14,11 @@
             List[str]
         :description: QtHelp/QHelpFilterEngine-availableComponents-f.rst
 
+    .. sip:method:: PyQt5.QtHelp.QHelpFilterEngine.availableVersions
+        :returns:
+            List[:sip:ref:`~PyQt5.QtCore.QVersionNumber`]
+        :description: QtHelp/QHelpFilterEngine-availableVersions-f.rst
+
     .. sip:method:: PyQt5.QtHelp.QHelpFilterEngine.filterData
         :args:
             str
@@ -25,6 +30,18 @@
         :returns:
             List[str]
         :description: QtHelp/QHelpFilterEngine-filters-f.rst
+
+    .. sip:method:: PyQt5.QtHelp.QHelpFilterEngine.indices
+        :returns:
+            List[str]
+        :description: QtHelp/QHelpFilterEngine-indices-f.rst
+
+    .. sip:method:: PyQt5.QtHelp.QHelpFilterEngine.indices
+        :args:
+            str
+        :returns:
+            List[str]
+        :description: QtHelp/QHelpFilterEngine-indices-f-1.rst
 
     .. sip:method:: PyQt5.QtHelp.QHelpFilterEngine.namespacesForFilter
         :args:

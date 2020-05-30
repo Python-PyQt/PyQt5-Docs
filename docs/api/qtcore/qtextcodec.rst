@@ -106,6 +106,14 @@
         :static:
         :description: QtCore/QTextCodec-codecForUtfText-f-1.rst
 
+    .. sip:method:: PyQt5.QtCore.QTextCodec.convertFromUnicode
+        :args:
+            str
+            :sip:ref:`~PyQt5.QtCore.QTextCodec.ConverterState`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: QtCore/QTextCodec-convertFromUnicode-f.rst
+
     .. sip:method:: PyQt5.QtCore.QTextCodec.convertToUnicode
         :args:
             bytes

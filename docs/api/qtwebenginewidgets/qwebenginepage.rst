@@ -490,6 +490,16 @@
             :sip:ref:`~PyQt5.QtWebEngineWidgets.QWebEnginePage.LifecycleState`
         :description: QtWebEngineWidgets/QWebEnginePage-recommendedState-f.rst
 
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.renderProcessPid
+        :returns:
+            int
+        :description: QtWebEngineWidgets/QWebEnginePage-renderProcessPid-f.rst
+
+    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.renderProcessPidChanged
+        :args:
+            int
+        :description: QtWebEngineWidgets/QWebEnginePage-renderProcessPidChanged-f.rst
+
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.replaceMisspelledWord
         :args:
             str

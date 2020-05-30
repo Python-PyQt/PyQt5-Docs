@@ -24,6 +24,11 @@
         :static:
         :description: QtHelp/QCompressedHelpInfo-fromCompressedHelpFile-f.rst
 
+    .. sip:method:: PyQt5.QtHelp.QCompressedHelpInfo.isNull
+        :returns:
+            bool
+        :description: QtHelp/QCompressedHelpInfo-isNull-f.rst
+
     .. sip:method:: PyQt5.QtHelp.QCompressedHelpInfo.namespaceName
         :returns:
             str

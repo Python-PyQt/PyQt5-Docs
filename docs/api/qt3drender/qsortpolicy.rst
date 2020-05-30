@@ -22,6 +22,9 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QSortPolicy.SortType.Texture
             :description: Qt3DRender/QSortPolicy-SortType-Texture-v.rst
 
+        .. sip:enum-member:: PyQt5.Qt3DRender.QSortPolicy.SortType.Uniform
+            :description: Qt3DRender/QSortPolicy-SortType-Uniform-v.rst
+
     .. sip:method:: PyQt5.Qt3DRender.QSortPolicy.__init__
         :args:
             parent: :sip:ref:`~PyQt5.Qt3DCore.QNode` = None

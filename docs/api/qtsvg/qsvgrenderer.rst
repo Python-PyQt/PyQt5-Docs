@@ -37,6 +37,11 @@
             int
         :description: QtSvg/QSvgRenderer-animationDuration-f.rst
 
+    .. sip:method:: PyQt5.QtSvg.QSvgRenderer.aspectRatioMode
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.Qt.AspectRatioMode`
+        :description: QtSvg/QSvgRenderer-aspectRatioMode-f.rst
+
     .. sip:method:: PyQt5.QtSvg.QSvgRenderer.boundsOnElement
         :args:
             str
@@ -110,6 +115,11 @@
             bounds: :sip:ref:`~PyQt5.QtCore.QRectF` = QRectF()
         :description: QtSvg/QSvgRenderer-render-f-2.rst
 
+    .. sip:method:: PyQt5.QtSvg.QSvgRenderer.setAspectRatioMode
+        :args:
+            :sip:ref:`~PyQt5.QtCore.Qt.AspectRatioMode`
+        :description: QtSvg/QSvgRenderer-setAspectRatioMode-f.rst
+
     .. sip:method:: PyQt5.QtSvg.QSvgRenderer.setCurrentFrame
         :args:
             int
@@ -129,6 +139,13 @@
         :args:
             :sip:ref:`~PyQt5.QtCore.QRectF`
         :description: QtSvg/QSvgRenderer-setViewBox-f-1.rst
+
+    .. sip:method:: PyQt5.QtSvg.QSvgRenderer.transformForElement
+        :args:
+            str
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QTransform`
+        :description: QtSvg/QSvgRenderer-transformForElement-f.rst
 
     .. sip:method:: PyQt5.QtSvg.QSvgRenderer.viewBox
         :returns:

@@ -174,6 +174,11 @@
             bool
         :description: QtCore/QFileInfo-isHidden-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QFileInfo.isJunction
+        :returns:
+            bool
+        :description: QtCore/QFileInfo-isJunction-f.rst
+
     .. sip:method:: PyQt5.QtCore.QFileInfo.isNativePath
         :returns:
             bool

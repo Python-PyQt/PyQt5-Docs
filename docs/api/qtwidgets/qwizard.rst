@@ -367,6 +367,11 @@
             bool
         :description: QtWidgets/QWizard-validateCurrentPage-f.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QWizard.visitedIds
+        :returns:
+            List[int]
+        :description: QtWidgets/QWizard-visitedIds-f.rst
+
     .. sip:method:: PyQt5.QtWidgets.QWizard.visitedPages
         :returns:
             List[int]

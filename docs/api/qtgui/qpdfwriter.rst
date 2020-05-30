@@ -14,10 +14,22 @@
             :sip:ref:`~PyQt5.QtCore.QIODevice`
         :description: QtGui/QPdfWriter-__init__-f-1.rst
 
+    .. sip:method:: PyQt5.QtGui.QPdfWriter.addFileAttachment
+        :args:
+            str
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+            mimeType: str = ''
+        :description: QtGui/QPdfWriter-addFileAttachment-f.rst
+
     .. sip:method:: PyQt5.QtGui.QPdfWriter.creator
         :returns:
             str
         :description: QtGui/QPdfWriter-creator-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QPdfWriter.documentXmpMetadata
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray`
+        :description: QtGui/QPdfWriter-documentXmpMetadata-f.rst
 
     .. sip:method:: PyQt5.QtGui.QPdfWriter.metric
         :args:
@@ -50,6 +62,11 @@
         :args:
             str
         :description: QtGui/QPdfWriter-setCreator-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QPdfWriter.setDocumentXmpMetadata
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+        :description: QtGui/QPdfWriter-setDocumentXmpMetadata-f.rst
 
     .. sip:method:: PyQt5.QtGui.QPdfWriter.setMargins
         :args:

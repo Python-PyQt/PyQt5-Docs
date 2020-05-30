@@ -25,8 +25,8 @@
         .. sip:enum-member:: PyQt5.Qt3DRender.QClearBuffers.BufferType.DepthStencilBuffer
             :description: Qt3DRender/QClearBuffers-BufferType-DepthStencilBuffer-v.rst
 
-        .. sip:enum-member:: PyQt5.Qt3DRender.QClearBuffers.BufferType.None
-            :description: Qt3DRender/QClearBuffers-BufferType-None-v.rst
+        .. sip:enum-member:: PyQt5.Qt3DRender.QClearBuffers.BufferType.None_
+            :description: Qt3DRender/QClearBuffers-BufferType-None_-v.rst
 
         .. sip:enum-member:: PyQt5.Qt3DRender.QClearBuffers.BufferType.StencilBuffer
             :description: Qt3DRender/QClearBuffers-BufferType-StencilBuffer-v.rst

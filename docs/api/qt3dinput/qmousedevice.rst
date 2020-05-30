@@ -73,7 +73,22 @@
             float
         :description: Qt3DInput/QMouseDevice-setSensitivity-f.rst
 
+    .. sip:method:: PyQt5.Qt3DInput.QMouseDevice.setUpdateAxesContinuously
+        :args:
+            bool
+        :description: Qt3DInput/QMouseDevice-setUpdateAxesContinuously-f.rst
+
+    .. sip:method:: PyQt5.Qt3DInput.QMouseDevice.updateAxesContinuously
+        :returns:
+            bool
+        :description: Qt3DInput/QMouseDevice-updateAxesContinuously-f.rst
+
     .. sip:signal:: PyQt5.Qt3DInput.QMouseDevice.sensitivityChanged
         :args:
             float
         :description: Qt3DInput/QMouseDevice-sensitivityChanged-s.rst
+
+    .. sip:signal:: PyQt5.Qt3DInput.QMouseDevice.updateAxesContinuouslyChanged
+        :args:
+            bool
+        :description: Qt3DInput/QMouseDevice-updateAxesContinuouslyChanged-s.rst

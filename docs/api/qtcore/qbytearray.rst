@@ -3,14 +3,35 @@
 .. sip:class:: PyQt5.QtCore.QByteArray
     :description: QtCore/QByteArray-c.rst
 
+    .. sip:enum:: PyQt5.QtCore.QByteArray.Base64DecodingStatus
+        :description: QtCore/QByteArray-Base64DecodingStatus-e.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64DecodingStatus.IllegalCharacter
+            :description: QtCore/QByteArray-Base64DecodingStatus-IllegalCharacter-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64DecodingStatus.IllegalInputLength
+            :description: QtCore/QByteArray-Base64DecodingStatus-IllegalInputLength-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64DecodingStatus.IllegalPadding
+            :description: QtCore/QByteArray-Base64DecodingStatus-IllegalPadding-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64DecodingStatus.Ok
+            :description: QtCore/QByteArray-Base64DecodingStatus-Ok-v.rst
+
     .. sip:enum:: PyQt5.QtCore.QByteArray.Base64Option
         :description: QtCore/QByteArray-Base64Option-e.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64Option.AbortOnBase64DecodingErrors
+            :description: QtCore/QByteArray-Base64Option-AbortOnBase64DecodingErrors-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64Option.Base64Encoding
             :description: QtCore/QByteArray-Base64Option-Base64Encoding-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64Option.Base64UrlEncoding
             :description: QtCore/QByteArray-Base64Option-Base64UrlEncoding-v.rst
+
+        .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64Option.IgnoreBase64DecodingErrors
+            :description: QtCore/QByteArray-Base64Option-IgnoreBase64DecodingErrors-v.rst
 
         .. sip:enum-member:: PyQt5.QtCore.QByteArray.Base64Option.KeepTrailingEquals
             :description: QtCore/QByteArray-Base64Option-KeepTrailingEquals-v.rst
@@ -172,6 +193,15 @@
             :sip:ref:`~PyQt5.QtCore.QByteArray`
         :static:
         :description: QtCore/QByteArray-fromBase64-f-1.rst
+
+    .. sip:method:: PyQt5.QtCore.QByteArray.fromBase64Encoding
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QByteArray`, bytes, bytearray]
+            options: Union[:sip:ref:`~PyQt5.QtCore.QByteArray.Base64Options`, :sip:ref:`~PyQt5.QtCore.QByteArray.Base64Option`] = :sip:ref:`~PyQt5.QtCore.QByteArray.Base64Option.Base64Encoding`
+        :returns:
+            :sip:ref:`~PyQt5.QtCore.QByteArray.FromBase64Result`
+        :static:
+        :description: QtCore/QByteArray-fromBase64Encoding-f.rst
 
     .. sip:method:: PyQt5.QtCore.QByteArray.fromHex
         :args:

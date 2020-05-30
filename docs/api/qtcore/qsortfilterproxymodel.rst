@@ -402,3 +402,38 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.Qt.DropActions`
         :description: QtCore/QSortFilterProxyModel-supportedDropActions-f.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSortFilterProxyModel.dynamicSortFilterChanged
+        :args:
+            bool
+        :description: QtCore/QSortFilterProxyModel-dynamicSortFilterChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSortFilterProxyModel.filterCaseSensitivityChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.Qt.CaseSensitivity`
+        :description: QtCore/QSortFilterProxyModel-filterCaseSensitivityChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSortFilterProxyModel.filterRoleChanged
+        :args:
+            int
+        :description: QtCore/QSortFilterProxyModel-filterRoleChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSortFilterProxyModel.recursiveFilteringEnabledChanged
+        :args:
+            bool
+        :description: QtCore/QSortFilterProxyModel-recursiveFilteringEnabledChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSortFilterProxyModel.sortCaseSensitivityChanged
+        :args:
+            :sip:ref:`~PyQt5.QtCore.Qt.CaseSensitivity`
+        :description: QtCore/QSortFilterProxyModel-sortCaseSensitivityChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSortFilterProxyModel.sortLocaleAwareChanged
+        :args:
+            bool
+        :description: QtCore/QSortFilterProxyModel-sortLocaleAwareChanged-s.rst
+
+    .. sip:signal:: PyQt5.QtCore.QSortFilterProxyModel.sortRoleChanged
+        :args:
+            int
+        :description: QtCore/QSortFilterProxyModel-sortRoleChanged-s.rst

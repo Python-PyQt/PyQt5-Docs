@@ -579,6 +579,18 @@
             :sip:ref:`~PyQt5.QtCore.QSize`
         :description: QtGui/QWindow-sizeIncrement-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QWindow.startSystemMove
+        :returns:
+            bool
+        :description: QtGui/QWindow-startSystemMove-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QWindow.startSystemResize
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.Qt.Edges`, :sip:ref:`~PyQt5.QtCore.Qt.Edge`]
+        :returns:
+            bool
+        :description: QtGui/QWindow-startSystemResize-f.rst
+
     .. sip:method:: PyQt5.QtGui.QWindow.surfaceType
         :returns:
             :sip:ref:`~PyQt5.QtGui.QSurface.SurfaceType`

@@ -17,6 +17,11 @@
             :sip:ref:`~PyQt5.QtCore.QModelIndex`
         :description: QtHelp/QHelpIndexModel-filter-f.rst
 
+    .. sip:method:: PyQt5.QtHelp.QHelpIndexModel.helpEngine
+        :returns:
+            :sip:ref:`~PyQt5.QtHelp.QHelpEngineCore`
+        :description: QtHelp/QHelpIndexModel-helpEngine-f.rst
+
     .. sip:method:: PyQt5.QtHelp.QHelpIndexModel.isCreatingIndex
         :returns:
             bool

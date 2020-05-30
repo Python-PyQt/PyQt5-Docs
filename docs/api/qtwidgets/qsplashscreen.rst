@@ -17,6 +17,13 @@
             flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.WindowFlags`, :sip:ref:`~PyQt5.QtCore.Qt.WindowType`] = Qt.WindowFlags()
         :description: QtWidgets/QSplashScreen-__init__-f-1.rst
 
+    .. sip:method:: PyQt5.QtWidgets.QSplashScreen.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QScreen`
+            pixmap: :sip:ref:`~PyQt5.QtGui.QPixmap` = QPixmap()
+            flags: Union[:sip:ref:`~PyQt5.QtCore.Qt.WindowFlags`, :sip:ref:`~PyQt5.QtCore.Qt.WindowType`] = Qt.WindowFlags()
+        :description: QtWidgets/QSplashScreen-__init__-f-2.rst
+
     .. sip:method:: PyQt5.QtWidgets.QSplashScreen.clearMessage
         :description: QtWidgets/QSplashScreen-clearMessage-f.rst
 

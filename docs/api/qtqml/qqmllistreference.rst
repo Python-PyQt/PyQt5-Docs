@@ -52,6 +52,16 @@
             bool
         :description: QtQml/QQmlListReference-canCount-f.rst
 
+    .. sip:method:: PyQt5.QtQml.QQmlListReference.canRemoveLast
+        :returns:
+            bool
+        :description: QtQml/QQmlListReference-canRemoveLast-f.rst
+
+    .. sip:method:: PyQt5.QtQml.QQmlListReference.canReplace
+        :returns:
+            bool
+        :description: QtQml/QQmlListReference-canReplace-f.rst
+
     .. sip:method:: PyQt5.QtQml.QQmlListReference.clear
         :returns:
             bool
@@ -86,3 +96,16 @@
         :returns:
             :sip:ref:`~PyQt5.QtCore.QObject`
         :description: QtQml/QQmlListReference-object-f.rst
+
+    .. sip:method:: PyQt5.QtQml.QQmlListReference.removeLast
+        :returns:
+            bool
+        :description: QtQml/QQmlListReference-removeLast-f.rst
+
+    .. sip:method:: PyQt5.QtQml.QQmlListReference.replace
+        :args:
+            int
+            :sip:ref:`~PyQt5.QtCore.QObject`
+        :returns:
+            bool
+        :description: QtQml/QQmlListReference-replace-f.rst

@@ -145,6 +145,11 @@
             bool
         :description: QtCore/QConcatenateTablesProxyModel-setItemData-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QConcatenateTablesProxyModel.sourceModels
+        :returns:
+            List[:sip:ref:`~PyQt5.QtCore.QAbstractItemModel`]
+        :description: QtCore/QConcatenateTablesProxyModel-sourceModels-f.rst
+
     .. sip:method:: PyQt5.QtCore.QConcatenateTablesProxyModel.span
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`

@@ -259,6 +259,11 @@
             :sip:ref:`~PyQt5.QtMultimedia.QAbstractVideoSurface`
         :description: QtMultimedia/QMediaPlayer-setVideoOutput-f-2.rst
 
+    .. sip:method:: PyQt5.QtMultimedia.QMediaPlayer.setVideoOutput
+        :args:
+            Iterable[:sip:ref:`~PyQt5.QtMultimedia.QAbstractVideoSurface`]
+        :description: QtMultimedia/QMediaPlayer-setVideoOutput-f-3.rst
+
     .. sip:method:: PyQt5.QtMultimedia.QMediaPlayer.setVolume
         :args:
             int

@@ -10,8 +10,8 @@
         .. sip:enum-member:: PyQt5.Qt3DAnimation.QKeyframeAnimation.RepeatMode.Constant
             :description: Qt3DAnimation/QKeyframeAnimation-RepeatMode-Constant-v.rst
 
-        .. sip:enum-member:: PyQt5.Qt3DAnimation.QKeyframeAnimation.RepeatMode.None
-            :description: Qt3DAnimation/QKeyframeAnimation-RepeatMode-None-v.rst
+        .. sip:enum-member:: PyQt5.Qt3DAnimation.QKeyframeAnimation.RepeatMode.None_
+            :description: Qt3DAnimation/QKeyframeAnimation-RepeatMode-None_-v.rst
 
         .. sip:enum-member:: PyQt5.Qt3DAnimation.QKeyframeAnimation.RepeatMode.Repeat
             :description: Qt3DAnimation/QKeyframeAnimation-RepeatMode-Repeat-v.rst

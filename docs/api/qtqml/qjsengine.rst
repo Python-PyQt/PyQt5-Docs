@@ -106,6 +106,11 @@
             bool
         :description: QtQml/QJSEngine-setInterrupted-f.rst
 
+    .. sip:method:: PyQt5.QtQml.QJSEngine.setUiLanguage
+        :args:
+            str
+        :description: QtQml/QJSEngine-setUiLanguage-f.rst
+
     .. sip:method:: PyQt5.QtQml.QJSEngine.throwError
         :args:
             str
@@ -116,3 +121,11 @@
             :sip:ref:`~PyQt5.QtQml.QJSValue.ErrorType`
             message: str = ''
         :description: QtQml/QJSEngine-throwError-f-1.rst
+
+    .. sip:method:: PyQt5.QtQml.QJSEngine.uiLanguage
+        :returns:
+            str
+        :description: QtQml/QJSEngine-uiLanguage-f.rst
+
+    .. sip:signal:: PyQt5.QtQml.QJSEngine.uiLanguageChanged
+        :description: QtQml/QJSEngine-uiLanguageChanged-s.rst

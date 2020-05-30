@@ -359,6 +359,11 @@
             :sip:ref:`~PyQt5.QtGui.QShowEvent`
         :description: QtQuick/QQuickWindow-showEvent-f.rst
 
+    .. sip:method:: PyQt5.QtQuick.QQuickWindow.tabletEvent
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QTabletEvent`
+        :description: QtQuick/QQuickWindow-tabletEvent-f.rst
+
     .. sip:method:: PyQt5.QtQuick.QQuickWindow.textRenderType
         :returns:
             :sip:ref:`~PyQt5.QtQuick.QQuickWindow.TextRenderType`

@@ -102,6 +102,28 @@
             List[:sip:ref:`~PyQt5.QtCore.QModelIndex`]
         :description: QtCore/QIdentityProxyModel-match-f.rst
 
+    .. sip:method:: PyQt5.QtCore.QIdentityProxyModel.moveColumns
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            int
+            int
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            int
+        :returns:
+            bool
+        :description: QtCore/QIdentityProxyModel-moveColumns-f.rst
+
+    .. sip:method:: PyQt5.QtCore.QIdentityProxyModel.moveRows
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            int
+            int
+            :sip:ref:`~PyQt5.QtCore.QModelIndex`
+            int
+        :returns:
+            bool
+        :description: QtCore/QIdentityProxyModel-moveRows-f.rst
+
     .. sip:method:: PyQt5.QtCore.QIdentityProxyModel.parent
         :args:
             :sip:ref:`~PyQt5.QtCore.QModelIndex`

@@ -15,6 +15,13 @@
             :sip:ref:`~PyQt5.Qt3DCore.QBackendNodeMapper`
         :description: Qt3DCore/QAbstractAspect-registerBackendType-f.rst
 
+    .. sip:method:: PyQt5.Qt3DCore.QAbstractAspect.registerBackendType
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QMetaObject`
+            :sip:ref:`~PyQt5.Qt3DCore.QBackendNodeMapper`
+            bool
+        :description: Qt3DCore/QAbstractAspect-registerBackendType-f-1.rst
+
     .. sip:method:: PyQt5.Qt3DCore.QAbstractAspect.rootEntityId
         :returns:
             :sip:ref:`~PyQt5.Qt3DCore.QNodeId`

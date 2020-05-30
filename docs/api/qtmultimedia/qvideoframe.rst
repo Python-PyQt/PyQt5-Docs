@@ -223,6 +223,11 @@
             int
         :description: QtMultimedia/QVideoFrame-height-f.rst
 
+    .. sip:method:: PyQt5.QtMultimedia.QVideoFrame.image
+        :returns:
+            :sip:ref:`~PyQt5.QtGui.QImage`
+        :description: QtMultimedia/QVideoFrame-image-f.rst
+
     .. sip:method:: PyQt5.QtMultimedia.QVideoFrame.imageFormatFromPixelFormat
         :args:
             :sip:ref:`~PyQt5.QtMultimedia.QVideoFrame.PixelFormat`
