@@ -34,15 +34,15 @@
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.__init__
         :args:
-            Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]
-        :description: QtCore/QJsonValue-__init__-f-1.rst
+            Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]
+        :description: QtCore/QJsonValue-__init__-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.__eq__
         :args:
-            Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]
+            Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]
         :returns:
             bool
-        :description: QtCore/QJsonValue-__eq__-f.rst
+        :description: QtCore/QJsonValue-__eq__-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.fromVariant
         :args:
@@ -108,10 +108,10 @@
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.__ne__
         :args:
-            Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]
+            Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]
         :returns:
             bool
-        :description: QtCore/QJsonValue-__ne__-f.rst
+        :description: QtCore/QJsonValue-__ne__-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.swap
         :args:
@@ -153,15 +153,15 @@
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.toObject
         :returns:
-            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]]
-        :description: QtCore/QJsonValue-toObject-f.rst
+            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]]
+        :description: QtCore/QJsonValue-toObject-f-2.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.toObject
         :args:
-            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]]
+            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]]
         :returns:
-            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]]
-        :description: QtCore/QJsonValue-toObject-f-1.rst
+            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]]
+        :description: QtCore/QJsonValue-toObject-f-3.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonValue.toString
         :returns:

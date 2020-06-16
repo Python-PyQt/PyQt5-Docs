@@ -26,8 +26,8 @@
 
     .. sip:method:: PyQt5.QtCore.QJsonDocument.__init__
         :args:
-            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]]
-        :description: QtCore/QJsonDocument-__init__-f-1.rst
+            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]]
+        :description: QtCore/QJsonDocument-__init__-f-4.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonDocument.__init__
         :args:
@@ -130,8 +130,8 @@
 
     .. sip:method:: PyQt5.QtCore.QJsonDocument.object
         :returns:
-            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]]
-        :description: QtCore/QJsonDocument-object-f.rst
+            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]]
+        :description: QtCore/QJsonDocument-object-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonDocument.rawData
         :returns:
@@ -146,8 +146,8 @@
 
     .. sip:method:: PyQt5.QtCore.QJsonDocument.setObject
         :args:
-            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, str]]
-        :description: QtCore/QJsonDocument-setObject-f.rst
+            Dict[str, Union[:sip:ref:`~PyQt5.QtCore.QJsonValue`, :sip:ref:`~PyQt5.QtCore.QJsonValue.Type`, Iterable[:sip:ref:`~PyQt5.QtCore.QJsonValue`], bool, int, float, None, str]]
+        :description: QtCore/QJsonDocument-setObject-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QJsonDocument.swap
         :args:
