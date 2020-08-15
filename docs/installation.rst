@@ -323,9 +323,9 @@ On Linux you must have the :program:`chrpath` program installed.
 On macOS you must have the :program:`install_name_tool` program installed.
 This is a part of Xcode.
 
-On Windows the binary installer for MSVC 2015 or MSVC 2017 must be used.  Also
-on Windows :program:`pyqt-bundle` also handles the MSVC runtime DLLs and the
-OpenSSL DLLs.
+On Windows the binary installer for MSVC 2015, MSVC 2017 or MSVC 2019 must be
+used.  Also on Windows :program:`pyqt-bundle` also handles the MSVC runtime
+DLLs and the OpenSSL DLLs.
 
 .. note::
     :program:`pyqt-bundle` will not update the platform tag of a wheel.  Some
