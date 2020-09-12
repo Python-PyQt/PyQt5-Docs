@@ -74,7 +74,7 @@ This will install the wheel for your platform and your version of Python
 PyPI.
 
 If you get an error message saying that no downloads could be found that
-satisfy the rquirement then you are probably using an unsupported version of
+satisfy the requirement then you are probably using an unsupported version of
 Python.
 
 The PyQt5 wheel includes the necessary parts of the LGPL version of Qt.  There
