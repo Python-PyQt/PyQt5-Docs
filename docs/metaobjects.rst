@@ -9,6 +9,11 @@ signals, slots and properties as described in previous sections.  In this
 section we cover the ways in which the remaining parts of a
 :sip:ref:`~PyQt5.QtCore.QMetaObject` are populated.
 
+.. note::
+    :sip:ref:`~PyQt5.QtCore.Q_ENUM`, :sip:ref:`~PyQt5.QtCore.Q_FLAG` and
+    :sip:ref:`~PyQt5.QtCore.Q_CLASSINFO` are not available when PyQt5 is built
+    for PyPy.
+
 
 :sip:ref:`~PyQt5.QtCore.Q_ENUM` and :sip:ref:`~PyQt5.QtCore.Q_FLAG`
 -------------------------------------------------------------------
