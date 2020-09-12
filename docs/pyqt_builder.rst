@@ -131,6 +131,10 @@ uses :program:`pip` to install your project.
     :py:mod:`~pyqtbuild.PyQtProject` adds the following keys to the
     ``[tool.sip.project]`` section of :file:`pyproject.toml`:
 
+    **android-abis**
+        The value is a list of target Android ABIs (e.g. armeabi-v7a,
+        arm64-v8a).  This is also a user option.
+
     **link-full-dll**
         The boolean value specifies if, on Windows, the full Python DLL should
         be linked against rather than the limited API DLL.  This is also a user
