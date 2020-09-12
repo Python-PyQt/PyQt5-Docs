@@ -22,6 +22,26 @@ This will ensure that ``PyQt-builder`` is automatically installed if a user
 uses :program:`pip` to install your project.
 
 
+:py:data:`PYQTBUILD_VERSION`
+----------------------------
+
+.. py:data:: PYQTBUILD_VERSION
+
+    This is a Python integer object that represents the version number of the
+    :py:mod:`pyqtbuild` module as a 3 part hexadecimal number (e.g. v1.5.0 is
+    represented as ``0x010500``).
+
+
+:py:data:`PYQTBUILD_VERSION_STR`
+--------------------------------
+
+.. py:data:: PYQTBUILD_VERSION_STR
+
+    This is a Python string object that defines the version number of the
+    :py:mod:`pyqtbuild` as represented as a string.  For development versions
+    it will contain ``.dev``.
+
+
 :py:class:`~pyqtbuild.PyQtBindings`
 -----------------------------------
 
