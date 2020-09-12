@@ -1,8 +1,11 @@
-v5.15.1 ??? ??? 2020
+v5.15.1 ??? September 2020
   - Updated the documentation for PyQt v5.15.1.
+  - Documented the PYQTBUILD_VERSION and PYQTBUILD_VERSION_STR attributes of
+    the pyqtbuild module.
+  - Documented the android-abis project option to PyQt-builder.
 
 v5.15.0 1st June 2020
-  - Updated the documentation for PyQt v5.15.
+  - Updated the documentation for PyQt v5.15.0.
   - Documented the --ignore-missing option to pyqt-bundle.
 
 v5.14.1 5th May 2020
