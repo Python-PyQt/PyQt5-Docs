@@ -29,4 +29,3 @@ PyQt5 Reference Guide
     dbus
     deploy_commercial
     extension_api
-    pyqt_builder

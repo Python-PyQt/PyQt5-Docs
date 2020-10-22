@@ -32,7 +32,7 @@ copyright = '{0}, Riverbank Computing Limited, The Qt Company'.format(
 # |release|, also used in various other places throughout the built documents.
 #
 # The short X.Y version.
-version = '5.15.1'
+version = '5.15.2'
 # The full version, including alpha/beta/rc tags.
 release = version
 
