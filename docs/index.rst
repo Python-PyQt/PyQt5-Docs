@@ -10,7 +10,6 @@ PyQt5 Reference Guide
     deprecations
     incompatibilities
     installation
-    building_with_configure
     signals_slots
     qt_properties
     metaobjects

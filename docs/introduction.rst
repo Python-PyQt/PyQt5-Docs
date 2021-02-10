@@ -13,22 +13,18 @@ and Bluetooth), web browsing, 3D animation, charts, 3D data visualisation and
 interfacing with app stores.  PyQt5 implements over 1000 of these classes as a
 set of Python modules.
 
-PyQt5 supports the Windows, Linux, UNIX, Android, macOS and iOS platforms.
+PyQt5 comprises PyQt5 itself and a number of add-ons that correspond to Qt's
+additional libraries.  Each is provided as a source distribution (*sdist*) and
+binary wheels for Windows, Linux and macOS.
 
-PyQt does not include a copy of Qt. You must obtain a correctly licensed copy
-of Qt yourself.  However, binary wheels of the GPL version of PyQt5 are
-provided and these include a copy of the appropriate parts of the LGPL version
-of Qt.
+PyQt5 supports the Windows, Linux, UNIX, Android, macOS and iOS platforms and
+requires Python v3.5 or later.  (PyQt5 should also build against Python v2.7
+and earlier versions of Python v3 using the legacy :program:`configure.py`
+build script but this is unsupported.)
 
 The homepage for PyQt5 is https://www.riverbankcomputing.com/software/pyqt/.
 Here you will always find the latest stable version, current development
-previews, and the latest version of this documentation.
-
-PyQt5 is built using the `SIP bindings generator
-<https://www.riverbankcomputing.com/software/sip/>`__.  SIP must be installed
-in order to build and use PyQt5.
-
-Earlier versions of Qt are supported by PyQt4.
+snapshots.
 
 
 License
@@ -53,8 +49,10 @@ number of Python extension modules.  These are all installed in the
 ``PyQt5`` Python package and are described in the
 :ref:`list of modules<ref-module-index>`.
 
-PyQt5 is distributed as a number of source packages and corresponding binary
-wheels each of which implement one or more logically related extension modules.
+Each extension module has a corresponding `PEP 484
+<https://www.python.org/dev/peps/pep-0484>`__ defined stub file containing type
+hints for the module's API.  This can be used by static type checkers such as
+`mypy <http://www.mypy-lang.org>`__.
 
 PyQt5 contains plugins that enable Qt Designer and :program:`qmlscene` to be
 extended using Python code.  See :ref:`ref-designer-plugins` and
@@ -84,18 +82,10 @@ described in :ref:`ref-dbus`.  It is only available if the ``dbus-python``
 v0.80 (or later) bindings package is installed.  The :sip:ref:`~PyQt5.QtDBus`
 module provides a more Qt-like interface to DBus.
 
-When PyQt5 is configured a file called :file:`PyQt5.api` is generated.  This
-can be used by the
-`QScintilla <https://www.riverbankcomputing.com/software/qscintilla/>`_
-editor component to enable the use of auto-completion and call tips when
-editing PyQt5 code.  The API file is installed automatically if
-`QScintilla <https://www.riverbankcomputing.com/software/qscintilla/>`_
-is already installed.
-
 PyQt5 includes a large number of examples.  These are ports to Python of many
 of the C++ examples provided with Qt.  They can be found in the
-:file:`examples` directory.
+:file:`examples` directory of the sdist.
 
-Finally, PyQt5 contains the ``.sip`` files used by SIP to generate PyQt5
-itself.  These can be used by developers of bindings of other Qt based class
-libraries.
+Finally, PyQt5 contains the specification files that allow bindings for other
+Qt based class libraries that further extend PyQt5 to be developed and
+installed.
