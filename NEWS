@@ -1,3 +1,8 @@
+v5.15.3 24th February 2021
+  - Refactored the installation sections based on PyQt6.
+  - Removed the configure.py documentation.
+  - Added mention of PyQtNetworkAuth.
+
 v5.15.2 24th November 2020
   - Removed the PyQt-builder documentation.
 
