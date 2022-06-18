@@ -1,4 +1,4 @@
-# Copyright (c) 2019, Riverbank Computing Limited
+# Copyright (c) 2022, Riverbank Computing Limited
 # All rights reserved.
 #
 # Redistribution and use in source and binary forms, with or without
@@ -28,10 +28,14 @@ import glob
 import hashlib
 import os
 import shutil
-import subprocess
 import sys
 import tempfile
 import xml.etree.ElementTree as etree
+
+# These are undocumented internals until SIP implements a proper documentation
+# system.
+from sipbuild.code_generator import generateXML, py2c, set_globals, transform
+from sipbuild.generator import parse
 
 
 class FixedIndenter:
@@ -217,8 +221,8 @@ class Overload:
         self.returns = []
 
 
-def generate_rst(module, package, include_dirs, descriptions, api, sip,
-        sip_file, verbose):
+def generate_rst(module, package, descriptions, api, sip_file, include_dirs,
+        verbose):
     """ Generate the reST for a single module. """
 
     # Create the module-specific api directory.
@@ -231,18 +235,20 @@ def generate_rst(module, package, include_dirs, descriptions, api, sip,
         module_el = None
     else:
         with tempfile.TemporaryDirectory() as xml_dir:
-            # Run sip to create the XML API description.
+            # Use SIP to create the XML API description.
             xml_file = os.path.join(xml_dir, module + '.xml')
 
-            args = [sip, '-m', xml_file]
+            encoding = 'UTF-8'
 
-            for d in include_dirs:
-                args.append('-I')
-                args.append(d)
+            spec, _ = parse(sip_file, hex_version=0x500000, encoding=encoding,
+                    abi_version='12.0', tags=[],
+                    disabled_features=['PyQt_OpenGL_ES2'],
+                    protected_is_public=False, include_dirs=include_dirs,
+                    strict=False)
 
-            args.append(sip_file)
-
-            run(args, verbose=verbose)
+            pt = py2c(spec, encoding)
+            transform(pt, False)
+            generateXML(pt, xml_file)
 
             # Read the XML.
             module_el = etree.parse(xml_file).getroot()
@@ -860,34 +866,6 @@ def get_pysigs(descriptions, module, name):
     return pysigs
 
 
-def find_exe(name):
-    """ Return the absolute path name of an executable. """
-
-    if sys.platform == 'win32':
-        name += '.exe'
-
-    for d in os.environ.get('PATH', '').split(os.pathsep):
-        exe_path = os.path.join(os.path.abspath(d), name)
-
-        if os.access(exe_path, os.X_OK):
-            return exe_path
-
-    error("'{0}' must be installed on PATH".format(name))
-
-
-def run(args, verbose):
-    """ Run an external command. """
-
-    if verbose:
-        progress("Running {}...".format(' '.join(args)))
-
-    try:
-        subprocess.run(args, stderr=subprocess.PIPE, check=True,
-                universal_newlines=True)
-    except subprocess.CalledProcessError as e:
-        error(e.stderr)
-
-
 def error(message):
     """ Write an error message to stderr and terminate with a non-zero exit
     code.
@@ -929,9 +907,6 @@ if __name__ == '__main__':
     arg_parser.add_argument('--sip-file', metavar='FILE',
             help="the name of the .sip file defining the (non-stub) module")
 
-    arg_parser.add_argument('--sip', metavar='FILE', default='sip5',
-            help="the name of the sip executable")
-
     arg_parser.add_argument('--verbose', action='store_true', default=False,
             help="enable verbose progress messages")
 
@@ -946,7 +921,6 @@ if __name__ == '__main__':
     descriptions = os.path.abspath(args.descriptions)
     include_dirs = [os.path.abspath(d) for d in args.include_dirs]
     sip_file = None if args.sip_file is None else os.path.abspath(args.sip_file)
-    sip = find_exe(args.sip)
     verbose = args.verbose
 
     parts = args.modules[0].split('.')
@@ -955,7 +929,6 @@ if __name__ == '__main__':
 
     # Tell the user what they have specified.
     if verbose:
-        print("The sip executable is", sip)
         print("Module description stubs will be placed in", descriptions)
         print("Module API skeletons will be placed in", api)
 
@@ -965,5 +938,8 @@ if __name__ == '__main__':
     if clean:
         clean_descriptions(module, descriptions, verbose)
 
-    generate_rst(module, package, include_dirs, descriptions, api, sip,
-            sip_file, verbose)
+    # Configure SIP.
+    set_globals(0x500000, '5.0.0', 12, 0, 'PyQt5.sip', Exception)
+
+    generate_rst(module, package, descriptions, api, sip_file, include_dirs,
+            verbose)
