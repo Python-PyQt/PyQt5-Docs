@@ -380,12 +380,12 @@
 
     .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.setSocketDescriptor
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
             state: :sip:ref:`~PyQt5.QtNetwork.QAbstractSocket.SocketState` = :sip:ref:`~PyQt5.QtNetwork.QAbstractSocket.SocketState.ConnectedState`
             mode: Union[:sip:ref:`~PyQt5.QtCore.QIODevice.OpenMode`, :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag`] = :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QAbstractSocket-setSocketDescriptor-f.rst
+        :description: QtNetwork/QAbstractSocket-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.setSocketError
         :args:
@@ -405,8 +405,8 @@
 
     .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.socketDescriptor
         :returns:
-            sip.voidptr
-        :description: QtNetwork/QAbstractSocket-socketDescriptor-f.rst
+            PyQt5.sip.voidptr
+        :description: QtNetwork/QAbstractSocket-socketDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtNetwork.QAbstractSocket.socketOption
         :args:

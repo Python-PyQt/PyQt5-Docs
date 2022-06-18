@@ -1,4 +1,4 @@
-The main purpose of the :py:mod:`~PyQt5.sip` module is to provide
+The main purpose of the :sip:ref:`~PyQt5.sip` module is to provide
 functionality common to all SIP generated bindings.  It is loaded automatically
 and most of the time you will completely ignore it.  However, it does expose
 some functionality that can be used by applications.
@@ -21,7 +21,7 @@ some functionality that can be used by applications.
         :param nr_elements:
             the number of elements in the array.
 
-        For a C++ class each element of the array is created by calling the
+        For a C++ class each element of the array is created by calling the 
         class's argumentless constructor.  For a C structure then the memory is
         simply allocated on the heap.
 
@@ -45,7 +45,7 @@ some functionality that can be used by applications.
     .. py:method:: __len__()
 
         This returns the length of the array.
-
+        
         :return:
             the number of elements in the array.
 
@@ -62,7 +62,7 @@ some functionality that can be used by applications.
             assigned to.
 
 
-.. py:function:: assign(obj, other)
+.. py:function:: PyQt5.sip.assign(obj, other)
 
     This does the Python equivalent of invoking the assignment operator of a
     C++ instance (i.e. ``*obj = other``).
@@ -73,7 +73,7 @@ some functionality that can be used by applications.
         the Python object being assigned.
 
 
-.. py:function:: cast(obj, type)
+.. py:function:: PyQt5.sip.cast(obj, type)
 
     This does the Python equivalent of casting a C++ instance to one of its
     sub or super-class types.
@@ -87,7 +87,7 @@ some functionality that can be used by applications.
         has the type *type*.
 
 
-.. py:function:: delete(obj)
+.. py:function:: PyQt5.sip.delete(obj)
 
     For C++ instances this calls the C++ destructor.  For C structures it
     returns the structure's memory to the heap.
@@ -96,18 +96,18 @@ some functionality that can be used by applications.
         the Python object.
 
 
-.. py:function:: dump(obj)
+.. py:function:: PyQt5.sip.dump(obj)
 
     This displays various bits of useful information about the internal state
     of the Python object that wraps a C++ instance or C structure.  Note that
     the reference count that is displayed has the same caveat as that of
-    :func:`sys.getrefcount`.
+    :py:func:`sys.getrefcount`.
 
     :param obj:
         the Python object.
 
 
-.. py:function:: enableautoconversion(type, enable)
+.. py:function:: PyQt5.sip.enableautoconversion(type, enable)
 
     Instances of some classes may be automatically converted to other Python
     objects even though the class has been wrapped.  This allows that behaviour
@@ -124,22 +124,7 @@ some functionality that can be used by applications.
         restored later on.
 
 
-.. py:function:: enableoverflowchecking(enable)
-
-    This enables or disables the checking for overflows when converting Python
-    integer objects to C/C++ integer types.  When it is enabled an exception is
-    raised when the value of a Python integer object is too large to fit in the
-    corresponding C/C++ type.  By default it is disabled.
-
-    :param bool enable:
-        is ``True`` if overflow checking should be enabled.
-    :return:
-        ``True`` or ``False`` depending on whether or not overflow checking was
-        previously enabled.  This allows the previous state to be restored
-        later on.
-
-
-.. py:function:: isdeleted(obj)
+.. py:function:: PyQt5.sip.isdeleted(obj)
 
     This checks if the C++ instance or C structure has been deleted and
     returned to the heap.
@@ -150,7 +135,7 @@ some functionality that can be used by applications.
         ``True`` if the C/C++ instance has been deleted.
 
 
-.. py:function:: ispycreated(obj)
+.. py:function:: PyQt5.sip.ispycreated(obj)
 
     This checks if the C++ instance or C structure was created by Python.  If
     it was then it is possible to call a C++ instance's protected methods.
@@ -161,7 +146,7 @@ some functionality that can be used by applications.
         ``True`` if the C/C++ instance was created by Python.
 
 
-.. py:function:: ispyowned(obj)
+.. py:function:: PyQt5.sip.ispyowned(obj)
 
     This checks if the C++ instance or C structure is owned by Python.
 
@@ -171,7 +156,7 @@ some functionality that can be used by applications.
         ``True`` if the C/C++ instance is owned by Python.
 
 
-.. py:function:: setdeleted(obj)
+.. py:function:: PyQt5.sip.setdeleted(obj)
 
     This marks the C++ instance or C structure as having been deleted and
     returned to the heap so that future references to it raise an exception
@@ -182,21 +167,7 @@ some functionality that can be used by applications.
         the Python object.
 
 
-.. py:function:: setdestroyonexit(destroy)
-
-    When the Python interpreter exits it garbage collects those objects that it
-    can.  This means that any corresponding C++ instances and C structures
-    owned by Python are destroyed.  Unfortunately this happens in an
-    unpredictable order and so can cause memory faults within the wrapped
-    library.  Calling this function with a value of ``False`` disables the
-    automatic destruction of C++ instances and C structures.
-
-    :param bool destroy:
-        ``True`` if all C++ instances and C structures owned by Python should
-        be destroyed when the interpreter exits.  This is the default.
-
-
-.. py:function:: settracemask(mask)
+.. py:function:: PyQt5.sip.settracemask(mask)
 
     If the bindings have been created with tracing enabled then the generated
     code will include debugging statements that trace the execution of the
@@ -219,7 +190,7 @@ some functionality that can be used by applications.
     disabled.
 
 
-.. py:class:: simplewrapper
+.. py:class:: PyQt5.sip.simplewrapper
 
     This is an alternative type object than can be used as the base type of an
     instance wrapped by SIP.  Objects using this are smaller than those that
@@ -232,23 +203,23 @@ some functionality that can be used by applications.
         this is called by the destructor.
 
 
-.. py:data:: SIP_VERSION
+.. py:data:: PyQt5.sip.SIP_VERSION
 
     This is a Python integer object that represents the SIP version number as
     a 3 part hexadecimal number (e.g. v5.0.0 is represented as ``0x050000``).
     Note that it is not the version number of the
-    :py:mod:`~PyQt5.sip` module.
+    :sip:ref:`~PyQt5.sip` module.
 
 
-.. py:data:: SIP_VERSION_STR
+.. py:data:: PyQt5.sip.SIP_VERSION_STR
 
     This is a Python string object that defines the SIP version number as
     represented as a string.  For development versions it will contain 
     ``.dev``.  Note that it is not the version number of the
-    :py:mod:`~PyQt5.sip` module.
+    :sip:ref:`~PyQt5.sip` module.
 
 
-.. py:function:: transferback(obj)
+.. py:function:: PyQt5.sip.transferback(obj)
 
     This transfers ownership of a C++ instance or C structure to Python.
 
@@ -256,7 +227,7 @@ some functionality that can be used by applications.
         the Python object.
 
 
-.. py:function:: transferto(obj, owner)
+.. py:function:: PyQt5.sip.transferto(obj, owner)
 
     This transfers ownership of a C++ instance or C structure to C/C++.
 
@@ -272,7 +243,7 @@ some functionality that can be used by applications.
         to C/C++.
 
 
-.. py:function:: unwrapinstance(obj)
+.. py:function:: PyQt5.sip.unwrapinstance(obj)
 
     This returns the address, as an integer, of a wrapped C/C++ structure or
     class instance.
@@ -283,7 +254,7 @@ some functionality that can be used by applications.
         an integer that is the address of the C/C++ instance.
 
 
-.. py:class:: voidptr
+.. py:class:: PyQt5.sip.voidptr
 
     This is the type object for the type SIP uses to represent a C/C++
     ``void *``.  It may have a size associated with the address in which case
@@ -410,7 +381,7 @@ some functionality that can be used by applications.
             the writeable state to set.
 
 
-.. py:function:: wrapinstance(addr, type)
+.. py:function:: PyQt5.sip.wrapinstance(addr, type)
 
     This wraps a C structure or C++ class instance in a Python object.  If the
     instance has already been wrapped then a new reference to the existing
@@ -424,13 +395,13 @@ some functionality that can be used by applications.
         the Python object that wraps the instance.
 
 
-.. py:class:: wrapper
+.. py:class:: PyQt5.sip.wrapper
 
     This is the type object of the default base type of all instances wrapped
     by SIP.
 
 
-.. py:class:: wrappertype
+.. py:class:: PyQt5.sip.wrappertype
 
     This is the type object of the metatype of the
     :py:class:`~PyQt5.sip.wrapper` type.

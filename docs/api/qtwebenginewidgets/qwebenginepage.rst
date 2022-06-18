@@ -495,11 +495,6 @@
             int
         :description: QtWebEngineWidgets/QWebEnginePage-renderProcessPid-f.rst
 
-    .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.renderProcessPidChanged
-        :args:
-            int
-        :description: QtWebEngineWidgets/QWebEnginePage-renderProcessPidChanged-f.rst
-
     .. sip:method:: PyQt5.QtWebEngineWidgets.QWebEnginePage.replaceMisspelledWord
         :args:
             str
@@ -793,6 +788,11 @@
         :args:
             :sip:ref:`~PyQt5.QtWebEngineCore.QWebEngineRegisterProtocolHandlerRequest`
         :description: QtWebEngineWidgets/QWebEnginePage-registerProtocolHandlerRequested-s.rst
+
+    .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.renderProcessPidChanged
+        :args:
+            int
+        :description: QtWebEngineWidgets/QWebEnginePage-renderProcessPidChanged-s.rst
 
     .. sip:signal:: PyQt5.QtWebEngineWidgets.QWebEnginePage.renderProcessTerminated
         :args:

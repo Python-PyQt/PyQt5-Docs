@@ -68,8 +68,8 @@
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.nativeDescriptor
         :returns:
-            sip.voidptr
-        :description: QtWebSockets/QWebSocketServer-nativeDescriptor-f.rst
+            PyQt5.sip.voidptr
+        :description: QtWebSockets/QWebSocketServer-nativeDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.nextPendingConnection
         :returns:
@@ -124,10 +124,10 @@
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.setNativeDescriptor
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
         :returns:
             bool
-        :description: QtWebSockets/QWebSocketServer-setNativeDescriptor-f.rst
+        :description: QtWebSockets/QWebSocketServer-setNativeDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtWebSockets.QWebSocketServer.setProxy
         :args:

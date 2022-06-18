@@ -43,6 +43,9 @@
         .. sip:enum-member:: PyQt5.QtQuick.QSGRenderNode.StateFlag.ViewportState
             :description: QtQuick/QSGRenderNode-StateFlag-ViewportState-v.rst
 
+    .. sip:method:: PyQt5.QtQuick.QSGRenderNode.__init__
+        :description: QtQuick/QSGRenderNode-__init__-f.rst
+
     .. sip:method:: PyQt5.QtQuick.QSGRenderNode.changedStates
         :returns:
             :sip:ref:`~PyQt5.QtQuick.QSGRenderNode.StateFlags`

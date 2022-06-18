@@ -63,8 +63,8 @@
 
     .. sip:method:: PyQt5.QtCore.QSharedMemory.constData
         :returns:
-            sip.voidptr
-        :description: QtCore/QSharedMemory-constData-f.rst
+            PyQt5.sip.voidptr
+        :description: QtCore/QSharedMemory-constData-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QSharedMemory.create
         :args:
@@ -76,8 +76,8 @@
 
     .. sip:method:: PyQt5.QtCore.QSharedMemory.data
         :returns:
-            sip.voidptr
-        :description: QtCore/QSharedMemory-data-f.rst
+            PyQt5.sip.voidptr
+        :description: QtCore/QSharedMemory-data-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QSharedMemory.detach
         :returns:

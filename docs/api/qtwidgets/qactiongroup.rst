@@ -13,8 +13,8 @@
         .. sip:enum-member:: PyQt5.QtWidgets.QActionGroup.ExclusionPolicy.ExclusiveOptional
             :description: QtWidgets/QActionGroup-ExclusionPolicy-ExclusiveOptional-v.rst
 
-        .. sip:enum-member:: PyQt5.QtWidgets.QActionGroup.ExclusionPolicy.None
-            :description: QtWidgets/QActionGroup-ExclusionPolicy-None-v.rst
+        .. sip:enum-member:: PyQt5.QtWidgets.QActionGroup.ExclusionPolicy.None_
+            :description: QtWidgets/QActionGroup-ExclusionPolicy-None_-v.rst
 
     .. sip:method:: PyQt5.QtWidgets.QActionGroup.__init__
         :args:

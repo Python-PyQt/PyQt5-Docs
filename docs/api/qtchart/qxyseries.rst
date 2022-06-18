@@ -100,6 +100,11 @@
             bool
         :description: QtChart/QXYSeries-pointLabelsVisible-f.rst
 
+    .. sip:method:: PyQt5.QtChart.QXYSeries.points
+        :returns:
+            List[:sip:ref:`~PyQt5.QtCore.QPointF`]
+        :description: QtChart/QXYSeries-points-f.rst
+
     .. sip:method:: PyQt5.QtChart.QXYSeries.pointsVector
         :returns:
             List[:sip:ref:`~PyQt5.QtCore.QPointF`]

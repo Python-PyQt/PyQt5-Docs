@@ -183,8 +183,8 @@
 
     .. sip:method:: PyQt5.QtCore.QProcess.pid
         :returns:
-            int
-        :description: QtCore/QProcess-pid-f.rst
+            sip.voidptr
+        :description: QtCore/QProcess-pid-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QProcess.processChannelMode
         :returns:

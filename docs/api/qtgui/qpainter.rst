@@ -323,6 +323,16 @@
     .. sip:method:: PyQt5.QtGui.QPainter.drawConvexPolygon
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
+        :description: QtGui/QPainter-drawConvexPolygon-f-4.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawConvexPolygon
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :description: QtGui/QPainter-drawConvexPolygon-f-5.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawConvexPolygon
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
             ...
         :description: QtGui/QPainter-drawConvexPolygon-f-2.rst
 
@@ -470,23 +480,23 @@
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawLines
         :args:
-            Iterable[:sip:ref:`~PyQt5.QtCore.QLineF`]
-        :description: QtGui/QPainter-drawLines-f.rst
+            :sip:ref:`~PyQt5.QtCore.QLineF`
+        :description: QtGui/QPainter-drawLines-f-8.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawLines
         :args:
-            Iterable[Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]]
-        :description: QtGui/QPainter-drawLines-f-1.rst
+            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
+        :description: QtGui/QPainter-drawLines-f-9.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawLines
         :args:
-            Iterable[:sip:ref:`~PyQt5.QtCore.QLine`]
-        :description: QtGui/QPainter-drawLines-f-2.rst
+            :sip:ref:`~PyQt5.QtCore.QLine`
+        :description: QtGui/QPainter-drawLines-f-10.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawLines
         :args:
-            Iterable[:sip:ref:`~PyQt5.QtCore.QPoint`]
-        :description: QtGui/QPainter-drawLines-f-3.rst
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :description: QtGui/QPainter-drawLines-f-11.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawLines
         :args:
@@ -648,10 +658,10 @@
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawPixmapFragments
         :args:
-            List[:sip:ref:`~PyQt5.QtGui.QPainter.PixmapFragment`]
+            :sip:ref:`~PyQt5.QtGui.QPainter.PixmapFragment`
             :sip:ref:`~PyQt5.QtGui.QPixmap`
             hints: :sip:ref:`~PyQt5.QtGui.QPainter.PixmapFragmentHints` = 0
-        :description: QtGui/QPainter-drawPixmapFragments-f.rst
+        :description: QtGui/QPainter-drawPixmapFragments-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawPoint
         :args:
@@ -682,6 +692,16 @@
     .. sip:method:: PyQt5.QtGui.QPainter.drawPoints
         :args:
             Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
+        :description: QtGui/QPainter-drawPoints-f-4.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPoints
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :description: QtGui/QPainter-drawPoints-f-5.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPoints
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
             ...
         :description: QtGui/QPainter-drawPoints-f-2.rst
 
@@ -693,27 +713,39 @@
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
         :args:
-            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
-            ...
-        :description: QtGui/QPainter-drawPolygon-f.rst
-
-    .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
-        :args:
             :sip:ref:`~PyQt5.QtGui.QPolygonF`
             fillRule: :sip:ref:`~PyQt5.QtCore.Qt.FillRule` = :sip:ref:`~PyQt5.QtCore.Qt.FillRule.OddEvenFill`
         :description: QtGui/QPainter-drawPolygon-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
         :args:
-            :sip:ref:`~PyQt5.QtCore.QPoint`
-            ...
-        :description: QtGui/QPainter-drawPolygon-f-2.rst
-
-    .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
-        :args:
             :sip:ref:`~PyQt5.QtGui.QPolygon`
             fillRule: :sip:ref:`~PyQt5.QtCore.Qt.FillRule` = :sip:ref:`~PyQt5.QtCore.Qt.FillRule.OddEvenFill`
         :description: QtGui/QPainter-drawPolygon-f-3.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
+            fillRule: :sip:ref:`~PyQt5.QtCore.Qt.FillRule` = :sip:ref:`~PyQt5.QtCore.Qt.FillRule.OddEvenFill`
+        :description: QtGui/QPainter-drawPolygon-f-4.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
+            ...
+        :description: QtGui/QPainter-drawPolygon-f.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+            fillRule: :sip:ref:`~PyQt5.QtCore.Qt.FillRule` = :sip:ref:`~PyQt5.QtCore.Qt.FillRule.OddEvenFill`
+        :description: QtGui/QPainter-drawPolygon-f-5.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPolygon
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+            ...
+        :description: QtGui/QPainter-drawPolygon-f-2.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawPolyline
         :args:
@@ -724,6 +756,16 @@
         :args:
             :sip:ref:`~PyQt5.QtGui.QPolygon`
         :description: QtGui/QPainter-drawPolyline-f-1.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPolyline
+        :args:
+            Union[:sip:ref:`~PyQt5.QtCore.QPointF`, :sip:ref:`~PyQt5.QtCore.QPoint`]
+        :description: QtGui/QPainter-drawPolyline-f-4.rst
+
+    .. sip:method:: PyQt5.QtGui.QPainter.drawPolyline
+        :args:
+            :sip:ref:`~PyQt5.QtCore.QPoint`
+        :description: QtGui/QPainter-drawPolyline-f-5.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawPolyline
         :args:
@@ -757,13 +799,13 @@
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawRects
         :args:
-            Iterable[:sip:ref:`~PyQt5.QtCore.QRectF`]
-        :description: QtGui/QPainter-drawRects-f.rst
+            :sip:ref:`~PyQt5.QtCore.QRectF`
+        :description: QtGui/QPainter-drawRects-f-4.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawRects
         :args:
-            Iterable[:sip:ref:`~PyQt5.QtCore.QRect`]
-        :description: QtGui/QPainter-drawRects-f-1.rst
+            :sip:ref:`~PyQt5.QtCore.QRect`
+        :description: QtGui/QPainter-drawRects-f-5.rst
 
     .. sip:method:: PyQt5.QtGui.QPainter.drawRects
         :args:

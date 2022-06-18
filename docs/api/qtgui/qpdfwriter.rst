@@ -78,6 +78,13 @@
             :sip:ref:`~PyQt5.QtGui.QPagedPaintDevice.PageSize`
         :description: QtGui/QPdfWriter-setPageSize-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QPdfWriter.setPageSize
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QPageSize`
+        :returns:
+            bool
+        :description: QtGui/QPdfWriter-setPageSize-f-1.rst
+
     .. sip:method:: PyQt5.QtGui.QPdfWriter.setPageSizeMM
         :args:
             :sip:ref:`~PyQt5.QtCore.QSizeF`

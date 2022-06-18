@@ -146,10 +146,10 @@
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.create
         :args:
-            window: sip.voidptr = 0
+            window: PyQt5.sip.voidptr = 0
             initializeWindow: bool = True
             destroyOldWindow: bool = True
-        :description: QtWidgets/QWidget-create-f.rst
+        :description: QtWidgets/QWidget-create-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.createWindowContainer
         :args:
@@ -199,8 +199,8 @@
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.effectiveWinId
         :returns:
-            sip.voidptr
-        :description: QtWidgets/QWidget-effectiveWinId-f.rst
+            PyQt5.sip.voidptr
+        :description: QtWidgets/QWidget-effectiveWinId-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.ensurePolished
         :description: QtWidgets/QWidget-ensurePolished-f.rst
@@ -219,11 +219,11 @@
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.find
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
         :returns:
             :sip:ref:`~PyQt5.QtWidgets.QWidget`
         :static:
-        :description: QtWidgets/QWidget-find-f.rst
+        :description: QtWidgets/QWidget-find-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.focusInEvent
         :args:
@@ -1452,8 +1452,8 @@
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.winId
         :returns:
-            sip.voidptr
-        :description: QtWidgets/QWidget-winId-f.rst
+            PyQt5.sip.voidptr
+        :description: QtWidgets/QWidget-winId-f-1.rst
 
     .. sip:method:: PyQt5.QtWidgets.QWidget.x
         :returns:

@@ -44,8 +44,8 @@
 
     .. sip:method:: PyQt5.QtNetwork.QLocalServer.incomingConnection
         :args:
-            sip.voidptr
-        :description: QtNetwork/QLocalServer-incomingConnection-f.rst
+            PyQt5.sip.voidptr
+        :description: QtNetwork/QLocalServer-incomingConnection-f-1.rst
 
     .. sip:method:: PyQt5.QtNetwork.QLocalServer.isListening
         :returns:
@@ -61,10 +61,10 @@
 
     .. sip:method:: PyQt5.QtNetwork.QLocalServer.listen
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
         :returns:
             bool
-        :description: QtNetwork/QLocalServer-listen-f-1.rst
+        :description: QtNetwork/QLocalServer-listen-f-2.rst
 
     .. sip:method:: PyQt5.QtNetwork.QLocalServer.maxPendingConnections
         :returns:
@@ -106,8 +106,8 @@
 
     .. sip:method:: PyQt5.QtNetwork.QLocalServer.socketDescriptor
         :returns:
-            sip.voidptr
-        :description: QtNetwork/QLocalServer-socketDescriptor-f.rst
+            PyQt5.sip.voidptr
+        :description: QtNetwork/QLocalServer-socketDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtNetwork.QLocalServer.socketOptions
         :returns:

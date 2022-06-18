@@ -614,6 +614,11 @@
             sip.voidptr
         :description: QtGui/QImage-scanLine-f.rst
 
+    .. sip:method:: PyQt5.QtGui.QImage.setAlphaChannel
+        :args:
+            :sip:ref:`~PyQt5.QtGui.QImage`
+        :description: QtGui/QImage-setAlphaChannel-f.rst
+
     .. sip:method:: PyQt5.QtGui.QImage.setColor
         :args:
             int

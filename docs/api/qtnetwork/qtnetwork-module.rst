@@ -33,8 +33,8 @@
         .. sip:enum-member:: PyQt5.QtNetwork.QOcspRevocationReason.KeyCompromise
             :description: QtNetwork/QOcspRevocationReason-KeyCompromise-v.rst
 
-        .. sip:enum-member:: PyQt5.QtNetwork.QOcspRevocationReason.None
-            :description: QtNetwork/QOcspRevocationReason-None-v.rst
+        .. sip:enum-member:: PyQt5.QtNetwork.QOcspRevocationReason.None_
+            :description: QtNetwork/QOcspRevocationReason-None_-v.rst
 
         .. sip:enum-member:: PyQt5.QtNetwork.QOcspRevocationReason.RemoveFromCRL
             :description: QtNetwork/QOcspRevocationReason-RemoveFromCRL-v.rst

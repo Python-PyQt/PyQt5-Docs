@@ -61,10 +61,10 @@
         :args:
             :sip:ref:`~PyQt5.QtMultimedia.QAbstractVideoBuffer.MapMode`
         :returns:
-            sip.voidptr
+            PyQt5.sip.voidptr
             int
             int
-        :description: QtMultimedia/QAbstractVideoBuffer-map-f.rst
+        :description: QtMultimedia/QAbstractVideoBuffer-map-f-1.rst
 
     .. sip:method:: PyQt5.QtMultimedia.QAbstractVideoBuffer.mapMode
         :returns:

@@ -139,11 +139,11 @@
 
     .. sip:method:: PyQt5.QtGui.QWindow.fromWinId
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
         :returns:
             :sip:ref:`~PyQt5.QtGui.QWindow`
         :static:
-        :description: QtGui/QWindow-fromWinId-f.rst
+        :description: QtGui/QWindow-fromWinId-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QWindow.geometry
         :returns:
@@ -651,8 +651,8 @@
 
     .. sip:method:: PyQt5.QtGui.QWindow.winId
         :returns:
-            sip.voidptr
-        :description: QtGui/QWindow-winId-f.rst
+            PyQt5.sip.voidptr
+        :description: QtGui/QWindow-winId-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QWindow.x
         :returns:

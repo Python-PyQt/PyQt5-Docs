@@ -39,8 +39,8 @@
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.activatableServiceNames
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-activatableServiceNames-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-activatableServiceNames-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.connectNotify
         :args:
@@ -56,13 +56,13 @@
         :args:
             str
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-isServiceRegistered-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-isServiceRegistered-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.registeredServiceNames
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-registeredServiceNames-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-registeredServiceNames-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.registerService
         :args:
@@ -70,43 +70,43 @@
             qoption: :sip:ref:`~PyQt5.QtDBus.QDBusConnectionInterface.ServiceQueueOptions` = :sip:ref:`~PyQt5.QtDBus.QDBusConnectionInterface.ServiceQueueOptions.DontQueueService`
             roption: :sip:ref:`~PyQt5.QtDBus.QDBusConnectionInterface.ServiceReplacementOptions` = :sip:ref:`~PyQt5.QtDBus.QDBusConnectionInterface.ServiceReplacementOptions.DontAllowReplacement`
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-registerService-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-registerService-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.serviceOwner
         :args:
             str
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-serviceOwner-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-serviceOwner-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.servicePid
         :args:
             str
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-servicePid-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-servicePid-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.serviceUid
         :args:
             str
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-serviceUid-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-serviceUid-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.startService
         :args:
             str
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-startService-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-startService-f-1.rst
 
     .. sip:method:: PyQt5.QtDBus.QDBusConnectionInterface.unregisterService
         :args:
             str
         :returns:
-            :sip:ref:`~PyQt5.QtDBus.QDBusReply`
-        :description: QtDBus/QDBusConnectionInterface-unregisterService-f.rst
+            QDBusReply
+        :description: QtDBus/QDBusConnectionInterface-unregisterService-f-1.rst
 
     .. sip:signal:: PyQt5.QtDBus.QDBusConnectionInterface.callWithCallbackFailed
         :args:

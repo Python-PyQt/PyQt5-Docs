@@ -339,12 +339,12 @@
 
     .. sip:method:: PyQt5.QtNetwork.QSslSocket.setSocketDescriptor
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
             state: :sip:ref:`~PyQt5.QtNetwork.QAbstractSocket.SocketState` = :sip:ref:`~PyQt5.QtNetwork.QAbstractSocket.SocketState.ConnectedState`
             mode: Union[:sip:ref:`~PyQt5.QtCore.QIODevice.OpenMode`, :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag`] = :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QSslSocket-setSocketDescriptor-f.rst
+        :description: QtNetwork/QSslSocket-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtNetwork.QSslSocket.setSocketOption
         :args:

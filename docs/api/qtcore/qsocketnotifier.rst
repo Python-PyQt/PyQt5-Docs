@@ -18,10 +18,10 @@
 
     .. sip:method:: PyQt5.QtCore.QSocketNotifier.__init__
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
             :sip:ref:`~PyQt5.QtCore.QSocketNotifier.Type`
             parent: :sip:ref:`~PyQt5.QtCore.QObject` = None
-        :description: QtCore/QSocketNotifier-__init__-f.rst
+        :description: QtCore/QSocketNotifier-__init__-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QSocketNotifier.event
         :args:
@@ -42,8 +42,8 @@
 
     .. sip:method:: PyQt5.QtCore.QSocketNotifier.socket
         :returns:
-            sip.voidptr
-        :description: QtCore/QSocketNotifier-socket-f.rst
+            PyQt5.sip.voidptr
+        :description: QtCore/QSocketNotifier-socket-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QSocketNotifier.type
         :returns:

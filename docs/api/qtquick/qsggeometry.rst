@@ -175,8 +175,8 @@
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.attributes
         :returns:
-            sip.array[QSGGeometry.Attribute]
-        :description: QtQuick/QSGGeometry-attributes-f.rst
+            PyQt5.sip.array[QSGGeometry.Attribute]
+        :description: QtQuick/QSGGeometry-attributes-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.defaultAttributes_ColoredPoint2D
         :returns:
@@ -213,13 +213,13 @@
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.indexDataAsUInt
         :returns:
-            sip.array[int]
-        :description: QtQuick/QSGGeometry-indexDataAsUInt-f.rst
+            PyQt5.sip.array[int]
+        :description: QtQuick/QSGGeometry-indexDataAsUInt-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.indexDataAsUShort
         :returns:
-            sip.array[int]
-        :description: QtQuick/QSGGeometry-indexDataAsUShort-f.rst
+            PyQt5.sip.array[int]
+        :description: QtQuick/QSGGeometry-indexDataAsUShort-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.indexDataPattern
         :returns:
@@ -306,18 +306,18 @@
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.vertexDataAsColoredPoint2D
         :returns:
-            sip.array[QSGGeometry.ColoredPoint2D]
-        :description: QtQuick/QSGGeometry-vertexDataAsColoredPoint2D-f.rst
+            PyQt5.sip.array[QSGGeometry.ColoredPoint2D]
+        :description: QtQuick/QSGGeometry-vertexDataAsColoredPoint2D-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.vertexDataAsPoint2D
         :returns:
-            sip.array[QSGGeometry.Point2D]
-        :description: QtQuick/QSGGeometry-vertexDataAsPoint2D-f.rst
+            PyQt5.sip.array[QSGGeometry.Point2D]
+        :description: QtQuick/QSGGeometry-vertexDataAsPoint2D-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.vertexDataAsTexturedPoint2D
         :returns:
-            sip.array[QSGGeometry.TexturedPoint2D]
-        :description: QtQuick/QSGGeometry-vertexDataAsTexturedPoint2D-f.rst
+            PyQt5.sip.array[QSGGeometry.TexturedPoint2D]
+        :description: QtQuick/QSGGeometry-vertexDataAsTexturedPoint2D-f-1.rst
 
     .. sip:method:: PyQt5.QtQuick.QSGGeometry.vertexDataPattern
         :returns:

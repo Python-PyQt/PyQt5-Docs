@@ -89,13 +89,13 @@
 
     .. sip:method:: PyQt5.QtMultimedia.QVideoWindowControl.setWinId
         :args:
-            sip.voidptr
-        :description: QtMultimedia/QVideoWindowControl-setWinId-f.rst
+            PyQt5.sip.voidptr
+        :description: QtMultimedia/QVideoWindowControl-setWinId-f-1.rst
 
     .. sip:method:: PyQt5.QtMultimedia.QVideoWindowControl.winId
         :returns:
-            sip.voidptr
-        :description: QtMultimedia/QVideoWindowControl-winId-f.rst
+            PyQt5.sip.voidptr
+        :description: QtMultimedia/QVideoWindowControl-winId-f-1.rst
 
     .. sip:signal:: PyQt5.QtMultimedia.QVideoWindowControl.brightnessChanged
         :args:

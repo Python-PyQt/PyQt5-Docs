@@ -49,14 +49,14 @@
 
     .. sip:method:: PyQt5.QtGui.QScreen.grabWindow
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
             x: int = 0
             y: int = 0
             width: int = -1
             height: int = -1
         :returns:
             :sip:ref:`~PyQt5.QtGui.QPixmap`
-        :description: QtGui/QScreen-grabWindow-f.rst
+        :description: QtGui/QScreen-grabWindow-f-1.rst
 
     .. sip:method:: PyQt5.QtGui.QScreen.isLandscape
         :args:

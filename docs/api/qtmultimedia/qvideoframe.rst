@@ -164,8 +164,8 @@
 
     .. sip:method:: PyQt5.QtMultimedia.QVideoFrame.bits
         :returns:
-            sip.voidptr
-        :description: QtMultimedia/QVideoFrame-bits-f.rst
+            PyQt5.sip.voidptr
+        :description: QtMultimedia/QVideoFrame-bits-f-2.rst
 
     .. sip:method:: PyQt5.QtMultimedia.QVideoFrame.bits
         :args:

@@ -819,6 +819,26 @@
 
     .. sip:method:: PyQt5.QtBluetooth.QBluetoothUuid.__init__
         :args:
+            :sip:ref:`~PyQt5.QtBluetooth.QBluetoothUuid.ProtocolUuid`
+        :description: QtBluetooth/QBluetoothUuid-__init__-f-6.rst
+
+    .. sip:method:: PyQt5.QtBluetooth.QBluetoothUuid.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtBluetooth.QBluetoothUuid.ServiceClassUuid`
+        :description: QtBluetooth/QBluetoothUuid-__init__-f-7.rst
+
+    .. sip:method:: PyQt5.QtBluetooth.QBluetoothUuid.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtBluetooth.QBluetoothUuid.CharacteristicType`
+        :description: QtBluetooth/QBluetoothUuid-__init__-f-8.rst
+
+    .. sip:method:: PyQt5.QtBluetooth.QBluetoothUuid.__init__
+        :args:
+            :sip:ref:`~PyQt5.QtBluetooth.QBluetoothUuid.DescriptorType`
+        :description: QtBluetooth/QBluetoothUuid-__init__-f-9.rst
+
+    .. sip:method:: PyQt5.QtBluetooth.QBluetoothUuid.__init__
+        :args:
             int
         :description: QtBluetooth/QBluetoothUuid-__init__-f-1.rst
 

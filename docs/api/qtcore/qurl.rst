@@ -109,10 +109,10 @@
 
     .. sip:method:: PyQt5.QtCore.QUrl.adjusted
         :args:
-            :sip:ref:`~PyQt5.QtCore.QUrl.FormattingOptions`
+            Union[:sip:ref:`~PyQt5.QtCore.QUrl.FormattingOptions`, :sip:ref:`~PyQt5.QtCore.QUrl.UrlFormattingOption`, :sip:ref:`~PyQt5.QtCore.QUrl.ComponentFormattingOption`]
         :returns:
             :sip:ref:`~PyQt5.QtCore.QUrl`
-        :description: QtCore/QUrl-adjusted-f.rst
+        :description: QtCore/QUrl-adjusted-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QUrl.authority
         :args:
@@ -290,10 +290,10 @@
     .. sip:method:: PyQt5.QtCore.QUrl.matches
         :args:
             :sip:ref:`~PyQt5.QtCore.QUrl`
-            :sip:ref:`~PyQt5.QtCore.QUrl.FormattingOptions`
+            Union[:sip:ref:`~PyQt5.QtCore.QUrl.FormattingOptions`, :sip:ref:`~PyQt5.QtCore.QUrl.UrlFormattingOption`, :sip:ref:`~PyQt5.QtCore.QUrl.ComponentFormattingOption`]
         :returns:
             bool
-        :description: QtCore/QUrl-matches-f.rst
+        :description: QtCore/QUrl-matches-f-1.rst
 
     .. sip:method:: PyQt5.QtCore.QUrl.__ne__
         :args:

@@ -156,17 +156,17 @@
 
     .. sip:method:: PyQt5.QtNetwork.QLocalSocket.setSocketDescriptor
         :args:
-            sip.voidptr
+            PyQt5.sip.voidptr
             state: :sip:ref:`~PyQt5.QtNetwork.QLocalSocket.LocalSocketState` = :sip:ref:`~PyQt5.QtNetwork.QLocalSocket.LocalSocketState.ConnectedState`
             mode: Union[:sip:ref:`~PyQt5.QtCore.QIODevice.OpenMode`, :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag`] = :sip:ref:`~PyQt5.QtCore.QIODevice.OpenModeFlag.ReadWrite`
         :returns:
             bool
-        :description: QtNetwork/QLocalSocket-setSocketDescriptor-f.rst
+        :description: QtNetwork/QLocalSocket-setSocketDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtNetwork.QLocalSocket.socketDescriptor
         :returns:
-            sip.voidptr
-        :description: QtNetwork/QLocalSocket-socketDescriptor-f.rst
+            PyQt5.sip.voidptr
+        :description: QtNetwork/QLocalSocket-socketDescriptor-f-1.rst
 
     .. sip:method:: PyQt5.QtNetwork.QLocalSocket.state
         :returns:

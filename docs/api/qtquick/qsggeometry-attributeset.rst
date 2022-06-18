@@ -4,7 +4,7 @@
     :description: QtQuick/QSGGeometry-AttributeSet-c.rst
 
     .. sip:attribute:: PyQt5.QtQuick.QSGGeometry.AttributeSet.attributes
-        :type: sip.array[QSGGeometry.Attribute]
+        :type: PyQt5.sip.array[QSGGeometry.Attribute]
         :const:
         :description: QtQuick/QSGGeometry-AttributeSet-attributes-a.rst
 
