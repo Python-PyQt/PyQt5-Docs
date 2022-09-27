@@ -82,8 +82,8 @@ this:
   a Qt installation must be on :envvar:`PATH`.
 
 :program:`pip` will also automatically install any dependencies that are
-required.  In the case of PyQt5 itself this will be the PyQt5-Qt and PyQt5-sip
-projects.  The PyQt5-Qt project contains the parts of a standard LGPL Qt
+required.  In the case of PyQt5 itself this will be the PyQt5-Qt5 and PyQt5-sip
+projects.  The PyQt5-Qt5 project contains the parts of a standard LGPL Qt
 installation required by PyQt5.  The PyQt5-sip project contains the
 :sip:ref:`~PyQt5.sip` module.
 
@@ -100,6 +100,19 @@ To uninstall the GPL version, run::
    that contain Qt v5.12.4 (or later) with Python v3.7.0 to v3.7.3.  This is
    because of incompatibilities between the different versions of OpenSSL that
    these versions require.  All other version combinations should be fine.
+
+. note::
+    The Qt libraries in the Linux wheel of the PyQt5-Qt5 project require
+    OpenSSL v1.1 however some Linux distributions (specifically Ubuntu 22.04 at
+    the time of writing) include the incompatible OpenSSL v3.
+
+    The required version of OpenSSL can be downloaded from the Ubuntu 20.04
+    repository by clicking `here
+    <http://security.ubuntu.com/ubuntu/pool/main/o/openssl/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb>`__.
+
+    The downloaded ``.deb`` file can then be installed by running::
+
+        sudo apt install /path/to/libssl1.1_1.1.1f-1ubuntu2.16_amd64.deb
 
 
 Installing the Commercial Version
