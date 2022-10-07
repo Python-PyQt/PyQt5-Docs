@@ -1,4 +1,5 @@
-v5.15.5 27th September 2022
+v5.15.5 7th October 2022
+  - Document using pip to build from source.
   - Document the OpenSSL issues with Ubuntu 22.04.
 
 v5.15.4 18th June 2022

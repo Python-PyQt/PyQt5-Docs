@@ -77,9 +77,17 @@ this:
 - your version of Python is unsupported
 - your version of :program:`pip` is too old and doesn't support the current
   standards for naming wheels
-- wheels are not provided for your platform
-- in order for :program:`pip` to build from source the :file:`bin` directory of
-  a Qt installation must be on :envvar:`PATH`.
+- in order for :program:`pip` to build from source additional options must be
+  specified.
+
+When using :program:`pip` to build from source then a command line similar to
+the following should be used::
+
+    pip -v install --config-settings --confirm-license= --config-settings --qmak
+e=/path/to/qmake PyQt5
+
+The ``-v`` option is not required but is recommended. The :programm:`qmake`
+location does not need to specified if it is on :envvar:`PATH`.
 
 :program:`pip` will also automatically install any dependencies that are
 required.  In the case of PyQt5 itself this will be the PyQt5-Qt5 and PyQt5-sip
