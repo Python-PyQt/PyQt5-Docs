@@ -1,6 +1,7 @@
-v5.15.5 7th October 2022
+v5.15.5 23rd October 2022
   - Document using pip to build from source.
   - Document the OpenSSL issues with Ubuntu 22.04.
+  - SIP v6.7.3 is required.
 
 v5.15.4 18th June 2022
   - Updated the documentation for PyQt v5.15.7.
