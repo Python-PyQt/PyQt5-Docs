@@ -1,3 +1,6 @@
+v5.15.6 23rd December 2023
+  - Typo fixes.
+
 v5.15.5 23rd December 2023
   - Document using pip to build from source.
   - Document the OpenSSL issues with Ubuntu 22.04.

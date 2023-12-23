@@ -52,8 +52,8 @@ Installing from Wheels
 
 Wheels are the standard Python packaging format for pure Python or binary
 extension modules such as PyQt5.  Wheels are provide for 32- and 64-bit
-Windows, 64-bit macOS and 64-bit Linux.  These correspond with the platforms
-for which The Qt Company provide binary installers.
+Windows, 64-bit macOS (Intel and ARM) and 64-bit Linux.  These correspond with
+the platforms for which The Qt Company provide binary installers.
 
 Wheels are installed using the :program:`pip` program.
 
@@ -84,8 +84,7 @@ this:
 When using :program:`pip` to build from source then a command line similar to
 the following should be used::
 
-    pip -v install --config-settings --confirm-license= --config-settings --qmak
-e=/path/to/qmake PyQt5
+    pip -v install --config-settings --confirm-license= --config-settings --qmake=/path/to/qmake PyQt5
 
 The ``-v`` option is not required but is recommended. The :programm:`qmake`
 location does not need to specified if it is on :envvar:`PATH`.
