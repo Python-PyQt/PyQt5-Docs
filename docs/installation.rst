@@ -86,7 +86,7 @@ the following should be used::
 
     pip -v install --config-settings --confirm-license= --config-settings --qmake=/path/to/qmake PyQt5
 
-The ``-v`` option is not required but is recommended. The :programm:`qmake`
+The ``-v`` option is not required but is recommended. The :program:`qmake`
 location does not need to specified if it is on :envvar:`PATH`.
 
 :program:`pip` will also automatically install any dependencies that are
